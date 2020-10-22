@@ -13,9 +13,46 @@ body {
     text-align: center;
     padding-top: 30px;
     color: white;
+    font-size: 28px;
 }
+
+.navegacao {
+    outline: none;
+    font-size: 20px;
+    margin-top: 40px;
+    color: yellow;
+}
+
+.navegacao ul {
+    outline-style: none;
+}
+
 
 #minha_foto {
     width: 300px;
     margin-top: 40px;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+#licoes_aprender {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.lado-direito {
+    display: inline-block;
+    float: right;
+    width: 40%;
 }
