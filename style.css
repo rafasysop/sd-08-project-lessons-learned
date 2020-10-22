@@ -54,23 +54,29 @@ main {
     padding: 2rem;
     line-height: 1.4rem;
     border-radius: 20px;
+    width: 60%;
 }
 
 #meu-aprendizado h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #meu-aprendizado #p1 {
-    width: 55%;
     display: inline-block;
     border-right: 3px solid aqua;
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 aside {
     display: inline-block;
     width: 30%;
     padding: 1rem;
+    background-color: rgb(253, 251, 251);
+    border-radius: 20px;
+}
+
+aside h2 {
+    margin-bottom: 1rem;
 }
 
 
