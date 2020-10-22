@@ -3,6 +3,7 @@ body {
 }
 main {
   margin: auto;
+  margin-top: 10%;
 }
 
 #cabecalho {
@@ -12,4 +13,8 @@ main {
 
 #minha_foto {
   max-width: 150px;
+}
+
+#rodape {
+    position: static;
 }
