@@ -4,6 +4,10 @@ body{
     margin: 0%;
 }
 
+#indice{
+    display: inline;
+}
+
 #cabecalho{
     width: 100%;
     background-color: #2a9d8f;
