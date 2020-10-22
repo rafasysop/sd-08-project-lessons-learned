@@ -18,6 +18,20 @@ body{
 .link{
     color: #efeff1;
 }
-h1{
+#titulo{
     margin-left: 40px;
+}
+.main-content{
+    margin-top: 130px;
+    margin-left: 20px;
+    vertical-align: middle;
+    display: flex;
+}
+#minha_foto{
+    border-radius: 40%;
+    border: 6px ridge #421561;
+    float: left;
+    margin: 0 30px 10px 0;
+    align-items:center;
+    display: flex;
 }
