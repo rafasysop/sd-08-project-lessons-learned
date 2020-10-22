@@ -1,14 +1,50 @@
 body {
     background-color: rgb(253, 251, 251);
+    text-align: center;
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
     margin: auto;
+    text-align: center;
+    background-color: lightgreen;
+    width: 100%;
 }
 
+article {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    top: 100px;
+}
 
+aside {
+    float: right;
+    width: 40%;
+    border-left: 3px dotted green;
+    margin-top: 100px;
+}
+
+aside p {
+    width: 90%;
+    padding: 0 15px;
+}
+
+section {
+    clear: both;
+    padding: 50px 0;
+    margin: 0;
+}
+
+#licoes {
+    display: inline-block;
+}
+
+#minha_foto {
+    border-radius: 100%;
+    width: 100px;
+}
 
 #rodape li {
     display: inline-block;
