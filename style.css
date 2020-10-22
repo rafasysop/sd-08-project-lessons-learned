@@ -1,14 +1,14 @@
 body{
     background-color: rgb(253, 251, 251);
     top: 0px;
+    font-family: fantasy, sans-serif;
     
 }
 
 #cabecalho{
- Position: relative;
+ position: fixed;
  top: 0px;
- padding: 0%;
- margin: 0%;
+ width: 1500px;
 }
 
 #titulo{
@@ -20,7 +20,7 @@ body{
 }
 
 #minha_foto{
-    margin-top: 20px;
+    margin-top: 150px;
     border-radius: 100%;
 }
 
@@ -35,5 +35,15 @@ body{
 }
 
 #rodape{
-    padding: 20px;
+    padding: 20px auto;
+}
+
+#listas{
+    display: inline-block;
+    padding-left: 20px 30px 20px 30px;
+    margin: 10px 10px 10px 10px;
+}
+
+h2{
+    padding-left: 100px;
 }
