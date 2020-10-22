@@ -2,10 +2,10 @@ body {
     background-color: rgb(253 , 251 , 251);
 }
 main {
-    margin-top: 130px;
+margin-top: 130px;
 }
 nav {
-    text-align: center;
+        text-align: center;
 }
 nav li {
     font-size: 20px;
@@ -31,7 +31,7 @@ footer h2 {
 }
 #titulo {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Courier, monospace;
 }
 #minha_foto {
     max-height: 400px;
