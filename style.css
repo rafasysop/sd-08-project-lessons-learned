@@ -4,6 +4,11 @@ body {
 
 #cabecalho {
   top: 0;
+  background-color:#003D5B;
+  color: white;
+  position: fixed;
+  width:100%;
+  margin-left:0
 }
 
 #titulo {
@@ -12,8 +17,23 @@ body {
 }
 
 #minha_foto {
+  margin-top:100px;
   width:250px;
 }
-#licoes_aprendidas {
 
+#licoes_aprendidas {
+  background-color:#003D5B;
+  color: white;
+
+}
+
+#licoes_a_aprender {
+  background-color: #003D5B;
+  color:white;
+
+}
+
+#rodape {
+  background-color:#003D5B;
+  color:white;
 }
