@@ -6,3 +6,43 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+    padding: 15px;
+    height: 55px;
+    border: 1px solid #C2BD6;
+    background-color: #48433C;
+}
+
+#titulo a {
+    color: #379BB5;
+    text-decoration: none;
+}
+
+#titulo h1 {
+    margin-top: 5px;
+}
+
+#titulo {
+    float: left;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+
+}
+
+#menu ul li a {
+    display: block;
+    margin-right: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #EBE9E7;
+    margin-top: 15px;
+    font-weight: 700;
+}
