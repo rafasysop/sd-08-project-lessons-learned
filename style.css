@@ -1,8 +1,76 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
+        position: fixed;
+        top: 0px;
+        background-color: green;
+        width: 100%;
+        z-index: 1;
+        color: white;
+        padding: 10px;
+}
+
+#minha_foto {
+    width: 250px;
+    position: relative;
+    
+}
+
+#nome {
+    margin: 0px 0px 5px 20px;
+    
+}
+
+.nav_list {
     position: fixed;
-    top: 0px;
+    z-index: 2;
+    top: 80px;
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.nav_list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header {
+}
+
+main {
+    position: relative;
+    top: 150px;
+    width: 60%;
+    display: inline-block;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+aside {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    top: 150px;
+}
+
+article {
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+#footer {
+    position: relative;
+    display: block;
+    width: 100%;
 }
