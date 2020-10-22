@@ -4,6 +4,8 @@ body{
 
 #cabecalho{
     top:0px;
+    background-color: #bedce5;
+    padding: 10px;
 }
 
 #minha_foto{
@@ -13,4 +15,10 @@ body{
 .licoes{
     display: inline-block;
     width:30%;
+}
+
+#rodape{
+    background-color: #bedce5;
+    bottom: 0;
+    padding: 20px;
 }
