@@ -1,76 +1,75 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253 ,251 ,251);
 }
 
 #minha_foto {
-    width: 150px;
+  width: 150px;
 }
 
 #cabecalho {
-    position: fixed;
-    background-color: #ddd;
-    width: 100%;
-    top: 0px;
+  position: fixed;
+  background-color: rgb(221 ,221 ,221);
+  width: 100%;
+  top: 0px;
 }
 
 #corpo {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
-ol{
+ol {
   display: inline-block;
 }
 
-ul{
+ul {
   display: inline-block;
 }
 
 table {
-    clear: both;
+  clear: both;
 }
 
 table th {
-    background-color: #8f8f8f;
-    padding: 10px;
+  background-color: rgb(143 ,143 ,143);
+  padding: 10px;
 }
 
 table td {
-    padding: 10px;
-    border: dashed 1px #7b7b7b;
-    font-size: 16px;
-    color: blue;
-    line-height: 3px;
-    font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border: dashed 1px rgb(123 ,123 ,123);
+  font-size: 16px;
+  color: blue;
+  line-height: 3px;
+  font-family: monospace;
 }
 
 .lado-esquerdo {
-    width: 30%;
-    float: left;
-    display: block;
+  width: 30%;
+  float: left;
+  display: block;
 }
 
 article {
-    border: dotted 1px;
+  border: dotted 1px;
 }
 
 .lado-direito {
-    width: 30%;
-    float: right;
+  width: 30%;
+  float: right;
   display: block;
 }
 
 aside {
-    width: 30%;
-    float: left;
-    border: dotted 1px;
+  width: 30%;
+  float: left;
+  border: dotted 1px;
 }
 
-
 footer {
-    clear: both;
-    text-align: center;
+  clear: both;
+  text-align: center;
 }
