@@ -21,9 +21,8 @@ nav a:active, a:visited, a:focus, a:hover, a:link {
 }
 
 footer h2 {
-    color: black;
-    background-color: lightslategray;
-    width: 45%;
+    color: purple;
+    width: 60%;
     margin: 20px auto;
     font-weight: 600;
     padding: 10px;
@@ -39,6 +38,7 @@ footer h2 {
 
 #titulo {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #minha_foto {
@@ -60,16 +60,11 @@ footer h2 {
     text-align: center;
 }
 
-#social_medias {
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-}
-
 .artigos {
     width: 100%;
     background-color: gray;
     clear: both;
+    vertical-align: top;
 }
 
 .listas {
@@ -83,16 +78,23 @@ footer h2 {
 }
 
 .lado-esquerdo {
-    max-width: 60%;
+    max-width: 50%;
     float: left;
     margin: 10px;
+    line-height: 20px;
 }
 
 .lado-direito {
     float: right;
     width: 30%;
     margin: 10px;
+    line-height: 20px;
 }
 
+.social_medias {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
 
 
