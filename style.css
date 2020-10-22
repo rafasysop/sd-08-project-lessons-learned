@@ -16,13 +16,14 @@ main{
 
 .center{
     text-align: center;
-    margin: 5%;
-}
-aside{
-    float: right;
-    margin: 10%
+    width: 100%;
 }
 
 section{
+    display: inline-block;
+}
+
+article{
+    margin: 5%;
     display: inline-block;
 }
