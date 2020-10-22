@@ -6,19 +6,25 @@ body { background-color: rgb(253,251,251); }
     top: 10%;
     padding: 2px 10px;
     margin 0px;
-    background-color: #500;
-    color: rgb(255,255,255);
+    background-color: #500;    
     border-bottom: 3px solid #500;
-    width: 1200px;
+    width: 950px;
     top: 0px;
     text-align: center;
-    font-family: monospace;   
+       
+}
 
+.cabecalho h1
+{
+    color: rgb(255,255,255);
+    font-family: monospace;
+    font-size: 27px;
+    text-decoration: underline;
 }
 
 .Profile_Picture
 {
-    width: 200px;
+    width: 240px;
     border:5px solid #500;	
     position: absolute;
     top: 70px;
@@ -39,7 +45,6 @@ body { background-color: rgb(253,251,251); }
 .Content h3
 {    
     color: rgb(75,54,33);
-    text-decoration: underline;
     font-size: 20px;    
 }
 
@@ -47,46 +52,91 @@ body { background-color: rgb(253,251,251); }
 {
     position: absolute;
     top: 70px;
-    left: 250px;    
+    left: 300px;    
 }
 
 .Lista_Aprender
 {
     position: absolute;
     top: 70px;
-    left: 450px;    
+    left: 550px;    
 }
 
 #Link
-{
-    
+{    
     position: absolute;
-    top: 400px;
-    
+    top: 580px;    
 }
 
 #Link a:hover
 {
-    background-color: red;
+    background-color: rgb(0,0,0);
     color: white;
 }
-
-
 
 a:-webkit-any-link
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
     color: rgb(75,54,33);
-    text-decoration: none;
-    
+    text-decoration: none;    
+}
+
+.Artigos
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Artigos h4
+{
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(75,54,33);
+}
+
+.Artigos p
+{   
+    color: rgb(40,24,33);
+}
+
+.Minha_Passagem
+{
+    position: absolute;
+    top: 320px;
+    left: 500px;
+    right: 150px;
+}
+
+
+.Meu_Aprendizado
+{
+    position: absolute;
+    top: 300px;
+    right: 600px;    
+    left: 15px;    
 }
 
 
 
 
 
+#rodape
+{
+    position: fixed;
+    top: 600px;
+    bottom: 10%;
+    padding: 2px 10px;
+    margin 0px;
+    background-color: #500;
+    color: rgb(255,255,255);
+    border-bottom: 3px solid #500;
+    width: 950px;
+    height: 70px;
+    text-align: center;
+    font-family: monospace; 
+    font-size: 30px;
+}
 
-
-
-
+    
+    
+      
