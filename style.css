@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253,251,251);
     margin: 0;
     padding: 0;
 }
@@ -66,9 +66,7 @@ table {
     width: 40%;
     display: inline-block;
 }
-h2{
-    color: rgb(55, 55, 65);
+h2{ color: rgb(55, 55, 65);
     font-family: cursive;
     font-size: 30px;
-    line-height: 25px;
-}
+    line-height: 25px;}
