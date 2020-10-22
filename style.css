@@ -4,13 +4,15 @@ body {
     background-color: rgb(253, 251, 251);
   }
   #main {
-    margin: 0 20%;
+    margin: 9% 20%;
     padding: 3%;
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
   }
   #cabecalho{
-
+    position: fixed;
+    width:100%;
+    top:0;
   }
   header {
     border: 1px solid #023e8a;
@@ -64,16 +66,16 @@ body {
   }
   .aside1 {
     float: left;
-    margin: 1% 1% 1%;
-    padding: 0% 2% 1% 0;
+    margin: 0 1% 1%;
+    padding: 0% 4% 1% 0;
     line-height: 300%;
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
   }
   .aside2 {
     float:right;
-    margin: 1% 1% 1%;
-    padding: 0% 2% 1% 0;
+    margin: 0 1% 1%;
+    padding: 0% 4% 1% 0;
     line-height: 300%;
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
