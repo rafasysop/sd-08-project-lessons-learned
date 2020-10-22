@@ -14,7 +14,7 @@ body {
   position: fixed;
   top: 0;
   left: -10px;
-  background-color: rgb(12 , 115, 178);
+  background-color: rgb(12 , 115 , 178);
   color: white;
   margin: 0;
   padding-left: 10px;
@@ -30,6 +30,12 @@ body {
   margin: 5px 5vw;
   display: inline;
   float: right;
+}
+
+.listas ol , ul {
+  list-style-position: inside;
+  padding: 0 20px 0 0;
+  margin: 0;
 }
 
 #navegacao {
@@ -93,12 +99,6 @@ p {
 .listas th , td {
   border: 1px dashed black;
   padding: 10px;
-}
-
-.listas ol , .listas ul {
-  list-style-position: inside;
-  padding: 0 20px 0 0;
-  margin: 0;
 }
 
 #rodape {
