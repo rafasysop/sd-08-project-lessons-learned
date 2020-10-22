@@ -13,10 +13,9 @@ body {
 }
 
 /* 2 - Seu site deve possuir uma barra superior com um título
-A barra deve possuir o ID "cabecalho"
-O elemento com o id cabecalho deve ser fixo no topo da página, com a propriedade 
-top tendo 0px. O título deve estar dentro da barra e possuir o ID "titulo",
-além de ser uma tag h1 */
+A barra deve possuir o ID "cabecalho" O elemento com o id cabecalho deve ser fixo no topo
+da página, com a propriedade top tendo 0px. O título deve estar dentro da barra e possuir
+o ID "titulo", além de ser uma tag h1 */
 
 #cabecalho {
   position: fixed;
@@ -24,7 +23,7 @@ além de ser uma tag h1 */
 }
 
 /* 13 - Brinque com o Box model!
-Altere margin, padding e border dos elementos para ver, na prática, como esses 
+Altere margin, padding e border dos elementos para ver, na prática, como esses
 atributos influenciam e melhoram a visualização dos componentes */
 
 header {
@@ -103,6 +102,6 @@ footer {
   padding: 20px;
 }
 
-#licoes ul, #licoes ol {
+#licoes ul , #licoes ol {
   margin: 20px;
 }
