@@ -2,6 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
     color:  red;
     font-family: monospace;
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #cabecalho {
