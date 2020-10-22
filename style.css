@@ -12,7 +12,7 @@ body {
 }
 
 #minha_foto{
-    max-width: 20%;
+    max-width: 250px;
     z-index: 5;
     position: absolute;
     top: 132px;
@@ -23,17 +23,18 @@ body {
    font-family: 'Courier New', Courier, monospace;
 }
 
-#artigo{
+#lado-esquerdo{
     position: absolute;
     display: inline-block;
-    max-width: 50%;
+    clear: left;
+    top: 400px;
+    max-width: 40%;
 }
 
-#aolado{
+#lado-direito{
 position: absolute;
-display: inline-block;
 left: 700px;
-max-width: 30%;
+max-width: 40%;
 top: 200px;
 clear: right
 }
