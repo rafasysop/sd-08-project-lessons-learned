@@ -156,5 +156,14 @@ body {
       padding: 10px;      
       margin: 0 auto;      
   }
+  p{
+      line-height: 1.6em;
+  }
+  .lado-esquerdo{
+      float: left;
+  }
+  .lado-direito{
+      float: right;
+  }
   
   
