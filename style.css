@@ -1,15 +1,23 @@
 body{
     background-color: rgb(253,251,251);
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 header {
     background-color: green;
 }
 
 .cabecalho {
-    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.titulo{
+    color: white;
 }
 
 .minha_foto {
-    height: 200px;
-    width: 100px;
+    width: 50%;
+}
+
+.licoes_a_aprender {
+    display: flex;
 }
