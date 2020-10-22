@@ -1,7 +1,27 @@
 body {
-    background-color: rgb(253, 251, 251);
+   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
     top: 0px;
+}
+
+#aprendizado {
+    display: table;
+}
+
+.article {
+    display: table-cell;
+    overflow-y: scroll;
+    width: 65%;
+    float: left;
+    margin-right: 2%;
+    padding-right: 1%;
+}
+
+.aside {
+    margin-left: 2%;
+    display: table-cell;
+    float: right;
+    width: 30%;
 }
