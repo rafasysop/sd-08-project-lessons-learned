@@ -6,27 +6,31 @@
 
 /* 1 - O corpo da página deve possuir uma cor de fundo específica
 Possuir cor de fundo: rgb(253 ,251 ,251) */
+
 body {
-  background-color: rgb(253 ,251 ,251);
+  background-color: rgb(253 , 251 , 251);
   font-family: sans-serif;
 }
 
 /* 2 - Seu site deve possuir uma barra superior com um título
 A barra deve possuir o ID "cabecalho"
-O elemento com o id cabecalho deve ser fixo no topo da página, com a propriedade top tendo 0px
-O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag h1 */
+O elemento com o id cabecalho deve ser fixo no topo da página, com a propriedade 
+top tendo 0px. O título deve estar dentro da barra e possuir o ID "titulo",
+além de ser uma tag h1 */
+
 #cabecalho {
   position: fixed;
   top: 0;
 }
 
 /* 13 - Brinque com o Box model!
-Altere margin, padding e border dos elementos para ver, na prática, como esses atributos influenciam
-e melhoram a visualização dos componentes */
+Altere margin, padding e border dos elementos para ver, na prática, como esses 
+atributos influenciam e melhoram a visualização dos componentes */
+
 header {
   width: 100vw;
   height: 150px;
-  background-color: rgb(8 ,5 ,5);
+  background-color: rgb(8 , 5 , 5);
   color: white;
   padding: 20px;
 }
@@ -61,7 +65,7 @@ img {
   max-width: 300px;
   display: block;
   margin: 0 auto 40px;
-  border: 5px solid rgba(0, 0, 0, 0.1);
+  border: 5px solid rgba(0 , 0 , 0 , 0.1);
   border-radius: 16px;
 }
 
@@ -88,7 +92,7 @@ p {
 footer {
   clear: left;
   height: 100px;
-  background-color: rgb(3, 0, 0);
+  background-color: rgb(3 , 0 , 0);
   color: white;
   font-size: 20px;
   text-align: center;
