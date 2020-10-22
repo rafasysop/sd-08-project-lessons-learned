@@ -36,8 +36,7 @@ var,
 dl,
 dt,
 dd,
-ol,
-ul,
+
 li,
 fieldset,
 form,
@@ -70,10 +69,7 @@ body {
   color: black;
   background: white;
 }
-ol,
-ul {
-  list-style: none;
-}
+
 /* tables still need 'cellspacing="0"' in the markup */
 table {
   border-collapse: separate;
@@ -123,4 +119,15 @@ main{
   margin-top: 300px;
   border-radius: 200px;
   height: 200px;
+}
+#licoes_aprendidas{
+    margin-top: 20px;
+}
+
+#aside1{
+    margin-top: 100px;
+}
+
+#aside2{
+    margin-top: 100px;
 }
