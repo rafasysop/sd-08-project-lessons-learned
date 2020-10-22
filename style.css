@@ -4,6 +4,10 @@ body{
     font-family: fantasy;
     font-size: 20px;
     color: #4a5568;
+    
+}
+#minha_foto{
+    border-radius: 100%;
 }
 
 #cabecalho{
@@ -17,14 +21,7 @@ body{
     padding: 70px 30px;
     margin: auto;
 }
-
-#licoes_aprendidas{
-    }
-
-#licoes_a_aprender{
-
-}
-#alinhamentos{
-    margin-left: 60px;
-    text-align: justify;
+.lado-esquerdo, .lado-direito{
+    max-width: 45%;
+    display: inline-block;
 }
