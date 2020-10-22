@@ -32,12 +32,6 @@ body {
   float: right;
 }
 
-.listas ol , ul {
-  list-style-position: inside;
-  padding: 0 20px 0 0;
-  margin: 0;
-}
-
 #navegacao {
   background-color: rgb(234 , 225 , 200);
   border-bottom: 1px solid black;
@@ -70,8 +64,11 @@ a {
 }
 
 #minha_foto {
-  width: 100px;
-  display: block;
+  width: 20%;
+  float: left;
+  border-radius: 25%;
+  margin-right: 3%;
+  margin-top: 20px;
 }
 
 p {
@@ -80,13 +77,14 @@ p {
 
 .lado-esquerdo {
   float: left;
-  width: 65%;
+  width: 50%;
   margin-right: 20px;
 }
 
 .lado-direito {
-  float: right;
-  width: 25%;
+  float: left;
+  width: 20%;
+  margin-left: 3%;
 }
 
 .listas {
@@ -99,6 +97,12 @@ p {
 .listas th , td {
   border: 1px dashed black;
   padding: 10px;
+}
+
+.listas ol , ul {
+  list-style-position: inside;
+  padding: 0 20px 0 0;
+  margin: 0;
 }
 
 #rodape {
