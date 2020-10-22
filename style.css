@@ -43,11 +43,44 @@ body {
 }
 
 #licoes_a_aprender{
-    /* border: solid; */
-    width: 50%;
-    margin-top: 200px;
+    width: 15%;
+    float: left;
+    border: solid;
 }
 
 #licoes_aprendidas {
-    
+    width: 15%;
+    float: right;
+    margin-right: 800px;
+    border: solid;
+}
+
+.titulo-lista h3{
+    margin-left: 230px;
+    margin-top: 200px;
+}
+
+.tabela {
+    border: solid;
+
+}
+
+#rodape {
+    background-color: #0fa36b;
+    padding-bottom: 10px;
+}
+
+.link-trybe{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.botao {
+    background-color: #0fa36b;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-decoration: none;
+    border-radius: 10px;
+
 }
