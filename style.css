@@ -6,3 +6,7 @@ body {
     position: fixed;
     top: 0px;    
 }
+
+#img-position {
+    padding: 100px 0;
+}
