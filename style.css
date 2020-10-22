@@ -2,9 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
 }
 #titulo{
-    
+
+}
+#minha_foto{
+    border-radius: 20%;
 }
