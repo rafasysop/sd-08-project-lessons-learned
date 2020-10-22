@@ -65,17 +65,17 @@ section h2 {
     
 }
 
-.texto article, aside {
+article, aside {
     width: 33vw;
     border: 1px dashed #000;
     padding: 10px;
 }
-.texto article {
+article {
     margin-left: 10px;
     float: left;
 }
 
-.texto aside {
+aside {
     float: right;
 }
 #rodape {
