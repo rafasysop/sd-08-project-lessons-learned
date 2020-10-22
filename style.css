@@ -4,7 +4,7 @@ body {
     background-color: rgb(253, 251, 251);
   }
   #main {
-    margin: 9% 20%;
+    margin: 9% 15%;
     padding: 3%;
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
@@ -14,8 +14,6 @@ body {
     position: fixed;
     width:100%;
     top:0;
-  }
-  header {
     border: 1px solid #023e8a;
     background-color: #023e8a;
     height: 100px;
@@ -24,37 +22,7 @@ body {
     font-family: "Nunito", sans-serif;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.89);
-  }
-  .header {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #08489c;
-    color: #48cae4;
-    padding: 0px;
-    text-align: center;
-  }
-  .header-nav ul {
-    padding: 0px;
-    list-style: none;
-  }
-  .header-nav ul li {
-    display: inline;
-    padding: 0 100px;
-  }
-  .header-nav ul li a {
-    padding: 2px 50px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    font-family: "Nunito", sans-serif;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    border-bottom: 3px solid #08489c;
-  }
-  .header-nav ul li a:hover {
-    color: rgb(212, 225, 241);
-  }
+  }  
   .img {
     display: flex;
     justify-content: center;
@@ -64,27 +32,8 @@ body {
     border-radius: 10px;
     border: 1px solid rgba(195, 171, 127, 0.644);
     box-shadow: 3px 10px 10px -3px rgb(204, 197, 197);
-  }
-  .aside1 {    
-    float: left;
-    margin: 0 1% 1%;
-    padding: 0% 4% 1% 0;
-    line-height: 300%;
-    background-color: #fffffff6;
-    border: 1px solid rgb(243, 238, 238);
-  }
-  .aside2 {    
-    float: right;
-    margin: 0 1% 1%;
-    padding: 0% 4% 1% 0;
-    line-height: 300%;
-    background-color: #fffffff6;
-    border: 1px solid rgb(243, 238, 238);
-  }
-  aside ul {
-    list-style: none;
-  }
-  aside ul li a {
+  }  
+  ul li a {
     font-size: 1.2rem;
     font-weight: 700;
     font-family: "Nunito", sans-serif;
@@ -93,15 +42,7 @@ body {
     text-decoration: none;
     border-bottom: 3px solid #fffffff6;
   }
-  aside ul li a:hover {
-    border-bottom: 3px solid #08489c;
-  }
-  aside ul li a:active {
-    color: red;
-  }
-  aside ul li a:focus {
-    color: red;
-  }
+ 
   article {
     margin: auto;
     justify-content: center;
@@ -130,22 +71,17 @@ body {
     background: linear-gradient(to right, white, rgb(192, 201, 238), white);
     height: 2px;
   }
+  h1,h2{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    text-align: center;    
+  }
   .i {
     text-decoration: italic;
-  }
-  .sections-class {
-    /* border:1px dashed rgb(236, 229, 229); */
-    box-shadow: 0px 2px 8px 0px rgb(238, 236, 236);
-    padding: 20px;
-    margin: 4% 0;
-    border-radius: 10px;
-  }
+  }  
   section {
     text-align: center;
-  }
-  iframe {
-    align-items: center;
-  }
+  } 
   .div-table {
     display: flex;
     justify-content: center;
@@ -201,20 +137,24 @@ body {
   .menu ul li a:active {
     color: red;
   }
-  .references {
-    background-color: rgb(236, 237, 243);
-    padding: 10px;
-    border-radius: 10px;
-    color: rgb(41, 35, 35);
-    font-family: "Nunito", sans-serif;
-    font-weight: 700;
-    line-height: 35px;
-    text-align: center;
+  .section-asides{
+      display: flex; 
+      text-align: left;    
+      color: rgb(41, 35, 35);
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+      border-bottom: 3px solid #fffffff6;
   }
-  .references ul li {
-    list-style: none;
+  .section-asides h1{
+      font-size: 22px;
+      font-weight: bold;
+      color: rgb(12, 12, 77);
   }
-  html {
-    scroll-behavior: smooth;
+  .section-asides-div{   
+      padding: 10px;      
+      margin: 0 auto;      
   }
+  
   
