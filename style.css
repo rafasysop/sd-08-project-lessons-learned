@@ -93,3 +93,8 @@ table {
 table td {
     text-align: center;
 }
+
+ol,
+ul {
+    margin: 10px;
+}
