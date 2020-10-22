@@ -11,19 +11,32 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    
-
+    background-color: black;
+    color: rgb(253, 251, 251);
+    width: 100%;
+    padding: 2rem 1rem 0 0;
+    text-align: center;
 }
 
 #titulo {
+    text-align: center;
+    font-size: 3rem;
+}
 
+#cabecalho div {
+    background-color: rgb(253, 251, 251);
+    display: block;
+    bottom: 0;
+    height: 1rem;
+    width: 100%;
+    margin: 1rem 0 0 0;
 }
 
 /* CONTENT */
 
 main {
     background-color: aqua;
-    margin: 3rem 0 1rem 0;
+    margin: 7rem 0 1rem 0;
     padding: 2rem;
 }
 
@@ -31,6 +44,12 @@ main {
     width: 300px;
     border-radius: 20px;
     border: 5px solid rgb(253, 251, 251);
+    display: block;
+}
+
+#me-img {
+    display: block;
+    margin: .4rem 0 1rem 2rem;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
@@ -38,5 +57,14 @@ main {
     margin: 1rem;
     display: inline-block;
     padding: 2rem;
+    border: 2px solid chartreuse;
+    border-radius: 10%;
 }
 
+/* FOOTER */
+
+#rodape {
+    background-color: black;
+    color: rgb(253, 251, 251);
+    padding: 4rem 2rem 4rem 2rem;
+}
