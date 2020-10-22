@@ -3,6 +3,12 @@ body {
 }
 
 #cabecalho {
+    z-index:1000;
     position: fixed;
     top:0px;
+}
+
+main {
+    position: relative;
+    top: 100px;
 }
