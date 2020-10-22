@@ -8,12 +8,13 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   background: rgb(67,97,238);
-  background: linear-gradient(90deg, rgba(67,97,238,1) 55%, rgba(76,201,240,1) 92%);
-  color: white;
+  background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
+  
 }
 
 #titulo {
-
+    color: white;
+    padding-left: 10px;
 }
 
 #minha_foto {
@@ -26,4 +27,13 @@ body {
 .listas {
     display: flex;
     justify-content: center;
+}
+#licoes_aprendidas, #licoes_a_aprender {
+    margin: 20px;
+    background: rgb(67,97,238);
+    background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
+    width: 15%;
+    padding: 35px;
+    text-align: center;
+    border-radius: 8%;
 }
