@@ -15,7 +15,7 @@
       <ul>
         <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
         <li><a href="#aprendizado">Aprendizado</a></li>
-        <li><a href="#passagem_aprendizado">Passagem sobre meu aprendizado</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
       </ul>
     </nav>
   </header>
@@ -28,7 +28,7 @@
     <!-- 4 - A página deve possuir uma lista de lições aprendidas
     A lista deve ser numerada e possuir o ID "licoes_aprendidas"
     A lista deve possuir 10 itens -->
-    <section>
+    <section id="licoes">
       <ol id="licoes_aprendidas">
         <li>Shell file manipulation</li>
         <li>How the internet works</li>
@@ -45,7 +45,7 @@
       <!-- 5 - A página deve possuir uma lista de lições que ainda deseja aprender
       A lista não deve ser numerada e deve possuir o ID "licoes_a_aprender"
       A lista deve possuir 10 itens -->
-      <ul>
+      <ul id="licoes_a_aprender">
         <li>Web Crawlers</li>
         <li>Improve my understanding of HTTP protocol</li>
         <li>Shell Scripts</li>
@@ -59,10 +59,42 @@
       </ul>
     </section>
 
+    <section id="nivel_de_confianca">
+      <h2>Nível de confiança nas habilidades (1 a 5)</h2>
+      <!-- 12 - Adicione uma tabela à página
+      A página deve possuir uma tabela -->
+      <table>
+        <thead>
+          <tr>
+            <td>Habilidade</td>
+            <td>Nível</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SHELL</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>GIT</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
     <!-- 8 - Crie um artigo sobre seu aprendizado
     A tag article devem ser utilizadas
     O artigo deve ter mais de 300 letras e menos de 600 -->
-    <article>
+    <article class="lado-esquerdo" id="aprendizado">
       <h2>Título do article</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam maiores ut, deserunt dolor veritatis provident
         magni inventore illum fuga praesentium consequatur. Modi eius deleniti adipisci laboriosam reprehenderit
@@ -94,8 +126,23 @@
     <!-- 9 - Crie uma seção que conta uma passagem sobre seu aprendizado
     A tag aside deve ser utilizada
     A seção deve ter mais que 100 letras e menos que 300 -->
-    <aside>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cupiditate itaque error ad unde necessitatibus hic ut dignissimos, doloremque blanditiis voluptas! Aut consectetur deleniti aperiam impedit sint, cum esse non id hic nulla consequatur ipsum ullam debitis, recusandae in eius officia fuga illum delectus odio. Iste tempora earum vero magnam, architecto repellat ipsum excepturi laudantium repudiandae? Consequuntur cupiditate, alias exercitationem libero voluptates beatae sint accusantium necessitatibus aliquid a velit nihil ab, natus ratione. Ut accusantium sunt quibusdam eveniet quo enim provident, consequatur atque est magni tempore dignissimos illo nesciunt soluta vero id recusandae et, officiis aperiam dolor harum fugit at laborum. Dolore rem id nam cumque quibusdam saepe quisquam distinctio eaque a repellendus ab, quaerat reiciendis facilis dolores tenetur explicabo dignissimos, ut obcaecati eveniet ullam neque praesentium sed voluptatum cum? Maxime, deserunt pariatur fugiat magnam cum blanditiis iusto optio eos autem. Ea sit quod maiores nobis, aperiam necessitatibus reiciendis a culpa debitis voluptate ut porro atque accusamus quaerat ipsam eligendi qui veritatis itaque quia? Deleniti culpa omnis, a magni, similique vel quasi totam enim quidem, eaque rem! Blanditiis libero nostrum culpa voluptatibus adipisci! Praesentium obcaecati, nam, quae nulla eum officia eveniet omnis minima illum dignissimos aperiam nobis ullam voluptate quam?
+    <aside id="experiencias" class="lado-direito">
+      <h2>Experiências</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint vel minima reiciendis modi, magni dicta
+        dignissimos expedita nihil incidunt nemo mollitia ea corporis ad, provident maxime reprehenderit molestiae
+        cupiditate magnam recusandae at quam! Labore odio culpa id numquam harum molestiae consectetur officiis
+        dignissimos recusandae nam voluptatem ab commodi inventore, tenetur quidem quod magni praesentium! Doloremque
+        velit, quos autem porro maiores iste pariatur voluptatum voluptatibus magnam animi dolores error consequuntur
+        corporis minima, quasi tempora amet. Accusantium sunt obcaecati, quisquam minima eum error fugiat voluptate
+        totam, rerum aperiam vel eligendi repellat et non quibusdam quam laboriosam distinctio numquam dicta. Aspernatur
+        officia dolor in eveniet placeat veritatis temporibus consectetur reprehenderit consequatur ab tenetur alias
+        quam, voluptates fugiat sapiente dolores voluptas excepturi. Necessitatibus cupiditate totam consequatur ea
+        voluptas animi minima molestiae nobis vero, incidunt molestias quasi amet quos nihil ut quisquam. Beatae
+        aspernatur dolor eos porro temporibus, totam esse illo placeat nobis! Quis labore odit molestiae necessitatibus
+        itaque ut minima architecto velit voluptate facilis deleniti sit sunt similique a quod maiores, illo, sapiente
+        molestias dolores vitae reprehenderit? Dolore sit praesentium et architecto sequi tempore quam porro asperiores
+        saepe minima soluta expedita nostrum vel, pariatur, quos voluptas amet natus necessitatibus eaque? Similique ex
+        eaque quos?</p>
     </aside>
 
     <!-- 10 - Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles
@@ -110,16 +157,16 @@
     Link: https://achecker.ca/checker/index.php -->
   </main>
 
-
   <!-- 6 - A página deve possuir um rodapé
   O rodapé deve utilizar a tag footer e possuir o ID "rodape" -->
+
   <!-- 7 - A página deve possuir pelo menos um link externo
   A configuração desse link deve ser feita para abrir em uma nova aba do navegador -->
+
   <footer id="rodape">
     <span>Projeto realizado por <a href="https://www.linkedin.com/in/paulohbsimoes/" target="_blank">Paulo
         Simões</a></span>
   </footer>
-  <div id="huge"></div>
 </body>
 
 </html>
