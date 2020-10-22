@@ -19,7 +19,13 @@ body {
     width: 300px;
 }
 
-.textos {
+.lado-esquerdo p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #3a4558;
+}
+
+.lado-direito p {
     font-size: 15px;
     line-height: 20px;
     color: #3a4558;
