@@ -19,13 +19,20 @@ header img {
 aside {
     float: right;    
     clear: both;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.aprendidas {
+   margin-right: 160px;
 }
 
 article {
     overflow: hidden;
     top: 50%;
     width: 60%;
-    position: absolute
+    position: absolute;
+    margin-left: 5px;
 }
 
 footer {
