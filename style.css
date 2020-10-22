@@ -1,17 +1,17 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Staatliches', cursive;
+    font-family: Staatliches, cursive;
     font-size: 17px;
     line-height: 20px;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0px;
     background-color: green;
     height: 80px;
     color: yellow;
     }
-.main-content{
+.main-content {
     margin-top: 120px;
     padding: 10px;
     border: 10px;
@@ -20,24 +20,22 @@ body{
     background-color: magenta;
     width: 1366px;
     height: 20px;
-    
 }
 .nav li{
     display: inline-block;
 }
-.display{
+.display {
     display: inline-block;
     width: 30%;
-    
 }
-.lado-direito{
+.lado-direito {
     margin: 10px;
     padding: 20px;
     width: 400px;
     display: inline-block;
     vertical-align: top;
 }
-.lado-esquerdo{
+.lado-esquerdo {
     margin: 10px;
     padding: 20px;
     width: 400px;
