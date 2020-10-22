@@ -5,17 +5,23 @@ nav li{
     display:inline-block;
     list-style-type: none;
     margin-right: 200px;
+    margin-top: 150px;
+}
+#titulo {
+
 }
 
 #cabecalho {
-    margin-top:0px;
-    text-align: center;
-    font-size: 100px;
+    position: fixed; 
+    top:0px; 
+    margin-left:500px;
     background-color: green;
-    padding-top: 0px;
-    padding-bottom: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    
+    
+}
+
+#titulo {
+    /* font-size: 20px; */
 }
 #minha_foto { 
     width: 15%;
