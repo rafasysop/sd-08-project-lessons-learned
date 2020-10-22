@@ -99,7 +99,7 @@ p {
   padding: 10px;
 }
 
-#listas ol , ul {
+#listas ul , ol {
   list-style-position: inside;
   padding: 0 20px 0 0;
   margin: 0;
@@ -108,4 +108,5 @@ p {
 #rodape {
   margin: 10px;
   font-size: 14px;
+  text-align: center;
 }
