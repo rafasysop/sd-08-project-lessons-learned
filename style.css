@@ -7,6 +7,9 @@ body {
   background: grey;
   padding-top: 5px;
   padding-bottom: 5px;
+  /** Utilizei o link abaixo para gerar o código abaixo
+  https://cssgradient.io/
+  */
   background: rgb(67, 97, 238);
   background: linear-gradient(
     90deg,
@@ -76,6 +79,9 @@ a:hover {
 #licoes_aprendidas,
 #licoes_a_aprender {
   margin: 20px;
+  /** Utilizei o link abaixo para gerar o código abaixo
+  https://cssgradient.io/
+  */
   background: rgb(67, 97, 238);
   background: linear-gradient(
     90deg,
@@ -89,7 +95,17 @@ a:hover {
   border-radius: 10%;
 }
 
-li,
-.list-title {
+
+.list-title, li {
   text-align: center;
+}
+
+.artigo1 {
+  width: 40%;
+  border: 2px dotted #4361EE;
+}
+
+.artigo2 {
+  width: 20%;
+  border: 2px dotted #4361EE;
 }
