@@ -5,20 +5,25 @@ body{
 header#cabecalho{
     width: 1366px;
     top: 0px;
+    left: -10px;
+    padding-right: 500px;
     position: fixed;
-    border: 1px solid black;
     background-color: green;
 }
 
-header#cabecalho h2{
+header#cabecalho h1{
     color: white;
     text-align: center;
 }
 
+header nav ul{
+    list-style: none;
+    color: white;
+}
+
 div#principal{
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 10px;
-    border: 1px solid purple;
 }
 
 img#minha_foto{
