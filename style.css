@@ -3,8 +3,17 @@ body {
 }
 #cabecalho {
     position: fixed;
+    border-radius: 20px;
+    background-color: rgb(63, 163, 38);
     z-index: 1;
     top: 0px;
+    margin-left: 500px;
+    font-size: 100%;
+}
+#titulo {
+    text-align: center;
+    width: 100%;
+    color: snow;
 }
 #minha_foto {
     position: relative;
@@ -24,4 +33,7 @@ body {
     text-align: center;
     display: inline-block;
     width: 10%;
+}
+footer {
+
 }
