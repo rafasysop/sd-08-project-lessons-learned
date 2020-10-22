@@ -10,39 +10,99 @@ body {
     width: 100%;
     background-color: #230007;
     color: rgb(253, 251, 251);
-    opacity: 85%;
-    z-index: 2;
-    
+    z-index: 2;   
 }
+
 #titulo {
     text-align: center;
     z-index: 2;
 }
+
 #cabecalho h2 {
     font-size: 18px;
     text-align: center;
 }
+
 nav {
     position: fixed;
-    margin: 107px 0;
+    top: 128px;
     padding: 8px;
     width: 100%;
     background-color: #857F74;
     opacity: 85%;
     z-index: 2;
 }
+
 nav a {
     font-weight: 600;
     color: rgb(253, 251, 251);
     margin: 0 15px;
 }
+
 #minha_foto {
     width: 150px;
     z-index: 3;
 }
+
 #imagem-cabecalho {
     position: fixed;
     top: 10px;
     right: 30px;
     z-index: 3;
+}
+
+main {
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 70%;
+    color: #1B0005;
+    line-height: 1.5em;
+}
+
+#artigos {
+    font-size: 1.5em;
+}
+
+#artigos p {
+    font-size: 18px;
+    font-weight: 600;
+    text-indent: 45px;
+    text-align: justify;
+}
+
+section {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+ul {
+    list-style: square;
+}
+
+aside {
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    width: 25%;
+    z-index: 1;
+}
+
+#fundo-aside {
+    background-color: #545049;
+    padding: 20px;
+    min-height: 415px;
+}
+
+footer {
+    text-align: center;
+    background-color: #857F74;
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+}
+
+footer a {
+    font-size: 22px;
+    font-weight: 600;
+    z-index: 2;
 }
