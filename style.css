@@ -1,6 +1,6 @@
 body{
     background-color:rgb(253, 251, 251);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 #cabecalho{
     position: fixed;
@@ -8,27 +8,51 @@ body{
     background-color: rgb(100, 200, 400);
     width: 100%;
     text-align: center;
+    font-weight: 700;
 }
+
 #licoes_aprendidas{
    list-style: decimal;
 }
+
 #minha_foto{
-    width: 29%;
+    width: 40%;
+    float: left;
     
 }
+#rodape{
+ position: absolute;
+ top: 720px;
+ background-color: red;
+ width: 100%;
+ height: 30px;
+}
 
-
-.bloco{
+article{
+    float: left;
     display: inline-block;
-    width: 25%;
-    margin-right: 20px;
-  
+    width: 65%;
+    background-color: rosybrown;
 }
-.blocogrande{
-    padding-top: 50px;
-    margin-top:50px;
-    text-align: left;
+aside{
+    float: right;
+    display: inline-block;
+    width: 34%;
+    background-color: salmon;
+    padding: 5px;
+    padding-bottom: 50px;
     
 }
-
+#listas{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    left: 200px;
+    padding: 20px;
+    margin-top: 50px;
+    ;
+}
     
+#decimal{
+   list-style: decimal;
+}
