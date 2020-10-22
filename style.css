@@ -8,14 +8,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main {
-    padding:10px;
-}
 
 #cabecalho {
     color: #fff;
     background:green;
+    width: 1346px;
     padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    box-sizing: border-box;
 }
 
 #cabecalho nav a {
@@ -24,6 +26,12 @@ main {
     text-decoration: none;
     padding-bottom: 15px;
 }
+
+main {
+    margin-top: 80px;
+    padding:10px;
+}
+
 a{
     margin-left: 10px;
     font-size: 12px;
@@ -42,7 +50,7 @@ a{
 section {
     margin: 30px 10px;
 }
-section h1 {
+section h2 {
     padding-left: 10px;
 }
 
@@ -72,6 +80,6 @@ section h1 {
 }
 #rodape {
     clear: both;
-    margin-left: 15px;
-    padding: 5px;
+    margin: 15px;
+    padding-top: 15px;
 }
