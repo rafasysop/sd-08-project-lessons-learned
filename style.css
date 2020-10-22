@@ -55,3 +55,9 @@ table{
 .espaco{
     width: 200px;
 }
+
+footer{
+    margin-left: 80%;
+    padding: 2%;
+    border: 2%;
+}
