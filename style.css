@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    top: 0px;
+}
+
+#titulo {
+    width: 100%;
+    margin: 30%;
+    background-color: green;
+}
