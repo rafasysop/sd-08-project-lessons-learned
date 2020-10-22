@@ -58,12 +58,12 @@ body {
 
 
 
-.itensLista {
+#licoes_aprendidas {
   display: flex;
   margin-top: 20px;
 }
 
-.itensLista div{
+#licoes_aprendidas div{
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -75,4 +75,37 @@ body {
 #licoes_a_aprender div {
   margin-left: 50px;
   margin-bottom: 20px;
+}
+
+#artigo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#artigo article {
+  margin-right: 100px;
+  margin-left: 30px;
+}
+
+#artigo aside {
+  width: 300px;
+  margin-right: 100px;
+  text-align: justify;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+
+
+
+
+
+
+#rodape {
+  margin-top: 50px;
+  display: flex;
+  background-color: burlywood;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
