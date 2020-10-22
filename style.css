@@ -1,21 +1,21 @@
 @font-face {
-  src: url(fonts/Roboto/Roboto-Regular.ttf);
-  font-family: "Roboto-Regular";  
+  src: url('fonts/Roboto/Roboto-Regular.ttf');
+  font-family: Roboto-Regular;  
 }
 
 body {
-  font-family: "Roboto-Regular", serif;
+  font-family: Roboto-Regular, serif;
   line-height: 20px;
   font-size: 18px;
   color: rgb(28, 28, 28);
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-  background-color: rgb(24,22,97);
+  background-color: rgb(24 , 22 , 97);
   color: white;
   position: fixed;
-  top: 0px;
+  top: 0;
   height: 100px;
   width: 100%;
   text-align: center;
@@ -72,7 +72,7 @@ table {
   width: 90%;
   align-items: center;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .lado-esquerdo {
@@ -91,6 +91,5 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  background-color: rgb(24,22,97);
+  background-color: rgb(24 , 22 , 97);
 }
-
