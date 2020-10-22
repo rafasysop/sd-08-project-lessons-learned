@@ -1,0 +1,20 @@
+/* 1 - O corpo da página deve possuir uma cor de fundo específica
+Possuir cor de fundo: rgb(253, 251, 251) */
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+/* 2 - Seu site deve possuir uma barra superior com um título
+A barra deve possuir o ID "cabecalho"
+O elemento com o id cabecalho deve ser fixo no topo da página, com a propriedade top tendo 0px
+O título deve estar dentro da barra e possuir o ID "titulo", além de ser uma tag h1 */
+#cabecalho {
+  position: fixed;
+  top: 0px;
+}
+
+#huge {
+  height: 300vh;
+  background-color: red;
+  margin-top: 100px;
+}
