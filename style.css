@@ -1,3 +1,8 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    /* margin: 0; */    
+}
+
 body{
     background-color: rgb(253, 251, 251);
 }
@@ -22,14 +27,21 @@ body{
     list-style-type: decimal;
     float: left;
     padding: 10px 30px 0;
+    box-sizing: border-box;
+    margin: auto;
 }
 
-#licoes_a_aprender{
-    margin-top: 45px;    
+#licoes_a_aprender{    
+    padding: 10px 30px 0;
+    box-sizing: border-box;
+    margin: auto;  
 }
 
 #rodape{
     font-style: italic;
+    padding: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .lado-esquerdo {
@@ -39,7 +51,7 @@ body{
 
 .content {
     /* max-width: 1200px; */
-    margin-top: 15%;
+    margin-top: 10%;
     /* flex-grow: 1; */
   }
   
