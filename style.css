@@ -1,19 +1,50 @@
 body {
-  margin: 0;
-  padding: 0;
   background: rgb(47, 62, 70);
+  margin: 35px;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  text-align: justify;
 }
 
 #cabecario {
   position: fixed;
   width: 100%;
+
   background: rgb(132, 169, 140);
   top: 0px;
-  clear: both;
+  left: 0px;
+  z-index: 1;
 }
 
 #cabecario h1{
   text-align: center;
+}
+
+.conteudo {
+  position: relative;
+  margin-top: 90px;
+}
+
+.conteudo img {
+  border-radius: 25px;
+  max-width: 300px;
+}
+.conteudo span {
+  display: block;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 56%;
+}
+
+.lado-direito {
+  float: right;
+  width: 38%;
+}
+
+footer {
+  clear: both;
 }
 
 
