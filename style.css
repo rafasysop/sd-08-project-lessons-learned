@@ -3,7 +3,7 @@ body{
 }
 
 header, section, nav, aside, footer {
-    background-color: lightskyblue;  
+    background-color: rgb(221, 228, 233);  
   }
 
 
@@ -11,7 +11,7 @@ article {
     border: 5px solid white;
     margin: 5px;
     padding: 5px;
-    background-color: lightskyblue;
+    background-color: rgb(221, 228, 233);
   }
 
 header { 
@@ -38,21 +38,28 @@ body {
     font-family: sans-serif;
     display: grid;
     grid-template-areas:
-      'header header header header header'
-      'menu menu menu menu menu'
-      'sidebar main main main main'
-      'footer footer footer footer footer';
+      'header header header header header header header'
+      'menu menu menu menu menu menu menu'
+      'sidebar main main main main main main'
+      'footer footer footer footer footer footer footer';
     grid-gap: 10px;
     padding: 10px;
 }   /*https://www.w3schools.com/cssref/pr_grid-template-areas.asp 
     link referencia utilizado na contrução/idealização do layout da pagina.8 */
 
 p{
-    margin-right: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 300px;
     text-align: left;
     margin-left: 5px;
 }
 
 h1, h2{
     margin-left: 5px;
+}
+
+#minha_foto{
+    width: 350px;
+    margin-left: 75px;
+    
 }
