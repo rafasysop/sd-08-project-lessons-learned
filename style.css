@@ -3,24 +3,25 @@ body {
 }
 #cabecalho {
     position: fixed;
+    z-index: 1;
     top: 0px;
 }
 #minha_foto {
-    position: absolute;
-    width: 20%;
-    float: left;
-    margin-right: 55px;
-    margin-left: 15px;
+    position: relative;
+    width: 15%;
+    top: 60px;
+    margin-bottom: 40px;
     border-radius: 20px;
     border-style: groove;
-}    
-#socialMedia {
-    text-align: center;
 }
-.socialMediaButtons {
-    text-align: center;
+#licoes_aprendidas, #licoes_a_aprender {
+    display: inline-block;
+}
+#socialMedia {
+    text-align: justify;
 }
 .buttons {
     text-align: center;
     display: inline-block;
+    width: 10%;
 }
