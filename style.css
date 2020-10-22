@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px
 }
 
 #cabecalho {
@@ -12,4 +13,8 @@ body {
 #titulo {
     margin-top: 0px;
     text-align: center;
+}
+
+#minha_foto{
+    margin-top: 15px;
 }
