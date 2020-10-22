@@ -1,3 +1,15 @@
 body{
     background-color: rgb(253,251,251);
 }
+header {
+    background-color: green;
+}
+
+.cabecalho {
+    margin-top: 0px;
+}
+
+.minha_foto {
+    height: 200px;
+    width: 100px;
+}
