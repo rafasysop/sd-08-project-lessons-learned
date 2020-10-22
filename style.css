@@ -5,3 +5,11 @@ body{
 #cabecalho {
     top: 0px;
 }
+#cabecalho h1{
+   text-align: center; 
+}
+
+#minha_foto{
+    width: 250px;
+    
+}
