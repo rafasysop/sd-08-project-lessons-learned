@@ -23,4 +23,13 @@ main {
 
 #rodape {
     background-color: #0aa36a;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: white;
 }
