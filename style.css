@@ -10,11 +10,11 @@ body {
 }
 
 #cabecalho {
+  top: 0px;
   background-color: green;
 }
 
 #titulo {
-  top: 0;
   color: #fff;
   text-align: center;
   margin: auto;
