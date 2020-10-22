@@ -166,3 +166,6 @@ p {
 .lado-direito {
   float: right;
 }
+.div-article-section {
+  display: flex;
+}
