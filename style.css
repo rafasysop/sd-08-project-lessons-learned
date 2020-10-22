@@ -64,12 +64,25 @@ main {
     border-radius: 50%;
 }
 
+.artigo {
+    float: left;
+    width: 60%;
+    min-width: 400px;
+}
+
+.secao {
+    float: right;
+    width: 30%;
+    min-width: 400px;
+}
+
 #rodape {
     background-color: #0aa36a;
     color: white;
     height: 50px;
     line-height: 50px;
     padding-left: 20px;
+    clear: both;
 }
 
 #rodape a {
