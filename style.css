@@ -41,7 +41,7 @@ atributos influenciam e melhoram a visualização dos componentes */
 
 header {
   width: 100vw;
-  height: 150px;
+  height: auto;
   background-color: rgb(8 , 5 , 5);
   color: white;
   padding: 20px;
@@ -69,7 +69,7 @@ header nav a {
 }
 
 main {
-  padding: 180px 40px 0;
+  padding: 200px 40px 0;
 }
 
 p {
@@ -136,11 +136,32 @@ footer {
 
 #aprendidas , #a_aprender {
   float: left;
-  width: 40%;
   width: 350px;
   padding: 20px;
 }
 
 aside {
   overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 40px 0
+}
+
+thead td {
+  font-size: 30px;
+  background: rgba(111, 17, 218, 0.719);
+}
+
+td {
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+  min-width: 200px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #625e5e;
+  color: white;
 }
