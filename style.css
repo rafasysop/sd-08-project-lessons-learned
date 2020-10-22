@@ -8,8 +8,7 @@ body{
 #indice{
     display: inline;
     list-style-type: none;
-    list-style: inline;
-    vertical-align: middle
+    vertical-align: inline;
 }
 
 #cabecalho{
@@ -38,7 +37,6 @@ article{
 }
 
 aside{
-    float: right;
     display: inline-block;
     width: 50%;
 }
