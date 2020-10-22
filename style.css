@@ -43,6 +43,7 @@ body{
 #lists{
     margin: 30px 0 0 60px;
     font-family: monospace;
+    line-height: 25px;
 }
 #lists ul, ol{
     display: inline-block;
@@ -67,15 +68,20 @@ body{
     /* padding-top:10px; */
     text-align: justify;
     
+    
 }
 .lado-esquerdo{
     margin: 30px 0 0 30px;
+    line-height: 30px;
 }
-/* .lado-direito{
-    float: right;
-    margin-left: 700px;
-    border:
-} */
+.lado-direito{
+    line-height: 30px;
+} 
+
+#coding{
+    width:700px;
+    
+}
 
 /* .mainArt{
     border: dashed black;
