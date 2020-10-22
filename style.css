@@ -1,79 +1,79 @@
 body {
-    background-color: rgb(253 ,251 ,251);
-        margin: 75px 0 0;
-    font-family: Arial, Helvetica, sans-serif;
-        line-height: 17px;
+  background-color: rgb(253, 251, 251);
+  margin: 75px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 17px;
 }
 
 #minha_foto {
-        width: 200px;
-        border-radius: 90px;
-        border: teal ridge;
-        margin: 25px;
+  width: 200px;
+  border-radius: 90px;
+  border: teal ridge;
+  margin: 25px;
 }
 
 header {
-        background-color: teal;
-        text-align: left;
-        padding: 5px 15px 10px;
-        position: fixed;
-        top: 0;
-        width: 100%;
+  background-color: teal;
+  text-align: left;
+  padding: 5px 15px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
-        background-color: turquoise;
-        padding: 10px;
+  background-color: turquoise;
+  padding: 10px;
 }
 
 article {
-        float: left;
-        width: 35%;
-        background-color: pink;
-        margin: 15px;
-        padding: 10px;
-        overflow: hidden;
+  float: left;
+  width: 35%;
+  background-color: pink;
+  margin: 15px;
+  padding: 10px;
+  overflow: hidden;
 }
 
 main {
-        clear: both;
-        background-color: sienna;
+  clear: both;
+  background-color: sienna;
 }
 
 aside {
-        width: 30%;
-        background-color: lightgrey;
-        vertical-align: top;
-        padding: 15px;
-        border: lightcoral ridge;
+  width: 30%;
+  background-color: lightgrey;
+  vertical-align: top;
+  padding: 15px;
+  border: lightcoral ridge;
 }
 
 section {
-        float: left;
-        width: 20%;
-        background-color: rosybrown;
-        padding: 10px;
+  float: left;
+  width: 20%;
+  background-color: rosybrown;
+  padding: 10px;
 }
 
 footer {
-        clear: both;
-        background-color: lightseagreen;
-        padding: 2px 10px 1px 0;
-        text-align: right;
-        font-size: 18px;
-        position: relative;
-        bottom: -10px;
+  clear: both;
+  background-color: lightseagreen;
+  padding: 2px 10px 1px 0;
+  text-align: right;
+  font-size: 18px;
+  position: relative;
+  bottom: -10px;
 }
 
 a {
-        text-decoration: none;
-        color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .lado-direito {
-        float: right;
+  float: right;
 }
 
 .lado-esquerdo {
-        float: left;
+  float: left;
 }
