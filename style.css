@@ -5,7 +5,8 @@
 }
 body {
   font-family: "Roboto-Regular", serif;
-  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 18px;
   color: #1c1c1c;
   background-color: rgb(253, 251, 251);
 }
