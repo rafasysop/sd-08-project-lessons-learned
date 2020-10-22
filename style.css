@@ -13,3 +13,7 @@ body {
 #minha_foto {
    width: 30%;
 }
+aside {
+    float: right;
+    
+}
