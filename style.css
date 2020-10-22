@@ -38,6 +38,9 @@ h1 {
   margin: 0;
   font-size: 1em;
 }
+article h1 {
+  padding-left: 50px;
+}
 
 #licoes_aprendidas,
 #licoes_a_aprender {
@@ -62,7 +65,7 @@ h1 {
 .lado-esquerdo {
   float: left;
   width: 80%;
-  padding: 30px 10px 10px 30px;
+  padding: 0px 10px 10px 50px;
 }
 
 .lado-direito {
