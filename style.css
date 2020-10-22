@@ -5,3 +5,7 @@ body {
 .cabecalho {
     top: 0px;
 }
+
+.minha_foto img{
+    width: 300px;
+}
