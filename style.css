@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Staatliches, cursive;
-    font-size: 17px;
-    line-height: 20px;
+  background-color: rgb(253, 251, 251);
+  font-family: Staatliches, cursive;
+  font-size: 17px;
+  line-height: 20px;
 }
 #cabecalho {
     position: fixed;
@@ -21,7 +21,7 @@ body {
     width: 1366px;
     height: 20px;
 }
-.nav li{
+.nav li {
     display: inline-block;
 }
 .display {
