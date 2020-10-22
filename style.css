@@ -26,14 +26,61 @@ body { background-color: rgb(253,251,251); }
 
 .Content
 {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+.Content li
+{
+    
+    list-style-type: none;
+    color: rgb(120,0,0);
+}
+
+.Content h3
+{    
+    color: rgb(75,54,33);
+    text-decoration: underline;
+    font-size: 20px;    
+}
+
+.Lista_Aprendida
+{
     position: absolute;
-    top: 300px;
+    top: 70px;
+    left: 250px;    
+}
+
+.Lista_Aprender
+{
+    position: absolute;
+    top: 70px;
+    left: 450px;    
+}
+
+#Link
+{
+    
+    position: absolute;
+    top: 400px;
+    
+}
+
+#Link a:hover
+{
+    background-color: red;
+    color: white;
 }
 
 
 
-
-
+a:-webkit-any-link
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    color: rgb(75,54,33);
+    text-decoration: none;
+    
+}
 
 
 
