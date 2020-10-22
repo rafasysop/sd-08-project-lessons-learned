@@ -6,23 +6,32 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-#position{
-    position:fixex;
-}
+
 #cabecalho{
     background-color:rgb(111, 226, 121);
+    top: 0px;
+    position:fixed;
+    width:100%;
     
 }
 #titulo{
     text-align: center;
 }
 
-#trybe{
+.trybe{
     color: green;
 }
 
 #minha_foto{
     width:250px;
+    margin-top: 40px;
+}
+.navigation{
+    margin-left:30px;   
+}
+.navigation a {
+    margin-right:10px;
+
 }
 .me{
     display:block;
@@ -43,4 +52,46 @@ body{
     font-size: 1.1em;
     padding-bottom: 10px;
 }
+
+#rodape{
+    margin-top: 50px;
+    background-color:rgb(111, 226, 121);
+}
+
+.paragrafo{
+    width: 60%;
+    padding-top:10px;
+    
+}
+article{
+    margin: 30px 0 0 30px;
+}
+.artigo{
+    text-align: justify;
+    display:inline-block;
+    
+}
+
+section aside{
+    margin: 30px 0 0 30px;
+    
+}
+
+.asideTrybe{
+    display: inline-block;
+    text-align: justify;
+    width:30%;
+    vertical-align: top;
+}
+
+
+#imgTrybe{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+
+
 
