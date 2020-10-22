@@ -25,9 +25,24 @@ nav a {
   text-decoration: none;
 }
 
+.lado-esquerdo {
+  float: left;
+  width: 55%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lado-direito {
+  float: right;
+  width: 30%;
+  text-align: justify;
+  margin-right: 5%;
+}
+
 .descricao {
+  text-align: justify;
   font-size: 1.2em;
   color: blue;
   line-height: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
