@@ -13,7 +13,8 @@ body{
 }
 .cabecalho span{
     font-size: 18px;
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20%;
 }
 .photo{
     margin-top: 150px;
