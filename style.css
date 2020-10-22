@@ -5,9 +5,27 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    /* border: 1px solid blue; */
+    display: block;
+    width: 100%;
+    background-color: blue;
 }
 
 #minha_foto {
     width: 200px;
     padding: 80px 20px;
+}
+
+p {
+    padding: 0 30px;
+}
+
+td {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+footer {
+    padding: 35px 0 0 0;
+    border: 2px solid blue;
 }
