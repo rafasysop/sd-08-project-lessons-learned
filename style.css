@@ -1,17 +1,18 @@
 @font-face {
   src: url(fonts/Roboto/Roboto-Regular.ttf);
-  font-family: "Roboto-Regular";
-  font-weight: normal;
+  font-family: "Roboto-Regular";  
 }
+
 body {
   font-family: "Roboto-Regular", serif;
   line-height: 20px;
   font-size: 18px;
-  color: #1c1c1c;
-  background-color: rgb(253, 251, 251);
+  color: rgb(28, 28, 28);
+  background-color: rgb(253,251,251);
 }
+
 #cabecalho {
-  background-color: #181661;
+  background-color: rgb(24,22,97);
   color: white;
   position: fixed;
   top: 0px;
@@ -19,22 +20,27 @@ body {
   width: 100%;
   text-align: center;
 }
+
 a {
   text-decoration: none;
   color: gray;
 }
+
 a:hover {
   opacity: 0.5;
 }
+
 nav ul li {
   display: inline;
   padding: 10px;
   text-decoration: none;
 }
+
 .image-text {
   width: 80%;
   padding: 10px;
 }
+
 img {
   margin-left: 50px;
   margin-bottom: 10px;
@@ -42,41 +48,49 @@ img {
   border-radius: 10px 40px;
   float: left;
 }
+
 p {
   text-align: justify;
 }
+
 aside {
   float: right;
   width: 60%;
 }
+
 main {
   margin-top: 110px;
 }
+
 table {
   margin: 5px;
   padding: 5px;
   border: 1px solid black;
 }
+
 .container {
   width: 90%;
   align-items: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;  
 }
+
 .lado-esquerdo {
   float: left;
   width: 45%;
   display: flex;
   justify-content: center;
 }
+
 .lado-direito {
   width: 45%;
   float: right;
 }
+
 footer {
   padding: 10px;
   text-align: center;
   color: white;
-  background-color: #181661;
+  background-color: rgb(24,22,97);
 }
+
