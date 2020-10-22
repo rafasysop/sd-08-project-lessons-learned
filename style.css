@@ -7,5 +7,13 @@ body {
 }
 #minha_foto {
     width: 200px;
-    margin: 80px 15px;
+    margin: 80px 15px 15px;
+}
+#licoes_aprendidas {
+    float: left;
+    width: 30%;
+}
+#licoes_a_aprender {
+    float: right;
+    width: 60%;
 }
