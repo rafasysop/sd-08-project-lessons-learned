@@ -14,11 +14,14 @@ body {
 }
 #minha_foto {
     width: 25%;
-    
+    margin-top: 5px;
 }
 #licoes_aprendidas {
 
 }
 #rodape {
-    
+
+}
+nav {
+    margin-top: 80px;
 }
