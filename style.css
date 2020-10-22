@@ -5,8 +5,22 @@ body{
 #cabecalho{
 position: fixed;
 top: 0px;
+text-align: center;
+left: 250px;
+
 }
 
 #titulo{
 
+}
+.secao1{
+    
+}
+.transformaside{
+    display: inline-block;
+    width: 200px;
+}
+.transformlista{
+    display: inline-block;
+    width: 200px;
 }
