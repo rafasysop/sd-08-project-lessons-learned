@@ -11,16 +11,19 @@ body {
 }
 
 #titulo {
-    background-color: green;
+    color: green;
+    font-size: 30px;
     
     
 }
 
 ol li {
+    font-size: 15px;
     padding: 2px;
 }
 
 ul li {
+    font-size: 15px;
     padding: 2px;
 }
 
