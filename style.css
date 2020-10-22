@@ -18,3 +18,20 @@ table {
   padding: 5px;
   border: 1px solid black;
 }
+.container {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+.lado-direito {
+  width: 45%;
+  float: right;
+}
