@@ -3,15 +3,26 @@ body {
 }
 #minha_foto{
     width: 200px;
-    position: relative;
+
 }
 #cabecalho{
     position:fixed;
-    margin-left: 500px;
-    top: 0px;
-    background-color: green;
+    top:0px;
+   
 }
 
 #titulo{
-
+    margin-left: 500px;
+    text-decoration: underline;
+    
+}
+#licoes_aprendidas{
+    
+}
+.Title-spec{
+    font-style: italic;
+    text-decoration: underline;
+}
+#licoes_a_aprender{
+    
 }
