@@ -2,46 +2,97 @@ body {
   background: rgb(253, 251, 251);
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+
 }
 #cabecalho {
   background: grey;
   padding-top: 5px;
   padding-bottom: 5px;
-  background: rgb(67,97,238);
-  background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
+  background: rgb(67, 97, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 97, 238, 1) 2%,
+    rgba(76, 201, 240, 1) 100%
+  );
   position: fixed;
   width: 100%;
-
-  
 }
 
 #titulo {
-    color: white;
-    padding-left: 10px;
+  color: white;
+  padding-left: 10px;
+}
+
+main {
+  
+}
+
+.apresentacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 135px 0 70px 0;
+  
 }
 
 #minha_foto {
   width: 13%;
   border-radius: 50%;
   border: 15px ridge #4361ee;
-  margin: 135px 0 0 0;
+  
+  display: inline-block;
+}
+
+.contato {
+  display: inline-block;
+  text-align: right;
+
+}
+
+.contato-link {
+  margin-right: 15px;
+}
+
+.icons {
+  width: 15%;
+  vertical-align: middle;
+  text-align: center
+
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #4361ee;
 }
 
 .listas {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-#licoes_aprendidas, #licoes_a_aprender {
-    margin: 20px;
-    background: rgb(67,97,238);
-    background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
-    width: 15%;
-    padding: 50px 35px;
-    line-height: 23px;
+#licoes_aprendidas,
+#licoes_a_aprender {
+  margin: 20px;
+  background: rgb(67, 97, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(67, 97, 238, 1) 2%,
+    rgba(76, 201, 240, 1) 100%
+  );
+  width: 15%;
+  padding: 10px 40px 55px 40px;
+  line-height: 23px;
 
-    border-radius: 8%;
+  border-radius: 10%;
 }
 
-li {
-    text-align: center;
+li, .list-title {
+  text-align: center;
 }
+
+
