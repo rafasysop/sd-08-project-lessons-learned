@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    width: 100%;
+    background-color:rgb(65, 105, 225);
+    position:fixed;
+    top:0%;
+}
+
+.picture {
+
+  
+    position: relative;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+
