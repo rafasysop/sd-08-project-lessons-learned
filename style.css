@@ -11,6 +11,15 @@ body {
   top: 0px;
 }
 
+#titulo {
+  color: rgb(58, 29, 97);
+}
+
+.navegacao li {
+  display: inline;
+  list-style-type: none;
+}
+
 img {
   margin-top: 120px;
   width: 300px;
@@ -21,7 +30,7 @@ ol li {
   padding: 2px;
 }
 
-ol li:nth-child(odd) {
+#licoes_aprendidas li:nth-child(odd) {
   font-style: italic;
 }
 
@@ -29,7 +38,7 @@ ul li {
   padding: 2px;
 }
 
-ul li:nth-child(even) {
+#licoes_a_aprender li:nth-child(even) {
   font-style: italic;
 }
 
