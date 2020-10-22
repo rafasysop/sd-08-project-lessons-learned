@@ -34,12 +34,12 @@ td {
 }
 
 .check td {
-    color: green;
+  color: green;
 }
 
 #linhaTabela {
-    width: 50%;
-    border: 2px solid;
+  width: 50%;
+  border: 2px solid;
 }
 
 footer h2 {
