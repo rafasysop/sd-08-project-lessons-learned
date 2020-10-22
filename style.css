@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Ubuntu, Arial;
 }
 
 main {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 header {
@@ -12,7 +15,8 @@ header {
   margin: 15px;
   background-color: orange;
   border: solid;
- }
+  font-weight: 900px;
+}
 
 img {
   width: 100px;
@@ -22,7 +26,12 @@ img {
   background: chocolate;
 }
 
+p {
+  line-height: 20px;    
+}
+
 footer {
+  font-size: small;
   position: fixed;
   left: 0;
   bottom: 0;
