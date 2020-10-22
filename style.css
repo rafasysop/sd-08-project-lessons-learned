@@ -14,10 +14,37 @@ body{
 
 #navigator{
     margin-top: 11%;
+    display: inline-block;
 }
 
 #minha_foto{
     border-radius: 20%;
+}
+.listas{
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    width: 20%;
+    display: inline-block;
+      
+
+}
+#trybe{
+    color: green;
+}
+
+.artigo p{
+    line-height: 19px;
+    width: 45%;
+    position: left;
+    
+}
+#licoes_a_aprender{
+    position:right;
+}
+
+.ladodireito{
+    width: 45%;
+     
 }
 
 
