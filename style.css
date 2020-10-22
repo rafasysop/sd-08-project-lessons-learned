@@ -16,5 +16,13 @@ body {
     position: relative;
     margin-top: 150px;
 }
-/*section {
-}*/
+
+.lado-esquedo {
+    width: 60%;
+    float: left;
+}
+
+.lado-direito {
+    width: 30%;
+    float: right;
+}
