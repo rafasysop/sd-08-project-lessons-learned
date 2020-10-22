@@ -54,7 +54,7 @@ article {
     margin-top: 50px;
     
     border: 1px solid black;
-    /* padding: 5px 10px; */
+    padding: 5px 10px;
     width: 50%;
     margin-bottom: 50px;
 }    
@@ -63,9 +63,7 @@ section {
     
 }
 aside {
-    margin-top: 50px;
-    text-align: center;
-    width: 45%;
+    margin-top: 50px;    
     margin-bottom: 50px;
     float: right;
     
@@ -86,9 +84,11 @@ aside {
 }
 .lado-esquerdo {
     display: inline-block;
+    width: 50%;
 
 }
 .lado-direito {
+    width: 40%;
     display:inline-block;
     
 }
