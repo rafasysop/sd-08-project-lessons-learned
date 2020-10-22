@@ -46,7 +46,7 @@ body{
     color: green;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
     line-height: 19px;
     width: 45%;
     position: absolute;
@@ -54,7 +54,7 @@ body{
     top: 820px;
     
 }
-.lado_direito{
+.lado-direito{
     width: 20%;
     position: absolute;
     right: 20px;
