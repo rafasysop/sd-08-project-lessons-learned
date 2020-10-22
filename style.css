@@ -25,3 +25,19 @@ body{
     text-align: center;
     max-width: 50% 20%;
 }
+.lado-esquerdo{
+float: left;
+
+max-width: 50%;
+
+
+}
+.lado-direito{
+  max-width: 50%;
+  
+    float: right;
+}
+#rodape{
+    padding-top: 50px;
+    clear: both;
+}
