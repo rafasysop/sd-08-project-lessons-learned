@@ -1,1 +1,30 @@
 body { background-color: rgb(253,251,251); }
+
+# cabecalho
+{
+    position: fixed;
+    top: 0px;
+}
+
+.Profile_Picture
+{
+    width: 200px;
+    border:4px solid #500;
+	background:transparent url(/imagem.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
