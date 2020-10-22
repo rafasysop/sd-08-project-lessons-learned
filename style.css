@@ -6,9 +6,14 @@ body{
 
 #cabecalho{
     width: 100%;
-    background-color: aqua;
+    background-color: #2a9d8f;
     top: 0%;
-    position: top;
-
+    position: fixed;
+}
+main{
+    margin-top: 10%;
 }
 
+.center{
+    text-align: center;
+}
