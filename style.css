@@ -17,6 +17,12 @@ body {
     padding-right: 40px;
 }
 #licoes_a_aprender{
-    
+
     padding-right: 40px;
+}
+#lado_direito {
+    float: right;
+}
+#lado_esquerdo{
+    float: left;
 }
