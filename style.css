@@ -1,9 +1,13 @@
 body {
-  background: rgb(26, 83, 92);
+  margin: 0;
+  padding: 0;
+  background: rgb(47, 62, 70);
 }
 
-cabecario {
+#cabecario {
   position: fixed;
+  width: 100%;
+  background: rgb(132, 169, 140);
   top: 0px;
 }
 
