@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+#cabecalho h1 {
+  margin: 5px 15px;
+}
+
+#cabecalho nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+
+#cabecalho nav ul li {
+  margin-left: 20px;
+}
+
+#cabecalho nav ul li a {
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
 }
