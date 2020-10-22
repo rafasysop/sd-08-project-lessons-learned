@@ -27,14 +27,17 @@ body{
 }
 .lado-esquerdo{
 float: left;
-
+font-size: 15px;
 max-width: 50%;
+color: black;
 
 
 }
 .lado-direito{
+    color: black;
+    font-size: 15px;
   max-width: 50%;
-  
+
     float: right;
 }
 #rodape{
