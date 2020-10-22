@@ -1,4 +1,11 @@
 body {
     background: rgb(253, 251, 251);
+    margin: 0;
 }
+ #cabecalho {
+     position: fixed;
+ }
 
+ #titulo {
+
+ }
