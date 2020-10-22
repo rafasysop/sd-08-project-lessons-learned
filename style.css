@@ -1,11 +1,49 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Georgia;
 }
 #cabecalho {
   position: fixed;
   top: 0px;
+  border: 2px solid #1c1c1c;
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 10px 420px 10px 420px;
+  background-image: url(https://studiowärn.com/2019/the-ljud-brand-and-icon/header.svg);
+  z-index: 1;
+  text-align: center;
+  font-size: 17px;
 }
 #minha_foto {
   width: 200px;
   height: 250px;
+  position: relative;
+  top: 85px;
+  left: 500px;
+  border: 2px solid black;
+}
+section {
+  width: 500px;
+  height: 100px;
+  display: inline-block;
+}
+
+#link {
+  font-size: 20px;
+  line-height: 30px;
+}
+#a :hover {
+  background-color: #c0c0c0;
+}
+
+#b :hover {
+  background-color: #c0c0c0;
+}
+
+#c :hover {
+  background-color: #c0c0c0;
+}
+
+#d :hover {
+  background-color: #c0c0c0;
 }
