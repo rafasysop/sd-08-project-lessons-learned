@@ -32,7 +32,8 @@ body {
     display: inline-block;
 }
 
-p {
+font {
     font-family: 'Courier New', Courier, monospace;
     font-size: 23px;;
 }
+
