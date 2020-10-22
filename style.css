@@ -2,6 +2,10 @@
     background-color:rgb(253, 251, 251)
 }
 
+#main {
+    margin-top:10vh;
+}
+
 #cabecalho {
     top: 0px;
     position: fixed;
@@ -12,7 +16,8 @@
 }
 
 #minha_foto {
-
+    padding: 3px;
+    background-color: grey;
 }
 
 #licoes_aprendidas{
@@ -21,6 +26,10 @@
 
 #licoes_a_aprender{
 
+}
+
+#table td {
+    border: 10px solid grey;
 }
 
 #rodape{
