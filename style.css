@@ -5,7 +5,8 @@ body{
 header, section, nav, aside, footer {
     background-color: lightskyblue;  
   }
-  
+
+
 article {
     border: 5px solid white;
     margin: 5px;
@@ -13,19 +14,24 @@ article {
     background-color: lightskyblue;
   }
 
-header { grid-area: header; 
+header { 
+    grid-area: header;
 }
 
-nav { grid-area: menu; 
+nav { 
+    grid-area: menu; 
 }
 
-section { grid-area: main;
+section { 
+    grid-area: main;
 }
 
-aside { grid-area: sidebar; 
+aside { 
+    grid-area: sidebar; 
 }
 
-footer { grid-area: footer; 
+footer { 
+    grid-area: footer; 
 }
   
 body {
