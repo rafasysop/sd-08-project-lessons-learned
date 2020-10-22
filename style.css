@@ -46,6 +46,30 @@ p {
   line-height: 1.5;
 }
 
+.artigo {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  margin-left: 20px;
+  float: left;
+  width: 40%;
+}
+
+.lado-esquerdo p {
+  text-align: justify;
+}
+
+.lado-direito {
+  margin-right: 10%;
+  float: right;
+  width: 40%;
+}
+
+.lado-direito p {
+  text-align: justify;
+}
+
 a {
   color: rgb(46, 32, 109);
   text-decoration: none;
