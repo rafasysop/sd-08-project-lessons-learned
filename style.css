@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 #titulo {
-
+    padding: 5px;
 }
 #minha_foto {
     width: 25%;
@@ -28,20 +28,19 @@ body {
     padding: 30px;
 }
 nav {
-    margin-top: 80px;
+    margin-top: 90px;
     padding-left: 25px;
 }
 aside {
-    float: right;
-    width: 25%;
     text-align: justify;
     font-family: cursive;
     padding: 10px;
+    background-color: seagreen;
 }
 article {
-    width: 75%;
     text-align: justify;
     padding: 10px;
+    background-color: springgreen;
 }
 #licoes {
     display: inline-block;
@@ -53,8 +52,23 @@ article {
     padding: 10px;
 }
 table {
-    margin: 5px;
     border: 6px ridge blue;
     padding: 10px;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+.lado-direito {
+    padding: 5px;
+    width: 40%;
+    display: inline-block;
+}
+.lado-esquerdo {
+    padding: 5px;
+    width: 40%;
+    display: inline-block;
+}
+h2{
+    color: rgb(55, 55, 65);
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
