@@ -3,10 +3,24 @@ body{
 }
 
 header#cabecalho{
+    width: 1366px;
     top: 0px;
     position: fixed;
+    border: 1px solid black;
+    background-color: green;
+}
+
+header#cabecalho h2{
+    color: white;
+    text-align: center;
+}
+
+div#principal{
+    margin-top: 80px;
+    margin-left: 10px;
+    border: 1px solid purple;
 }
 
 img#minha_foto{
-    width: 400px;
+    width: 200px;
 }
