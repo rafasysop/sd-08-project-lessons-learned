@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     font-family: Roboto, sans-serif;
 }
 
@@ -55,4 +55,3 @@ a {
     width: 50%;
     text-align: center;
 }
-
