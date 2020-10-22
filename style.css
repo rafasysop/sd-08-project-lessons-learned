@@ -1,15 +1,23 @@
 body {
-    background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 header {
-    top: 0px;
-    position: fixed;
-    background-color: orange;
+  top: 0px;
+  position: fixed;
+  background-color: orange;
  }
 
 img {
-    width: 200px;
-    margin-top: 15vh;
-    margin-left: 5vw;
+  width: 100px;
+  margin-top: 15vh;
+  margin-left: 5vw;
+}
+
+footer {
+    position: fixed;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
