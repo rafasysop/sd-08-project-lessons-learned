@@ -33,11 +33,31 @@ body {
     margin: 1rem 0 0 0;
 }
 
+#cabecalho nav ul li {
+    display: inline-block;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+li a {
+    transition: .4s;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+}
+
 /* CONTENT */
 
 main {
     background-color: aqua;
-    margin: 7rem 0 1rem 0;
+    margin: 13rem 0 1rem 0;
     padding: 2rem;
 }
 
@@ -69,8 +89,8 @@ main {
 
 aside {
     display: inline-block;
-    width: 30%;
-    padding: 1rem;
+    width: 20%;
+    padding: 2rem;
     background-color: rgb(253, 251, 251);
     border-radius: 20px;
 }
