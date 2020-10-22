@@ -3,15 +3,19 @@ body {
 }
 
 header {
-  top: 0px;
+  top: 0;
   position: fixed;
+  margin: 15px;
   background-color: orange;
+  border: solid;
  }
 
 img {
   width: 100px;
   margin-top: 15vh;
   margin-left: 5vw;
+  padding: 5px;
+  background: chocolate;
 }
 
 footer {
