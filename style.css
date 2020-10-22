@@ -55,6 +55,9 @@ table td {
 
 article {
   border: dotted 1px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 60%;
 }
 
 .lado-direito {
