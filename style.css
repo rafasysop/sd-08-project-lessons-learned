@@ -1,11 +1,15 @@
 <style>
 
-        #body{
+        body{
             color: rgb(253,251,251);
         }
         #cabecalho{
             position: fixed;
             top: 0px;
+        }
+        #img{
+            position: relative;
+            margin-top: 50px;
         }
 
     </style>
