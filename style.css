@@ -7,10 +7,9 @@ body {
 
 #cabecalho {
     position:fixed;
-    display: flexbox
     top: 0px;
     border:1px solid;
-    width: 50%;
+    width: 100%;
 
 }
 
