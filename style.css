@@ -6,9 +6,8 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-.titulo{
+#cabecalho{
     background-color:  #99ff99;
-    text-align: center;
     position: fixed;
 }
 .header{
