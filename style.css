@@ -1,22 +1,29 @@
 body {
-    background: rgb(253, 251, 251);
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+  background: rgb(253, 251, 251);
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
- #cabecalho {
-    background: grey;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#cabecalho {
+  background: grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(67,97,238);
+  background: linear-gradient(90deg, rgba(67,97,238,1) 55%, rgba(76,201,240,1) 92%);
+  color: white;
+}
 
- }
+#titulo {
 
- #titulo {
+}
 
- }
+#minha_foto {
+  width: 13%;
+  border-radius: 50%;
+  border: 15px ridge #4361ee;
+  margin: 15px;
+}
 
- #minha_foto {
-    width: 15%;
-    border-radius: 50%;
-    border: 25px ridge #4361EE;
-    margin: 15px;
- }
+.listas {
+    display: flex;
+    justify-content: center;
+}
