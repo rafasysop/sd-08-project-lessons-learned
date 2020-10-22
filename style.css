@@ -1,3 +1,21 @@
+*{
+    margin: 0px;
+}
 body{
     background-color: rgb(253, 251, 251);
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 15px;
+    background-color: #bde0fe;
+    
+}
+
+#minha_foto{
+    width: 250px;
+    border-radius: 6px;
+    margin-left: 12px;
+    display: block;
 }
