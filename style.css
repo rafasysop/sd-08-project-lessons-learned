@@ -19,9 +19,7 @@ width:1000px;
 
 
 }
-.secao1{
-    
-}
+
 
 .transformlista{
     display: inline-block;
@@ -52,4 +50,14 @@ width:1000px;
      
    
    
+}
+#rodape h4{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+table,th,td{
+    margin-top: 50px;
+    border: 2px solid black;
+  
 }
