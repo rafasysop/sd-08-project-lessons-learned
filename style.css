@@ -146,12 +146,7 @@ aside {
 
 table {
   border-collapse: collapse;
-  margin: 40px 0
-}
-
-thead td {
-  font-size: 30px;
-  background: rgba(111, 17, 218, 0.719);
+  margin: 40px 0;
 }
 
 td {
@@ -161,7 +156,12 @@ td {
   min-width: 200px;
 }
 
-table tr:nth-child(odd) {
-  background-color: #625e5e;
+thead td {
+  font-size: 30px;
+  background: rgba(111 , 17 , 218 , 0.7);
+}
+
+table tr:nth-child( odd ) {
+  background-color: rgba(0 , 0 , 0 , 0.6);
   color: white;
 }
