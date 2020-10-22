@@ -14,7 +14,22 @@ body {
     color: rgb(182, 166, 159);
 }
 #minha_foto {
-    margin-top: 16%;
+    margin-top: 15%;
     width: 25%;
     height: 25%;
+}
+article {
+    margin-top: auto;
+}
+
+}
+section {
+    text-align: justify;
+    display: block;
+    max-width: 30%;
+    max-height: auto;
+}
+#image {
+    display: block;
+    width: auto;
 }
