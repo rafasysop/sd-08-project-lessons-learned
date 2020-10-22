@@ -8,3 +8,31 @@ body {
 #minha_foto { 
     width: 15%;
 }
+#licoes_aprendidas {
+
+}
+#licoes_a_aprender {
+
+}
+#rodape {
+    border: 2px solid black;
+
+}
+article { 
+    width: 45%;
+    margin-left:3px;
+    display:inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+}    
+section {
+    width: 100%;
+}
+aside {
+    text-align: center;
+    width: 10%;
+    float: :right;
+    border: 2px solid black;
+    padding: 20px 10px;
+  
+}
