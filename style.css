@@ -19,3 +19,10 @@ body{
 #licoes_a_aprender{
 
 }
+#alinhamentos{
+    margin-left: 60px;
+    text-align: justify;
+}
+#menu{
+    display: inline-block;
+}
