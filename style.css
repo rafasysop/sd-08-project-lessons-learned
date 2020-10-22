@@ -19,14 +19,35 @@ body {
     width: 300px;
 }
 
-.lado-esquerdo p {
+.lado-esquerdo {
+    width: 50%;
     font-size: 15px;
     line-height: 20px;
     color: #3a4558;
+    float: left;
+    border: solid;
+    padding: 10px 10px;
+    text-align: center;
 }
 
-.lado-direito p {
+.lado-direito {
+    width: 45%;
     font-size: 15px;
     line-height: 20px;
     color: #3a4558;
+    display: inline-block;
+    float: right;
+    padding: 20px 5px;
+    border: solid;
+    text-align: center;
+}
+
+#licoes_a_aprender{
+    /* border: solid; */
+    width: 50%;
+    margin-top: 200px;
+}
+
+#licoes_aprendidas {
+    
 }
