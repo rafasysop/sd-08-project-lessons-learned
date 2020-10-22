@@ -21,9 +21,11 @@ body{
 #titulo{
     margin-left: 40px;
 }
+.content{
+    margin-left: 20px;
+}
 .main-content{
     margin-top: 130px;
-    margin-left: 20px;
     vertical-align: middle;
     display: flex;
 }
@@ -34,4 +36,22 @@ body{
     margin: 0 30px 10px 0;
     align-items:center;
     display: flex;
+}
+.esquerda{
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.direita{
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
 }
