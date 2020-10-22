@@ -55,6 +55,7 @@ table td {
 
 article {
   border: dotted 1px;
+  padding: 10px;
   margin: 0 auto;
   margin-bottom: 20px;
   width: 60%;
@@ -69,6 +70,7 @@ article {
 aside {
   width: 30%;
   float: right;
+  padding: 10px;
   border: dotted 1px;
 }
 
