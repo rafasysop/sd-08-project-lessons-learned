@@ -5,3 +5,8 @@ body {
   position: fixed;
   top: 0px;
 }
+table {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
