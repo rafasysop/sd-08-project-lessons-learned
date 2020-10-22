@@ -1,11 +1,11 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+        position: fixed;
+top: 0;
     bottom: 50px;
     background-size: cover;
     margin-bottom: 100px;
