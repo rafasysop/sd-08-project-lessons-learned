@@ -4,36 +4,35 @@ body {
 
 #cabecalho {
   top: 0;
-  background-color:#003D5B;
+  background-color: #003d5b;
   color: white;
   position: fixed;
-  width:100%;
-  margin-left:0
+  width: 100%;
 }
 
 #titulo {
-  font-family: 'Shrikhand';
+  font-family: "Shrikhand", cursive;
   font-weight: 200;
 }
 
 #minha_foto {
-  margin-top:100px;
-  width:250px;
+  margin-top: 200px;
+  width: 250px;
 }
 
 #licoes_aprendidas {
-  background-color:#003D5B;
+  background-color: #003d5b;
   color: white;
 
 }
 
 #licoes_a_aprender {
-  background-color: #003D5B;
-  color:white;
+  background-color: #003d5b;
+  color: white;
 
 }
 
 #rodape {
-  background-color:#003D5B;
-  color:white;
+  background-color: #003d5b;
+  color: white;
 }
