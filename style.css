@@ -51,6 +51,7 @@ li a:hover {
     background-color: aliceblue;
     color: black;
     padding: 1rem;
+    border-radius: 20px;
 }
 
 /* CONTENT */
@@ -120,4 +121,9 @@ aside h2 {
     background-color: black;
     color: rgb(253, 251, 251);
     padding: 4rem 2rem 4rem 2rem;
+}
+
+table {
+    display: inline-block;
+    float: right;
 }
