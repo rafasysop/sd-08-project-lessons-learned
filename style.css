@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  width: 100vw;
+  max-width: 1366px;
+  text-align: center;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
