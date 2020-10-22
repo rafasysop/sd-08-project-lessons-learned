@@ -32,11 +32,21 @@ body {
     font-family: sans-serif;
     display: grid;
     grid-template-areas:
-      'header header header header header header'
-      'menu menu menu menu menu menu'
-      'sidebar main main main main main'
-      'footer footer footer footer footer footer';
+      'header header header header header'
+      'menu menu menu menu menu'
+      'sidebar main main main main'
+      'footer footer footer footer footer';
     grid-gap: 10px;
     padding: 10px;
+}   /*https://www.w3schools.com/cssref/pr_grid-template-areas.asp 
+    link referencia utilizado na contrução/idealização do layout da pagina.8 */
+
+p{
+    margin-right: 500px;
+    text-align: left;
+    margin-left: 5px;
 }
-  
+
+h1, h2{
+    margin-left: 5px;
+}
