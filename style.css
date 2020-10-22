@@ -1,5 +1,10 @@
 body {
     background-color:  rgb(253, 251, 251);
+    font-size: 16px;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+    line-height: 110%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -18,10 +23,7 @@ body {
 #cabecalho nav {
     text-align: left;
 }
-#cabecalho div{
-    width: 100%;
-    
-}
+
 .container{
     margin: auto;
     padding: 4% 0 0 0;
@@ -30,5 +32,4 @@ body {
 #minha_foto {
     width:  250px;
     padding: 3px;
-    border: 1px solid dodgerblue;    
 }
