@@ -5,6 +5,9 @@ body {
     position: fixed;
     top: 0px;
 }
+#tabela{
+    margin: 0px;
+}
 #titulo{
 
 }
@@ -21,8 +24,13 @@ body {
     padding-right: 40px;
 }
 #lado_direito {
+   /* border-top: 30%; */
+   
+    width: 30%;
     float: right;
 }
 #lado_esquerdo{
+    height: 50%;
+    width: 50%;
     float: left;
 }
