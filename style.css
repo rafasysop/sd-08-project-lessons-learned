@@ -1,11 +1,45 @@
 * {
   box-sizing: border-box;
+
 }
 body{
   background-color: rgb(253, 251,251);
 }
 
+#minha_foto{
+  width: 150px;
+}
 #cabecalho {
   position: fixed;
+  background-color: #fff;
   top: 0px;
+  margin: 10px;
+}
+#corpo {
+  margin-top: 150px;
+}
+table th{
+  background-color: #8f8f8f;
+  padding: 10px;
+}
+table td{
+  padding: 10px;
+  border: dashed 1px #7b7b7b;
+  font-size: 16px;
+  color: blue;
+  line-height: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.lado-esquerdo{
+  float: left;
+}
+.lado-direito{
+  float: right;
+}
+
+aside{
+  max-width: 400px;
+}
+footer{
+  text-align: center;
 }
