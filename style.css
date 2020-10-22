@@ -8,8 +8,20 @@ body{
 }
 
 #cabecalho {
-    background-color: green;
     position: fixed;
     top: 0;
+    background-color: green;    
     padding: 10px 30px 0;
 }
+
+.content {
+    /* max-width: 1200px; */
+    margin-top: 100px;
+    /* flex-grow: 1; */
+  }
+  
+  .main-content {
+    /* width: 66%;
+    display: inline-block; */
+  
+  }
