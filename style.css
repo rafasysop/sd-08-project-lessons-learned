@@ -5,13 +5,39 @@ body {
 
 #cabecalho {
     position: fixed;
+    top: 0px;
+    z-index: 0;
+    
+}
+
+#titulo {
+    background-color: green;
+    
+    
+}
+
+ol li {
+    padding: 2px;
+}
+
+ul li {
+    padding: 2px;
 }
 
 #minha_foto {
     width: 15%;
     border-radius: 20px;
     margin-top: 150px;
+    padding: 20px;
+    
     
 }
 
 
+#rodape {
+    width: 100%;
+    background-color: green;
+    margin-top: 60px;
+    padding: 20px;
+    
+}
