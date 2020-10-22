@@ -60,6 +60,9 @@ h1, h2{
 
 #minha_foto{
     width: 350px;
-    margin-left: 75px;
-    
+    margin-left: 75px;    
 }
+
+.link{
+    list-style-type: none;
+  }
