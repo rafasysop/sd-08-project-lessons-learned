@@ -3,7 +3,7 @@ body{
 }
 
 #cabecalho{
-
+ top: 0px;
 }
 
 #titulo{
@@ -20,5 +20,9 @@ body{
 }
 
 #licoes_a_aprender{
-    
+
+}
+
+#rodape{
+
 }
