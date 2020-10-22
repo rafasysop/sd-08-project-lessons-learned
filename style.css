@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
 
 * {
-  font-family: 'Nunito', sans-serif;;
+  font-family: Nunito, sans-serif;
 }
 
 body {
   background-color: rgb(253 , 251 , 251);
-  margin:0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
   left: -10px;
   background-color: rgb(15 , 163 , 107);
   color: white;
-  margin:0;
+  margin: 0;
   padding-left: 10px;
   width: 100%;
 }
@@ -32,12 +32,7 @@ body {
   float: right;
 }
 
-#minha_foto {
-  width: 100px;
-}
-
 #navegacao {
-  padding: 5px 0;
   background-color: white;
 }
 
@@ -49,16 +44,42 @@ body {
 }
 
 #navegacao li {
-  display: inline;
+  display: inline-block;
+  padding: 5px;
+}
+
+#navegacao li:hover {
+  background-color: rgb(199 , 199 , 199);
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 #principal {
   width: 85%;
-  margin: 120px auto 20px;
+  margin: 95px auto 20px;
+}
+
+#minha_foto {
+  width: 100px;
+  display: block;
 }
 
 p {
   line-height: 1.5;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 65%;
+  margin-right: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 25%;
 }
 
 #rodape {
