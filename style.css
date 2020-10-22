@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: Helvetica;
 }
 
 #cabecalho{
@@ -30,10 +31,13 @@ body{
 
 #passage{
     margin: 10px;
+    line-height: 130%;
 }
 
 #learnig_passage{
     margin-left: 100px;
+    color: red;
+    font-size: 120%;
 }
 
 #footer{
@@ -58,7 +62,6 @@ body{
     border-right: 2px solid #f8f9fa;
     border-top: 2px solid #f8f9fa;
     border-bottom: 2px solid #f8f9fa;
-    
 }
 
 #nav-list a:first-child{
