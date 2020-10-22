@@ -3,9 +3,19 @@ body {
     margin: 0;
 }
  #cabecalho {
-     position: fixed;
+    background: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
  }
 
  #titulo {
 
+ }
+
+ #minha_foto {
+     width: 15%;
+    border-radius: 50%;
+    border: 25px ridge #4361EE;
+    margin: 15px;
  }
