@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
 }
 
 #cabecalho {
@@ -7,11 +8,9 @@ body {
     width: auto;
     border-style: groove;
     padding: 15px;
-    margin-top: 0px;
 }
 
 #titulo {
-    margin-top: 0px;
     text-align: center;
 }
 
