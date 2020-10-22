@@ -14,6 +14,21 @@ body {
     color: white;
 }
 
+.nav-bar {
+    background-color: #0aa36a;
+    display: inline-block;
+    position: fixed;
+    right: 15px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 1px 5px black;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
 main {
     margin: 120px 20px 50px;
 }
