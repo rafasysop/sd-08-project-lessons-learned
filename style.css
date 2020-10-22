@@ -38,13 +38,13 @@ p{
     line-height: 1.5;
 }
 
-section#main{
+.lado-esquerdo{
     width: 38%;
     float: left;
     padding-left: 50px;
 }
 
-aside{
+.lado-direito{
     width: 38%;
     float: right;
     padding-right: 50px;
