@@ -24,4 +24,10 @@ body {
 
 #licoes_aprendidas{
     font-size: 20px;
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    font-size: 20px;
+    display: inline-block;
 }
