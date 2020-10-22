@@ -11,20 +11,20 @@ body {
   position: fixed;
   top: 0px;
   background-color: #0fa36b;
-  width: 100%;
+  width: 99%;
   text-align: center;
   padding: 20px 0px;
   font-size: 20px;
   color: white;
+  border: 2px dashed black;
 }
 
 #minha_foto {
-  margin-top: 200px;
+  margin-top: 210px;
   margin-bottom: 40px;
-  width: 300px;
+  width: 270px;
   border-radius: 50%;
-  padding: 2px;
-  background-color: black;
+  border: 2px solid black;
 }
 
 nav a {
@@ -42,4 +42,8 @@ nav a {
 
 li {
     line-height: 18px;
+}
+
+h2 {
+    margin-right: 50px;
 }
