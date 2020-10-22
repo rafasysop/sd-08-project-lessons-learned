@@ -6,9 +6,29 @@ body {
     top:  0px;
     position:  fixed;
     width:  100%;
+    height: auto;
     text-align:  center;
+    background-color:  white;
+}
+
+#cabecalho h1 {
+    margin: 0 0;
+}
+
+#cabecalho nav {
+    text-align: left;
+}
+#cabecalho div{
+    width: 100%;
+    
+}
+.container{
+    margin: auto;
+    padding: 4% 0 0 0;
 }
 
 #minha_foto {
     width:  250px;
+    padding: 3px;
+    border: 1px solid dodgerblue;    
 }
