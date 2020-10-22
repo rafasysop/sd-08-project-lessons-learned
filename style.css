@@ -45,13 +45,15 @@ body {
 }
 
 .lado-esquerdo {
-  font-size:20px;
+  font-size: 14px;
   display: inline-block;
+  line-height: 30px;
   padding: 30px;
 }
 
 .lado-direito {
-  font-size:20px;
+  font-size: 14px;
   display: inline-block;
+  line-height: 30px;
   padding: 30px;
 }
