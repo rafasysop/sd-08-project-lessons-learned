@@ -15,11 +15,13 @@ body{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20%;
+    margin:10px;
 }
 .photo{
     margin-top: 150px;
 }
 .learning{
+    
     display: inline-block;
 }
 .report{
@@ -44,4 +46,7 @@ color: black;
 #rodape{
     padding-top: 50px;
     clear: both;
+}
+a{
+    text-decoration: none;
 }
