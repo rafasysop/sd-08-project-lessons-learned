@@ -39,3 +39,40 @@ body {
   text-transform: uppercase;
   color: white;
 }
+
+.licoes {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.licoes img {
+  margin-left: 150px;
+}
+
+#lista {
+  margin-top: 50px;
+  margin-right: 240px;
+}
+
+
+
+.itensLista {
+  display: flex;
+  margin-top: 20px;
+}
+
+.itensLista div{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+#licoes_a_aprender {
+  display: flex;
+  margin-top: 20px;
+}
+#licoes_a_aprender div {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
