@@ -2,6 +2,10 @@ body {
   background-color: rgb(253 , 251 , 251);
 }
 
+main {
+    margin-bottom: 70px;
+}
+
 header {
   top: 0;
   position: fixed;
@@ -25,6 +29,3 @@ footer {
   width: 100%;
 }
 
-a {
-  margin-bottom: 250px;
-}
