@@ -3,9 +3,6 @@ body {
   }
 
 #cabecalho{
+    position: fixed;
     top: 0px;
     }
-#titulo{
-    margin: 10px;
-    padding: 20px;
-}
