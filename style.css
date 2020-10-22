@@ -3,10 +3,18 @@ body {
 }
 
 #cabecalho {
-    /*position: fixed;*/
-    top: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
 }
 
-section {
+
+#imagem {
     position: relative;
+    margin-top: 150px;
 }
+/*section {
+}*/
