@@ -155,7 +155,8 @@ td {
 
 /* SKILLS PAGE */
 
-#learn .content-container {
+.learned-tolearn {
+  padding-top: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
