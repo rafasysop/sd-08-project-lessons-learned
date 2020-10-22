@@ -35,14 +35,18 @@ body{
     font-family: 'Helvetica Neue';
     width: 20%;
     display: inline-block;
-      
+        
 
+}
+
+#licoes_aprendidas{
+    margin-left: 35%;
 }
 #trybe{
     color: green;
 }
 
-.artigo {
+.lado_esquerdo {
     line-height: 19px;
     width: 45%;
     position: absolute;
@@ -50,7 +54,7 @@ body{
     top: 820px;
     
 }
-.ladodireito{
+.lado_direito{
     width: 20%;
     position: absolute;
     right: 20px;
