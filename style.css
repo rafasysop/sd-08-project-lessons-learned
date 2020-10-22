@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Quicksand', sans-serif;
 }
 
 #cabecalho {
@@ -16,29 +17,41 @@ body {
 }
 
 #minha_foto {
-  margin-top: 150px;
+  margin-top: 120px;
   width: 250px;
 }
 
 #licoes_aprendidas {
   background-color: rgb(0 , 23 , 116);
   color: white;
-  padding: 15px;
-  border-radius: 2%
-  width: 30%;
+  padding: 30px;
+  border: 1px;
+  border-radius: 5%;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-  background-color: rgb(0 , 23 , 116);
   color: white;
-  padding: 15px;
-  border-radius: 2%
-  width: 30%;
-
-
+  background-color: rgb(0 , 23 , 116);
+  padding: 30px;
+  border: 1px;
+  border-radius: 5%;
+  display: inline-block;
 }
 
 #rodape {
   background-color: rgb(0 , 23 , 116);
   color: white;
+}
+
+.lado-esquerdo {
+  font-size:20px;
+  display: inline-block;
+  padding: 30px;
+}
+
+.lado-direito {
+  font-size:20px;
+  display: inline-block;
+  padding: 30px;
 }
