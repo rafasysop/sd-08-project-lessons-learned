@@ -2,10 +2,15 @@ body {
     background-color: rgb(253, 251, 251)
     padding: 10px;
     border: 2px;
+    font-family: arial, sans;
 }
+
 #cabecalho {
     position: fixed;
     top: 0px;
+    font-size: 15px;
+    color: blue;
+    line-height: 1px;
 }
 #minha_foto{
     width: 20%;
