@@ -21,6 +21,14 @@ body {
     margin-top: 150px;
 }
 
+ol{
+  display: inline-block;
+}
+
+ul{
+  display: inline-block;
+}
+
 table {
     clear: both;
 }
@@ -40,27 +48,27 @@ table td {
 }
 
 .lado-esquerdo {
-    display: inline-block;
+    width: 30%;
     float: left;
-    max-width: 30%;
+    display: block;
 }
 
 article {
-    clear: both;
     border: dotted 1px;
 }
 
 .lado-direito {
+    width: 30%;
     float: right;
-    max-width: 30%;
+  display: block;
 }
 
 aside {
-    display: inline-block;
-    max-width: 30%;
-    margin-left: 15px;
+    width: 30%;
+    float: left;
     border: dotted 1px;
 }
+
 
 footer {
     clear: both;
