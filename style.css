@@ -4,11 +4,11 @@ body {
 }
 
 a:link {
-  color: white;
+  color: rgb(0, 220, 193);
 }
 
 a:visited {
-  color: white;
+  color: rgb(0, 220, 106);
 }
 
 #cabecalho {
@@ -27,6 +27,7 @@ a:visited {
 #minha_foto {
   margin-top: 120px;
   width: 250px;
+  border-radius:100%;
 }
 
 #licoes_aprendidas {
@@ -58,6 +59,7 @@ a:visited {
   padding: 30px;
   display: inline-block;
   width: 40%;
+  align: top;
 }
 
 .lado-direito {
@@ -66,4 +68,5 @@ a:visited {
   padding: 30px;
   display: inline-block;
   width: 40%;
+  align: top;
 }
