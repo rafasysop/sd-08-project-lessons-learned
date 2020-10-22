@@ -16,6 +16,10 @@ body {
   font-weight: 100;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
 #titulo {
   margin-top: 0;
 }
