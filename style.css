@@ -2,12 +2,21 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    /* position: fixed; */
+    position: fixed;
     top: 0px;
 }
 #titulo{
 
 }
 #minha_foto{
+    margin-top: 10%;
     border-radius: 20%;
+}
+#licoes_aprendidas{
+  
+    padding-right: 40px;
+}
+#licoes_a_aprender{
+    
+    padding-right: 40px;
 }
