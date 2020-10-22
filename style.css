@@ -8,7 +8,7 @@ body {
     top: 0;
     bottom: 50px;
     background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-style: italic;
     font-size: 30px;
     line-height: 20px;
@@ -16,11 +16,18 @@ body {
 }
 
 .navegacao {
-   
+   margin-top: 100px;
 }
 
 .navegacao_1 {
     margin: 0;
+    display: inline-block;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+#minha_foto {
+    margin-top: 30px;
 }
 
 .lado-esquerdo {
@@ -47,4 +54,15 @@ body {
     clear: both;
     text-align: center;
     line-height: 100px;
+}
+
+a[target] {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#table {
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
 }
