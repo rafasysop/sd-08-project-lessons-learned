@@ -2,13 +2,18 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
     position: fixed;
     top: 0px;
     width: 100%;
     text-align: center;
+    background-color: #008000;
 }
 
 #minha_foto {
     border-radius: 50%;
+}
+
+#rodape {
+    background-color: #008000;
 }
