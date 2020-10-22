@@ -4,6 +4,22 @@
   border: 0;
 }
 
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 body {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(253, 251, 251);
+  font-family: "San Francisco";
+  font-size: smaller;
+  font-weight: 100;
+}
+
+#cabelacalho {
+  top: 0;
+}
+
+h1 {
+  font-size: 2em;
 }
