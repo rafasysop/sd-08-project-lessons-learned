@@ -25,3 +25,22 @@ body{
 .nav li{
     display: inline-block;
 }
+.display{
+    display: inline-block;
+    width: 30%;
+    
+}
+.lado-direito{
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.lado-esquerdo{
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
