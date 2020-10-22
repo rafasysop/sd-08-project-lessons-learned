@@ -4,10 +4,18 @@ body {
 
 #cabecalho {
     top: 0px;
+    background-color: green;
+    height: 150px;
 }
 
 #titulo {
-    width: 100%;
-    margin: 30%;
-    background-color: green;
+    margin: 0px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+#minha_foto {
+    width: 300px;
+    margin-top: 40px;
 }
