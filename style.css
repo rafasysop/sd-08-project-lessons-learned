@@ -9,6 +9,8 @@ body{
     width: 100%;
     text-align: center;
     font-weight: 700;
+    font-size: 17px;
+   
 }
 
 #licoes_aprendidas{
@@ -18,6 +20,9 @@ body{
 #minha_foto{
     width: 40%;
     float: left;
+    margin: 1px;
+    padding: 1px;
+    border: ridge 1px red;
     
 }
 #rodape{
@@ -33,6 +38,7 @@ article{
     display: inline-block;
     width: 65%;
     background-color: rosybrown;
+    line-height: 23px;
 }
 aside{
     float: right;
