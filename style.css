@@ -31,3 +31,11 @@ article{
     margin: 5%;
     display: inline-block;
 }
+
+table{
+    text-align: center;
+}
+
+.espaco{
+    width: 200px;
+}
