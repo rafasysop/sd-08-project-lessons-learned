@@ -1,8 +1,14 @@
 body {
     background-color: rgb(253, 251, 251);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#cabecalho {
+/*#cabecalho {
     top: 0px;
     position: fixed;
+}*/
+
+#cabecalho {
+
 }
