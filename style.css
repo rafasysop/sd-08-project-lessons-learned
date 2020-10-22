@@ -31,10 +31,12 @@ body{
 
     vertical-align middle;
     margin: 10px;
-    display: inline-block;
-    
-
-
+    display: inline-block;   
+}
+.learning{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .footer{
     display: inline-block;
