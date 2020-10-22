@@ -4,3 +4,6 @@ body{
 #cabecalho{
     top: 0px;
 }
+#licoes_aprendidas{
+   list-style: decimal;
+}
