@@ -2,7 +2,6 @@ body {
   background: rgb(253, 251, 251);
   margin: 0;
   font-family: "Ubuntu", sans-serif;
-
 }
 #cabecalho {
   background: grey;
@@ -24,30 +23,31 @@ body {
 }
 
 main {
-  
 }
 
 .apresentacao {
   display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
   padding: 135px 0 70px 0;
-  
+}
+
+.nome {
+  font-size: 34px;
+  padding-right: 20px;
 }
 
 #minha_foto {
   width: 13%;
   border-radius: 50%;
   border: 15px ridge #4361ee;
-  
+
   display: inline-block;
 }
 
 .contato {
   display: inline-block;
-  text-align: right;
-
+  text-align: center;
 }
 
 .contato-link {
@@ -57,10 +57,8 @@ main {
 .icons {
   width: 15%;
   vertical-align: middle;
-  text-align: center
-
+  text-align: center;
 }
-
 
 a {
   text-decoration: none;
@@ -91,8 +89,7 @@ a:hover {
   border-radius: 10%;
 }
 
-li, .list-title {
+li,
+.list-title {
   text-align: center;
 }
-
-
