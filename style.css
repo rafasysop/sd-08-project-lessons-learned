@@ -9,12 +9,15 @@ body {
 }
 #cabecalho {
   position: fixed;
-  background-color: #fff;
+  background-color: #dddddd;
+  width: 100%;
   top: 0px;
-  margin:10px;
 }
 #corpo {
   margin-top:150px;
+}
+table{
+  clear: both;
 }
 table th {
   background-color: #8f8f8f;
@@ -30,13 +33,24 @@ table td {
 }
 .lado-esquerdo {
   float:left;
+  max-width: 30%;
+  margin-right: 25px;
+}
+article {
+  clear: both;
+  border: dotted 1px;
 }
 .lado-direito {
   float:right;
+  max-width: 30%;
 }
 aside {
-  max-width:400px;
+  max-width: 30%;
+  display: inline-block;
+  margin-left: 15px;
+  border: dotted 1px;
 }
 footer {
+  clear: both;
   text-align:center;
 }
