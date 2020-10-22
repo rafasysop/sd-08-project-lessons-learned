@@ -55,6 +55,7 @@ article {
     border: 2px solid #E5F4E3;
     width: 500px;
     display: inline-block;
+    height: 142px;
 }
 
 aside {
@@ -64,6 +65,7 @@ aside {
     border: 2px solid #E5F4E3;
     width: 400px;
     display: inline-block;
+    height: 142px;
 }
 
 aside p {
