@@ -1,3 +1,23 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-family: Helvetica,Arial,sans-serif;
+}
+#cabecalho{
+    background-color: #421561;
+    color: #efeff1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation li{
+    margin-right: 40px;
+    list-style-type: none;
+    display: inline;
+}
+.link{
+    color: #efeff1;
+}
+h1{
+    margin-left: 40px;
 }
