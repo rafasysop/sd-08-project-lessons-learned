@@ -9,26 +9,26 @@
 <body>
     
 </body>
-    <header id = "cabecalho">
-        <section>
-        <h1 id = "titulo">Lições aprendidas no curso TRYBE</h1>
-        </section>
-        <nav>
-        <ul>
-            <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
-            <li><a href="#licoes_a_aprender">Aprendizados futuros</a></li>
-            <li><a href="#experiencia">Experiência pessoal</a></li>
-        </ul>
-        </nav>
-    </header>
-    <figure>
-        <img id = "minha_foto" src = "image/photo.jpeg" alt="Foto de perfil">
-    </figure>
     <main>
-        <article class = "aprendizados">
+        <header id = "cabecalho">
             <section>
-                <h2 id = "licoes_aprendidas">Lições e aprendizados</h2>
-                    <ol>
+            <h1 id = "titulo">Lições aprendidas no curso TRYBE</h1>
+            </section>
+            <nav>
+            <ul>
+                <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
+                <li><a href="#licoes_a_aprender">Aprendizados futuros</a></li>
+                <li><a href="#experiencia">Experiência pessoal</a></li>
+            </ul>
+            </nav>
+        </header>
+        <figure>
+            <img id = "minha_foto" src = "image/photo.jpeg" alt="Foto de perfil">
+        </figure>
+        <article id ="aprendizados">
+            <section>
+                <h2>Lições e aprendizados</h2>
+                    <ol id = "licoes_aprendidas">
                         <li>Operações básicas do sistema operacional LINUX </li>
                         <li>Operações básicas do UNIX/BASH</li>
                         <li>Noções básicas de programação HTML5</li>
@@ -42,8 +42,8 @@
                     </ol>
             </section>
             <section>
-                <h2 id ="licoes_a_aprender">Aprendizados futuros</h2>
-                    <ul>
+                <h2>Aprendizados futuros</h2>
+                    <ul id="licoes_a_aprender">
                         <li>Estilização com flex box</li>
                         <li>Uso de tabelas na linguagem HTML</li>
                         <li>HTML para Mobile</li>
@@ -60,19 +60,23 @@
         </article>
         <article id ="experiencia">
             <h1> Experiências </h1>
-                <p> As três primeiras semanas de curso tem sido bastante interessantes.
-                    A cada aprendizado tenho me sentido bastante satisfeito e empoderado 
-                    por compreender como funcionam programas e processos que utilizo todos 
-                    os dias. Também tenho gostado muito da atividade de escrever códigos.
-                    Embora possa ser cansativo, como um arquiteto, existe um prazer enorme 
-                    ao observar a construção concluída.
-                </p>
-                <aside class = "info_complementar">
+                <section>
+                    <p> As três primeiras semanas de curso tem sido bastante interessantes.
+                        A cada aprendizado tenho me sentido bastante satisfeito e empoderado 
+                        por compreender como funcionam programas e processos que utilizo todos 
+                        os dias. Também tenho gostado muito da atividade de escrever códigos.
+                        Embora possa ser cansativo, como um arquiteto, existe um prazer enorme 
+                        ao observar a construção concluída.
+                    </p>
+                </section>
+            <aside class = "info_complementar">
+                <section>
                     <p>" O curso que estou realizando tem a duração de 1 ano e visa a formação de
                         desenvolvedores júnior que sejam capazes de construir aplicações e softwares web
-                         O curso pode ser encontrado no site oficial da <a href = "https://www.betrybe.com/" target = "_blank">TRYBE</a>
+                        O curso pode ser encontrado no site oficial da <a href = "https://www.betrybe.com/" target = "_blank">TRYBE</a>
                     </p>
-                </aside>     
+                </section>
+            </aside>     
         </article>
 
         <footer id = "rodape">

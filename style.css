@@ -1,11 +1,17 @@
 body {
     background-color: rgb(253,251,251);
+    overflow: scroll;
+    overflow-y: auto;
 
 }
 
-
 #cabecalho {
+    position:fixed;
+    display: flexbox
     top: 0px;
+    border:1px solid;
+    width: 50%;
+
 }
 
 #minha_foto {
