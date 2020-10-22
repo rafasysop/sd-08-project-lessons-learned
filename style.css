@@ -5,3 +5,8 @@ body {
 #cabecalho {
     top: 0px;
 }
+
+#minha_foto {
+    width: 200px;
+    border-radius: 100%;
+}
