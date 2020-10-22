@@ -1,15 +1,19 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 #cabecalho {
-  top: 0px
+  top: 0;
 }
 
 #titulo {
-
+  font-family: 'Shrikhand';
+  font-weight: 200;
 }
 
+#minha_foto {
+  width:250px;
+}
 #licoes_aprendidas {
 
 }
