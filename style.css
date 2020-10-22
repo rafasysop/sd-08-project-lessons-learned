@@ -22,5 +22,9 @@ body {
 .texto {
     width: 50%;
     text-align: justify;
-    
+
+}
+
+.tabela {
+    text-align: center;
 }
