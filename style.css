@@ -19,6 +19,8 @@ body {
 
 #cabecalho h1 {
   margin: 5px 15px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho nav ul {
@@ -94,6 +96,7 @@ body {
   text-align: justify;
   border: 2px solid black;
   padding: 8px;
+  line-height: -5px;
 }
 
 
