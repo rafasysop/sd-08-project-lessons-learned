@@ -1,22 +1,45 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway:wght@300&display=swap');
+
+
 body {
     background-color: rgb(253, 251, 251);
+    color: #222831;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
 }
+
+h1 {
+    color: #393e46;
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+    font-weight: bold;
+  }
 
 #cabecalho {
     position: fixed;
-    margin-top: 0px;
-    background-color: rgba(10, 10, 10, 0.5);
-    display: block;
+    box-sizing: border-box;
     width: 100%;
+    margin-top: 0px;
+    background-color: rgb(253, 251, 251);
+    display: block;
+    text-align: center;
+}
+
+#content {
+    padding-top: 7em;
 }
 
 #minha_foto {
     border-radius: 50%;
-    display: block;
+    height: 200px;
+    scroll-margin-top: 60px;
 }
 
 aside {
-    width: 40%;
+    width: 30%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: left;
@@ -24,5 +47,17 @@ aside {
     color: #29627e;
 }
 
+#social-container {
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
 aside > p {
     margin: .5rem;
+}
+
+#lessons {
+    margin-left: 250px;
+}
