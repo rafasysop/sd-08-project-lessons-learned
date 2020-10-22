@@ -4,6 +4,8 @@ body {
     font-family: sans-serif;   
     padding: 1px 2px;   
     line-height: 20px;
+    margin: 20px;
+    border: blue;
 }
 
 #cabecalho {
@@ -37,6 +39,7 @@ h2 {
     font-family: cursive;
     padding: 1px 2px;  
     line-height: 20px;
+    margin: 20px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
