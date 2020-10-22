@@ -23,14 +23,26 @@ body {
     margin: 5px;
     position: relative;
     margin-top: 180px;
+    padding: 1px;
 }
 
 .lado-esquedo {
     width: 60%;
     float: left;
+    padding: 1px;
+    margin: 1px;
 }
 
 .lado-direito {
-    width: 30%;
+    width: 35%;
     float: right;
+    padding: 1px;
+    margin: 1px;
+}
+
+#rodape {
+    position: static;
+    bottom: 0;
+    width: 100px;
+    text-align-last: left;
 }
