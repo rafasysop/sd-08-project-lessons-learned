@@ -46,14 +46,6 @@ main {
         display: inline-block;
 }
 
-#licoes_aprendidas {
-        display: inline-block;
-}
-
-#licoes_a_aprender {
-        display: inline-block;
-}
-
 aside {
         width: 30%;
         position: relative;
