@@ -19,7 +19,8 @@ body {
 #rodape{
     text-align: center;
     background-color: cornsilk;
-
+    padding: 20px;
+    border-style: groove;
 }
 
 #licoes_aprendidas{
