@@ -46,3 +46,28 @@ nav a {
   line-height: 20px;
   font-family: Oswald, sans-serif;
 }
+
+.tabela-esquerda {
+  float: left;
+  width: 30%;
+  clear: both;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.tabela-direita {
+  float: right;
+  width: 30%;
+  margin-right: 30%;
+}
+
+.section-table {
+  clear: both;
+  padding-top: 30px;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.listas-aprendizagem {
+  margin-top: 50px;
+}
