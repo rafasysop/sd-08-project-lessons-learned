@@ -12,6 +12,7 @@ article {
     margin: 5px;
     padding: 5px;
     background-color: rgb(221, 228, 233);
+    display: flex;
   }
 
 header { 
@@ -52,6 +53,9 @@ p{
     margin-right: 300px;
     text-align: left;
     margin-left: 5px;
+    font-size:15px;
+    color: rgb(207, 78, 4);
+    line-height: 20px;
 }
 
 h1, h2{
