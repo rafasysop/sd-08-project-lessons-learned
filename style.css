@@ -14,6 +14,9 @@ body {
   font-family: "San Francisco";
   font-size: smaller;
   font-weight: 100;
+  text-align: center;
+  width: 1366;
+  height: 768;
 }
 
 ol {
@@ -35,4 +38,8 @@ h1 {
 #minha_foto {
   width: 100px;
   height: 100px;
+}
+
+.content {
+  width: 1366;
 }
