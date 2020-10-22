@@ -1,3 +1,15 @@
 body {
     background-color:rgb(253 251 251);
 }
+
+#cabecalho {
+    background-color:rgb(0 191 255);
+    margin-top: 0px;
+    position: fixed;
+    width: 99%;
+    border: 1px solid rgb(0 0 0);
+}
+
+#titulo {
+    color:rgb(255 250 250);
+}
