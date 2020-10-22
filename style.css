@@ -32,6 +32,10 @@ body{
     font-style: italic;
 }
 
+#article {
+    max-width: 40%;
+}
+
 .content {
     /* max-width: 1200px; */
     margin-top: 15%;
