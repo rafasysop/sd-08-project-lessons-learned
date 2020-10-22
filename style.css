@@ -19,6 +19,8 @@ body {
 
 #cabecalho h1 {
     margin: 10px;
+    color: #fff;
+    font-size: 32px;
 }
 
 #cabecalho nav {
@@ -62,6 +64,18 @@ aside {
     border: 2px solid #E5F4E3;
     width: 400px;
     display: inline-block;
+}
+
+aside p {
+    line-height: 20px;
+}
+
+.lado-esquerdo {
+    float: left;
+}
+
+.lado-direito {
+    float: right;
 }
 
 aside ul {
