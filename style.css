@@ -9,6 +9,11 @@ body {
   width: 100%;
   background: rgb(132, 169, 140);
   top: 0px;
+  clear: both;
+}
+
+#cabecario h1{
+  text-align: center;
 }
 
 
