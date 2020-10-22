@@ -1,9 +1,12 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
 }
 #minha_foto{
     width: 200px;
-
+    border-radius: 50%;
 }
 #cabecalho{
     position:fixed;
@@ -24,5 +27,12 @@ body {
     text-decoration: underline;
 }
 #licoes_a_aprender{
+
+}
+#rodape{
     
+
+}
+#lateral{
+
 }
