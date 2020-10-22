@@ -7,9 +7,25 @@ body {
     top: 0px;
     background-color: green;
     color: white;
-    width: 1000px;
+    width: 100%;
     text-align: center;
     }
 #licoes_aprendidas , #licoes_a_aprender{
     display: inline-block;
+}
+#minha_foto{
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    padding: 30px;
+}
+.left-text{
+    float: left;
+    width: 80%;
+    border: 35px;
+}
+.right-text{
+    float: right;
+    width: 20%;
+    border: 35px;
 }
