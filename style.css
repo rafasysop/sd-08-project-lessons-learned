@@ -4,12 +4,31 @@ body {
 }
 
 #cabecalho {
-    top: 0px;
     position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background: #1976D2;
 }
-
 
 h1{
     text-align: center;
 }
+
+ul,
+ol{
+    display: inline-block;
+    position: relative;
+    margin-top: 55px;
+    overflow: hidden;
+}
+
+img {
+    top: 55px;
+    margin: 2px;
+    position: relative;
+}
+
 
