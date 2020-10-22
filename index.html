@@ -10,7 +10,7 @@
 
 <body>
     <header id="cabecalho">
-        <h1>Lições aprendidas Trybe!</h1>
+        <h1 id="titulo">Lições aprendidas Trybe!</h1>
     </header>
 
     <nav>
@@ -21,13 +21,13 @@
     </nav>
 
     <section id="sobre">
-        <img src="eu.jpg" alt="minha_foto" id="minha_foto" >
+        <img src="eu.jpg" alt="minha_foto" id="minha_foto">
         <p>Olá, meu nome é Bianca Caetano e eu estudo desenvolvedora web na <a href="" target="_blank">Trybe</a>!</p>
     </section>
 
     <section id="licoes">
         <h2>Algumas das lições aprendidas:</h2>
-        <ul id="licoes_aprendidas">
+        <ol id="licoes_aprendidas">
             <li>Git</li>
             <li>Como a Internet funciona</li>
             <li>Github</li>
@@ -38,7 +38,7 @@
             <li>CSS</li>
             <li>Zoom</li>
             <li>Slack</li>
-        </ul>
+        </ol>
         <h2>Alguns assuntos que ainda estão por vir:</h2>
         <ul id="licoes_a_aprender">
             <li>JavaScript</li>
@@ -54,44 +54,53 @@
         </ul>
     </section>
 
-    <section id="aprendizado">
-        <article id="lado-esquerdo">
-            <p>
-                Um assunto que eu tinha muita dificuldade era sobre git e as pull requests. Dá pra acreditar que eu dava
-                push só na branch master? haha. Logo no início do curso o pessoal da Trybe fez uma dinâmica em que tinhamos
-                que criar uma outra branch e fazer uma pull request, coisa que eu nunca havia feito até então. Cada
-                aluno também fazia um code review na pull request do colega. É incrível como a Trybe
-                realmente nos prepara para o mercado, nos ensinando ferramentas e nos colocando em situações que são do
-                dia a dia de um desenvolvedor web.</p>
+    <div id="aprendizado">
+        <article class="lado-esquerdo">
+            <section>
+                <p>
+                    Um assunto que eu tinha muita dificuldade era sobre git e as pull requests. Dá pra acreditar que eu
+                    dava
+                    push só na branch master? haha. Logo no início do curso o pessoal da Trybe fez uma dinâmica em que
+                    tinhamos
+                    que criar uma outra branch e fazer uma pull request, coisa que eu nunca havia feito até então. Cada
+                    aluno também fazia um code review na pull request do colega. É incrível como a Trybe
+                    realmente nos prepara para o mercado, nos ensinando ferramentas e nos colocando em situações que são
+                    do
+                    dia a dia de um desenvolvedor web.</p>
+            </section>
         </article>
-        <aside id="lado-direito">
-            <p>
-                Nesse pouco tempo de Trybe pude perceber o valor da escola. Mesmo em assuntos que eu pensava já dominar,
-                aprendi coisas novas! Até então vimos Unix e Bash e os fundamentos do desenvolvimento web, como HTML,
-                CSS e o funcionamento da internet.
-            </p>
+
+        <aside class="lado-direito">
+            <section>
+                <p>
+                    Nesse pouco tempo de Trybe pude perceber o valor da escola. Mesmo em assuntos que eu pensava já
+                    dominar,
+                    aprendi coisas novas! Até então vimos Unix e Bash e os fundamentos do desenvolvimento web, como
+                    HTML,
+                    CSS e o funcionamento da internet.
+                </p>
+            </section>
         </aside>
-    </section>
+    </div>
 
-
-<h2>E aqui uma tabela aleatória</h2>
-<table border="1" id="tabela">
-    <tr>
-      <th>Jogos favoritos</th>
-      <th>Comidas favoritas</th>
-      <th>Passatempos favoritos</th>
-    </tr>
-    <tr>
-      <td>The last of us 2</td>
-      <td>Pizza</td>
-      <td>Ouvir música</td>
-    </tr>
-    <tr>
-      <td>The last of us 1</td>
-      <td>Hamburguer</td>
-      <td>Me exercitar</td>
-    </tr>
-  </table>
+    <h2>E aqui uma tabela aleatória</h2>
+    <table border="1" id="tabela">
+        <tr>
+            <th>Jogos favoritos</th>
+            <th>Comidas favoritas</th>
+            <th>Passatempos favoritos</th>
+        </tr>
+        <tr>
+            <td>The last of us 2</td>
+            <td>Pizza</td>
+            <td>Ouvir música</td>
+        </tr>
+        <tr>
+            <td>The last of us 1</td>
+            <td>Hamburguer</td>
+            <td>Me exercitar</td>
+        </tr>
+    </table>
 
     <footer id="rodape"></footer>
 </body>

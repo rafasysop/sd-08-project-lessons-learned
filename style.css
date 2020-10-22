@@ -32,19 +32,20 @@ a {
 
 #minha_foto {
     width: 200px;
+    border: gold;
 }
 
 #aprendizado {
     line-height: 25px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
     width: 50%;
     display: inline-block;
     padding-right: 50px;
 }
 
-#lado-direito {
+.lado-direito {
     width: 50%;
     float: right;
     padding-left: 50px;
