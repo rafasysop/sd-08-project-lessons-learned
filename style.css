@@ -3,9 +3,12 @@ body{
 }
 
 #cabecalho{
+    position: fixed;
     top:0px;
-    background-color: #bedce5;
+    background-color: #275664;
+    color: white;
     padding: 10px;
+    width: 100%;
 }
 
 #minha_foto{
