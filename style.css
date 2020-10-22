@@ -1,6 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
@@ -13,3 +13,8 @@ body {
     position: fixed;
     top: 0px;
 }
+
+h1{
+    text-align: center;
+}
+
