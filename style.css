@@ -1,15 +1,15 @@
 <style>
 
         body {
-            color: rgb(253,251,251);
+            background-color: rgb(253, 251, 251);
         }
         #cabecalho{
-            position: fixed;
+            
             top: 0px;
         }
         #minha_foto {
-            position: absolute;
-            margin-top: 100px;
+            
+            
 
         }
 
