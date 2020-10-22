@@ -80,13 +80,13 @@ main {
     border-radius: 50%;
 }
 
-.artigo {
+.lado-esquerdo {
     float: left;
     width: 60%;
     min-width: 400px;
 }
 
-.secao {
+.lado-direito {
     float: right;
     width: 30%;
     min-width: 400px;
