@@ -17,14 +17,17 @@ body {
   border: 3px solid rgb(102 , 0 , 0);
 }
 
-nav li{
-    display: inline-block;
+nav li {
+  display: inline-block;
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.descricao{
-    font-size: 1.2em;
+.descricao {
+  font-size: 1.2em;
+  color: blue;
+  line-height: 20px;
+  font-family: 'Oswald', sans-serif;
 }
