@@ -23,3 +23,8 @@ body {
 h1 {
   font-size: 2em;
 }
+
+#minha_foto {
+  width: 100px;
+  height: 100px;
+}
