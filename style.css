@@ -4,41 +4,48 @@ body {
   font-size: 17px;
   line-height: 20px;
 }
+
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: green;
-    height: 80px;
-    color: yellow;
-    }
+  position: fixed;
+  top: 0px;
+  background-color: green;
+  height: 80px;
+  color: yellow;
+}
+
 .main-content {
-    margin-top: 120px;
-    padding: 10px;
-    border: 10px;
+  margin-top: 120px;
+  padding: 10px;
+  border: 10px;
 }
+
 .nav {
-    background-color: magenta;
-    width: 1366px;
-    height: 20px;
+  background-color: magenta;
+  width: 1366px;
+  height: 20px;
 }
+
 .nav li {
-    display: inline-block;
+  display: inline-block;
 }
+
 .display {
-    display: inline-block;
-    width: 30%;
+  display: inline-block;
+  width: 30%;
 }
+
 .lado-direito {
-    margin: 10px;
-    padding: 20px;
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
 }
+
 .lado-esquerdo {
-    margin: 10px;
-    padding: 20px;
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
+  margin: 10px;
+  padding: 20px;
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
 }
