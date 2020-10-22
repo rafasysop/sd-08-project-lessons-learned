@@ -1,8 +1,44 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0px;
 }
 #minha_foto {
     width: 200px;
     border-radius: 90px;
     border: teal ridge;
+    margin: 25px;
+    float: left;
+}
+header {
+    background-color: teal;
+    text-align: left;
+    padding: 0px 15px 10px;
+    margin: -21px 0px 10px;
+}
+article {
+   clear: both;
+}
+#licoes_aprendidas {
+    float: left;
+}
+#licoes_a_aprender {
+    float: right;
+}
+nav {
+    background-color: turquoise;
+    padding: 5px;
+    margin-top: -10px;
+}
+aside {
+    float: right;
+}
+section {
+    float: left;
+}
+footer {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
