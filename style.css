@@ -16,12 +16,11 @@ body {
 #minha_foto {
     width: 250px;
     position: relative;
-    
 }
 
 #nome {
     margin: 0px 0px 5px 20px;
-    
+    font-size: 1.17em;
 }
 
 .nav_list {
@@ -37,9 +36,6 @@ body {
 .nav_list li {
     display: inline-block;
     margin-right: 10px;
-}
-
-header {
 }
 
 main {
