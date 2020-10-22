@@ -11,7 +11,9 @@ h1, h2 {
 }
 
 #cabecalho {
-    border: 1px solid red
+    border: 1px solid red;
+    position: fixed;
+    top: 0px;
 }
 
 .border  {
@@ -20,4 +22,8 @@ h1, h2 {
 .display {
     display: inline-block;
     margin-right:   100px;
+}
+
+#rodape {
+    background-color: slategray;
 }
