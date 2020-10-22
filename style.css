@@ -1,20 +1,25 @@
 body {
   background-color: rgb(253 , 251 , 251);
 }
+
 main {
   margin-top: 130px;
 }
+
 nav {
   text-align: center;
 }
+
 nav li {
   font-size: 20px;
   display: inline;
   margin-right: 40px;
 }
-nav a:active, a:visited, a:focus, a:hover, a:link {
+
+nav a:visited , a:focus , a:hover , a:link , a:active {
   color: orange;
 }
+
 footer h2 {
   color: purple;
   width: 60%;
@@ -22,6 +27,7 @@ footer h2 {
   font-weight: 600;
   padding: 10px;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -29,51 +35,62 @@ footer h2 {
   border: 2px dashed;
   width: 100%;
 }
+
 #titulo {
   text-align: center;
   font-family: Courier, monospace;
 }
+
 #minha_foto {
   max-height: 400px;
   border-radius: 30%;
   border: 2px solid;
 }
+
 #licoes_aprendidas {
-  float: left;    
+  float: left;
 }
+
 #licoes_a_aprender {
-  float: right;    
+  float: right;
 }
+
 #rodape {
   clear: both;
   text-align: center;
 }
+
 .artigos {
   width: 100%;
   background-color: gray;
   clear: both;
   vertical-align: top;
 }
+
 .listas {
   width: 50%;
 }
+
 .listas h1 {
   font-weight: 800;
   color: green;
   text-decoration: underline;
 }
+
 .lado-esquerdo {
   max-width: 50%;
   float: left;
   margin: 10px;
   line-height: 20px;
 }
+
 .lado-direito {
   float: right;
   width: 30%;
   margin: 10px;
   line-height: 20px;
 }
+
 .social_medias {
   border-radius: 100%;
   width: 50px;
