@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
+    color:  red;
+    font-family: monospace;
 }
 
 #cabecalho {
