@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 251, 251)
+    padding: 10px;
+    border: 2px;
 }
 #cabecalho {
     position: fixed;
@@ -11,11 +13,11 @@ body {
     margin: auto;
 }
 #licoes_aprendidas{
-
+    margin: 10px;
 }
 #licoes_a_aprender{
-
+    margin: 10px;
 }
 #rodape{
-    
+
 }
