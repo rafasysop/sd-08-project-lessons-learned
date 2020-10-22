@@ -29,12 +29,14 @@ body{
     padding: 10px 30px 0;
     box-sizing: border-box;
     margin: auto;
+    line-height: 25px;    
 }
 
 #licoes_a_aprender{    
     padding: 10px 30px 0;
     box-sizing: border-box;
     margin: auto;  
+    line-height: 25px;
 }
 
 #rodape{
@@ -47,6 +49,19 @@ body{
 .lado-esquerdo {
     max-width: 20%;
     float: left;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.lado-direito {
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 18px;
+    text-align: justify;
 }
 
 .content {
@@ -74,11 +89,3 @@ body{
     list-style-type: none;
 }
 
-.lado-direito {
-    background-color: lightgrey;
-    margin: 10px;
-    padding: 20px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-  }
