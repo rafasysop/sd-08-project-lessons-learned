@@ -5,3 +5,22 @@ body {
     position: fixed;
     top: 0px;
 }
+#minha_foto {
+    position: absolute;
+    width: 20%;
+    float: left;
+    margin-right: 55px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border-style: groove;
+}    
+#socialMedia {
+    text-align: center;
+}
+.socialMediaButtons {
+    text-align: center;
+}
+.buttons {
+    text-align: center;
+    display: inline-block;
+}
