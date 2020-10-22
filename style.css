@@ -10,8 +10,6 @@ body {
 
 }
 
-
-
 #titulo {
     text-align: center;
 }
@@ -20,4 +18,11 @@ body {
     width: 200px;
     clear: both;
 
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+}
+#licoes_a_aprender{
+    display: inline-block;
 }
