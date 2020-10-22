@@ -8,3 +8,11 @@ body {
     background-size: cover;
     margin-bottom: 50px;
 }
+
+.navegacao {
+   border: 500px;
+}
+
+.navegacao_1 {
+    margin: 0;
+}
