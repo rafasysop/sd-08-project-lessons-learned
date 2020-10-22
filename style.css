@@ -32,12 +32,6 @@ article{
     overflow: hidden;
     
 }
-#licoes_aprendidas {
-    
-}
-#licoes_a_aprender {
-    
-}
 main {
     clear: both;
     background-color: sienna;
@@ -49,7 +43,7 @@ aside {
     background-color: lightgrey;
     vertical-align: top;
     padding: 15px;
-    border: red ridge;
+    border: lightcoral ridge;
 }
 section {
     float: left;
