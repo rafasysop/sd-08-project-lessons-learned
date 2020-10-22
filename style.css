@@ -1,14 +1,21 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+nav li{ 
+    display:inline-block;
+    list-style-type: none;
+    margin-right: 200px;
+}
 
 #cabecalho {
     margin-top:0px;
     text-align: center;
-    
+    font-size: 100px;
     background-color: green;
     padding-top: 0px;
     padding-bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 #minha_foto { 
     width: 15%;
