@@ -87,19 +87,19 @@ p {
   margin-left: 3%;
 }
 
-.listas {
+#listas {
   clear: both;
   margin: auto;
   text-align: left;
   border-collapse: collapse;
 }
 
-.listas th , td {
+#listas th , td {
   border: 1px dashed black;
   padding: 10px;
 }
 
-.listas ol , ul {
+#listas ol , ul {
   list-style-position: inside;
   padding: 0 20px 0 0;
   margin: 0;
