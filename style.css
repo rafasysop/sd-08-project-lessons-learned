@@ -100,24 +100,27 @@ q {
 body {
   background-color: rgb(253, 251, 251);
 }
-
+main{
+    text-align: center;
+}
 #cabecalho {
-  
-  position: fixed;
+  position: absolute;
   height: 200px;
   top: 0px;
   width: 100%;
   background: hsla(217, 100%, 50%, 1);
 
-  background: linear-gradient(
-    90deg,
-    hsla(217, 100%, 50%, 1) 0%,
-    hsla(186, 100%, 69%, 1) 100%
-  );
+  background: linear-gradient(90deg, rgb(19, 34, 59) 0%, rgb(72, 76, 77) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
 }
-#titulo{
-    color: white;
-    margin-left: 10%;
-    margin-top: 50px;
+#titulo {
+  color: white;
+ text-align: center;
+    margin-top: 100px;
+}
+
+#minha_foto {
+  margin-top: 300px;
+  border-radius: 200px;
+  height: 200px;
 }
