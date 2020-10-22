@@ -17,3 +17,6 @@ body {
     float: right;
     width: 60%;
 }
+#rodape {
+    clear: both;
+}
