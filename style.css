@@ -5,10 +5,9 @@ main {
   margin: auto;
   margin-top: 10%;
 }
-
 #cabecalho {
   position: fixed;
-  top: 0;      
+  top: 0;
 }
 
 #minha_foto {
@@ -16,5 +15,5 @@ main {
 }
 
 #rodape {
-    position: static;
+  position: static;
 }
