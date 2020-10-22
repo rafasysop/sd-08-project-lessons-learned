@@ -21,41 +21,43 @@ body {
     text-decoration: underline;
     
 }
-#licoes_aprendidas{
-  
-}
+#licoes_aprendidas{}
+
 .Title-spec{
     font-style: italic;
     text-decoration: underline;
 }
-#licoes_a_aprender{
-    
-}
+#licoes_a_aprender{}
+
 #rodape{
 position: absolute;
     padding:25px;
     margin:35px;
-    top:900px;
-
-}
-#lateral{
+    top:950px;
+    border: 2px solid black;
+    background-color: bisque;
 
 }
 #nav{
     font-size: large;
     width: 1000px;
-    display: inline-block;    
+    display: inline-block;   
 }
 .lado-esquerdo{
     position: absolute;
     top:325px;
     padding:25px;
     margin:35px;
+    border: 2px solid black;
+    background-color: bisque;
+
     }
     .lado-direito{
         position: absolute;
         top:380px;
         right:20px;
         left: 700px;
-
+        border: 2px solid black;
+        padding: 25px;
+        background-color: bisque;
     }
