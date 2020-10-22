@@ -1,29 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253,251,251);
 }
 
 main {
-    width: 1366px;
-    height: 768px;
-    /* background: yellow; */
-    padding: 10px;
+    padding:10px;
 }
 
 #cabecalho {
-    background: green;
+    background:green;
 }
 #titulo {
-    text-align: center;
+    text-align:center;
 }
 
 #minha_foto {
-    height: 25vh;
-    display: block;
-    margin: 15px 0 0 10px;
-    border-radius: 5px;
+    height:25vh;
+    display:block;
+    margin:15px 0 0 10px;
+    border-radius:5px;
 }
