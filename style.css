@@ -1,19 +1,41 @@
 body {
   background-color: rgb(253 , 251 , 251);
 }
+
 main {
-  margin: auto;
+  width: 95%;
   margin-top: 10%;
+  top: 50px;
+  border: 2px solid rgb(0 , 0 , 0);
+  border-radius: 4px;
+  padding: 10px;
+  background-color: rgb(164, 191, 200);
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
+  margin:auto;
+  border: 2px solid rgb(0 , 0 , 0);
+  border-radius: 4px;
+  background-color: rgb(53 , 124 , 147) !important;
+  text-align: center;
+  width: 95%;
+  color: rgb(231, 230, 228);
 }
 
+#secao-foto {
+  text-align: center;
+}
 #minha_foto {
   max-width: 150px;
-}
+  border-radius: 100%;
+  border: 2px ridge rgb(53 , 124 , 147);
+  }
 
 #rodape {
   position: static;
+  background-color: rgb(53 , 124 , 147) !important;
+  text-align: center;
+  color: rgb(231, 230, 228);
 }
