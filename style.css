@@ -1,4 +1,12 @@
+@font-face {
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+}
 body {
+  font-family: "Roboto-Regular", serif;
+  letter-spacing: 1px;
+  color: #1c1c1c;
   background-color: rgb(253, 251, 251);
 }
 #cabecalho {
@@ -6,7 +14,7 @@ body {
   top: 0px;
 }
 table {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
 }
