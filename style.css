@@ -10,5 +10,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
-  background-color:  #11a36a;;
+  background-color:  #11a36a;
+  background-size: auto;
+}
+
+#rodape {
+  background-color:  #11a36a;
 }
