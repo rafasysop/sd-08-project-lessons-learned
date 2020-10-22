@@ -5,11 +5,23 @@ body{
 .cabecalho{
     border: solid 1px;
     min-height: 120px;
+    background-color: #ccffcc;
     width: 100%;
     position: fixed;
     top: 0px;
+    text-align: center;   
+}
+.cabecalho span{
+    font-size: 18px;
+    font-style: italic;
+}
+.photo{
+    margin-top: 150px;
+}
+.learning{
+    display: inline-block;
+}
+.report{
     text-align: center;
-    
-
-
+    max-width: 50% 20%;
 }
