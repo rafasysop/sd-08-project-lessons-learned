@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(253, 251, 251);
+}
+#position{
+    position:fixex;
+}
+#cabecalho{
+    background-color:rgb(111, 226, 121);
+    
+}
+#titulo{
+    text-align: center;
+}
+
+#trybe{
+    color: green;
+}
+
+#minha_foto{
+    width:250px;
+}
+.me{
+    display:block;
+
+}
+#lists{
+    margin: 30px 0 0 30px;
+}
+#lists ul, ol{
+    display: inline-block;
+}
+
+#licoes_a_aprender{
+    margin-left: 30px;
+}
+
+#lists h2{
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+
