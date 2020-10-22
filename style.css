@@ -12,24 +12,22 @@ main {
   padding: 10px;
   background-color: rgb(164 , 191 , 200);
 }
-nav a {
 
+nav a {
   margin: 20px;
 }
 
 h1 , h2 , h3 {
-
-  color: #2A6376;
+  color: rgb(40 , 93 , 110);
 }
 
 #cabecalho {
-
   position: fixed;
   top: 0;
   margin: auto;
   border: 2px solid black;
   border-radius: 4px;
-  background-color: rgb(53 , 124 , 147) ! important;
+  background-color: rgb(53 , 124 , 147);
   text-align: center;
   width: 95%;
 }
@@ -40,9 +38,18 @@ h1 , h2 , h3 {
 }
 
 #secao-foto {
+  text-align: center;
+}
+
+#secao-tabela {
 
   text-align: center;
 }
+
+#tabela {
+    margin: auto;
+}
+
 #minha_foto {
 
   max-width: 150px;
@@ -80,7 +87,7 @@ article p {
 }
 
 .lado-direito {
-    
+ 
   max-width: 15%;
   float: right;
   text-align: justify;
