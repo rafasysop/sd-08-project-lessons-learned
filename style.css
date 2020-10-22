@@ -16,8 +16,30 @@ nav li {
   margin-right: 40px;
 }
 
-nav a:visited , a:focus , a:hover , a:link , a:active {
+a:visited , a:focus , a:hover , a:link , a:active nav {
   color: orange;
+}
+
+table {
+  margin: 10% 3%;
+  width: 80%;
+  float: right;
+}
+
+td {
+  font-weight: 600;
+  border: 1px solid;
+  text-align: center;
+  width: 2%;
+}
+
+.check td {
+    color: green;
+}
+
+#linhaTabela {
+    width: 50%;
+    border: 2px solid;
 }
 
 footer h2 {
