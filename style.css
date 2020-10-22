@@ -1,17 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;;
+}
+
 body {
   background-color: rgb(253 , 251 , 251);
+  margin:0;
+  box-sizing: border-box;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: -10px;
   background-color: rgb(15 , 163 , 107);
   color: white;
+  margin:0;
   padding-left: 10px;
   width: 100%;
 }
 
+#titulo {
+  margin: 10px 10px 0;
+  display: inline;
+}
+
+#nome {
+  margin: 5px 5vw;
+  display: inline;
+  float: right;
+}
+
 #minha_foto {
-  width: 200px;
-  margin-top: 80px;
+  width: 100px;
+}
+
+#navegacao {
+  padding: 5px 0;
+  background-color: white;
+}
+
+#navegacao ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+
+#navegacao li {
+  display: inline;
+}
+
+#principal {
+  width: 85%;
+  margin: 120px auto 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#rodape {
+  margin: 10px;
+  font-size: 14px;
 }
