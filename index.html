@@ -23,12 +23,17 @@
   <main>
     <!-- 3 - A página deve possuir uma foto sua
     A foto deve ser inserida utilizando uma tag img com o ID "minha_foto" -->
-    <img id="minha_foto" src="./assets/foto.png" alt="Foto de Paulo Simões">
+    <section id="apresentacao">
+      <h2>Paulo Simões</h2>
+      <img id="minha_foto" src="./assets/foto.png" alt="Foto de Paulo Simões">
+    </section>
+
 
     <!-- 4 - A página deve possuir uma lista de lições aprendidas
     A lista deve ser numerada e possuir o ID "licoes_aprendidas"
     A lista deve possuir 10 itens -->
-    <section id="licoes">
+    <section id="aprendidas">
+      <h2>Lições aprendidas</h2>
       <ol id="licoes_aprendidas">
         <li>Shell file manipulation</li>
         <li>How the internet works</li>
@@ -41,10 +46,13 @@
         <li>Inline, block and inline-block elements</li>
         <li>Semantic HTML5</li>
       </ol>
+    </section>
 
-      <!-- 5 - A página deve possuir uma lista de lições que ainda deseja aprender
+    <!-- 5 - A página deve possuir uma lista de lições que ainda deseja aprender
       A lista não deve ser numerada e deve possuir o ID "licoes_a_aprender"
       A lista deve possuir 10 itens -->
+    <section id="a_aprender">
+      <h2>Lições a aprender</h2>
       <ul id="licoes_a_aprender">
         <li>Web Crawlers</li>
         <li>Improve my understanding of HTTP protocol</li>
@@ -95,8 +103,12 @@
     A tag article devem ser utilizadas
     O artigo deve ter mais de 300 letras e menos de 600 -->
     <article class="lado-esquerdo" id="aprendizado">
-      <h2>Título do article</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, distinctio vero aut assumenda consequatur a consequuntur possimus maxime dicta veritatis ipsam? Tempore eius nisi ratione ipsum voluptatem numquam at quam distinctio sed? Quaerat consequatur facilis eius nulla dicta sapiente quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam eos placeat cumque sequi dolore minus magni laudantium inventore doloribus?</p>
+      <h2>Aprendizado</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, distinctio vero aut assumenda consequatur a
+        consequuntur possimus maxime dicta veritatis ipsam? Tempore eius nisi ratione ipsum voluptatem numquam at quam
+        distinctio sed? Quaerat consequatur facilis eius nulla dicta sapiente quasi? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Tenetur nam eos placeat cumque sequi dolore minus magni laudantium inventore
+        doloribus?</p>
     </article>
 
     <!-- 9 - Crie uma seção que conta uma passagem sobre seu aprendizado
@@ -104,7 +116,8 @@
     A seção deve ter mais que 100 letras e menos que 300 -->
     <aside id="experiencias" class="lado-direito">
       <h2>Experiências</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione beatae ipsum cum quo accusantium nostrum dolorum, itaque molestias minima!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione beatae ipsum cum quo accusantium nostrum
+        dolorum, itaque molestias minima!</p>
     </aside>
 
     <!-- 10 - Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles
