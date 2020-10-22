@@ -6,11 +6,9 @@ body{
     top: 0px;
     position: fixed;
     width: 100%;
-}
-#cabecalho h1{
     text-align: center;
 }
 
-#minha_foto{
+#minha_foto {
     width: 250px;
 }
