@@ -1,57 +1,57 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(253 , 251 , 251);
-    font-family: Roboto, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Roboto, sans-serif;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 90px;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  font-size: 2rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    text-align: center;
-    width: 100%;
-    color: gold;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  color: gold;
 }
 
 #sobre {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #minha_foto {
-    width: 200px;
-    border: gold;
+  width: 200px;
+  border: gold;
 }
 
 #aprendizado {
-    line-height: 25px;
+  line-height: 25px;
 }
 
 .lado-esquerdo {
-    width: 50%;
-    display: inline-block;
-    padding-right: 50px;
+  width: 50%;
+  display: inline-block;
+  padding-right: 50px;
 }
 
 .lado-direito {
-    width: 50%;
-    float: right;
-    padding-left: 50px;
+  width: 50%;
+  float: right;
+  padding-left: 50px;
 }
 
 #tabela {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
