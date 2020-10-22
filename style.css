@@ -1,52 +1,66 @@
 
-body{
-    background-color: rgb(253, 251, 251);
-}
-.cabecalho{
-    border: solid 1px;
-    min-height: 120px;
-    background-color: #ccffcc;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    text-align: center;   
-}
-.cabecalho span{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20%;
-    margin:10px;
-}
-.photo{
-    margin-top: 150px;
-}
-.learning{
-    
-    display: inline-block;
-}
-.report{
-    text-align: center;
-    max-width: 50% 20%;
-}
-.lado-esquerdo{
-float: left;
-font-size: 15px;
-max-width: 50%;
-color: black;
+    body{
+        background-color: rgb(253, 251, 251);
+    }
+    .cabecalho{
 
-
-}
-.lado-direito{
-    color: black;
-    font-size: 15px;
-  max-width: 50%;
-
-    float: right;
-}
-#rodape{
-    padding-top: 50px;
-    clear: both;
-}
-a{
-    text-decoration: none;
-}
+        min-height: 120px;
+        background-color: #ccffcc;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        text-align: center;   
+    }
+    .cabecalho span{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20%;
+        margin-bottom:10px;
+    }
+    .photo{     
+        margin-top: 140px;
+        float: left;
+        clear: both;       
+    }
+    .learning{
+        margin-top: 130px;
+        clear: both;
+        display: inline-block;
+    }
+    .report{
+        clear: both;
+        text-align: center;
+        max-width: 50% 20%;
+    }
+    .lado-esquerdo{
+        text-align: center;
+        float: left;
+        font-size: 15px;
+        color: black;
+    }
+    .lado-esquerdo p{
+        max-width: 30%;
+        margin:auto;
+    }
+    .lado-direito{
+        margin-right: 400px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        float: right;
+    }
+    .lado-direito p{
+        max-width: 30%;
+        margin:auto;
+    }
+    #rodape{
+        text-align: center;
+        padding-top: 50px;
+        clear: both;
+    }
+    a{
+        text-decoration: none;
+    }
+    #minha_foto{
+        border-radius: 100%;
+    }
