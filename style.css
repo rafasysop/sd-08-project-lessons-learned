@@ -1,10 +1,10 @@
 * {
-  font-family: monospace;
-  margin: 5px;
+  font-family: monospace; 
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px 5px 5px;
 }
 
 #cabecalho {
@@ -19,7 +19,7 @@ body {
 }
 
 #minha_foto {
-  margin-top: 160px;
+  margin-top: 200px;
   margin-bottom: 40px;
   width: 300px;
   border-radius: 50%;
@@ -34,4 +34,12 @@ nav a {
 
 .trybe {
   margin-left: 60px;
+}
+
+.listas {
+   display: inline-block;
+}
+
+li {
+    line-height: 18px;
 }
