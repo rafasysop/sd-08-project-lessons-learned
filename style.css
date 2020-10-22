@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,56 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Noto Sans JP', sans-serif;
+  position: relative;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
+  margin-bottom: 50px;
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  z-index: 1;
+}
+
+#cabecalho h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.navegacao table {
+  margin: auto;
+}
+
+.navegacao td {
+  padding: 10px;
+}
+
+.navegacao a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.navegacao a:hover {
+  border-bottom: 1px solid chartreuse;
+  color: chartreuse;
+}
+
+.conteudo {
+  max-width: 900px;
+  margin: auto;
+}
+
+#minha_foto {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.listas {
+  margin: 20px 50px;
 }
