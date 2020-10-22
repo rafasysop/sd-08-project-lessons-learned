@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
+    color: black;
 }
 #cabecalho{
     position:fixed;
@@ -7,4 +8,12 @@ body{
 }
 #minha_foto{
     border-radius: 100%;
+}
+.buttom{
+    font-size: 8px;
+    padding: 2px 5px 2px 5px;
+    text-decoration: none;
+    background-color: #0fa36b;
+    border-radius: 20%;
+    color: white;
 }
