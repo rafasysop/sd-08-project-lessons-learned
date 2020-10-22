@@ -22,9 +22,21 @@ body {
 .texto {
     width: 50%;
     text-align: justify;
+    font-family: sans-serif;
+    color:royalblue;
+    line-height: 20px;]
+    font-size: 20px;
 
 }
 
 .tabela {
     text-align: center;
+}
+
+.listaL {
+
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: fit-content;
 }
