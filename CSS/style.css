@@ -1,8 +1,32 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-family: 'Syne Mono', monospace, sans-serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
+  position: fixed absolute;
+  top: 0px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1px;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  background-color: #f5f5f5;
 }
+
+#cabecalho li{
+  display: inline;
+  margin: 10px;
+  font-family: 'Syne Mono', monospace, sans-serif;
+}
+
+#titulo {
+  text-align: center;
+  display: inline;
+  width: 30%;;
+}
+
+.titles{
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-weight: bolder;
+}
+
