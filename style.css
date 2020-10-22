@@ -46,3 +46,11 @@ body {
     margin-top: 15px;
     font-weight: 700;
 }
+
+#minha_foto img {
+    width: 250px;
+    border-radius: 40%;
+    margin-top: 55px;
+    display: block;
+    border: 2px ridge #379BB5;
+}
