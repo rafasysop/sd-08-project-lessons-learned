@@ -9,6 +9,7 @@ body {
 }
 
 main {
+    width:80%;
     position: relative;
     top: 100px;
 }
@@ -16,4 +17,10 @@ main {
 footer {
     position:relative;
     top: 100px;
+}
+
+aside {
+    padding-top:100px;
+    float: right;
+    width:20%;
 }
