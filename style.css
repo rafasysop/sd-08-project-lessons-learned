@@ -54,5 +54,13 @@ nav li{
 article{
     width: 70%;
     margin: auto;
+
+}
+
+.lado_esquerdo{
     float:left;
+}
+
+.lado_direito{
+    float:right;
 }
