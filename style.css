@@ -2,10 +2,14 @@
 body{
     background-color: rgb(253, 251, 251);
     margin: 0%;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 #indice{
     display: inline;
+    list-style-type: none;
+    list-style: inline;
+    vertical-align: middle
 }
 
 #cabecalho{
@@ -30,6 +34,13 @@ section{
 article{
     margin: 5%;
     display: inline-block;
+    width: 50%;
+}
+
+aside{
+    float: right;
+    display: inline-block;
+    width: 50%;
 }
 
 table{
