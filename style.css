@@ -8,7 +8,6 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Noto Sans JP', sans-serif;
-  position: relative;
 }
 
 #cabecalho {
@@ -19,7 +18,8 @@ body {
   width: 100%;
   padding: 20px;
   color: white;
-  z-index: 1;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 #cabecalho h1 {
@@ -50,13 +50,19 @@ body {
 .conteudo {
   max-width: 900px;
   margin: auto;
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
 }
 
 #minha_foto {
   text-align: center;
-  border-radius: 50%;
+  border-radius: 10px;
+  margin-top: 200px;
+  border: 4px ridge black;
 }
 
 .listas {
-  margin: 20px 50px;
+  margin: 30px 50px;
+  text-align: justify;
 }
