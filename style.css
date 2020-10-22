@@ -5,8 +5,12 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  text-align: center;
 }
 
 #minha_foto {
-  width: 20%;
+  width: 15%;
+  display: block;
+  margin-bottom: 10px;
 }
