@@ -31,3 +31,8 @@ body {
     font-size: 20px;
     display: inline-block;
 }
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;;
+}
