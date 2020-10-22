@@ -8,28 +8,45 @@ body{
     left: 683px;   
 }
 
-#titulo{
-    
-    
-}
-
 #minha_foto{
     width: 200px;
+    margin-left: 10px;
 }
 
 #licoes{
     display: inline-flex;
-    
-}
-
-#learned_lessions{
-    
+    margin-left: 10px;;
 }
 
 #unlearned_lessons{
     margin-left: 30px;
 }
 
-#rodape{
+#passage-conteiner{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 60%;
+    align-items: flex-start
+}
+
+#passage{
+    margin: 10px;
+}
+
+#learnig_passage{
+    margin-left: 100px;
+}
+
+#footer{
+    margin-left: 10px;
+}
+
+#nav{
+    margin: 60px;
     
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
 }
