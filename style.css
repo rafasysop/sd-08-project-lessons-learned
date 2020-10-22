@@ -9,7 +9,7 @@ body {
 }
 
 #cabecalho {
-  position: absolute;
+  position: relative;
   background-color: red;
   display: flex;
   justify-content: space-between;
