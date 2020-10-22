@@ -6,12 +6,6 @@ main {
     margin-top: 100px;
 }
 
-aside {
-    float: right;
-    width: 30%;
-    margin: 10px;
-}
-
 #cabecalho {
     position: fixed;
     top: 0;
@@ -53,9 +47,15 @@ aside {
     text-decoration: underline;
 }
 
-.artigoTrybe {
+.lado-esquerdo {
     max-width: 60%;
     float: left;
+    margin: 10px;
+}
+
+.lado-direito {
+    float: right;
+    width: 30%;
     margin: 10px;
 }
 
