@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(253 , 251 , 251);
+  background-color: rgb(253, 251, 251);
 }
 
-header#cabecalho {
-    width: 1366px;
+#cabecalho {
+  width: 1366px;
     top: 0px;
     left: -10px;
     padding-right: 500px;
@@ -11,7 +11,7 @@ header#cabecalho {
     background-color: green;
 }
 
-header#cabecalho h1 {
+#cabecalho h1 {
     color: white;
     text-align: center;
     font-family: Calibri, sans-serif;
@@ -24,7 +24,7 @@ header nav ul {
     color: white;
 }
 
-div#principal {
+#principal {
     margin-top: 150px;
     margin-left: 10px;
     border: 5px;
