@@ -5,6 +5,13 @@ body{
     font-family: 'Balsamiq Sans', cursive;
 }
 
+h2{
+    color: blue;
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 .indice{
     display: inline;
     list-style-type: none;
