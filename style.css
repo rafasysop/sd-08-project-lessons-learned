@@ -9,6 +9,9 @@ body {
   padding-bottom: 5px;
   background: rgb(67,97,238);
   background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
+  position: fixed;
+  width: 100%;
+
   
 }
 
@@ -21,7 +24,7 @@ body {
   width: 13%;
   border-radius: 50%;
   border: 15px ridge #4361ee;
-  margin: 15px;
+  margin: 135px 0 0 0;
 }
 
 .listas {
@@ -33,7 +36,12 @@ body {
     background: rgb(67,97,238);
     background: linear-gradient(90deg, rgba(67,97,238,1) 2%, rgba(76,201,240,1) 100%);
     width: 15%;
-    padding: 35px;
-    text-align: center;
+    padding: 50px 35px;
+    line-height: 23px;
+
     border-radius: 8%;
+}
+
+li {
+    text-align: center;
 }
