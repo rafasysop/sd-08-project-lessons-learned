@@ -16,11 +16,29 @@ left: 250px;
 .secao1{
     
 }
-.transformaside{
-    display: inline-block;
-    width: 200px;
-}
+
 .transformlista{
     display: inline-block;
     width: 200px;
+}
+#minha_foto{
+    padding-top: 100px;
+}
+#aprendizado2{
+    display: inline-block;
+    margin-left: 50px;
+}
+#licoes_aprendidas{
+    display: inline-block;
+
+}
+#licoes_a_aprender{
+    display: inline-block;
+    top: 50px;
+}
+#aprendizado1{
+    padding-top: 40px;
+    display: inline-block; 
+   
+   
 }
