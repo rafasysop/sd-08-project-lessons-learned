@@ -32,3 +32,11 @@ main {
     border-radius: 20px;
     border: 5px solid rgb(253, 251, 251);
 }
+
+#licoes_aprendidas, #licoes_a_aprender {
+    background-color: rgb(253, 251, 251);
+    margin: 1rem;
+    display: inline-block;
+    padding: 2rem;
+}
+
