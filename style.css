@@ -17,3 +17,7 @@ header {
 #licoes_aprendidas {
     margin-top: 0px;
 }
+
+a {
+    display: block;
+}
