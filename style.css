@@ -41,6 +41,7 @@ body{
 
 #rodape{
     font-style: italic;
+    font-size: smaller;
     padding: 10px 0px 0px 0px;
     box-sizing: border-box;
     margin: auto;
