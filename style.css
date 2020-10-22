@@ -27,8 +27,13 @@ header nav ul{
 div#principal{
     margin-top: 150px;
     margin-left: 10px;
+    border: 5px;
 }
 
 img#minha_foto{
     width: 200px;
+}
+
+p{
+    line-height: 1.5;
 }
