@@ -9,6 +9,9 @@
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
+p {
+    line-height: 27px;
+}
 
 body {
     background-color: rgb(253, 251, 251);
@@ -97,7 +100,7 @@ article:nth-of-type(2) {
     align-items: center;
 }
 article:nth-of-type(2) section {
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 20px;
     background-color: white;
     box-shadow: 0px 2px 8px rgba(1, 103, 120, 0.2);
@@ -108,11 +111,42 @@ article:nth-of-type(2) section ol {
 article:nth-of-type(2) section ol, article:nth-of-type(2) section ul {
     margin: 30px;
 }
-div.div-article article {
-    padding: 0;
-    margin-top: 60px;
-}
 
+.article-aside {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+div.article-aside article {
+    padding: 0 20px;
+    align-items: flex-start;
+}
+div.article-aside aside {
+    border-radius: 8px;
+    background-color: #333;
+    margin: 20px;
+    overflow: hidden;
+}
+div.article-aside aside article {
+    padding: 0;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+div.article-aside aside article h3 {
+    color: #333;
+    width: 100%;
+    background-color: #39a;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-weight: 300;
+}
+div.article-aside aside article p {
+    padding: 20px 40px 40px 40px;
+}
 
 /*--------FOOTER--------*/
 footer {
