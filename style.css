@@ -1,27 +1,38 @@
 body {
   background-color: rgb(253 , 251 , 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
   width: 95%;
   margin-top: 10%;
   top: 50px;
-  border: 2px solid rgb(0 , 0 , 0);
+  border: 2px solid black;
   border-radius: 4px;
   padding: 10px;
-  background-color: rgb(164, 191, 200);
+  background-color: rgb(164 , 191 , 200);
+}
+nav a {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #2A6376;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  margin:auto;
-  border: 2px solid rgb(0 , 0 , 0);
+  margin: auto;
+  border: 2px solid black;
   border-radius: 4px;
-  background-color: rgb(53 , 124 , 147) !important;
+  background-color: rgb(53 , 124 , 147) ! important;
   text-align: center;
-  width: 95%;
-  color: rgb(231, 230, 228);
+  width: 95%;  
+}
+
+#titulo {
+    color: rgb(231 , 230 , 228);
 }
 
 #secao-foto {
@@ -31,11 +42,35 @@ main {
   max-width: 150px;
   border-radius: 100%;
   border: 2px ridge rgb(53 , 124 , 147);
-  }
+}
 
 #rodape {
   position: static;
-  background-color: rgb(53 , 124 , 147) !important;
+  background-color: rgb(53 , 124 , 147);
   text-align: center;
-  color: rgb(231, 230, 228);
+  color: rgb(231 , 230 , 228);
+}
+
+#lado-esquerdo {
+    display: inline-block;
+    max-width: 80%;
+    text-align: center;
+    line-height: 120%;
+}
+
+article p {
+    text-align: justify;
+}
+
+#listas {
+    text-align: left;
+    margin: auto;
+    padding: 3px;
+}
+
+#lado-direito {
+    
+    max-width: 15%;
+    float: right;
+    text-align: justify;
 }
