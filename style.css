@@ -1,26 +1,34 @@
 body { background-color: rgb(253,251,251); }
 
-# cabecalho
-{
-    
+.cabecalho
+{    
     position: fixed;
+    top: 10%;
+    padding: 2px 10px;
+    margin 0px;
+    background-color: #500;
+    color: rgb(255,255,255);
+    border-bottom: 3px solid #500;
+    width: 1200px;
     top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: auto;
-    background-color: #256;
-    background: blueviolet;
-    
-    
+    text-align: center;
+    font-family: monospace;   
+
 }
 
 .Profile_Picture
 {
     width: 200px;
     border:5px solid #500;	
+    position: absolute;
+    top: 70px;
 }
 
-
+.Content
+{
+    position: absolute;
+    top: 300px;
+}
 
 
 
