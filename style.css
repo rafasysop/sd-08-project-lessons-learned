@@ -51,10 +51,28 @@ main {
 #meu-aprendizado {
     display: inline-block;
     background-color: rgb(253, 251, 251);
-    padding: 1rem;
+    padding: 2rem;
     line-height: 1.4rem;
     border-radius: 20px;
 }
+
+#meu-aprendizado h2 {
+    margin-bottom: 2rem;
+}
+
+#meu-aprendizado #p1 {
+    width: 55%;
+    display: inline-block;
+    border-right: 3px solid aqua;
+    padding: 1rem;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+}
+
 
 #me-img {
     display: block;
@@ -66,7 +84,7 @@ main {
     margin: 1rem;
     display: inline-block;
     padding: 2rem;
-    border: 2px solid chartreuse;
+    border: 2px solid;
     border-radius: 10%;
 }
 
