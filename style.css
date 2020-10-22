@@ -18,6 +18,8 @@ body {
 
 #rodape{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
     background-color: cornsilk;
     padding: 20px;
     border-style: groove;
