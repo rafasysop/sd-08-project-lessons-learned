@@ -14,8 +14,29 @@ h1{
 }
 
 #minha_foto{
-    width: 250px;
+    width: 200px;
     border-radius: 6px;
     margin-left: 12px;
     display: block;
+
+    
+}
+
+#meu_nome{
+    position: relative;
+    margin-left: 40px;
+    top: 15px;
+}
+
+#content{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 25px;
+    left: 15px;
+}
+
+#licoes_aprendidas li{
+    line-height: 24px;
 }
