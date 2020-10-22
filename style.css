@@ -44,7 +44,8 @@ main {
 
 p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 #aside{
