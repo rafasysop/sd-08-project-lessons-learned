@@ -3,8 +3,8 @@
 }
 
 #cabecalho {
+    position: fixed;
     top: 0;
     border: ridge 5px;
     padding: 10px;
 }
-    
