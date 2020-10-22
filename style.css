@@ -9,6 +9,7 @@ body{
 .titulo{
     background-color:  #99ff99;
     text-align: center;
+    position: fixed;
 }
 .header{
     top: 0px;
