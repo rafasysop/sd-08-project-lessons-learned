@@ -33,3 +33,13 @@ footer {
     padding: 35px 0 0 0;
     border: 2px solid blue;
 }
+
+.lado-esquerdo, .lado-direito{
+    max-width: 45%;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    vertical-align: middle;
+}
+/* .lado-direito {
+    float: right;
+} */
