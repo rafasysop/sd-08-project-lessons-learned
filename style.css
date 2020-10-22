@@ -32,7 +32,7 @@ a {
 
 #minha_foto {
   width: 200px;
-  border: gold;
+  border: 5px solid gold;
 }
 
 #aprendizado {
