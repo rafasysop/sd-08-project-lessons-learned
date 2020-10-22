@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* HEADER */
@@ -44,7 +45,15 @@ main {
     width: 300px;
     border-radius: 20px;
     border: 5px solid rgb(253, 251, 251);
-    display: block;
+    display: inline-block;
+}
+
+#meu-aprendizado {
+    display: inline-block;
+    background-color: rgb(253, 251, 251);
+    padding: 1rem;
+    line-height: 1.4rem;
+    border-radius: 20px;
 }
 
 #me-img {
