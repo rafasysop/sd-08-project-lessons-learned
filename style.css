@@ -3,7 +3,9 @@ body {
 }
 
 #cabecalho {
-    /* fixo top=0px  */
+    position: fixed;
+    background: blue;
+    top: 0px;
 }
 
 #minha_foto {
