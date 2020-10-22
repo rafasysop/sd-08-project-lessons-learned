@@ -3,13 +3,17 @@
 }
 
 #cabecalho {
-    /*position: fixed;*/
     top: 0;
-    border: ridge 5px;
-    padding: 10px;
+    width: 100%;
+    background-color: teal;
+    position: fixed;
 }
 
 #minha_foto {
-    margin: 10px;
+    margin: ;
     border-radius: 5px;
+}
+
+#footer-bg {
+    background-color: rgb(204, 204, 204);
 }
