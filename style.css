@@ -1,12 +1,14 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: sans-serif;
 }
 
 #cabecalho {
     top: 0px;
-    background-color: green;
+    background-color: #0fa36b;
     position: fixed;
     width: 99%;
+    color: #3a4558;
 }
 
 #titulo {
@@ -15,4 +17,10 @@ body {
 
 #minha_foto {
     width: 300px;
+}
+
+.textos {
+    font-size: 15px;
+    line-height: 20px;
+    color: #3a4558;
 }
