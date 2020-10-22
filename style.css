@@ -16,12 +16,18 @@ body {
   font-weight: 100;
   text-align: center;
   width: 1366;
-  height: 768;
 }
 
-ol {
-  list-style-type: decimal;
+#barra {
+  background-color: rgb(53, 53, 53);
+  height: 20px;
 }
+
+#listas {
+  display: flex;
+  flex-direction: column;
+}
+
 
 #titulo {
   margin-top: 0;
