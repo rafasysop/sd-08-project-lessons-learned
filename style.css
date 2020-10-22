@@ -21,6 +21,7 @@ body {
 header {
   background-color: rgb(29, 29, 29);
   height: 40px;
+  display: inline;
 }
 
 #listas {
