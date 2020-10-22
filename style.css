@@ -2,6 +2,25 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #1c1c1c;
+  font-size: 36px;
+}
+
+p {
+  line-height: 1px;
+  margin: 0 35px;
+}
+
+a {
+  padding: 5px;
+}
+
+table {
+  border: 1px solid #ccc;
+}
+
 #cabecalho {
   position: fixed;
   top: 0px;
