@@ -2,7 +2,8 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 110%;
-    color: rgb(rgb(10, 7, 7), rgb(2, 3, 2), rgb(7, 7, 10))
+    color: rgb(rgb(10, 7, 7), rgb(2, 3, 2), rgb(7, 7, 10));
+    font-size: 15px;
     
 }
 nav li{ 
@@ -82,5 +83,13 @@ aside {
 .listas {
     display:inline-block;
 
+}
+.lado-esquerdo {
+    display: inline-block;
+
+}
+.lado-direito {
+    display:inline-block;
+    
 }
   
