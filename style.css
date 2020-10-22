@@ -13,14 +13,17 @@ main {
   background-color: rgb(164 , 191 , 200);
 }
 nav a {
-    margin: 20px;
+
+  margin: 20px;
 }
 
-h1, h2, h3 {
-    color: #2A6376;
+h1 , h2 , h3 {
+
+  color: #2A6376;
 }
 
 #cabecalho {
+
   position: fixed;
   top: 0;
   margin: auto;
@@ -28,49 +31,57 @@ h1, h2, h3 {
   border-radius: 4px;
   background-color: rgb(53 , 124 , 147) ! important;
   text-align: center;
-  width: 95%;  
+  width: 95%;
 }
 
 #titulo {
-    color: rgb(231 , 230 , 228);
+  color: rgb(231 , 230 , 228);
+  font-size: 3em;
 }
 
 #secao-foto {
+
   text-align: center;
 }
 #minha_foto {
+
   max-width: 150px;
   border-radius: 100%;
   border: 2px ridge rgb(53 , 124 , 147);
+  margin-top: 10px;
 }
 
 #rodape {
+
   position: static;
   background-color: rgb(53 , 124 , 147);
   text-align: center;
   color: rgb(231 , 230 , 228);
 }
 
-#lado-esquerdo {
-    display: inline-block;
-    max-width: 80%;
-    text-align: center;
-    line-height: 120%;
+.lado-esquerdo {
+
+  display: inline-block;
+  max-width: 80%;
+  text-align: center;
+  line-height: 120%;
 }
 
 article p {
-    text-align: justify;
+
+  text-align: justify;
 }
 
 #listas {
-    text-align: left;
-    margin: auto;
-    padding: 3px;
+
+  text-align: left;
+  margin: auto;
+  padding: 3px;
 }
 
-#lado-direito {
+.lado-direito {
     
-    max-width: 15%;
-    float: right;
-    text-align: justify;
+  max-width: 15%;
+  float: right;
+  text-align: justify;
 }
