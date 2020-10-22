@@ -23,11 +23,8 @@ body{
 }
 
 #passage-conteiner{
-    display: flex;
-    justify-content: space-around;
+    display:flex;
     flex-direction: row;
-    width: 60%;
-    align-items: flex-start
 }
 
 #passage{
@@ -44,7 +41,9 @@ body{
 
 #nav{
     margin: 60px;
-    
+    border: 20px;
+    border-color: blue;   
+    padding: 20;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
