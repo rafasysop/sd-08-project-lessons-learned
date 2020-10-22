@@ -47,6 +47,7 @@ width:1000px;
     padding-top: 1px;
     display: inline-block;
     border: 4px dotted red;
+    max-width: 500px;
     
      
    
