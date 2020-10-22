@@ -11,8 +11,46 @@ body {
   background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+  background-color: #181661;
+  color: white;
   position: fixed;
   top: 0px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+a:hover {
+  opacity: 0.5;
+}
+nav ul li {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+}
+.image-text {
+  width: 80%;
+  padding: 10px;
+}
+img {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px 40px;
+  float: left;
+}
+p {
+  text-align: justify;
+}
+aside {
+  float: right;
+  width: 60%;
+}
+main {
+  margin-top: 110px;
 }
 table {
   margin: 5px;
@@ -35,4 +73,10 @@ table {
 .lado-direito {
   width: 45%;
   float: right;
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #181661;
 }
