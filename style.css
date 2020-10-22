@@ -2,6 +2,9 @@ body {
   background: rgb(26, 83, 92);
 }
 
-
+cabecario {
+  position: fixed;
+  top: 0px;
+}
 
 
