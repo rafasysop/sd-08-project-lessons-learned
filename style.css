@@ -11,6 +11,7 @@ body {
     background-color: lightgreen;
     width: 100%;
     font-family: Roboto, 'sans-serif';
+    z-index: 1;
 }
 
 article {
@@ -56,4 +57,12 @@ table {
 #rodape li {
     display: inline-block;
     padding: 0 25px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: green;
+
 }
