@@ -4,92 +4,75 @@ body {
     line-height: 110%;
     color: rgb(rgb(10, 7, 7), rgb(2, 3, 2), rgb(7, 7, 10));
     font-size: 15px;
-    
 }
-nav li{ 
-    display:inline-block;
+nav li { 
+    display: inline-block;
     list-style-type: none;
     margin-right: 200px;
     margin-top: 15px;
 }
 #titulo {
     text-align: center;
-
 }
 
 #cabecalho {
     position: fixed; 
-    top:0px; 
-    left:0px;
+    top: 0px; 
+    left: 0px;
     right: 0px;    
     background-color: green;
-    display: block;
-    
-    
+    display: block;    
 }
 
 #titulo {
     /* font-size: 20px; */
 }
 #minha_foto { 
-    width: 150px;
-    
+    width: 150px;    
 }
 #licoes_aprendidas {
-    
-
 }
 #licoes_a_aprender {
-
-
 }
 #rodape {
     border: 2px solid black;
-
 }
 .bloco {
     display: inline-block;
 }
 article { 
-    margin-top: 50px;
-    
+    margin-top: 50px;    
     border: 1px solid black;
     padding: 5px 10px;
     width: 50%;
     margin-bottom: 50px;
 }    
 section {
-    display:block;
-    
+    display:block;    
 }
 aside {
     margin-top: 50px;    
     margin-bottom: 50px;
-    float: right;
-    
-    
+    float: right;    
     border: 2px solid black;
     padding: 20px 10px;
 }
 .corpo {
     margin-top: 200px;
-    display:inline-block;
+    display: inline-block;
     border: 1px solid black;
     padding: 5px 10px;
     width: 70%;
 }
 .listas {
     display:inline-block;
-
 }
 .lado-esquerdo {
     display: inline-block;
     width: 50%;
-
 }
 .lado-direito {
     width: 40%;
-    display:inline-block;
-    
+    display:inline-block;    
 }
   
