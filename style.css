@@ -17,6 +17,17 @@ h1{
     text-align: center;
 }
 
+nav{
+    top: 75px;
+    position: relative;
+
+}
+
+main{
+    position: relative;
+    top: 90px;
+}
+
 ul,
 ol{
     display: inline-block;
@@ -26,7 +37,7 @@ ol{
 }
 
 img {
-    top: 55px;
+    top: 90px;
     margin: 2px;
     position: relative;
 }
