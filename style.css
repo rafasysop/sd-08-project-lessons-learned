@@ -1,12 +1,26 @@
 body {
     background-color: rgb(253, 251, 251);
+    text-align: center;
 }
 
 #cabecalho {
     top: 0px;
+    background-color: rgb(240, 227, 227);    
+}
+
+#cabecalho li {
+    list-style-type: none;
+}
+
+#titulo {
+    color: rgb(109, 9, 112);  
 }
 
 #minha_foto {
     width: 200px;
     border-radius: 100%;
+}
+
+h2 {
+    color: rgb(53, 48, 94);  
 }
