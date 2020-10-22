@@ -14,7 +14,7 @@ body {
   position: fixed;
   top: 0;
   left: -10px;
-  background-color: #0c73b2;
+  background-color: rgb(12 , 115, 178);
   color: white;
   margin: 0;
   padding-left: 10px;
@@ -33,7 +33,7 @@ body {
 }
 
 #navegacao {
-  background-color: #eae1c8;
+  background-color: rgb(234 , 225 , 200);
   border-bottom: 1px solid black;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 #navegacao li:hover {
-  background-color: #dfc39d;
+  background-color: rgb(223 , 195 , 157);
 }
 
 a {
@@ -86,19 +86,16 @@ p {
 .listas {
   clear: both;
   margin: auto;
-}
-
-.listas {
   text-align: left;
   border-collapse: collapse;
 }
 
-.listas th, td {
+.listas th , td {
   border: 1px dashed black;
   padding: 10px;
 }
 
-.listas ol, ul {
+.listas ol , .listas ul {
   list-style-position: inside;
   padding: 0 20px 0 0;
   margin: 0;
