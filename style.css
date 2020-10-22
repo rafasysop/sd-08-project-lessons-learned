@@ -1,12 +1,19 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
+
 }
 
-#cabecalho{
-    position: fixed;
+#cabecalho {
+
     top: 0;
+
 }
 
-#titulo{
+#titulo {
     text-align: center;
+}
+
+#minha_foto {
+    width: 200px;
+
 }
