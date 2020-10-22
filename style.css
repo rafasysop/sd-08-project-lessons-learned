@@ -8,6 +8,7 @@ body {
     padding: 3%;
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
+    float: middle;
   }
   #cabecalho{
     position: fixed;
@@ -64,7 +65,7 @@ body {
     border: 1px solid rgba(195, 171, 127, 0.644);
     box-shadow: 3px 10px 10px -3px rgb(204, 197, 197);
   }
-  .aside1 {
+  .aside1 {    
     float: left;
     margin: 0 1% 1%;
     padding: 0% 4% 1% 0;
@@ -72,8 +73,8 @@ body {
     background-color: #fffffff6;
     border: 1px solid rgb(243, 238, 238);
   }
-  .aside2 {
-    float:right;
+  .aside2 {    
+    float: right;
     margin: 0 1% 1%;
     padding: 0% 4% 1% 0;
     line-height: 300%;
