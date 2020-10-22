@@ -3,7 +3,9 @@ body {
 }
 
 #cabecalho {
-    border: 1px solid red;
-    position: fixed;
-    top: 0px;
+    border: 1px solid red
+}
+
+.border  {
+    border: 1px solid red
 }
