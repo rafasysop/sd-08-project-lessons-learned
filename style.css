@@ -58,3 +58,8 @@ body {
     font-weight: 600;
     color: rgb(46, 7, 7);
 }
+
+#table {
+    width: auto;
+    margin-left: 30%;
+}
