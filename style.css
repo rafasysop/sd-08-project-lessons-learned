@@ -8,6 +8,7 @@ body {
     top: 0px;
     z-index: 0;
     
+    
 }
 
 #titulo {
@@ -36,11 +37,21 @@ ul li {
     
 }
 
+.tabela {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+  
+}
+
+
+}
+
 
 #rodape {
-    width: 100%;
-    background-color: green;
-    margin-top: 60px;
-    padding: 20px;
+
+    margin-top: 1050px;
+    padding: 120px;
     
 }
