@@ -83,36 +83,36 @@ body {
 
 /*****Listas*****/
 
-#licoes_aprendidas {
+#lista-esquerda {
     display: inline-block;
     margin-left: 100px;
     width: 250px;   
 }
 
-#licoes_aprendidas h3 {
+#lista-esquerda h3 {
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-#licoes_aprendidas ol li {
+#lista-esquerda ol li {
     margin-bottom: 4px;
     padding: 10px;
     font-weight: 600;
 }
 
-#licoes_a_aprender   {
+#lista-direita   {
     display: inline-block;
     float: right;
     margin-right: 100px;
     width: 250px;
 }
 
-#licoes_a_aprender h3 {
+#lista-direita h3 {
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-#licoes_a_aprender ul li {
+#lista-direita ul li {
     padding: 10px;
     font-weight: 600;
 }
