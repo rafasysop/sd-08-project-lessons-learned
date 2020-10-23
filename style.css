@@ -90,25 +90,36 @@ main section aside {
 
   color: #161E2E;
   font-size: 18px;
-  background-color: #8DA2FB;
+  background-color: #d6dbd4;
 }
 
 main section.lists {
   width: 100%;
   height: 300px;
 
-  margin-bottom: 80px;
+  margin: 130px 0;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 
   font-size: 20px;
   color: #161E2E;
 }
 
-main section.lists table:first-child {
-  margin-right: 160px;
+main section.lists img {
+  width: 450px;
+  margin-right: 60px;
+}
+
+main section.lists table ul {
+  list-style-type: square;
+}
+
+main section.lists table {
+  padding: 20px;
+
+  line-height: 1.8;
 }
 
 main section.about-author {
