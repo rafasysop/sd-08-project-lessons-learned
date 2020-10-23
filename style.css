@@ -6,7 +6,7 @@ body {
     font-family: Georgia, serif;
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed; 
     top: 0px;
 }
@@ -33,26 +33,37 @@ body {
 .lado-esquerdo {
     width: 40%;
     display: inline-block;
-    background-color: burlywood;
 }
+
 .lado-direito {
     display: inline-block;
-    background-color: aqua;
     text-align: center;
     width: 20%;
     margin-left: 300px;
     margin-bottom: 50px;
 }
 
-#Contato a{
-    margin: 20%;
+#Contato {
+    margin-left: 15%;
 }
 
 #rodape {
+    color: darkgray;
     margin-top: 50px;
     border: 1px solid;
     background-color: gray;
     padding: 5px;
+}
+
+#Contato a{
+    background-color: green;
+    text-decoration: none;
+    color: honeydew;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 200px;
 }
 
 
