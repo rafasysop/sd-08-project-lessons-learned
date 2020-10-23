@@ -9,6 +9,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 #titulo {
@@ -24,4 +25,14 @@ body {
 .navegacao li {
     display: inline-block;
     margin-right: 10px;
+}
+
+#principal {
+    position: relative;
+    top: 100.88px;
+}
+
+#minha_foto {
+    margin-left: 10px;
+    border-radius: 5px;
 }
