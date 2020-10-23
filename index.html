@@ -13,64 +13,51 @@
     <h1 id="titulo">Lessons Learned Project</h1>
     <nav>
       <ul>
-        <li><a href="#aprendidas">Lições aprendidas</a></li>
-        <li><a href="#aprendizado">Aprendizado</a></li>
-        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#licoes">Lições</a></li>
+        <li><a href="#nivel_de_confianca">Habilidades</a></li>
+        <li><a href="#aprendizado_e_experiencias">Experiências</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <!-- 3 - A página deve possuir uma foto sua
-    A foto deve ser inserida utilizando uma tag img com o ID "minha_foto" -->
-    <section id="apresentacao">
-      <h2>Paulo Simões</h2>
-      <img id="minha_foto" src="./assets/foto.png" alt="Foto de Paulo Simões">
-    </section>
+  <main id="principal">
 
+    <div id="licoes">
+      <section id="aprendidas">
+        <h2>Learned</h2>
+        <ol id="licoes_aprendidas">
+          <li>Shell file manipulation</li>
+          <li>How the internet works</li>
+          <li>What is Git and GitHub</li>
+          <li>How to use Git and Github</li>
+          <li>What is HTML</li>
+          <li>HTML tags</li>
+          <li>What is CSS</li>
+          <li>CSS tags</li>
+          <li>Inline, block and inline-block</li>
+          <li>Semantic HTML5</li>
+        </ol>
+      </section>
 
-    <!-- 4 - A página deve possuir uma lista de lições aprendidas
-    A lista deve ser numerada e possuir o ID "licoes_aprendidas"
-    A lista deve possuir 10 itens -->
-    <section id="aprendidas">
-      <h2>Lições aprendidas</h2>
-      <ol id="licoes_aprendidas">
-        <li>Shell file manipulation</li>
-        <li>How the internet works</li>
-        <li>What is Git and GitHub</li>
-        <li>How to use Git and Github</li>
-        <li>What is HTML</li>
-        <li>HTML tags</li>
-        <li>What is CSS</li>
-        <li>CSS tags</li>
-        <li>Inline, block and inline-block elements</li>
-        <li>Semantic HTML5</li>
-      </ol>
-    </section>
-
-    <!-- 5 - A página deve possuir uma lista de lições que ainda deseja aprender
-      A lista não deve ser numerada e deve possuir o ID "licoes_a_aprender"
-      A lista deve possuir 10 itens -->
-    <section id="a_aprender">
-      <h2>Lições a aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>Web Crawlers</li>
-        <li>Improve my understanding of HTTP protocol</li>
-        <li>Shell Scripts</li>
-        <li>SEO</li>
-        <li>Responsive Design</li>
-        <li>UI/UX</li>
-        <li>CSS Selectors</li>
-        <li>CSS Pseudo-elements</li>
-        <li>HTML Templating</li>
-        <li>Clean code</li>
-      </ul>
-    </section>
+      <section id="a_aprender">
+        <h2>Need to learn</h2>
+        <ul id="licoes_a_aprender">
+          <li>Web Crawlers</li>
+          <li>Understanding HTTP protocol</li>
+          <li>Shell Scripts</li>
+          <li>SEO</li>
+          <li>Responsive Design</li>
+          <li>UI/UX</li>
+          <li>CSS Selectors</li>
+          <li>CSS Pseudo-elements</li>
+          <li>HTML Templating</li>
+          <li>Clean code</li>
+        </ul>
+      </section>
+    </div>
 
     <section id="nivel_de_confianca">
-      <h2>Nível de confiança nas habilidades (1 a 5)</h2>
-      <!-- 12 - Adicione uma tabela à página
-      A página deve possuir uma tabela -->
+      <h2>Skill levels</h2>
       <table>
         <thead>
           <tr>
@@ -99,46 +86,27 @@
       </table>
     </section>
 
-    <!-- 8 - Crie um artigo sobre seu aprendizado
-    A tag article devem ser utilizadas
-    O artigo deve ter mais de 300 letras e menos de 600 -->
-    <article class="lado-esquerdo" id="aprendizado">
-      <h2>Aprendizado</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, distinctio vero aut assumenda consequatur a
-        consequuntur possimus maxime dicta veritatis ipsam? Tempore eius nisi ratione ipsum voluptatem numquam at quam
-        distinctio sed? Quaerat consequatur facilis eius nulla dicta sapiente quasi? Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Tenetur nam eos placeat cumque sequi dolore minus magni laudantium inventore
-        doloribus?</p>
-    </article>
+    <section id="aprendizado_e_experiencias">
+      <article id="aprendizado" class="lado-esquerdo">
+        <h2>Aprendizado</h2>
+        <p>Neste primeiro mês na Trybe aprendi sobre várias coisas, muitas delas eu já
+          havia tido um primeiro contato, mas aproveitei a oportunidade para relembrar
+          conteúdos que havia esquecido, principalmente propriedades do CSS. Mais do
+          que isso, tive oportunidade de melhorar várias soft skills, como comunicação e
+          colaboração.
+        </p>
+      </article>
 
-    <!-- 9 - Crie uma seção que conta uma passagem sobre seu aprendizado
-    A tag aside deve ser utilizada
-    A seção deve ter mais que 100 letras e menos que 300 -->
-    <aside id="experiencias" class="lado-direito">
-      <h2>Experiências</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione beatae ipsum cum quo accusantium nostrum
-        dolorum, itaque molestias minima!</p>
-    </aside>
-
-    <!-- 10 - Torne o seu site mais acessível e melhore seu ranqueamento em mecanismos de busca na Web aplicando os elementos HTML de acordo com o sentido e propósito de cada um deles
-    A página deve possuir um elemento article
-    A página deve possuir um elemento header
-    A página deve possuir um elemento nav
-    A página deve possuir um elemento section
-    A página deve possuir um elemento aside
-    A página deve possuir um elemento footer -->
-
-    <!-- 11 - Seu site deve passar sem problemas na verificação de semântica do site achecker
-    Link: https://achecker.ca/checker/index.php -->
+      <aside id="experiencias" class="lado-direito">
+        <h2>Experiências</h2>
+        <p>Até então tem sido muito gratificante estar na turma 8, muito bom estar junto
+          de pessoas que tem um objetivo em comum e estão dispostos a ajudar uns aos outros.</p>
+      </aside>
+    </section>
   </main>
 
-  <!-- 6 - A página deve possuir um rodapé
-  O rodapé deve utilizar a tag footer e possuir o ID "rodape" -->
-
-  <!-- 7 - A página deve possuir pelo menos um link externo
-  A configuração desse link deve ser feita para abrir em uma nova aba do navegador -->
-
   <footer id="rodape">
+    <img id="minha_foto" src="./assets/foto.png" alt="Foto de Paulo Simões">
     <span>Projeto realizado por <a href="https://www.linkedin.com/in/paulohbsimoes/" target="_blank">Paulo
         Simões</a></span>
   </footer>

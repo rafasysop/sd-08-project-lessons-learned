@@ -4,164 +4,150 @@
   box-sizing: border-box;
 }
 
-/* 1 - O corpo da página deve possuir uma cor de fundo específica
-Possuir cor de fundo: rgb(253 ,251 ,251) */
-
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: sans-serif;
+  font-size: max(16px, calc(10px + 1vw));
+}
+
+ul, ol {
+  list-style-position: inside;
 }
 
 li {
-  list-style-position: inside;
-  line-height: 25px;
+  line-height: calc(18px + 1vw);
 }
 
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 section {
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 25px;
 }
-
-/* 2 - Seu site deve possuir uma barra superior com um título
-A barra deve possuir o ID "cabecalho" O elemento com o id cabecalho deve ser fixo no topo
-da página, com a propriedade top tendo 0px. O título deve estar dentro da barra e possuir
-o ID "titulo", além de ser uma tag h1 */
 
 #cabecalho {
   position: fixed;
   top: 0;
-}
-
-/* 13 - Brinque com o Box model!
-Altere margin, padding e border dos elementos para ver, na prática, como esses
-atributos influenciam e melhoram a visualização dos componentes */
-
-header {
   width: 100vw;
   height: auto;
   background-color: rgb(8 , 5 , 5);
   color: white;
+}
+
+#cabecalho h1 {
+  text-align: center;
   padding: 20px;
 }
 
-header h1 {
-  text-align: center;
-  margin-bottom: 35px;
+#cabecalho nav {
+  overflow: hidden;
+  background-color: rgba(111 , 17 , 218 , 0.7);;
 }
 
-header nav ul {
+#cabecalho nav ul {
   list-style: none;
 }
 
-header nav ul li {
+#cabecalho nav a {
   float: left;
-  margin-right: 20px;
+  padding: 20px;
 }
 
-header nav a {
+#cabecalho nav a:hover {
+  background: rgba(111 , 17 , 218 , 0.5);
+  color: yellow;
+}
+
+#cabecalho nav a {
   text-decoration: none;
   color: white;
   display: inline;
-  font-size: 20px;
 }
 
-main {
-  padding: 200px 40px 0;
-}
-
-p {
-  line-height: 22px;
-}
-
-.lado-esquerdo {
-  float: left;
-  width: 60%;
-  padding: 20px;
-}
-
-.lado-direito {
-  float: right;
-  width: 40%;
-  padding: 20px;
-}
-
-#nivel_de_confianca {
-  padding: 20px;
-  clear: left;
-}
-
-footer {
-  clear: left;
-  height: 100px;
-  background-color: rgb(3 , 0 , 0);
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  padding: 40px;
-}
-
-#licoes {
-  padding: 20px;
-}
-
-#licoes ul , #licoes ol {
-  margin: 20px;
-}
-
-#apresentacao {
-  width: 30%;
-  max-width: 300px;
-  min-width: 200px;
-  text-align: center;
-  float: right;
-  padding: 20px;
-}
-
-#apresentacao h1 {
-  margin-bottom: 16px;
-}
-
-#apresentacao img {
-  width: 100%;
-  max-width: 240px;
-  min-width: 200px;
-  display: block;
-  border: 5px solid rgba(0 , 0 , 0 , 0.1);
-  border-radius: 16px;
-  margin-bottom: 50px;
+#principal {
+  padding: calc(140px + 5vw) 10vw 0px;
 }
 
 #aprendidas , #a_aprender {
   float: left;
-  width: 350px;
-  padding: 20px;
+  width: 50%;
 }
 
-aside {
-  overflow: hidden;
+#nivel_de_confianca {
+  clear: left;
 }
 
-table {
+#nivel_de_confianca table {
   border-collapse: collapse;
-  margin: 40px 0;
+  width: 100%;
+  max-width: 500px;
 }
 
-td {
+#nivel_de_confianca table td {
   padding: 15px;
   border: 1px solid black;
   text-align: center;
-  min-width: 200px;
 }
 
-thead td {
-  font-size: 30px;
+#nivel_de_confianca table thead td {
   background: rgba(111 , 17 , 218 , 0.7);
 }
 
-table tr:nth-child( odd ) {
+#nivel_de_confianca table tr:nth-child( odd ) {
   background-color: rgba(0 , 0 , 0 , 0.6);
   color: white;
+}
+
+#aprendizado.lado-esquerdo {
+  float: left;
+  width: 65%;
+}
+
+#experiencias.lado-direito {
+  float: right;
+  width: 30%;
+  margin-left: 1vw;
+}
+
+#aprendizado.lado-esquerdo , #experiencias.lado-direito {
+  text-align: justify;
+}
+
+#aprendizado_e_experiencias {
+   overflow: hidden; /* clearfix para height 0 por conter somente elementos float */
+   margin-bottom: 30px;
+}
+
+#rodape {
+  clear: both;
+  height: auto;
+  background-color: rgb(3 , 0 , 0);
+  color: white;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: orangered;
+}
+
+#rodape #minha_foto  {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 0;
+  border-radius: 50%;
+  border: 5px solid rgba(0 , 0 , 0 , 0.1);
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.center {
+  max-width: 400px;
+  /* margin: 0 auto; */
 }
