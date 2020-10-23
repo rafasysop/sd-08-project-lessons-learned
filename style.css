@@ -32,7 +32,10 @@ body {
     margin-top: 30px;
     margin-left: 40%;
 }
-/** Texto do artigo*/
+/** Texto do artigo ao lado aside*/
+#principal{
+    display: inline-block;
+}
 .texto {
     float: left;
     text-align: justify;
@@ -41,25 +44,22 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-/**Texto do aside*/
-.texto2 {
-    display: inline-block;
-    text-align: justify;
-    width: 200px;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
+
 /** Deixando os títulos em negrito*/
 #negrito {
     font-weight: bold;
     font-style: normal;
-    padding-bottom: 0px;
+}
 
+/** Estilizando o rodape*/
+#rodape {
+    background-color: lawngreen;
+    padding: 15px;
+    text-align: center;
 }
-.cor h3 {
-    background-color: rgb(150, 48, 99);
-}
-.cor p {
-    background-color: hotpink;
+
+#link {
+    padding: 5px 15px;
+    background-color: lightgreen;
+    
 }
