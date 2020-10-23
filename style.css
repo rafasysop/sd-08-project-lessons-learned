@@ -64,10 +64,12 @@ width:1000px;
    
    
 }
-#rodape h4{
+#rodape h3{
     font-size: 15px;
     font-weight: 100;
     color:orangered;
+    margin-right: 50px;
+    left: 50px;
 }
 
 table,th,td{
