@@ -17,14 +17,19 @@ body{
 
     }
 
-#minha_foto{
-        position: absolute;
-        top: 200px;
-        width: 300px;
-        margin-left: 1px;
-        padding-left: 1px;
-        left: 1px;
-        float: left;
+img{
+    position: absolute;
+    display: block;
+    top: 213px;
+    left:-150px;
+    size: 60%;
+    border: 1px;
+    border-color: black;
+    padding:1px;
+    width: 500px;
+
+    
+        
         
         
     }
@@ -54,17 +59,7 @@ body{
 
     }
 
-    #sobremin {
-
-        
-        position: absolute;
-        top: 200px;
-        left: 270px; 
-        width: 300px;
-        text-align: center;
-        background-color: crimson;
-
-    }
+    
 
     ul li a{
         
@@ -101,10 +96,20 @@ body{
                 
       }
 
+      .textodentro{
+        font-family: 'lato';
+        text-align: justify;
+        background-color: rgb(69, 200, 240);
+        width: 400px;
+        margin-top: 250px;
+        margin-left: 200px;
+        padding: 10px;
 
-      
 
       }
+      
+
+      
 
 
       
