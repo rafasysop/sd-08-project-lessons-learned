@@ -22,14 +22,18 @@ nav {
 
 .article-lorem {
     padding: 30px 70px;
-    width: 45%;
-    margin: auto;
+    width: 40%;
+    margin: left;
+
 }
 
 .article-apr {
     padding: 30px 30px;
     width: 35%;
-    margin: auto;
+
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 
