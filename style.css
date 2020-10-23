@@ -3,9 +3,13 @@
 * {
 	margin: 0;
 	padding: 0;
+
 	--white-bg: rgb(253 , 251 , 251);
+
 	--primary-green: #0fa36b;
+
 	--gray-bg: #e4e8ec;
+
 	--gray-font: #5c687c;
 }
 
@@ -48,7 +52,7 @@ a {
 	color: var(--gray-font);
 	text-decoration: none;
 	font-weight: 500;
-	margin: 0 15px;	
+	margin: 0 15px;
 	position: relative;
 }
 
@@ -89,19 +93,26 @@ a:hover:after {
 	margin-top: 20px;
 }
 
-#licoes, #perspectiva, #horarios, #rodape {
+#licoes , #perspectiva , #horarios , #rodape {
 	width: 100%;
 	height: 100%;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2 , 1fr);
 	place-items: center;
 }
 
 #licoes {
 	background-color: var(--gray-bg);
+	position: relative;
 }
 
-#licoes ol, #licoes ul {
+#licoes h1 {
+	color: var(--primary-green);
+	position: absolute;
+	top: 60px;
+}
+
+#licoes ol , #licoes ul {
 	background-color: var(--white-bg);
 	width: 240px;
 	padding: 10px 30px;
@@ -114,7 +125,7 @@ li {
 	margin: 4px;
 }
 
-#licoes ol h1, #licoes ul h1  {
+#licoes ol h1 , #licoes ul h1 {
 	color: var(--primary-green);
 	position: absolute;
 	top: -40px;
@@ -123,9 +134,10 @@ li {
 
 #perspectiva {
 	background-color: var(--primary-green);
+	position: relative;
 }
 
-#perspectiva article, #perspectiva aside {
+#perspectiva article , #perspectiva aside {
 	width: 60%;
 	text-align: center;
 	background-color: var(--white-bg);
@@ -133,7 +145,13 @@ li {
 	padding: 20px;
 }
 
-#perspectiva h1 {
+#perspectiva > h1 {
+	color: var(--white-bg);
+	position: absolute;
+	top: 60px;
+}
+
+#perspectiva article h1 , #perspectiva aside h1 {
 	margin-bottom: 20px;
 }
 
@@ -143,6 +161,46 @@ li {
 
 #horarios {
 	background-color: var(--gray-bg);
+	position: relative;
+}
+
+#horarios div {
+	background-color: var(--white-bg);
+	border-radius: 4px;
+	padding: 10px;
+}
+
+#horarios h1 {
+	color: var(--primary-green);
+	position: absolute;
+	top: 60px;
+}
+
+#horarios h2 {
+	color: var(--primary-green);
+	text-align: center;
+}
+
+#horarios table {
+	background-color: var(--white-bg);
+	border-collapse: collapse;
+}
+
+#horarios table td , #horarios table th {
+	padding: 4px;
+}
+
+#horarios table td + td {
+	padding-left: 10px;
+}
+
+#horarios table tr:nth-child(even) {
+	background-color: var(--gray-bg);
+}
+
+#horarios table thead{
+	background-color: var(--primary-green);
+	color: var(--white-bg);
 }
 
 #rodape {
