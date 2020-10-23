@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
 }
 
 body {
@@ -119,14 +119,35 @@ body {
 
 /*****Artigos*****/
 
-#artigos h2 {
+.lado-direito {
+    width: 365px;
+    float: left;
+}
+
+.lado-direito h2 {
     margin-top: 15px;
 }
 
-#artigos p {
+.lado-direito p {
     text-align: justify;
     padding: 5px 15px;
     margin-bottom: 15px;
+}
+
+.lado-esquerdo {
+    float: right;
+    width: 365px;
+    margin-top: 15px;
+}
+
+.lado-esquerdo p {
+    text-align: justify;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.lado-esquerdo h2 {
+    line-height: 70px;
 }
 
 /*****Lateral*****/
