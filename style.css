@@ -4,51 +4,51 @@ body {
 
 #cabecalho {
     top: 0px;
-    background-color: green;
-    width: 100%;
-    position: fixed;
+     background-color: green;
+      width: 100%;
+       position: fixed;
 }
 
 #titulo {
     margin: 0px;
-    text-align: center;
-    padding-top: 30px;
-    color: white;
-    font-size: 28px;
+     text-align: center;
+      padding-top: 30px;
+       color: white;
+        font-size: 28px;
 
 }
 
 .navegacao {
     font-size: 20px;
-    margin-top: 40px;
-    font-weight: 600;
+     margin-top: 40px;
+      font-weight: 600;
 
 }
 
 .navegacao a {
     text-decoration: none;
-    color: white;
+     color: white;
 }
 
 #minha_foto {
     width: 300px;
-    margin-top: 180px;
+     margin-top: 180px;
 }
 
 .lado-esquerdo {
     float: left;
-    width: 40%;
+     width: 40%;
 }
 
 .lado-direito {
     float: right;
-    width: 40%;
+     width: 40%;
 }
 
 #rodape {
     display: block;
-    text-align: center;
-    margin-top: 250px;
+     text-align: center;
+      margin-top: 250px;
 }
 
 #rodape h2 {
