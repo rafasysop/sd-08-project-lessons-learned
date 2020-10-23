@@ -23,17 +23,14 @@ body {
     text-decoration: none;
     background-color:green;
     margin-left: 200px;
-        
-    
     border: 1px;
     border-radius: 30px;
-    font-size: 20px;
-
 }
 
 #navegacao a{
     text-decoration:none;
     color: honeydew;
+    font-size: 20px;
 }
 
 #minha_foto {
