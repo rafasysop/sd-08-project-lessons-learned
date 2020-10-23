@@ -32,6 +32,9 @@ body {
     margin-top: 30px;
     margin-left: 40%;
 }
+main {
+    vertical-align: middle;
+}
 /** Texto do artigo ao lado aside*/
 #principal{
     display: inline-block;
@@ -62,4 +65,14 @@ body {
     padding: 5px 15px;
     background-color: lightgreen;
     
+}
+.tabela {
+    float: right;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: auto;
+}
+.tabela li {
+    list-style-type: none;
 }
