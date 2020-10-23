@@ -34,7 +34,7 @@ main {
 }
 
 a{
-    margin-left: 10px;
+    margin-left: 60px;
     font-size: 12px;
     line-height: 18px;
 }
@@ -46,7 +46,14 @@ a{
     height:25vh;
     display:block;
     margin:12px 0 3px 10px;
-    border-radius:5px;
+    border-radius:50%;
+}
+.img table {
+    float: right;
+}
+
+section.img {
+    margin: 0 10px;
 }
 
 section {
@@ -60,12 +67,10 @@ section h2 {
     padding: 30px 60px 0 40px;
     font-size: 14px;
     line-height: 18px;
-    display: inline-block;
 }
 
 #licoes_aprendidas {
     float: left;
-    
 }
 
 article, aside {
