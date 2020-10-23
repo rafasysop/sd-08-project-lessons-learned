@@ -1,29 +1,30 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Raleway:wght@300&display=swap');
 
 
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     color: #222831;
     font-size: 17px;
     line-height: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: lighter;
 }
 
 h1 {
     color: #393e46;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     line-height: normal;
     font-weight: bold;
   }
 
 #cabecalho {
     position: fixed;
+    top: 0;
     box-sizing: border-box;
     width: 100%;
-    margin-top: 0px;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     display: block;
     text-align: center;
 }
@@ -49,7 +50,7 @@ aside {
     font-size: 15px;
 }
 
-#social-container {
+.navegacao {
     justify-content: center;
     list-style: none;
     margin-bottom: 25px;
@@ -78,7 +79,7 @@ ul {
     box-shadow: inset 5px 0 5px -5px #29627e;
 }
 
-footer {
+#rodape {
     margin-top: 10%;
     text-align: center;
 }

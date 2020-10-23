@@ -9,24 +9,18 @@
     <body>
         <header id="cabecalho">
             <h1 id="titulo">Lessons Learned - Trybe!</h1>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </nav>
         </header>
-        
         <div id="content">
             <aside id="bio-container">
                 <h2>Giovanna Betti</h2>
                 <img id="minha_foto" src="./avatar.jpg" alt="Illustration of girl with short hair and prescription glasses, wearing plaid" />
                 <p>Just a padawan in this universe of Web Development 🌍.</p>
                 <p id="welcome-text">Let's connect!</p>
-                <ul id="social-container">
-                    <li><a href="https://www.facebook.com/gibetti" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/in/giovannabetti/" target="_blank">LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/giovannabetti/" target="_blank">GitHub</ion-icon></a></li>
-                </ul>
+                <nav class="navegacao">
+                    <a href="https://www.facebook.com/gibetti" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/in/giovannabetti/" target="_blank">LinkedIn</a>
+                    <a href="https://www.instagram.com/giovannabetti/" target="_blank">GitHub</ion-icon></a>
+                </nav>
                 <div id="email-container">
                     <a href="mailto:giovannabetti@gmail.com">giovannabetti@gmail.com</a>
                 </div>
@@ -38,14 +32,13 @@
                 <p>My name is Giovanna and I am a student in class 08 of the software development course at Trybe. This is our first project and with it, we concluded module 03.</p>
                 <p>So far, we have learned from the basic conceptual principles about the internet and essential tools, to structure a page in HTML and stylize it with CSS.</p>  
             </article>
-
             <section>
-                <p>The course consists of 39 modules and has an estimated duration of twelve months. In the next blocks, we will continue to learn about front-end - JavaScript and React.</p>
+                <p>The course consists of 39 modules and has an estimated duration of twelve months.</p> <p>In the next blocks, we will continue to learn about front-end - JavaScript and React.</p>
             </section>
 
             <section id="lessons">
                 <title>Lessons</title>
-                <ol class="lado-esquerdo">
+                <ol id="licoes_aprendidas" class="lado-esquerdo">
                     <h2>Lessons learned</h2>
                     <li>Unix, Bash & Shell</li>
                     <li>Git</li>
@@ -59,7 +52,7 @@
                     <li>Semantic HTML</li>
                 </ol>
 
-                <ul class="lado-direito">
+                <ul id="licoes_a_aprender" class="lado-direito">
                     <h2>Lessons to learn</h2>
                     <li>JavaScript</li>
                     <li>DOM</li>
@@ -100,7 +93,7 @@
                 </tbody>
               </table>
         </div>
-        <footer>
+        <footer id="rodape">
             <p>October, 2020 - Final project of module 03 conclusion - Giovanna Betti</p>
         </footer>
     </body>
