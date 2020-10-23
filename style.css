@@ -77,7 +77,10 @@ main {
 }
 
 #minha_foto {
-    border-radius: 50%;
+    border-radius: 10px 50% 50% 10px;
+    border-bottom: 25px double #075f3f;
+    margin-left: 25px;
+    width: 280px;
 }
 
 .lado-esquerdo {
