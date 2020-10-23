@@ -27,12 +27,38 @@ body {
     margin-right: 10px;
 }
 
-#principal {
+/*#principal {
     position: relative;
     top: 100.88px;
-}
+}*/
 
 #minha_foto {
     margin-left: 10px;
     border-radius: 5px;
+}
+
+#div-foto {
+    position: relative;
+    top: 110px;
+    width: 32%;
+}
+
+#informacao-pessoal {
+    float: right;
+    /*margin-right: 240px;*/
+}
+
+#informacao-pessoal li {
+    list-style-type: none;
+    display: block;
+}
+
+
+.nav-link a {
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    text-decoration: none;
 }
