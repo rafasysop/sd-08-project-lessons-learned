@@ -1,5 +1,5 @@
 * {
-  font-family: monospace; 
+  font-family: monospace;
 }
 
 body {
@@ -32,50 +32,54 @@ nav a {
   color: white;
 }
 
-.trybe, .exercicio, .linkedin {
+.trybe,
+.exercicio,
+.linkedin {
   margin: 0px 60px;
 }
 
-
 .listas {
-   display: inline-block;
-   margin-left: 100px;
-   text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+  text-align: center;
 }
 
 li {
-    line-height: 18px;
+  line-height: 18px;
 }
 
 h2 {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
-.lado-esquerdo, .lado-direito  {
-    display: inline-block;
-    line-height: 20px;
-    vertical-align: top;
-    text-align: center;
-    margin: 0px 30px;
+.lado-esquerdo,
+.lado-direito {
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: top;
+  text-align: center;
+  margin: 0px 30px;
 }
 
 .lado-esquerdo p {
-    width: 700px;
+  width: 700px;
 }
 
 .lado-direito p {
-    width: 400px;
+  width: 400px;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0px 300px;
-  }
-  
-  table, th, td {
-    border: 1px solid white;
-  }
+  border-collapse: collapse;
+  margin: 0px 300px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+}
 
 footer {
-    margin-left: 30px;
+  margin-left: 30px;
 }
