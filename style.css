@@ -26,3 +26,24 @@ body{
 #listas{
     display:inline-block
 }
+#comentarios{
+    display: inline-block;
+}
+#comentarios .box{
+    padding-left: 10px;
+    padding-right:10px; ;
+    border:5px solid rgb(228, 154, 120);
+}
+#sobre_aprendizado{
+    width:40%;
+    margin-top:100px;
+    float: left;
+}
+#quote{
+    width:40%;
+    float:right;
+    margin-top: 100px;
+}
+footer{
+    margin-top: 50px;
+}
