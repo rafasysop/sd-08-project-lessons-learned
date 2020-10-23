@@ -56,12 +56,14 @@ main {
     line-height: 1.5em;
 }
 
+.content {
+    display: inline-block;
+}
 .lado-esquerdo {
-    position: relative;
-    width: 40%;
+    width: 60%;
+    background-color: #857F74;
     
 }
-
 .lado-esquerdo p {
     font-size: 18px;
     font-weight: 400;
@@ -71,9 +73,10 @@ main {
 
 .lado-direito {
     position: relative;
-    width: 30%;
+    bottom: 280px;
     left: 660px;
-    bottom: 200opx;
+    width: 30%;
+    background-color: #857F74;
     margin: 0 15px;
 }
 
