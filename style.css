@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
 }
 
 #cabecalho {
@@ -20,7 +20,7 @@ body {
 #cabecalho h1 {
   margin: 5px 15px;
   font-size: 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #cabecalho nav ul {
@@ -30,12 +30,11 @@ body {
   margin-top: 15px;
 }
 
-
 #cabecalho nav ul li {
   margin-left: 20px;
 }
 
-#cabecalho nav ul li a {
+#cabecalho nav a {
   text-decoration: none;
   font-weight: 300;
   text-transform: uppercase;
@@ -58,14 +57,12 @@ body {
   margin-right: 240px;
 }
 
-
-
 #licoes_aprendidas {
   display: flex;
   margin-top: 20px;
 }
 
-#licoes_aprendidas div{
+#licoes_aprendidas div {
   margin-left: 50px;
   margin-bottom: 20px;
 }
@@ -74,6 +71,7 @@ body {
   display: flex;
   margin-top: 20px;
 }
+
 #licoes_a_aprender div {
   margin-left: 50px;
   margin-bottom: 20px;
@@ -111,16 +109,11 @@ table {
 th {
   text-align: center;
 }
+
 td {
   padding-left: 20px;
   text-align: center;
 }
-
-
-
-
-
-
 
 #rodape {
   margin-top: 50px;
