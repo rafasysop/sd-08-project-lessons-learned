@@ -17,20 +17,25 @@ body {
 }
 
 .navegacao {
-    outline: none;
     font-size: 20px;
     margin-top: 40px;
-    color: yellow;
+    font-weight: bold;
+
 }
 
-.navegacao ul {
-    outline-style: none;
+.navegacao a{
+    text-decoration: none;
+    color: white;
 }
-
 
 #minha_foto {
     width: 300px;
     margin-top: 40px;
+}
+#ja_aprendi{
+    display: inline-block;
+    float: left;
+    width: 40%;
 }
 
 #licoes_aprendidas {
@@ -41,7 +46,7 @@ body {
 
 #licoes_aprender {
     display: inline-block;
-    float: left;
+    float: right;
     width: 40%;
 }
 
@@ -55,4 +60,15 @@ body {
     display: inline-block;
     float: right;
     width: 40%;
+}
+
+.rodape {
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+.rodape h2 {
+    font-size: 25px;
 }
