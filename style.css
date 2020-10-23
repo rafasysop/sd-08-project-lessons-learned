@@ -2,6 +2,7 @@
   margin: 0;
 }
 body {
+  font: italic bold 16px/100% Verdana,Tahoma,sans-serif;
   background-color: rgb(253, 251, 251);
 }
 a {
@@ -39,21 +40,22 @@ main {
   float: left;
   padding-left: 10px;
 }
-article p {
-  width: 50%;
-  margin-left: 10px;
+article p{
+    position: absolute;
 }
+
 .float-direita {
   float: right;
+  width:25%;
 }
 .float-esquerda {
   float: left;
+    width:45%;
 }
 #licoes_aprendidas {
   margin-bottom: 50px;
 }
 aside {
-  width: 25%;
   margin-top: 170px;
   padding-right: 10px;
 }
@@ -61,6 +63,8 @@ aside {
   padding: 50px 0;
   text-align: center;
   background-color: cornflowerblue;
+  position: relative;
+  top:80px;
 }
 .clear {
   clear: both;
