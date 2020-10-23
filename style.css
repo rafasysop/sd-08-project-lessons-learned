@@ -13,13 +13,27 @@ body {
 
 #navegacao {
     margin-top: 100px;
-    text-align: center;
-    
+    text-align: left;
+    margin-right: 200px;       
 }
 
 #navegacao li {
-    list-style-type: none;
+    padding: 5px;
     display: inline-block;
+    text-decoration: none;
+    background-color:green;
+    margin-left: 200px;
+        
+    
+    border: 1px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+#navegacao a{
+    text-decoration:none;
+    color: honeydew;
 }
 
 #minha_foto {
@@ -49,7 +63,7 @@ body {
 
 #rodape {
     color: darkgray;
-    margin-top: 30px;
+    margin-top: 100px;
     border: 1px solid;
     background-color: gray;
 }
@@ -58,10 +72,10 @@ body {
     background-color: green;
     text-decoration: none;
     color: honeydew;
-    border: 1px solid black;
-    border-radius: 4px;
+    border: 1px;
+    border-radius: 30px;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     margin-left: 200px;
 }
 
