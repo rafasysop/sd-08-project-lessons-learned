@@ -51,6 +51,9 @@ body{
     padding: 15px;
     vertical-align: top;
 }
+#descricao p{
+    line-height:25px;
+}
 #rodape{
     background-color: #421561;
     color: #efeff1;
