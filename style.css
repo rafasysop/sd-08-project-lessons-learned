@@ -15,6 +15,7 @@ body {
     padding-top: 30px;
     color: white;
     font-size: 28px;
+
 }
 
 .navegacao {
@@ -35,13 +36,11 @@ body {
 }
 
 .lado-esquerdo {
-    display: inline-block;
     float: left;
     width: 40%;
 }
 
 .lado-direito {
-    display: inline-block;
     float: right;
     width: 40%;
 }
