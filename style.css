@@ -1,6 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 15px;
   }
 
 #cabecalho{
@@ -26,13 +28,13 @@ body {
 }
 .left-text{
     width: 50%;
-    border: 35px;
+    border: 50px;
     float: left;
 }
 .right-text{
     float: right;
     width: 50%;
-    border: 35px;
+    border: 50px;
 }
 table, td, th {
     border:solid 1px #000; 
@@ -45,9 +47,10 @@ table, td, th {
     clear: both;
 }
 .site{
-    margin: 15px;
-    padding: 25px;
-    font-size: 50px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin: 30px;
 }
 #rodape{
     width: 100%;
