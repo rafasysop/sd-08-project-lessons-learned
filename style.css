@@ -1,6 +1,5 @@
 .header-text{
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
+        position: relative;
         top: 0px;
         background-color: #0fa36b;
         border: 2px solid #4CAF50;
@@ -25,6 +24,9 @@ border-radius: 100%;
     font-family: fantasy, sans-serif;
     color: rgb(15, 163, 107);
     margin-bottom: 5px;
+    position: relative;
+    left: 20%;
+    bottom: 205px;
 }
 .lista-ordenada {
     text-align: left;
@@ -52,11 +54,19 @@ border-radius: 100%;
 background-color: rgb(230,230,230);
 width:50%;
 overflow: auto;
+position: relative;
+bottom: 206px;
+left:50%;
 }
 
 .lado-esquerdo {
     font-size: 20px;
     background-color: rgb(230,230,230);
     width:50%;
+    border: 5px indigo;
     overflow: auto;
+    position: relative;
+    bottom: 390px;
+    
+    
 }
