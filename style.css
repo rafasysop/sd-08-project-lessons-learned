@@ -9,10 +9,19 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.cabecalho{
+  position: fixed;
+  top: 0;
+}
+
 table {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #minha_foto {
   width: 100px;
+}
+
+rodape{
+  bottom: 0;
 }

@@ -29,7 +29,9 @@ checks:
       threshold: # language-specific defaults. an override will affect all languages.
   identical-code:
     config:
-      threshold: # language-specific defaults. an override will affect all languages.
+      threshold:
+  function-comma-space-before:
+    enabled: false # language-specific defaults. an override will affect all languages.
 plugins:
   editorconfig:
     enabled: true
