@@ -2,26 +2,29 @@ body{
     background-color: rgb(253,251,251);
     font-family: 'Times New Roman', Times, sans-serif;
 }
+
 header {
-    background-color: green;
+    background: green;
+    display: block;
 }
 
-.cabecalho {
-    padding-top: 0px;
-}
-
-.titulo{
+.titulo {
     color: white;
 }
 
 .minha_foto {
-    width: 50%;
+    display: center;
+    border-radius: 30px;
+}
+
+.licoes_aprendidas{
+    display: block;
 }
 
 .licoes_a_aprender {
-    display: flex;
+    display: block;
 }
 
 aside {
-    display: inline-block;
+    display: block;
 }
