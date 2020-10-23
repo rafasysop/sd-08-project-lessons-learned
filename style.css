@@ -3,6 +3,7 @@ body {
     font-family: courier, sans-serif;
     font-size: 16px;
     line-height: 18px;
+    color: #212529;
 }
 h1,h2 {
     color: green;
@@ -25,5 +26,8 @@ h1,h2 {
 
 }
 .descricao{
-    font-family: cursive, sans-serif;
+    font: cursive;
+    font-size: 18px;
+    color: #343a40;
+    line-height: 20px;
 }
