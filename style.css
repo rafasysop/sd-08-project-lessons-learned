@@ -27,3 +27,10 @@ article {
     display: inline;
     margin-right: 20px;
 }
+th {
+    background-color: blue;
+    font-size: 20px;
+}
+.blocos_finalizados {
+    border: 1px solid;
+}
