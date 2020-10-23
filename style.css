@@ -47,8 +47,36 @@ h1, h2 {
 .content__table {
   float: right;
   top: 0px;
-  background: #ddd;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -340px;
 }
+
+.content__table table {
+  width: 500px;
+}
+
+.content__table table td, th {
+    text-align: center;
+    background: rgba(63, 200, 186, 0.1);
+    padding: 10px;
+}
+
+.artigo {
+  margin-top: 20px;
+  max-width: 450px;
+}
+
+.aside {
+  float: right;
+  margin-top: -220px;
+  max-width: 450px;
+}
+
+
+
+
+
 
 .lists {
   padding-top: 20px;
