@@ -6,10 +6,11 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  position: relative;
 }
 
 #cabecalho {
-  position: relative;
+  position: fixed;
   background-color: red;
   display: flex;
   justify-content: space-between;
@@ -79,11 +80,6 @@ body {
   margin-bottom: 20px;
 }
 
-#artigo {
-  display: flex;
-  justify-content: space-between;
-}
-
 #artigo article {
   margin-top: 50px;
   margin-right: 100px;
@@ -91,8 +87,9 @@ body {
 }
 
 #artigo aside {
+  margin-top: 100px;
   width: 400px;
-  margin-right: 100px;
+  margin-left: 100px;
   text-align: justify;
   border: 2px solid black;
   padding: 8px;
