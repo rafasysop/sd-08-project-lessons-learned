@@ -14,3 +14,30 @@ img {
   width: 300px;
   border-radius: 50px;
 }
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 100%;
+}
+
+caption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+tbody {
+  font-size: 100%;
+  font-style: italic;
+  letter-spacing: normal;
+}
+
+thead {
+  color: black;
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
