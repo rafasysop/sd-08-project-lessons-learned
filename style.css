@@ -104,13 +104,12 @@ section {
 
 #aprendizado.lado-esquerdo {
   float: left;
-  width: 65%;
+  width: 48%;
 }
 
 #experiencias.lado-direito {
   float: right;
-  width: 30%;
-  margin-left: 1vw;
+  width: 48%;
 }
 
 #aprendizado.lado-esquerdo , #experiencias.lado-direito {
