@@ -18,20 +18,20 @@ body {
 #minha_foto{
    
     height: 300px;
-    
+    margin-top: 50px;
     border-radius: 50%;
     padding: 30px;
     clear: both;
     padding: 35px;
 }
 .left-text{
-    width: 30%;
+    width: 50%;
     border: 35px;
-   
+    float: left;
 }
 .right-text{
-    
-    width: 30%;
+    float: right;
+    width: 50%;
     border: 35px;
 }
 table, td, th {
@@ -39,3 +39,8 @@ table, td, th {
     padding:15px;
     margin: auto;
     width: auto;
+}
+.licoes{
+    margin: 35px;
+    clear: both;
+}
