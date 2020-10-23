@@ -26,17 +26,17 @@ body {
     margin-bottom: 5%;
 }
 
-article{
-    width: 50%;
+.lado-esquerdo {
+    width: 40%;
     display: inline-block;
     background-color: burlywood;
 }
-#barra-lateral {
+.lado-direito {
     display: inline-block;
     background-color: aqua;
-    text-align: right;
-    width: 40%;
-    margin-left: 100px;
+    text-align: center;
+    width: 20%;
+    margin-left: 300px;
     margin-bottom: 50px;
 }
 
