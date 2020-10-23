@@ -56,11 +56,11 @@ section {
 .lado-direito {
   width: 45%;
   text-align: justify;
-  float: right;
-  position: relative;
-  bottom: 200px;
   padding: 20px;
 }
 table {
   margin: 30px;
+}
+#position {
+  display: flex;
 }
