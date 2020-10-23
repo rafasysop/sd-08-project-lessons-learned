@@ -6,7 +6,6 @@ body {
 #cabecalho {
   background: grey;
   padding-top: 5px;
-  
   /** Utilizei o link abaixo para gerar o código abaixo
   https://cssgradient.io/
   */
@@ -20,63 +19,49 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
- 
 }
-
 #titulo {
   color: white;
   padding-left: 10px;
-
 }
-
 main {
 }
-
 #apresentacao {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 135px 0 70px 0;
 }
-
 .nome {
   font-size: 34px;
   padding-right: 20px;
 }
-
 #minha_foto {
   width: 13%;
   border-radius: 50%;
   border: 15px ridge #4361ee;
-
   display: inline-block;
 }
-
 .contato {
   display: inline-block;
   text-align: center;
 }
-
 .contato-link {
   margin-right: 15px;
   transition: 200ms;
 }
-
 .icons {
   width: 15%;
   vertical-align: middle;
   text-align: center;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
 a:hover {
   color: #4361ee;
 }
-
 #listas {
   display: flex;
   justify-content: center;
@@ -99,32 +84,27 @@ a:hover {
   color: white;
   border-radius: 10%;
 }
-
-
-.list-title, li {
+.list-title,
+li {
   text-align: center;
 }
-
 .lado-direito {
   width: 40%;
-  border: 2px dotted #4361EE;
+  border: 2px dotted #4361ee;
 }
-
 .lado-esquerdo {
   width: 20%;
-  border: 2px dotted #4361EE;
+  border: 2px dotted #4361ee;
 }
-
 .artigos {
   display: flex;
   justify-content: center;
 }
-
-.lado-direito, .lado-esquerdo{
+.lado-direito,
+.lado-esquerdo {
   margin: 40px;
   padding: 10px;
 }
-
 table {
   border-collapse: collapse;
   margin: auto;
@@ -132,23 +112,20 @@ table {
 /* Usei o link abaixo como referência para o seguinte código
 https://www.w3schools.com/w3css/w3css_tables.asp
 */
-table, tr, td {
-  border: 2px solid #4361EE;
+table,
+tr,
+td {
+  border: 2px solid #4361ee;
 }
-
 #rodape {
   margin: 20px 0 0 10px;
 }
-
 nav {
   margin-top: 45px;
   margin-right: 15px;
 }
-
 .nav-links {
   margin-left: 15px;
   color: white;
   transition: 200ms;
 }
-
-
