@@ -43,7 +43,6 @@ main {
   float: left;
   box-shadow: inset 5px 0 5px -5px rgb(41 , 98 , 126);
   color: rgb(41 , 98 , 126);
-  font-weight: lighter;
   font-size: 15px;
 }
 
