@@ -1,5 +1,12 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251);]
+    font-family: courier, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+h1,h2 {
+    color: green;
+    font-size: 20px;
 }
 #cabecalho{
     position: fixed;
@@ -12,5 +19,11 @@ body {
 
 }
 #licoes_a_aprender {
-    
+
+}
+#rodape {
+
+}
+.descricao{
+    font-family: cursive, sans-serif;
 }
