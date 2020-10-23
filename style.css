@@ -1,12 +1,10 @@
 /* Lessons Learned Project */
-
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
     top: 0px;
-    display: inline-block;
 }
 
 #titulo {
@@ -14,29 +12,15 @@ body {
 }
 
 #minha_foto {
-    width: 100px;
     height: 100px;
 }
 
 #licoes_aprendidas {
-    display: block;
-    overflow: auto;
-}
 
-li strong {
-    font-size: 1.4em;
-}
-
-.subtext {
-    font-size: 0.8em;
-    font-style: italic;
-    position: relative;
-    left: 5%;
 }
 
 #licoes_a_aprender {
-    display: block;
-    overflow: auto;
+
 }
 
 #rodape {
