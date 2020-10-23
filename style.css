@@ -41,10 +41,12 @@ body {
 
 li a {
     transition: .4s;
+    color: rgb(253 , 251 , 251);
 }
 
 li a:link {
     text-decoration: none;
+    c
 }
 
 li a:hover {
