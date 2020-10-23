@@ -3,6 +3,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
+    font-size: 20px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -11,10 +12,11 @@ body {
 }
 #tabela{
     margin-bottom: 5%;
-    
+
 }
 #navigation{
     padding-left: 0px;
+
 }
 #navigation li{
     border-color: #860a0a;
@@ -23,35 +25,50 @@ body {
     display: inline;
     width: 100%;
     margin: 10px;
-    padding: 5px;
-    
-   
+    padding: 5px
 }
-}
-#titulo{
-    color: rgb(50, 112, 206);
-    background-color: rgb(132, 132, 170);
-    text-align: center;  
 
+#titulo{    
+    text-align: center; 
+    line-height: 10px;
 }
-#minha_foto{    margin-top: 15%;
+#minha_foto{
+    height: 100px;
     border-radius: 20%;
-    margin-bottom: 5%;
+    float: flex;
 }
-#licoes_aprendidas{    padding-right: 40px;
+
+#licoes_aprendidas{
+    padding-right: 40px;
 }
-#licoes_a_aprender{    padding-right: 40px;
+#licoes_a_aprender{
+    padding-right: 40px;
 }
-.lado_direito {    width: 30%;
+
+.lado_direito {
+    border-style: ridge;
+    border-color: black;
+    border-style: black dashed;
+    width: 30%;
     float: right;
     margin-bottom: 30%;
+    margin-left: 0%;
+    padding: 10px;
 }
 .lado_esquerdo{
+    border-style: ridge;
+    border-color: black;
     height: 50%;
-    width: 65%;
+    width: 63%;
     float: left;
     margin-bottom: 5%;
+    padding: 10px;
 }
 #rodape{
-    height: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
