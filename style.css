@@ -30,6 +30,8 @@ h1,h2 {
 #minha_foto {
     width: 500px;
     margin:25px;
+    border-radius: 100%;
+    border: 5px solid black;
     
 }
 #licoes_aprendidas  {
