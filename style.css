@@ -95,12 +95,12 @@ section {
 
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
     width: 40%;
     display: inline-block;
 }
 
-#lado-direito {
+.lado-direito {
     width: 40%;
     display: inline-block;
     list-style: square;
