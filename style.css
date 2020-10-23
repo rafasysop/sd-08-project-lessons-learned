@@ -12,6 +12,7 @@ header {
 
 #licoes {
     columns: 2;
+    width: 62%;
 }
 
 #licoes_aprendidas {
@@ -24,4 +25,16 @@ a {
 
 #rodape {
     background-color: lightseagreen;
+}
+
+article {
+    margin-right: 66%;
+}
+
+aside {
+    float: right;
+    background-color: aquamarine;
+    margin-left: 34%;
+    position: absolute;
+    margin-right: 36%;
 }
