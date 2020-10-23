@@ -10,16 +10,24 @@ body {
     top: 0;
     left:0;
     width: 100%;
+    font-size: 20px;
+    background-color: green;
     
     
 }
 
 
 #titulo {
-    color: green;
-    font-size: 30px;
+    color: white;
+    
+    text-align: center;
 }
 
+.links li {
+    font-size: 20px;
+    text-align: center;
+    
+}
 
 #minha_foto {
     width: 15%;
@@ -39,6 +47,7 @@ body {
 #licoes_aprendidas {
     float: left;
     margin-left: 30px;
+    border: 1px solid black;
     
 
 }
@@ -47,6 +56,7 @@ body {
 #licoes_a_aprender {
     float: right;
     margin-right: 800px;
+    border: 1px solid black;
 
 }
 
@@ -115,5 +125,6 @@ footer {
     background-color: green;
     margin-top: 60px;
     padding: 20px;
+    text-align: center;
 }
     
