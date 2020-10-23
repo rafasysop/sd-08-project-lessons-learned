@@ -1,0 +1,41 @@
+.header-text{
+    text-align:center;
+    font-style: italic;
+    background-color: #0fa36b;
+    margin-bottom: 0%;
+}
+
+.trybe-list1{
+    list-style-type: none;
+    margin-left: 0px;
+    margin-top: 0%;
+    }
+.backcolor{
+    background-color: rgb(253, 251, 251);
+    font-family: fantasy, sans-serif;
+ 
+}
+.imagem-formato {
+border-radius: 100%;
+}
+    
+.lista-nao-ordenada{
+    text-align: justify;
+        
+}
+.lista-ordenada {
+    text-align: left;
+
+}
+
+.rodape {
+    background-color: grey;
+    font-family: monospace, sans-serif;
+    font-size: 10px;
+}
+
+.aprendizado {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 75px;
+}
