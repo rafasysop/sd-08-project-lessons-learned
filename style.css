@@ -15,7 +15,9 @@ body {
   
     position: relative;
     margin-top: 100px;
-    border-radius: 20px;
+    margin-left: 2%;
+    border-radius: 100%;
+    border: black ridge 2px;
 
 }
 
@@ -24,7 +26,7 @@ body {
     text-align: justify;
     font-family: sans-serif;
     color:royalblue;
-    line-height: 20px;]
+    line-height: 20px;
     font-size: 20px;
 
 }
@@ -32,11 +34,23 @@ body {
 .tabela {
     text-align: center;
 }
+.listas {
+    
+    padding: 10px 20px;
+    width: 85%;
+    margin: auto;
 
-.listaL {
-
-    background-color: blue;
-    color: white;
-    width: 50%;
-    height: fit-content;
 }
+
+.lista-1 {
+
+    background-color: teal;
+    width: 40%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border: black ridge 2px;
+}
+
+
+
