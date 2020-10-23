@@ -38,3 +38,12 @@ aside {
     position: absolute;
     margin-right: 36%;
 }
+
+#navegador {
+    marker: none;
+    /* não funciona... */
+}
+
+#minha_foto {
+    width: 40%;
+}
