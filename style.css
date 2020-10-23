@@ -49,12 +49,11 @@ body {
 
 #rodape {
     color: darkgray;
-    margin-top: 50px;
+    margin-top: 30px;
     border: 1px solid;
     background-color: gray;
-    padding: 5px;
 }
-
+/*Não sei como criar uma classe específica para personalizar o botão*/
 #Contato a{
     background-color: green;
     text-decoration: none;
