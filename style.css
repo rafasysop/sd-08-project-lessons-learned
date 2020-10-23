@@ -8,3 +8,12 @@ body{
     width: 100%;
 
 }
+#principal{
+    margin-top: 120px;
+    background-color: blue;
+    
+}
+#rodape{
+    height: 200px;
+    background: green;
+}
