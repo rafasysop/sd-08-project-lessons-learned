@@ -1,5 +1,5 @@
 body {
-  background: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin-top: 150px;
 }
 
@@ -8,14 +8,14 @@ body {
   border: 2px solid black;
   margin: 20px;
   padding: 20px;
-  top: 0px;
+  top: 0;
 }
 
 #principal {
   height: 750px;
   padding: 20px;
   line-height: 32px;
-  margin: 0px 20px 10px;
+  margin: 0 20px 10px;
   border: 2px solid black;
 }
 
