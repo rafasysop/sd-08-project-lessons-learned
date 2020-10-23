@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
 
 * {
   font-family: Nunito, sans-serif;
@@ -71,7 +71,7 @@ body {
 
 #navegacao li:hover {
   border-right: 6px solid rgb(136 , 136 , 136);
-  font-weight: bold;
+  font-weight: 600;
   transition: 0.1s;
 }
 
@@ -96,12 +96,13 @@ p {
   text-align: justify;
 }
 
-.lado-esquerdo h2, .lado-direito h3 {
+.lado-esquerdo h2 ,
+.lado-direito h3 {
   margin: 15px 0 0;
 }
 
 .lado-esquerdo a {
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block;
   padding: 3px;
 }
@@ -124,12 +125,14 @@ p {
   border-collapse: collapse;
 }
 
-#listas th , td {
+#listas th,
+td {
   border: 1px dashed black;
   padding: 10px;
 }
 
-#listas ul , ol {
+#listas ul,
+ol {
   list-style-position: inside;
   padding: 0 20px 0 0;
   margin: 0;
