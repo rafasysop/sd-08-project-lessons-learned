@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
     text-decoration: none;
 }
 
-#titulo h1 {
+#titulo {
     margin-top: 5px;
 }
 
@@ -136,9 +137,9 @@ body {
     border-right: 2px dashed #379BB5;
     width: 20%;
     margin-right: 50px;
-    margin-top: 88px;
+    margin-top: 122px;
     border-bottom: 2px dashed #379BB5;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 #lateral p {
