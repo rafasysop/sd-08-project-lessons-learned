@@ -69,6 +69,7 @@ body {
     border-bottom: 2px solid #48433C;
     float: left;
     margin-top: 88px;
+    margin-bottom: 20px;
       
 }
 
@@ -115,6 +116,10 @@ body {
 #lista-direita ul li {
     padding: 10px;
     font-weight: 600;
+}
+
+#licoes_a_aprender {
+    line-height: 19px;
 }
 
 /*****Artigos*****/
