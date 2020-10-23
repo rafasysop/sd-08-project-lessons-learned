@@ -1,36 +1,60 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Syne Mono', monospace, sans-serif;
+  font-family: "Syne Mono", monospace, sans-serif;
 }
 
 #cabecalho {
   position: fixed absolute;
   top: 0px;
   text-align: center;
-  margin: auto;
-  padding-bottom: 1px;
-  font-family: 'Dancing Script', cursive, sans-serif;
+  border: 1px solid grey;
+  font-family: "Dancing Script", cursive, sans-serif;
   background-color: #f5f5f5;
 }
 
-#cabecalho li{
+#cabecalho li {
   display: inline;
   margin: 10px;
-  font-family: 'Syne Mono', monospace, sans-serif;
+  font-family: "Syne Mono", monospace, sans-serif;
 }
 
 #titulo {
   text-align: center;
   display: inline;
-  width: 30%;;
+  width: 30%;
 }
 
-.titles{
-  font-family: 'Dancing Script', cursive, sans-serif;
+.titles {
+  font-family: "Dancing Script", cursive, sans-serif;
   font-weight: bolder;
 }
 
 #minha_foto {
-  width: 150px;
+  width: 205px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+  border: 6px ridge burlywood
 }
 
+.photo-description p {
+  font-family: "Dancing Script", cursive, sans-serif;
+}
+
+.table-hobbies{
+  
+}
+
+.table-hobbies-header{
+
+}
+
+#licoes_aprendidas ol {
+  display: inline-block;
+  
+}
+
+#licoes__a_aprender ol {
+  display: inline-block;
+  margin-left: 10px;
+  
+}
