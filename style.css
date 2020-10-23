@@ -16,7 +16,10 @@ body{
 }
 #minha_foto{
    margin-top:11%;
-   margin-bottom: 60px;
+}
+ 
+a{
+    margin-right: 100px;
 }
 
 section{
@@ -24,6 +27,7 @@ section{
 }
 h2{
     padding-left:2%;
+    margin-top:5%;
 }
 
 #licoes_aprendidas{
@@ -40,7 +44,7 @@ padding-left: 5%;
 }
 
 #rodape{
-
+  
 }
 
 
