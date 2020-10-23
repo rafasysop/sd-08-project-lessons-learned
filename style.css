@@ -1,42 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-
   width: 100%;
   height: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: rgb(253, 251, 251);
 }
 
 header {
   position: fixed;
-  top: 0px;
-
+  top: 0;
   width: 100%;
   height: 120px;
-
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
-  background-color: #252F3F;
+  background-color: #252f3f;
 }
 
 header h1 {
   margin-left: 40px;
   margin-right: 20px;
-
-  font-family: 'Ubuntu', 'Inter', sans-serif;
-  color: #FFFFFF;
+  font-family: Ubuntu, Inter, sans-serif;
+  color: white;
   text-align: left;
 }
 
@@ -57,13 +51,12 @@ header nav a {
 
 header nav a:link,
 header nav a:visited {
-  color: #fff;
+  color: white;
 }
 
 header nav strong {
   font-size: 18px;
-  color: #fff;
-
+  color: white;
   transition: 0.2s;
 }
 
@@ -75,8 +68,7 @@ main section article {
   width: 50%;
   height: 300px;
   margin: 200px 0 60px 120px;
-
-  color: #161E2E;
+  color: #161e2e;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -87,8 +79,7 @@ main section aside {
   height: 200px;
   margin: 16px 120px 0 0;
   padding: 20px;
-
-  color: #161E2E;
+  color: #161e2e;
   font-size: 18px;
   background-color: #d6dbd4;
 }
@@ -96,15 +87,12 @@ main section aside {
 main section.lists {
   width: 100%;
   height: 300px;
-
   margin: 130px 0;
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
   font-size: 20px;
-  color: #161E2E;
+  color: #161e2e;
 }
 
 main section.lists img {
@@ -118,27 +106,23 @@ main section.lists table ul {
 
 main section.lists table {
   padding: 20px;
-
   line-height: 1.8;
 }
 
 main section.about-author {
   padding: 64px 48px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-size: 20px;
   line-height: 1.5;
-  color: #FFF;
-  background-color: #252F3F;
+  color: white;
+  background-color: #252f3f;
 }
 
 main section.about-author img {
   width: 240px;
   margin-right: 48px;
-
   border-radius: 50%;
 }
 
@@ -147,7 +131,7 @@ main section.about-author h2 {
 }
 
 main section.about-author strong {
-  color: #8DA2FB;
+  color: #8da2fb;
 }
 
 main section.about-author a {
@@ -156,17 +140,15 @@ main section.about-author a {
 
 main section.about-author a:visited,
 main section.about-author a:link {
-  color: #8DA2FB;
+  color: #8da2fb;
 }
 
 footer {
   max-width: 100%;
   height: 80px;
-
   display: flex;
   align-items: center;
   padding-left: 20px;
-
   color: rgba(28, 32, 56, 0.6);
-  background-color: #FFFFFF;
+  background-color: white;
 }
