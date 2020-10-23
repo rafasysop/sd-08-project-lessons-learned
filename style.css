@@ -1,56 +1,54 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    top: 0px;
-    background-color: green;
-    width: 100%;
-    position: fixed;
+  top: 0px;
+  background-color: green;
+  width: 100%;
+  position: fixed;
 }
 
 #titulo {
-    margin: 0px;
-    text-align: center;
-    padding-top: 30px;
-    color: white;
-    font-size: 28px;
-
+  margin: 0px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 28px;
 }
 
 .navegacao {
-    font-size: 20px;
-    margin-top: 40px;
-    font-weight: 600;
-
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 600;
 }
 
 .navegacao a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #minha_foto {
-    width: 300px;
-    margin-top: 180px;
+  width: 300px;
+  margin-top: 180px;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 40%;
+  float: left;
+  width: 40%;
 }
 
 .lado-direito {
-    float: right;
-    width: 40%;
+  float: right;
+  width: 40%;
 }
 
 #rodape {
-    display: block;
-    text-align: center;
-    margin-top: 250px;
+  display: block;
+  text-align: center;
+  margin-top: 250px;
 }
 
 #rodape h2 {
-    font-size: 25px;
+  font-size: 25px;
 }
