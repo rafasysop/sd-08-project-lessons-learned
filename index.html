@@ -17,42 +17,46 @@
     <nav>
         <a href="#artigos">Artigos</a>
         <a href="#licoes_aprendidas">Histórico de aprendizado</a>
-        <a href="licoes_a_aprender">Blocos de aprendizados a realizar</a>
+        <a href="#licoes_a_aprender">Blocos de aprendizados a realizar</a>
     </nav>
     <main>
         <section class="content">
-        <article class="lado-esquerdo">
-            <h3>Sobre o meu aprendizado:</h3>
-            <p>Ao entrar em um curso de Desenvolvimento Web, podemos nos deparar com um novo universo. Além de aprender uma nova língua, seja ela qual linguagem de programação for, o aprendizado exige mais. Ao adentrar nesse universo temos que saber falar, ou no caso escrever nessa linguagem, temos que entender como esse universo existe, quais são as leis que fazem esse universo funcionar. Esse universo feito de Bits. <strong>É extremamente desafiante esses aprendizados que também os utilizaremos no mundo real.</strong></p>
-        </article>
-        <section class="lado-direito">
-            <h3>Lições Aprendidas nos blocos 01, 02 e 03</h3>
-            <ol id="licoes_aprendidas">
-                <li>Fundamentos do Desenvolvimento Web</li>
-                <li>Sistema operacional Unix</li>
-                <li>Interface Shell - Bash</li>
-                <li>Funcionamento da Internet</li>
-                <li>Sistema de controle de versões - Git e GitHub</li>
-                <li>Intodução ao HTML e o CSS</li>
-                <li>HTML & CSS - Estruturas de páginas</li>
-                <li>HTML & CSS - Primeiros passos em CSS</li>
-                <li>HTML & CSS - Seletores e posicionamento</li>
-                <li>Html semântico</li>
-            </ol>
-            <h3>Lições a Aprender - Os próximos blocos</h3>
-            <ul id="licoes_a_aprender">
-                <li>Introdução à JavaScript e Lógica de Programação</li>
-                <li>JavaScript: DOM, Eventos e Web Storage</li>
-                <li>HTML e CSS: Forms, Flexbox e Responsivo</li>
-                <li>Introdução à JavaScript ES6 e Testes Unitários</li>
-                <li>Higher Order Functions do JavaScript ES6</li>
-                <li>JavaScript Assíncrono e Promises</li>
-                <li>Testes automatizados com Jest</li>
-                <li>Introdução à React</li>
-                <li>Componentes com Estado, Eventos e Formulários com React</li>
-                <li>E muito mais...</li>
-            </ul>
-        </section>
+            <article id="artigos" class="lado-esquerdo">
+                <h3>Sobre o meu aprendizado:</h3>
+                <p>Ao entrar em um curso de Desenvolvimento Web, podemos nos deparar com um novo universo. Além de aprender uma nova língua, seja ela qual linguagem de programação for, o aprendizado exige mais. Ao adentrar nesse universo temos que saber falar, ou no caso escrever nessa linguagem, temos que entender como esse universo existe, quais são as leis que fazem esse universo funcionar. Esse universo feito de Bits. <strong>É extremamente desafiante esses aprendizados que também os utilizaremos no mundo real.</strong></p>
+            </article>
+            <section class="lado-direito">
+                <h3>Lições Aprendidas nos blocos 01, 02 e 03</h3>
+                <div class="lista">
+                    <ol id="licoes_aprendidas">
+                        <li>Fundamentos do Desenvolvimento Web</li>
+                        <li>Sistema operacional Unix</li>
+                        <li>Interface Shell - Bash</li>
+                        <li>Funcionamento da Internet</li>
+                        <li>Sistema de controle de versões - Git e GitHub</li>
+                        <li>Intodução ao HTML e o CSS</li>
+                        <li>HTML & CSS - Estruturas de páginas</li>
+                        <li>HTML & CSS - Primeiros passos em CSS</li>
+                        <li>HTML & CSS - Seletores e posicionamento</li>
+                        <li>Html semântico</li>
+                     </ol>
+                </div>
+                <h3>Lições a Aprender - Os próximos blocos</h3>
+                <div class="lista">
+                    <ul id="licoes_a_aprender">
+                        <li>Introdução à JavaScript e Lógica de Programação</li>
+                        <li>JavaScript: DOM, Eventos e Web Storage</li>
+                        <li>HTML e CSS: Forms, Flexbox e Responsivo</li>
+                        <li>Introdução à JavaScript ES6 e Testes Unitários</li>
+                        <li>Higher Order Functions do JavaScript ES6</li>
+                        <li>JavaScript Assíncrono e Promises</li>
+                        <li>Testes automatizados com Jest</li>
+                        <li>Introdução à React</li>
+                        <li>Componentes com Estado, Eventos e Formulários com React</li>
+                        <li>E muito mais...</li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </main>
     <aside>
@@ -60,11 +64,39 @@
             <h3>peculiaridades do aprendizado</h3>
             <p>O método de dividir o problema em partes menores é útil não somente na computação, mas também na vida real. Entender um problema pelas suas partes facilita solucioná-lo. E o problema que antes parecia enorme fica pequeno.</p>
         </div>
+        <div id="jogoVelha">
+            <h4>Jogo da Velha!</h4>
+            <table>
+                <tr>
+                    <th>///</th>
+                    <th>01</th>
+                    <th>02</th>
+                    <th>03</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td></td>
+                    <td></td>
+                    <td>O</td>
+                </tr>
+            </table>
+        </div>
     </aside>
     <footer id="rodape">
         <h3>Quer apreder Desenvolvimento Web?</h3>
         <a href="https://www.betrybe.com/" target="_blank">Entre na Trybe</a>
-    </footer>
-    
+    </footer> 
 </body>
 </html>
