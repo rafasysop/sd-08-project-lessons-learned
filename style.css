@@ -7,6 +7,7 @@ body {
     position: fixed;
     top: 0px;
     z-index: 0;
+    color: brown;
     
     
 }
@@ -39,19 +40,21 @@ ul li {
 
 .tabela {
     font-size: 15px;
-    width: 100%;
+    width: 70%;
+    margin: auto;
     text-align: center;
-    border: 2px solid black;
+    
   
 }
 
 
+
+
+
+footer {
+    width: 100%;
+    background-color: green;
+    margin-top: 60px;
+    padding: 20px;
 }
-
-
-#rodape {
-
-    margin-top: 1050px;
-    padding: 120px;
     
-}
