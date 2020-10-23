@@ -32,10 +32,6 @@ body {
     text-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
-nav ul {
-    /* display: flex; */
-}
-
 nav li {
     display: inline;
     padding: 10px;
@@ -68,11 +64,15 @@ section {
     box-shadow: 3px 3px 5px 6px rgb(196, 187, 187);
     border-radius: 5px;
     width: 70%;
-    margin: 7vh;
+    margin: 7vh auto;
+    
 }
 
 #picture-section {
     margin-top: 35vh;
+    background: none;
+    box-shadow: none;
+
 }
 
 #minha_foto {
@@ -134,4 +134,24 @@ aside {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 15vh;
+    height: 18vh;
+    font-size: 3vh;
+}
+
+#rodape table tr td a {
+    text-decoration: none;
+    transition: 200ms;
+}
+
+table, th, td  {
+    width: 70vw;
+    border: 1px dashed rgb(12, 53, 4);
+    border-collapse: collapse;
+}
+
+#rodape table tr td a:hover {
+    color: rgb(243, 235, 235);
+    font-size: 4vh;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
