@@ -73,14 +73,14 @@ display: none;
   height: 300px;
 }
 
-.main-article {
+.lado-esquerdo {
   margin: 10px;
   width: auto;
   height: 150px;
   text-align: justify;
 }
 
-.excerpt-aside {
+.lado-direito {
   float: right;
   width: 200px;
   padding: 5px;
