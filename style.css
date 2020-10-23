@@ -1,6 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);]
-    font-family: courier, sans-serif;
+    font-family: cursive, sans-serif;
     font-size: 16px;
     line-height: 18px;
     color: #212529;
@@ -42,8 +42,18 @@ h1,h2 {
 
 }
 .descricao{
-    font: cursive;
-    font-size: 18px;
-    color: #343a40;
-    line-height: 20px;
+    
+}
+.lado-esquerdo {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    
+}
+.lado-direito {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px
 }
