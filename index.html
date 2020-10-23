@@ -1,59 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto 1 - Trybe</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
   <header id="cabecalho">
     <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+    <nav class="menu-style">
+      <h2>NAV Menu de navegação</h2>
+      <ul>
+        <li><a href="">Página inicial</a></li>
+        <li><a href="https://www.betrybe.com/" target="_blank">Trybe</a></li>
+        <li><a href="">Contato</a></li>
+      </ul>
+    </nav>
   </header>
-  
-  <div>
-    <img id="minha_foto" src="images/foto_perfil.jpg" alt="minha_foto">
-  </div>
 
-  <div>
-    <ol id="licoes_aprendidas">
-      <li>Bloco 1 - Fundamentos do Desenvolvimento Web</li>
-      <li>Bloco 1 - Unix</li>
-      <li>Bloco 1 - Bash</li>
-      <li>Bloco 1 - Shell</li>
-      <li>Bloco 1 - Script</li>
-      <li>Bloco 2 - Git</li>
-      <li>Bloco 2 - GitHub</li>
-      <li>Bloco 2 - Internet</li>
-      <li>Bloco 3 - HTML</li>
-      <li>Bloco 3 - CSS</li>
-    </ol>
-  </div>
+  <main>
+    <section class="photo-style">
+      <h2>SECTION Foto do perfil</h2>
+      <img id="minha_foto" src="images/foto_perfil.jpg" alt="minha_foto">
+    </section>
 
-  <div>
-    <ul id="licoes_a_aprender">
-      <li>Lógica de Programação</li>
-      <li>JavaScript</li>
-      <li>JavaScript: DOM</li>
-      <li>JavaScript: Eventos</li>
-      <li>JavaScript: Eventos</li>
-      <li>HTML e CSS: Forms</li>
-      <li>HTML e CSS: Flexbox</li>
-      <li>HTML e CSS: Responsivo</li>
-      <li>JavaScript ES6</li>
-      <li>Testes Unitários</li>
-      
-    </ul>
-  </div>
+    <article>
+      <h2>ARTICLE Habilidades Trybe</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Habilidades Trybe</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ol id="licoes_aprendidas">
+                <li>Bloco 1 - Fundamentos do Desenvolvimento Web</li>
+                <li>Bloco 1 - Unix</li>
+                <li>Bloco 1 - Bash</li>
+                <li>Bloco 1 - Shell</li>
+                <li>Bloco 1 - Script</li>
+                <li>Bloco 2 - Git</li>
+                <li>Bloco 2 - GitHub</li>
+                <li>Bloco 2 - Internet</li>
+                <li>Bloco 3 - HTML</li>
+                <li>Bloco 3 - CSS</li>
+              </ol>
+            </td>
 
-  <article>
-    <p>Minha experiência na Trybe está sendo fantástica. Antes eu estudava conteúdos sobre programação do meu interesse, de forma desordenada. Com a Trybe meus estudos são orientados de forma a absorver o conteúdo facilmente. Tenho progredido bastaste, de forma prática! Consigo perceber funcionalidades reais para as páginas que desenvolvo, aplicar soluções diversas para que outras pessoas possam se beneficiar. Atualmente já sou capaz de desenvolver páginas HTML e CSS profissionais. #goTrybe</p>
-  </article>
-  
-  <aside>
-    <p>"Não existe pergunta boba." Escuto isso constantemente dos instrutores da Trybe. Estou aprendendo a me questionar e expor de forma correta minha dúvida.</p>
-  </aside>
+            <td>
+              <ul id="licoes_a_aprender">
+                <li>Lógica de Programação</li>
+                <li>JavaScript</li>
+                <li>JavaScript: DOM</li>
+                <li>JavaScript: Eventos</li>
+                <li>JavaScript: Eventos</li>
+                <li>HTML e CSS: Forms</li>
+                <li>HTML e CSS: Flexbox</li>
+                <li>HTML e CSS: Responsivo</li>
+                <li>JavaScript ES6</li>
+                <li>Testes Unitários</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+
+    <article class="experience-style">
+      <h2>ARTICLE Experiência Trybe</h2>
+      <p>Minha experiência na Trybe está sendo fantástica. Antes eu estudava conteúdos sobre programação do meu
+        interesse, de forma desordenada. Com a Trybe meus estudos são orientados de forma a absorver o conteúdo
+        facilmente. Tenho progredido bastaste, de forma prática! Consigo perceber funcionalidades reais para as páginas
+        que desenvolvo, aplicar soluções diversas para que outras pessoas possam se beneficiar. Atualmente já sou capaz
+        de desenvolver páginas HTML e CSS profissionais. #goTrybe</p>
+    </article>
+
+    <aside>
+      <h2>ASIDE Passagem Exp</h2>
+      <p>"Não existe pergunta boba." Escuto isso constantemente dos instrutores da Trybe. Estou aprendendo a me
+        questionar e expor de forma correta minha dúvida.</p>
+    </aside>
+  </main>
 
   <footer id="rodape">
     <a href="https://github.com/Gustaft86" target="_blank">github.com/Gustaft86</a>
@@ -61,5 +93,6 @@
     <p>Direitos reservados a Trybe.</p>
   </footer>
 
-  </body>
+</body>
+
 </html>
