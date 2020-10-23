@@ -105,12 +105,12 @@ a:hover {
   text-align: center;
 }
 
-.artigo-direita {
+.lado-direito {
   width: 40%;
   border: 2px dotted #4361EE;
 }
 
-.artigo-esquerda {
+.lado-esquerdo {
   width: 20%;
   border: 2px dotted #4361EE;
 }
