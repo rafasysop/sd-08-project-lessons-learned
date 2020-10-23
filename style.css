@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
     background-color: green;
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 h1 {
@@ -45,14 +45,19 @@ nav {
     padding: 30px 30px;
     width: 35%;
     float: right;
-
-    margin-right: 10px;
-    margin-bottom: 20px;
 }
 
+.side-bar {
+    margin: left;
+}
 
 #rodape {
-    font-size: 12px;
-    text-align: left;
+    font-size: 15px;
+    clear: both;
+    height: 50px;
+
+    background-color: blue;
+    color: white;
 }
+
 
