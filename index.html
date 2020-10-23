@@ -11,18 +11,23 @@
   <body>
     <header id="cabecalho">
       <h1 id="titulo">Lições | Trybe</h1>
+      <nav>
+        <a class="nav-links" href="">Home</a>
+        <a class="nav-links" href="#apresentacao">Contato</a>
+        <a class="nav-links" href="#listas">Lições</a>
+        <a class="nav-links" href="#rodape">Artigos</a>
+      </nav>
     </header>
     <main>
-      <section class="apresentacao">
+      <section id="apresentacao">
         <img id="minha_foto" src="minha_foto.jpg" alt="Foto de Mário Pardo" />
         <div class="contato">
           <div><h1 class="nome">Mário Pardo</h1></div>
-          <a class="contato-link" target="_blank" href="https://www.linkedin.com/in/mariopardojr/"><img class="icons" src="rsz_linkedin-icon.jpg" alt="Ícone Linkedin">LinkedIn</a>
+          <a id="contato" class="contato-link" target="_blank" href="https://www.linkedin.com/in/mariopardojr/"><img class="icons" src="rsz_linkedin-icon.jpg" alt="Ícone Linkedin">LinkedIn</a>
           <a class="contato-link" target="_blank" href="https://github.com/mariopardojr"><img class="icons" src="rsz_github-icon.png" alt="Ícone GitHub">GitHub</a>
-        </div>
-        
+        </div>    
       </section>
-      <div class="listas">
+      <div id="listas">
         <ol id="licoes_aprendidas">
           <h2 class="list-title">Aprendidas</h2>
           <li>Unix & Bash</li>
@@ -50,16 +55,36 @@
           <li>Soft Skills</li>
         </ul>
       </div>
-      <article class="artigo1">
-          <p>Sempre gostei de tecnologia, principalmente de hardware, e essa paixão me levou ao interesse na   programação.
-            Dei meus primeiros passos na faculdade, onde aprendi o básico de Python. Foi o primeiro passo no aprendizado na área de tecnologia. Hoje eu estudo na Trybe, uma escola de tecnologia. Desde o meu primeiro dia tive vários aprendizados, não só em relação a hard skills mas também a soft skills, que é algo que eu sempre tive dificuldade, principalmente em relação a comunicação. Sinto que melhorei, espero superar esse desafio do final do curso.
+      <div id="#artigos" class="artigos">
+        <article class="artigo-direita">
+            <p>Sempre gostei de tecnologia, principalmente de hardware, e essa paixão me levou ao interesse na   programação.
+              Dei meus primeiros passos na faculdade, onde aprendi o básico de Python. Foi o primeiro passo no aprendizado na área de tecnologia. Hoje eu estudo na Trybe, uma escola de tecnologia. Desde o meu primeiro dia tive vários aprendizados, não só em relação a hard skills mas também a soft skills, que é algo que eu sempre tive dificuldade, principalmente em relação a comunicação. Sinto que melhorei, espero superar esse desafio do final do curso.
+            </p>
+        </article>
+        <aside class="artigo-esquerda">
+          <p>
+            O curso da Trybe é realmente muito puxado, não estava acostumado com esse ritmo. Mas tenho me adaptado bem, todo dia é um aprendizado novo. Espero ter sucesso no final do curso e ser um profissional bem sucedido.
           </p>
-      </article>
-      <aside class="artigo2">
-        <p>
-          O curso da Trybe é realmente muito puxado, não estava acostumado com esse ritmo. Mas tenho me adaptado bem, todo dia é um aprendizado novo. Espero ter sucesso no final do curso e ser um profissional bem sucedido.
-        </p>
-      </aside>
+        </aside>
+      </div>
+     <!-- 
+       Para a tabela usei como referência o linka abaixo.
+      https://www.w3schools.com/html/html_tables.asp
+      -->
+      <table>
+        <tr>
+          <td><strong>Idade</strong></td>
+          <td>22 </td>
+        </tr>
+        <tr>
+          <td><strong>Cidade</strong></td>
+          <td>Manaus</td>
+        </tr>
+        <tr>
+          <td><strong>Aniversário</strong></td>
+          <td>27 out</td>
+        </tr>
+      </table>
     </main>
     <footer id="rodape">
       <p>Criado e estilizado por Mário Pardo</p>
