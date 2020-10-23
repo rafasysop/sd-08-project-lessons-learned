@@ -52,5 +52,22 @@ body {
     border: black ridge 2px;
 }
 
+.artigo {
+
+  
+    width: 100%;
+    margin: auto;
+}
+
+.artigo-1 {
+
+    width:40%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color:black;
+    
+  
+}
 
 
