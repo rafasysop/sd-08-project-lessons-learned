@@ -5,7 +5,8 @@ body {
 #cabecalho {
     top: 0px;
     background-color: green;
-    height: 150px;
+    width: 100%;
+    position: fixed;
 }
 
 #titulo {
@@ -19,35 +20,18 @@ body {
 .navegacao {
     font-size: 20px;
     margin-top: 40px;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
-.navegacao a{
+.navegacao a {
     text-decoration: none;
     color: white;
 }
 
 #minha_foto {
     width: 300px;
-    margin-top: 40px;
-}
-#ja_aprendi{
-    display: inline-block;
-    float: left;
-    width: 40%;
-}
-
-#licoes_aprendidas {
-    display: inline-block;
-    float: left;
-    width: 40%;
-}
-
-#licoes_aprender {
-    display: inline-block;
-    float: right;
-    width: 40%;
+    margin-top: 180px;
 }
 
 .lado-esquerdo {
@@ -62,13 +46,12 @@ body {
     width: 40%;
 }
 
-.rodape {
+#rodape {
     display: block;
     text-align: center;
     margin-top: 250px;
-
 }
 
-.rodape h2 {
+#rodape h2 {
     font-size: 25px;
 }
