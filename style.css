@@ -4,11 +4,12 @@ body {
   font-family: "Balsamiq Sans", cursive;
 }
 
-h2 {
-  color: blue;
-  font-family: cursive;
-  font-size: 30px;
-  letter-spacing: 3px;
+h2{
+    color: blue;
+    font-family: cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 2px;
 }
 
 .indice {
@@ -56,8 +57,16 @@ table {
   width: 200px;
 }
 
+<<<<<<< HEAD
 footer {
   margin-left: 80%;
   padding: 2%;
   border: 2%;
 }
+=======
+footer{
+    margin-left: 80%;
+    padding: 2%;
+    border: 2%;
+}
+>>>>>>> bade0f9183340791700a248408a16a5253a5b9ee
