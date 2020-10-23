@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + KR & display = swap" rel = "stylesheet">
 </head>
 <body>
     <header id="cabecalho">
@@ -17,7 +18,7 @@
     </header>
     <main>
         <img id="minha_foto" src="images/foto.jpg" alt="Minha foto">
-        <h2>Lições que ja aprendi</h2>
+        <h2 class="licoes">Lições que ja aprendi</h2>
         <ol id="licoes_aprendidas">
             <li>Zoom</li>
             <li>Slack</li>
@@ -30,7 +31,7 @@
             <li>Empatia</li>
             <li>HTML Semântico</li>
         </ol>
-        <h2>Lições que ainda vou aprender</h2>
+        <h2 class="licoes">Lições que ainda vou aprender</h2>
         <ul id="licoes_a_aprender">
             <li>JavaScript</li>
             <li>DOM</li>
@@ -43,13 +44,13 @@
             <li>Node</li>
             <li>SQL</li>
         </ul>
-        <article>
+        <article class="article">
             <section class="lado-esquerdo">
                 <h2>Meu aprendizado</h2>
                 <p>Hoje na Trybe já vi uma das habilidades relacionadas a Soft Skills que foi sobre empatia, e algumas habilidades técnicas  conhecidas como Hard Skills que foram sobre: Unix & Bash, Git, GitHub, propriedades do HTML e CSS, Como utilizar o Zoom e o Slack e aprendi também a pesquisar melhor minhas dúvidas na internet.</p>
            </section>
         </article>
-        <aside>
+        <aside class="aside">
             <section class="lado-direito">
                 <h2>Passagem sobre o meu aprendizado</h2>
                 <p>Até agora na Trybe já aprendi sobre vários assuntos que serão bastante uteis na minha vida profissional, assuntos que vão desde Soft Skills para poder lidar melhor com meus amigos de equipe, até Hard Skills que são as ferramentas necessárias que irei utilizar no dia a dia no trabalho</p>
@@ -57,7 +58,11 @@
         </aside>
     </main>
     <footer id="rodape">
-        <h2>Criado por Amanda Souza</h2>
+        <table class="tabela">
+            <thead>
+              <th>Criado por Amanda Souza</th>
+            </thead>
+        </table>
     </footer>
 </body>
 </html>
