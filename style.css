@@ -9,6 +9,10 @@
 #cabecalho {
     top: 0px;
     position: fixed;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
 }
 
 #titulo {
@@ -21,15 +25,29 @@
 }
 
 #licoes_aprendidas{
-
+    l
 }
 
 #licoes_a_aprender{
 
 }
 
-#table td {
-    border: 10px solid grey;
+p{
+    line-height:1.5;
+}
+
+#table {
+
+}
+
+.lado-direito {
+    float: right;
+    width: 40%;
+}
+
+.lado-esquerdo{
+    float: left;
+    width: 40%;
 }
 
 #rodape{
