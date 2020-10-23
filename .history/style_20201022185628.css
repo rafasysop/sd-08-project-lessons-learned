@@ -8,14 +8,6 @@ background-color: rgb(253, 251, 251);
   font-family: 'Roboto', sans-serif;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 102px;
-}
 #minha_foto {
   width: 100px;
   height: 100px;
