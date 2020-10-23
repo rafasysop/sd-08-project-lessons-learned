@@ -7,10 +7,10 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: sans-serif;
-  font-size: max(16px, calc(10px + 1vw));
+  font-size: max(16px , calc(10px + 1vw));
 }
 
-ul, ol {
+ul , ol {
   list-style-position: inside;
 }
 
@@ -43,7 +43,7 @@ section {
 
 #cabecalho nav {
   overflow: hidden;
-  background-color: rgba(111 , 17 , 218 , 0.7);;
+  background-color: rgba(111 , 17 , 218 , 0.7);
 }
 
 #cabecalho nav ul {
@@ -53,6 +53,9 @@ section {
 #cabecalho nav a {
   float: left;
   padding: 20px;
+  text-decoration: none;
+  color: white;
+  display: inline;
 }
 
 #cabecalho nav a:hover {
@@ -60,14 +63,8 @@ section {
   color: yellow;
 }
 
-#cabecalho nav a {
-  text-decoration: none;
-  color: white;
-  display: inline;
-}
-
 #principal {
-  padding: calc(140px + 5vw) 10vw 0px;
+  padding: calc(140px + 5vw) 10vw 0;
 }
 
 #aprendidas , #a_aprender {
@@ -116,13 +113,12 @@ section {
 }
 
 #aprendizado_e_experiencias {
-   overflow: hidden; /* clearfix para height 0 por conter somente elementos float */
-   margin-bottom: 30px;
+  overflow: hidden; /* clearfix para height 0 por conter somente elementos float */
+  margin-bottom: 30px;
 }
 
 #rodape {
   clear: both;
-  height: auto;
   background-color: rgb(3 , 0 , 0);
   color: white;
   text-align: center;
@@ -135,7 +131,7 @@ section {
   color: orangered;
 }
 
-#rodape #minha_foto  {
+#rodape #minha_foto {
   display: inline-block;
   width: 100px;
   height: 100px;
@@ -149,5 +145,4 @@ section {
 
 .center {
   max-width: 400px;
-  /* margin: 0 auto; */
 }
