@@ -44,3 +44,21 @@ table, td, th {
     margin: 35px;
     clear: both;
 }
+.site{
+    margin: 15px;
+    padding: 25px;
+    font-size: 50px;
+}
+#rodape{
+    width: 100%;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+}
+.navigation{
+    display: inline;
+    color: blue;
+    margin:90px;
+    font-size: 30px;
+    text-decoration: underline;
+}
