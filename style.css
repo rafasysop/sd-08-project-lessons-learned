@@ -1,51 +1,52 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+    background-color: rgb(253 ,251 ,251);
     margin: 0;
-    font-family: Helvetica;
+    font-family: helvetica, sans-serif;
 }
 
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     margin-left: 10px;
     margin-top: 130px;
 }
 
-#licoes{
+#licoes {
     display: inline-flex;
-    margin-left: 10px;;
+    margin-left: 10px;
 }
 
-#unlearned_lessons{
+#unlearned_lessons {
     margin-left: 30px;
 }
 
-#passage-conteiner{
-    display:flex;
+#passage-conteiner {
+    display: flex;
     flex-direction: row;
 }
 
-#passage{
+#passage {
     margin: 10px;
     line-height: 130%;
 }
 
-#learnig_passage{
+#learnig_passage {
     margin-left: 100px;
     color: red;
     font-size: 120%;
 }
 
-#rodape{
+#rodape {
     margin-left: 10px;
 }
 
-#tabela{
+#tabela {
     margin-left: 10px;
 }
+
 /* Barra de navegação feita referência de http://www.w3bai.com/pt/css/css_navbar.html  */
 
-#cabecalho{
+#cabecalho {
     list-style-type: none;
     display: flex;
     align-items: flex-start;
@@ -55,21 +56,19 @@ body{
     padding: 30px;
     background-color: #6c757d;
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 100%;
-    
 }
 
-#titulo{
-    
+#titulo {
     align-self: center;
     flex-direction: row;
     justify-content: center;
 }
 
-#nav-list a{
+#nav-list a {
     text-decoration: none;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
     color: #f8f9fa;
     border-right: 2px solid #f8f9fa;
     border-top: 2px solid #f8f9fa;
@@ -77,6 +76,6 @@ body{
     border-left: 2px solid #f8f9fa;
 }
 
-#nav-list a:first-child{
+#nav-list a:first-child {
     border-left: 2px solid #f8f9fa;
 }
