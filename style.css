@@ -3,6 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -13,29 +15,39 @@ body {
 }
 
 
-
-
 #titulo {
     color: green;
     font-size: 30px;
-    
-    
 }
 
 
+#minha_foto {
+    width: 15%;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 20%;
+       
+    
+}
 
-.lado-esquerdo {
-    float: left;
-    width: 40%;
+.licoes {
+    text-align: left;
     margin-left: 30px;
-    text-align: justify;
+
 }
 
-.lado-direito {
+#licoes_aprendidas {
+    float: left;
+    margin-left: 30px;
+    
+
+}
+
+
+#licoes_a_aprender {
     float: right;
-    width: 40%;
-    margin-right: 30px;
-    text-align: justify;
+    margin-right: 800px;
+
 }
 
 
@@ -61,6 +73,7 @@ body {
 .a_trybe {
     text-align: center;
     color: brown;
+    padding: 20px;
 }
 
 ol li {
@@ -73,20 +86,19 @@ ul li {
     padding: 2px;
 }
 
-#minha_foto {
-    width: 15%;
-    margin-top: 150px;
-    padding: 20px;
-    border-radius: 20%;
+
     
-    
+
+
+.tab_lessons {
+    width: 30%;
 }
 
 .tabela {
     font-size: 15px;
-    width: 70%;
-    margin: auto;
-    text-align: center;
+    width: 30%;
+    margin: left;
+    
     
   
 }
