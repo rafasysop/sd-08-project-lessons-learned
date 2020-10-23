@@ -49,11 +49,18 @@ section {
   background-color: #c0c0c0;
 }
 .lado-esquerdo {
-  width: 50%;
-  left: 50%;
+  width: 45%;
   text-align: justify;
+  padding: 20px;
 }
 .lado-direito {
+  width: 45%;
   text-align: justify;
-  width: 10%;
+  float: right;
+  position: relative;
+  bottom: 200px;
+  padding: 20px;
+}
+table {
+  margin: 30px;
 }
