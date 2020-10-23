@@ -5,6 +5,10 @@ body {
   font: 16px Verdana, Tahoma, sans-serif;
   background-color: rgb(253, 251, 251);
 }
+section {
+    display:inline-block;
+    padding-left: 20px;
+}
 a {
   text-decoration: none;
   color: antiquewhite;
@@ -86,4 +90,7 @@ table {
 }
 .clear {
   clear: both;
+}
+.top {
+    margin-top: 150px;
 }
