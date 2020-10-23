@@ -54,5 +54,12 @@ body {
 #negrito {
     font-weight: bold;
     font-style: normal;
+    padding-bottom: 0px;
 
+}
+.cor h3 {
+    background-color: rgb(150, 48, 99);
+}
+.cor p {
+    background-color: hotpink;
 }
