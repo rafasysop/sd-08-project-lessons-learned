@@ -1,9 +1,7 @@
-
     body{
         background-color: rgb(253, 251, 251);
     }
     .cabecalho{
-
         min-height: 120px;
         background-color: #ccffcc;
         width: 100%;
@@ -19,18 +17,18 @@
     }
     .photo{     
         margin-top: 140px;
-        float: left;
+
         clear: both;       
     }
     .learning{
-        margin-top: 130px;
         clear: both;
         display: inline-block;
     }
     .report{
+        margin: auto;
         clear: both;
         text-align: center;
-        max-width: 50% 20%;
+       max-width: 70%;
     }
     .lado-esquerdo{
         text-align: center;
@@ -38,21 +36,15 @@
         font-size: 15px;
         color: black;
     }
-    .lado-esquerdo p{
-        max-width: 30%;
-        margin:auto;
-    }
+
     .lado-direito{
-        margin-right: 400px;
+        margin: auto;
         text-align: center;
         color: black;
         font-size: 15px;
         float: right;
     }
-    .lado-direito p{
-        max-width: 30%;
-        margin:auto;
-    }
+  
     #rodape{
         text-align: center;
         padding-top: 50px;
