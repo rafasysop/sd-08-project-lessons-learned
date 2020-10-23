@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    background-color: green;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 200px;
+    align-items: right;
+}
+
+#rodape {
+    font-size: 12px;
+}
