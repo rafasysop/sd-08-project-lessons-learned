@@ -44,3 +44,8 @@ body {
 #cor {
     color:rgb(255 255 255);
 }
+
+#color_do_link {
+    text-decoration: none;
+    color:rgb(0 0 0);
+}
