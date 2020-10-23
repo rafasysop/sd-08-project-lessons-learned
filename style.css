@@ -1,2 +1,67 @@
-body { background-color: rgb(253, 251, 251); }
-#cabecalho { position: fixed; top: 0; }
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(253, 251, 251);
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+a:hover {
+  background-color: darkolivegreen;
+}
+h1,
+h2,
+h3 {
+  margin: 20px 0;
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+#cabecalho h1 {
+  margin: 10px 0 40px 0;
+}
+nav a {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+main {
+  margin-top: 170px;
+  overflow: hidden;
+  width: 70%;
+  float: left;
+  padding-left: 10px;
+}
+article p {
+  width: 50%;
+  margin-left: 10px;
+}
+.float-direita {
+  float: right;
+}
+.float-esquerda {
+  float: left;
+}
+#licoes_aprendidas {
+  margin-bottom: 50px;
+}
+aside {
+  width: 25%;
+  margin-top: 170px;
+  padding-right: 10px;
+}
+#rodape {
+  padding: 50px 0;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+.clear {
+  clear: both;
+}
