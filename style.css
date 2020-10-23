@@ -1,27 +1,46 @@
 body{
     background-color: rgb(253, 251, 251);
-    top: 0px;
     font-family: fantasy, sans-serif;
-    
+    margin: 0px auto;
+    padding-top: 0px;    
 }
 
 #cabecalho{
  position: fixed;
  top: 0px;
  width: 1500px;
+ margin-bottom: 0px;
 }
 
 #titulo{
-    text-align: center;
-    height: 80px;
-    background-color: rgb(13, 20, 73);
-    padding-top: 30px;
+    height: 100px;
+    padding-top: 40px;
+    padding: 20px 500px;
+    margin: 0px auto;
     color: white;
+    background-color: rgb(13, 20, 73);
+    font-weight: bolder;
+    font-family: Franklin Gothic;
+}
+
+h6{
+   width: max-content;
+   padding: 10px;
+   margin: 10px;
+   position: absolute;
+   top: 100px;
+   z-index: 2;
+   color: aliceblue;
 }
 
 #minha_foto{
     margin-top: 150px;
     border-radius: 100%;
+    padding: 10px 550px;
+}
+
+#background_minha_foto{
+    background-color: rgb(204, 204, 206);
 }
 
 #licoes_aprendidas{
@@ -36,14 +55,40 @@ body{
     margin: 10px;
     margin: 10px 10px 10px 10px;
     display: inline-block;
-    padding-left: 20px 30px 20px 30px;
-
+    padding-left: 20px 150px 20px 30px;
 }
 
-#rodape{
-    padding: 20px auto;
+
+#section_listas{
+    width: 500px;
+    padding-left: 50px;
+    margin: 20px 10px 30px 10px;
 }
 
 h2{
-    padding-left: 100px;
+    width: 400px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+h3{
+   text-align: center; 
+   font-weight: bolder;
+}
+
+#articles{
+    float: left;
+    padding: 10px ;
+    margin: 10px 0px 10px 45px;
+}
+
+#rodape{
+    clear: both;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
 }
