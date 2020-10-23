@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 30px;
+    margin: 0;
 }
 
 #cabecalho {
@@ -13,14 +14,34 @@ body {
     width: 100%;
     background-color: blue;
     color: white;
+    text-align: center;
 }
 
 #minha_foto {
-    width: 200px;
-    padding: 80px 20px;
+    width: 150px;
+    padding: 80px 20px 0 20px;
+    margin: 50px 20px 0 50px;
+    border-radius: 35%;
+    float: left;
 }
 
-p {
+#nome {
+    clear: both;
+    margin-left: 60px;
+    margin-bottom: 70px;
+    font-style: italic;
+}
+
+nav {
+    display: inline-block;
+    margin: 130px 0 0 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+p, h2, table {
     padding: 0 30px;
 }
 
@@ -32,14 +53,25 @@ td {
 footer {
     padding: 35px 0 0 0;
     border: 2px solid blue;
+    text-align: center;
 }
 
 .lado-esquerdo, .lado-direito{
-    max-width: 45%;
+    max-width: 65%;
     display: inline-block;
     /* border: 1px solid blue; */
-    vertical-align: middle;
+    vertical-align: top;
 }
+
+.lado-direito {
+    max-width: 25%;
+}
+
+#licoes_aprendidas,#licoes_a_aprender {
+    width: 40%;
+    display: inline-block;
+}
+
 /* .lado-direito {
     float: right;
 } */
