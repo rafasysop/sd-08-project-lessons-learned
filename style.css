@@ -12,7 +12,6 @@ body {
     height: 55px;
     border: 1px solid #C2BDB6;
     background-color: #48433C;
-    position: fixed;
 }
 
 #titulo a {
@@ -48,7 +47,7 @@ body {
     font-weight: 700;
 }
 
-#minha_foto img {
+#minha_foto {
     width: 200px;
     border-radius: 40%;
     margin-top: 55px;
@@ -207,5 +206,4 @@ body {
     margin-top: 30px;
     color: #EBE9E7;
     padding: 10px;
-
 }
