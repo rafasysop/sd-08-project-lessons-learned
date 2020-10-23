@@ -6,65 +6,61 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-#cabecalho {
-  background: rgb(23,69,170);
 
+/* começo header*/
+#cabecalho {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-
+  background: rgb(23,69,170);
   top: 0px;
   width: 100%;
   height: 150px;
  }
-
  #titulo {
    font-size: 60px;
    color:white;
- }
+ }/* Fim Header*/
 
+
+ /* Container PERFIL-FOTO*/
 #container-foto {
   display: flex;
   margin-top:160px ;
   text-align: center;
   font-size: 20px;
-
 }
-
 #minha_foto {
   margin-top: 0%;
   width: 200px;
   right: 200px;
+}/* Fimm PERFIL-FOTO*/
 
 
-}
-
-#links-externos {
-  margin-left:30px ;
-
-}
-
-
+ /* Container LIÇÕES*/
 #container-licoes{
   display: flex;
 }
-
-
 #licoes-section-lado-direito{
   margin-left: 100px;
-}
+}/* Container LIÇÕES*/
 
 
-#article-artigos{
+
+/*  Container Artigo-Secao */
+#container-artigo-secao{
   display: flex;
-
 }
 
-#esquerdo {
+.lado-esquerdo {
   margin-right: 15px ;
+  line-height: normal;
+  font-family: sans-serif;
 }
 
-#container-artigo-sessao{
-  display: flex;
+.lado-direito{
+  line-height: normal;
+  font-family: sans-serif;
+
 }
