@@ -1,6 +1,7 @@
 body{
     background-color: rgb(253, 251, 251);
     font-family: Helvetica,Arial,sans-serif;
+    margin: 0;
 }
 #cabecalho{
     background-color: #421561;
@@ -22,7 +23,7 @@ body{
     margin-left: 40px;
 }
 .content{
-    margin-left: 20px;
+    margin: 20px;
 }
 .main-content{
     margin-top: 130px;
@@ -51,17 +52,19 @@ body{
     background-color: #421561;
     color: #efeff1;
     bottom: 0;
+    left: 0;
     width: 100%;
     font-size: 14px;
+}
+#rodape ul{
     margin: 0;
 }
 #rodape li{
     margin-right: 50px;
     list-style-type: none;
-    display: inline;   
+    display: inline; 
 }
 .lado-direito{
-
     width: 300px;
     margin: 10px;
     padding: 20px;
@@ -73,4 +76,10 @@ body{
     display: inline-block;
     vertical-align: top;
     margin-top: 45px;
+}
+.tabela{
+    border: 1px solid black;
+}
+.tabela td{
+    border: 1px solid black;
 }
