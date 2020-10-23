@@ -1,10 +1,10 @@
 * {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background-color:  rgb(253, 251, 251);
+  background-color: rgb(253,251,251);
 }
 
 main {
@@ -17,8 +17,8 @@ display: none;
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  background-color:  #11a36a;
+  top: 0;
+  background-color: rgb(17,165,108);
   display: block;
   width: 100%;
   border-bottom-style: ridge;
@@ -32,7 +32,7 @@ display: none;
   font-size: 50px;
 }
 
-.menu-style a{
+.menu-style a {
   color: rgb(6, 82, 53);
   text-decoration: none;
   text-transform: uppercase;
@@ -52,11 +52,10 @@ display: none;
   border-style: solid;
   border-width: 1px;
   padding: 15px 20px;
-  border-color: rgb(10, 126, 81);
+  border-color: rgb(10,126,81);
 }
 
 .photo-style {
-  /* position: relative; */
   margin-top: 180px;
   display: inline-block;
   width: 350px;
@@ -97,7 +96,7 @@ display: none;
   width: 200px;
   padding: 5px;
   border-style: solid;
-  box-shadow: 5px 10px 10px #11a36a;
+  box-shadow: 5px 10px 10px rgb(17,163,106);
   text-align: center;
   margin-left: 30px;
   font-size: 15px;
@@ -105,7 +104,7 @@ display: none;
 
 #rodape {
   margin-bottom: 0;
-  background-color:  #11a36a;
+  background-color: rgb(17,163,106);
   clear: both;
   margin-top: 10px;
   padding: 15px;
