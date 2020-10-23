@@ -5,16 +5,57 @@ body {
 
 header {
     background-color: yellowgreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
-footer {
-    background-color: aquamarine;
-}
-
-article {
-    background-color: burlywood;
+#minha_foto {
+    width: 7rem;
+    position: fixed;
+    top: 112px;
+    right: 97px;
+    border-radius: 10rem;
 }
 
 aside {
     background-color: cadetblue;
+    position: fixed;
+    width: 16rem;
+    right: 16px;
+    top: 284px;
+}
+
+nav {
+    background-color: aqua;
+    height: 35rem;
+    position: fixed;
+    bottom: 3px;
+    border: 3px solid;
+}
+
+#navList {
+    position: relative;
+    top: 26px;
+    right: 10px;
+    font-size: 19px;
+}
+
+footer {
+    background-color: aquamarine;
+    width: 55rem;
+    height: 9rem;
+    position: relative;
+    bottom: -96rem;
+    right: -186px;
+}
+
+article {
+    background-color: burlywood;
+    width: 55rem;
+    height: 90rem;
+    position: absolute;
+    right: 283px;
+    top: 85px;
 }
