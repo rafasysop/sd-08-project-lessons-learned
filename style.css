@@ -120,7 +120,7 @@ a:hover {
   justify-content: center;
 }
 
-.artigo-direita, .artigo-esquerda{
+.lado-direito, .lado-esquerdo{
   margin: 40px;
   padding: 10px;
 }
