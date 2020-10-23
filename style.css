@@ -1,9 +1,10 @@
 .header-text{
-    text-align:center;
-    font-style: italic;
-    background-color: #0fa36b;
-    margin-bottom: 0%;
-}
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        background-color: #0fa36b;
+        border: 2px solid #4CAF50;
+      }
 
 .trybe-list1{
     list-style-type: none;
