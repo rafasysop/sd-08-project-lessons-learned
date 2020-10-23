@@ -122,6 +122,7 @@ body {
 #artigos p {
     text-align: justify;
     padding: 5px 15px;
+    margin-bottom: 15px;
 }
 
 /*****Lateral*****/
@@ -134,6 +135,7 @@ body {
     margin-right: 50px;
     margin-top: 35px;
     border-bottom: 2px dashed #379BB5;
+    margin-bottom: 20px;
 }
 
 #lateral p {
@@ -190,4 +192,19 @@ body {
 #link-externo h3 {
     margin-top: 30px;
     text-decoration: none;
+}
+
+/*****Rodape*****/
+
+#rodape {
+    clear: both;
+    text-align: center;
+}
+
+#rodape h3 {
+    background-color: #48433C;
+    margin-top: 30px;
+    color: #EBE9E7;
+    padding: 10px;
+
 }
