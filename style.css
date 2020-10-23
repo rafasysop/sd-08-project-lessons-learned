@@ -59,7 +59,7 @@ body {
     margin: auto;
 }
 
-.artigo-1 {
+.lado-esquerdo {
 
     width:40%;
     margin: 10px;
@@ -70,4 +70,12 @@ body {
   
 }
 
+.lado-direito {
 
+    width:40%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color:black;
+
+}
