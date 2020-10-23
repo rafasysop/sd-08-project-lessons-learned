@@ -8,12 +8,16 @@ body{
 }
 
 #cabecalho {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 24vh;
+    width: 100%;
     position: fixed;
     top: 0;
     background-color: green;  
-    max-width: 100%;  
-    padding: 10px 1000px 0px 10px;
-    /* text-align: center; */
+    /* padding: 10px 1000px 0px 10px; */
 }
 
 #minha_foto{
@@ -88,6 +92,7 @@ body{
   .navigation li {
     margin-right: 40px;
     list-style-type: none;
+    text-align: left;
     /* display: inline; */
   }
   
