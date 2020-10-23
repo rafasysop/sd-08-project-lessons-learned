@@ -9,7 +9,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
 }
