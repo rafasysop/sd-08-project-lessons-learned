@@ -62,16 +62,6 @@ body {
   background-color: #1c96ba;
 }
 
-.test-pass-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.test-pass-content article,
-.test-pass-content aside {
-  overflow: hidden;
-}
-
 main::before {
   content: "";
   display: block;
@@ -151,11 +141,11 @@ main::before {
   border-right: 1px solid currentColor;
 }
 
-#about p,
+/* #about p,
 aside em {
   display: block;
   text-align: justify;
-}
+} */
 
 #about section,
 aside section {
