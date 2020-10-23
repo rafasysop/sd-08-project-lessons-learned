@@ -118,10 +118,12 @@ aside {
 }
 
 #jogoVelha {
-    position: relative;
-    left: 35%;
+    position: absolute;
+    top: 550px;
+    left: 60px;
     bottom: 15px;
     width: fit-content;
+    height: fit-content;
     background-color: #857F74;
 }
 
