@@ -32,11 +32,27 @@ body {
     margin-top: 30px;
     margin-left: 40%;
 }
-/** Texto alinhado*/
-.texto p {
+/** Texto do artigo*/
+.texto {
+    float: left;
     text-align: justify;
     width: 200px;
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+/**Texto do aside*/
+.texto2 {
+    display: inline-block;
+    text-align: justify;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/** Deixando os títulos em negrito*/
+#negrito {
+    font-weight: bold;
+    font-style: normal;
+
 }
