@@ -95,6 +95,10 @@ h3{
     margin: 10px 0px 10px 45px;
 }
 
+p{
+    font-size: 14px;
+}
+
 #rodape{
     clear: both;
     height: 100px;
