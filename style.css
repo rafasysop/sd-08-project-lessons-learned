@@ -4,46 +4,77 @@
 }
 
 body {
-    background-color: rgba(253, 251, 251);  
+    background-color: rgba(253, 251, 251);    
 }
 
-header {
-    position: fixed;       
-    z-index: 0;  
+.d_cabecalho{
+    background: linear-gradient(50deg,#0b8f70 50%, #c0e6f8 70%);
+    width: 100%;
+    height: 19rem;    
+    position: fixed;
+    z-index:1;        
 }
 
-header img {
-    width: 20%;
+#cabecalho{
+    top: 0px;
 }
 
-aside {
-    float: right;    
-    clear: both;
-    padding-top: 10px;
-    margin: 10px;
+.d_foto_header{
+    display: flex;
+    justify-content: space-between;
 }
 
-.aprendidas {
-   margin-right: 160px;
+#minha_foto{
+    width: 10rem;    
 }
 
-article {
-    overflow: hidden;
-    top: 50%;
-    width: 60%;
+#titulo{
+    margin: 5px;
+}
+
+.d_nav{
+    display: inline;
+    padding: 0px 10px;  
+}
+.d_article{
     position: absolute;
-    margin-left: 5px;
+    top: 19rem;
+    width: 50%;
+    background: green;       
 }
-
-footer {
-    float: bottom;
+.s_aside {
+    background: pink;
     position: absolute;
-    top: 90%;
+    top: 29rem;
+    width: 50%;    
    
 }
+.d_footer {
+    background: linear-gradient(50deg,#c0e6f8 50%, #0b8f70 70%);    
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+}
+.d_licoes{
+    position: absolute;
+    top: 19rem;
+    left: 50%;
+    width:50%;       
+    display: flex;
+    flex-direction: row;    
+    box-shadow: 1px 1px 2px #0b8f70 
+}
 
+#licoes_aprendidas{
+    margin-right: 50px;    
+    list-style-type: none;
+    
+}
 
+#licoes_a_aprender{
+    list-style-type: none;
 
+}
 
 
 

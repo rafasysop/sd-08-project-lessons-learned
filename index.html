@@ -5,21 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Olá, sou o Tryber Ruâni - Turma 8</title>
-    </head>
+  </head>
   <body>
-    <header id="cabecalho">
-      <img
-        id="minha_foto"
-        src="https://ruanifilipe.github.io/perfil.png"
-        alt="foto perfil"
-      />
-      <h1 id="titulo">Aluno: Ruâni Filipe de Albuquerque e Silva</h1>
-      <h2>Projeto 1 - Lessons Learned</h2>
-    </header>
-    <article> Olá, sou Ruâni da Turma 8. Comecei do zero quando decidi inscrever na Trybe. Após fazer a inscrição, comecei a consumir muito conteúdo gratuito, como, por exemplo, <a target="_blank" href= "https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1">Curso em Vídeo do Professor Gustavo Guanabara</a>, bem como o próprio Curso Introdutório da Trybe, que deu uma boa base em JavaScript para poder completar com êxito o Desafio Prático.
-    </article>
-
-        <aside class="aprendidas">
+    <div class="d_cabecalho">
+      <header id="cabecalho">
+        <div class="d_foto_header">
+          <img
+            id="minha_foto"
+            src="https://ruanifilipe.github.io/perfil.png"
+            alt="foto perfil"
+          />
+          <img
+            src="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png"
+            alt="logo trybe"
+          />
+        </div>
+        <div class="d_header_inferior">
+          <h1 id="titulo">Ruâni Filipe de Albuquerque e Silva</h1>
+          <h2 id="titulo">Projeto 1 - Lessons Learned</h2>
+          <nav class="d_nav">Home</nav>
+          <nav class="d_nav">Home</nav>
+          <nav class="d_nav">Home</nav>
+          <nav class="d_nav">Home</nav>
+        </div>
+      </header>
+    </div>
+    <div class="d_article">
+      <article>
+        Olá, sou Ruâni da Turma 8. Em pouco tempo, já aprendi bastante, desde os primeiros comandos no Unix, até os primeiros grandes passos com o HTML/CSS, passando por aprendizado de Git e GitHub.        
+      </article>
+      
+      <section>
+        Tenho background em Direito, bem como curto Mercado Financeiro, já tendo investido na Bovespa (atual B3) e sendo duplamente premiado na edição da ExpoMoney Recife
+      </section>
+    </div>
+    <div class="d_licoes">
       <ol id="licoes_aprendidas">
         Lições Aprendidas
 
@@ -31,7 +51,7 @@
         </ul> -->
         <li>Fundamentos do Desenvolvimento Web e Setup</li>
         <li>Bloco 2: Git, Git Hub e Internet</li>
-            <!-- <ul>
+        <!-- <ul>
           <li>Git</li>
                 <ol>
             <li>Origem</li>
@@ -60,25 +80,42 @@
         <li><strong> Soft Skills:</strong></li>
         <li>Empatia</li>
         <li>Muito Estudo</li>
-        <li>Dedicação e Disciplina</li>        
+        <li>Dedicação e Disciplina</li>
       </ol>
-    </aside>
 
-    <aside class="future">
-        <ul id="licoes_a_aprender"> Próximos blocos
-            <li>Bloco 4: Introdução à JavaScript e Lógica de Programação</li>
-            <li>Bloco 5: JavaScript: DOM, Eventos e Web Storage</li>
-            <li>Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo</li>
-            <li>Bloco 7: Introdução à JavaScript ES6 e Testes Unitários</li>
-            <li>Bloco 8: Higher Order Functions do JavaScript ES6</li>
-            <li>Bloco 9: JavaScript Assíncrono e Promises</li>
-            <li>Bloco 10: Testes automatizados com JEST</li>
-            <li>Bloco 11: Introdução à React</li>
-            <li>Bloco 12: Componentes com Estado, Eventos e Formulários com REact</li>
-            <li>Bloco 13: Ciclo de Vida de Componentes e React Router</li>
-        </ul>
-    </aside>
-    <footer ID="rodape">Site desenvolvido por Ruâni Filipe</footer>
+      <ul id="licoes_a_aprender">
+        Próximos blocos
+        <li>Bloco 4: Introdução à JavaScript e Lógica de Programação</li>
+        <li>Bloco 5: JavaScript: DOM, Eventos e Web Storage</li>
+        <li>Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo</li>
+        <li>Bloco 7: Introdução à JavaScript ES6 e Testes Unitários</li>
+        <li>Bloco 8: Higher Order Functions do JavaScript ES6</li>
+        <li>Bloco 9: JavaScript Assíncrono e Promises</li>
+        <li>Bloco 10: Testes automatizados com JEST</li>
+        <li>Bloco 11: Introdução à React</li>
+        <li>
+          Bloco 12: Componentes com Estado, Eventos e Formulários com REact
+        </li>
+        <li>Bloco 13: Ciclo de Vida de Componentes e React Router</li>
+      </ul>
+    </div>
+
+    <section class="s_aside">
+      <aside>
+        <p>Comecei do zero quando decidi inscrever no Processo Seletivo da
+          Trybe. Após fazer a inscrição, comecei a consumir muito conteúdo
+          gratuito, como, por exemplo,
+          <a
+            target="_blank"
+            href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+            >Curso em Vídeo do Professor Gustavo Guanabara</a
+          >, bem como o próprio Curso Introdutório da Trybe, que deu uma boa base
+          em JavaScript para poder completar com êxito o Desafio Prático.</p>
+      </aside>
+    </section>
+
+    <div class="d_footer">
+      <footer ID="rodape">Site desenvolvido por Ruâni Filipe</footer>
+    </div>
   </body>
-  
 </html>
