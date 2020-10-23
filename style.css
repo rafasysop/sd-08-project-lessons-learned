@@ -141,11 +141,11 @@ main::before {
   border-right: 1px solid currentColor;
 }
 
-/* #about p,
+#about p,
 aside em {
   display: block;
   text-align: justify;
-} */
+}
 
 #about section,
 aside section {
