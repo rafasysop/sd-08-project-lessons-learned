@@ -1,13 +1,16 @@
 body {
-    background-color: rgb
-    (253, 251, 251);
+    background-color: rgb(253, 251, 251);
+    font-family: cursive;
 }
-header {
-    background-color: green;
-    height: 60px;
-    margin-top:0px;
+#cabecalho {
     
+    margin-top: 0px;
+    text-align: center;
+    background-color: purple;
+    width: 100%;
+    height: 15%;
 }
+
 #titulo {
     text-align: center;
     color: ivory;
