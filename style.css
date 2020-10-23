@@ -12,6 +12,7 @@ body {
     height: 55px;
     border: 1px solid #C2BDB6;
     background-color: #48433C;
+    position: fixed;
 }
 
 #titulo a {
