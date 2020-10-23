@@ -1,5 +1,5 @@
 .header-text{
-        position: relative;
+        position: static;
         top: 0px;
         background-color: #0fa36b;
         border: 2px solid #4CAF50;
@@ -33,29 +33,22 @@ border-radius: 100%;
     font-family: fantasy, sans-serif;
     color: rgb(15, 163, 107);
     margin-bottom: 5px;
-    
-
 }
 
-.rodape {
+ .rodape {
     background-color: grey;
     font-family: monospace, sans-serif;
     font-size: 10px;
 }
 
-.aprendizado {
-    font-size: 20px;
-    padding-left: 25px;
-    padding-right: 75px;
-    margin-bottom: 5px;
-}
-
 .lado-direito {
+font-size: 20px;
 background-color: rgb(230,230,230);
 width:50%;
+height: 200px;
 overflow: auto;
 position: relative;
-bottom: 206px;
+bottom: 190px;
 left:50%;
 }
 
@@ -63,6 +56,7 @@ left:50%;
     font-size: 20px;
     background-color: rgb(230,230,230);
     width:50%;
+    height: 200px;
     border: 5px indigo;
     overflow: auto;
     position: relative;
