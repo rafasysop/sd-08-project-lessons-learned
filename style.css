@@ -54,7 +54,7 @@ main {
 }
 .float-esquerda {
   float: left;
-    width:45%;
+    width:65%;
 }
 #licoes_aprendidas {
   margin-bottom: 50px;
@@ -71,7 +71,7 @@ aside {
   top:80px;
 }
 table {
-    margin:20px 0;
+    margin:0 auto;
 }
 .clear {
   clear: both;
