@@ -14,6 +14,7 @@ body {
 p, li {
   font-size: 1em;
   line-height: 1.4;
+  color: #464949;
 }
 
 h1, h2 {
@@ -88,6 +89,7 @@ h1, h2 {
 
 .content__table table td, th {
     text-align: center;
+    color: #464949;
     background: rgba(63, 200, 186, 0.1);
     padding: 10px;
 }
