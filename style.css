@@ -9,14 +9,13 @@ body {
   font-size: 17px;
   line-height: normal;
   font-family: Poppins, sans-serif;
-  font-weight: lighter;
 }
 
 h1 {
   color: rgb(57 , 62 , 70);
   font-family: Raleway, sans-serif;
   line-height: normal;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 #cabecalho {
@@ -54,7 +53,6 @@ aside {
   margin-left: 0.5rem;
   box-shadow: inset 5px 0 5px -5px rgb(41 , 98 , 126);
   color: rgb(41 , 98 , 126);
-  font-weight: lighter;
   font-size: 15px;
 }
 
@@ -81,38 +79,11 @@ aside {
   padding-bottom: 25px;
 }
 
-/* .paragraph {
-  clear: both;
-} */
-
-ol, ul {
+ol , ul {
   margin-top: 60px;
   padding: 5%;
   font-size: 14px;
 }
-
-/* #licoes_aprendidas {
-  max-width: 25%;
-  padding: 5%;
-  display: inline-block;
-  float: left;
-}
-
-#licoes_a_aprender {
-  max-width: 25%;
-  padding: 5%;
-  display: inline-block;
-  float: left;
-} */
-
-/* li {
-  display: block;
-  float: left;
-} */
-
-/* ul {
-    box-shadow: inset 5px 0 5px -5px rgb(41 , 98 , 126);
-} */
 
 #rodape {
   margin-top: 10%;
@@ -126,10 +97,6 @@ table {
   margin-top: 5%;
   margin-left: 40%;
   margin-right: 40%;
-}
-
-teste {
-  margin-bottom: 100px;
 }
 
 ol {
