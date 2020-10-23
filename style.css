@@ -26,4 +26,21 @@ body {
 
 #licoes_a_aprender {
     color: rgb(0 0 0);
+    margin-bottom: 30px;
+}
+
+#rodape {
+    text-decoration:none;
+    color:rgb(0 0 0);
+    background-color:#11a36a;
+    padding: 15px;
+    margin-bottom: 15px;    
+    display: inline-block;    
+    width: 97%;
+    text-align: center;
+    border:2px solid rgb(0 0 0);    
+}
+
+#cor {
+    color:rgb(255 255 255);
 }
