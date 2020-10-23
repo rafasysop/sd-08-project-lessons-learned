@@ -1,5 +1,6 @@
 body {
    background-color: rgb(253, 251, 251);
+   line-height: 1.8;
 }
 
 #cabecalho {
@@ -57,9 +58,12 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: rgb(46, 7, 7);
+    background-color: #0fa36b;
+    padding: 20px;
 }
 
 #table {
     width: auto;
     margin-left: 30%;
+    background-color: whitesmoke;
 }
