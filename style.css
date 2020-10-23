@@ -15,6 +15,11 @@ img {
   border-radius: 50px;
 }
 
+#licoes_aprendidas,
+#licoes_a_aprender {
+  display: inline-block;
+}
+
 table {
   border-collapse: collapse;
   border: 3px solid black;
