@@ -45,6 +45,7 @@ p{
     font-weight: bold;
     border-width: 4px;
     border-style: double;
+    text-align: center;
     
 }
 
@@ -87,8 +88,16 @@ p{
     text-align: center;
 }
 
+.lado-esquerdo, .lado-direito{
+    display:inline-block;   
+    max-width: 45%;
+    padding: 30px;
+    float: left;
+}
+
 #rodape{
     font-size: 15px;
     background-color: #0a7e51; 
     color: white;
+    clear: both;
 }
