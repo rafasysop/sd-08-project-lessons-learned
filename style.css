@@ -36,7 +36,7 @@ body {
 
 #licoes_aprendidas , #licoes_a_aprender {
     display: inline-block;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(63 , 163 , 38);
     padding: 2em;
     border-radius: 40px;
@@ -53,7 +53,7 @@ body {
     position: relative;
     display: inline-block;
     background-color: rgb(63 , 163 , 38);
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 30%;
     border-radius: 30px;
     text-align: center;
@@ -63,11 +63,11 @@ body {
 
 .lado-direito {
     position: relative;
-    display: inline-block;
+    float: right;
     background-color: rgb(63 , 163 , 38);
     text-align: right;
     padding: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 15%;
     line-height: 6mm;
     border-radius: 30px;
