@@ -34,13 +34,16 @@ body {
     float: left;
     width: 48%;
     text-align: left;
-    text-size-adjust: 80%;
+    /* text-size-adjust: 80%; */
+    /* display: inline-block; */
 }
 
 .lado-direito {
     float: right;
     width: 48%;
     text-align: left;
+    /* text-size-adjust: 50%; */
+    /* display: inline-block; */
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
