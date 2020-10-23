@@ -1,88 +1,88 @@
 body {
-        background-color: rgb(253 , 251 , 251);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 #cabecalho {
-        position: fixed;
-        text-align: center;
-        padding-left: 5em;
-        padding-right: 5em;
-        padding-bottom: 0;
-        border-radius: 20px;
-        background-color: rgb(63 , 163 , 38);
-        z-index: 1;
-        top: 0;
-        font-size: 100%;
+  position: fixed;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 0;
+  border-radius: 20px;
+  background-color: rgb(63 , 163 , 38);
+  z-index: 1;
+  top: 0;
+  font-size: 100%;
 }
 
 #titulo {
-        text-align: center;
-        width: 100%;
-        color: snow;
+  text-align: center;
+  width: 100%;
+  color: snow;
 }
 
 
 #minha_foto {
-        position: relative;
-        width: 15%;
-        top: 70px;
-        margin-bottom: 40px;
-        border-radius: 20px;
-        border-style: groove;
+  position: relative;
+  width: 15%;
+  top: 70px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  border-style: groove;
 }
 
 
 #licoes_aprendidas , #licoes_a_aprender {
-        display: inline-block;
-        background-color: rgb(63 , 163 , 38);
-        padding: 2em;
-        border-radius: 40px;
-        margin: auto;
+  display: inline-block;
+  background-color: rgb(63 , 163 , 38);
+  padding: 2em;
+  border-radius: 40px;
+  margin: auto;
 }
 
 
 .lado-esquerdo {
-        background-color: rgb(63 , 163 , 38);
-        float: left;
-        width: 50%;
-        border-radius: 30px;
-        text-align: center;
-        margin: 1em;
-        line-height: 6mm;
+  background-color: rgb(63 , 163 , 38);
+  float: left;
+  width: 50%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 1em;
+  line-height: 6mm;
 }
 
 .lado-direito {
-        float: right;
-        width: 15%;
-        margin-bottom: auto;
-        background-color: rgb(44 , 92 , 32);
-        text-align: right;
-        padding: 2em;
-        line-height: 6mm;
-        border-radius: 30px;
+  float: right;
+  width: 15%;
+  margin-bottom: auto;
+  background-color: rgb(44 , 92 , 32);
+  text-align: right;
+  padding: 2em;
+  line-height: 6mm;
+  border-radius: 30px;
 }
 
 
 #socialMedia {
-        text-align: justify;
+  text-align: justify;
 }
 
 .buttons {
-        text-align: center;
-        display: inline-block;
-        padding: 1%;
-        width: 30%;
-        margin-right: 10%;
-        margin-bottom: 5%;
+  text-align: center;
+  display: inline-block;
+  padding: 1%;
+  width: 30%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 
 footer {
-        background-color: rgb(63 , 163 , 38);
-        color: snow;
-        font-family: sans-serif;
-        padding: 1em;
-        border-radius: 30px;
+  background-color: rgb(63 , 163 , 38);
+  color: snow;
+  font-family: sans-serif;
+  padding: 1em;
+  border-radius: 30px;
 }
