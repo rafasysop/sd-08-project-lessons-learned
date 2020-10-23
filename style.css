@@ -44,6 +44,33 @@ header img {
   width: 36px;
 }
 
+header nav {
+  position: absolute;
+  top: calc(120px / 2.4);
+  right: 0;
+  margin-right: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav a:link,
+header nav a:visited {
+  color: #fff;
+}
+
+header nav strong {
+  font-size: 18px;
+  color: #fff;
+
+  transition: 0.2s;
+}
+
+header nav strong:hover {
+  color: #8da2fb;
+}
+
 main section article {
   width: 50%;
   height: 300px;
