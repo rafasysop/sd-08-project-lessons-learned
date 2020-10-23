@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: Ubuntu, Arial;
+  font-family: Ubuntu;
 }
 
 main {
@@ -15,8 +15,7 @@ header {
   margin: 15px;
   background-color: orange;
   border: solid;
-  font-weight: 900px;
-  color: rgb(118, 168, 201);
+  color: rgb(118 , 168 , 201);
 }
 
 img {
@@ -28,7 +27,7 @@ img {
 }
 
 p {
-  line-height: 20px;    
+  line-height: 20px;
 }
 
 footer {
@@ -37,5 +36,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin-right: 50px;
+  margin-left: 20px;  
+}
+
+lado-direito {
+  float: right;
 }
 
