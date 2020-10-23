@@ -19,10 +19,13 @@ body {
     float: left;
     width: 30%;
     margin: 15px;
+    font-size: 18px;
+    position: absolute;
 }
 #licoes_a_aprender {
     float: right;
     width: 60%;
+    font-size: 18px;    
 }
 #rodape {
     clear: both;
@@ -35,6 +38,8 @@ article {
 .nav-links li {
     display: inline;
     margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 th {
     background-color: blue;
@@ -48,16 +53,28 @@ th {
 }
 .licoes {
     margin: 30px;
+    text-decoration: underline;
+    color: green;
 }
 #Aprendizado {
     margin: 30px;
+    text-decoration: underline;
+    color: green;
 }
 #Primeiros_dias {
     margin: 30px;
+    text-decoration: underline;
+    color: green;
 }
 p {
     margin: 30px;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 1.5em;
 }
 table {
     margin: 30px;
+}
+td {
+    font-size: 18px;
 }
