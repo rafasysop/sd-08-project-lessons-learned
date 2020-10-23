@@ -95,12 +95,12 @@ section {
 
 }
 
-#lessons-learnt {
+#lado-esquerdo {
     width: 40%;
     display: inline-block;
 }
 
-#licoes_a_aprender {
+#lado-direito {
     width: 40%;
     display: inline-block;
     list-style: square;
