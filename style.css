@@ -26,12 +26,12 @@ body {
     clear: both;
     padding: 35px;
 }
-.left-text{
+.lado-esquerdo{
     width: 50%;
     border: 50px;
     float: left;
 }
-.right-text{
+.lado-direito{
     float: right;
     width: 50%;
     border: 50px;
