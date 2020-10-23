@@ -12,170 +12,184 @@
     <header id="cabecalho">
         <h1 id="titulo">Lessons Learned | Trybe</h1>
         <nav>
-            <a href="about">About</a>
+            <a href="#about" title="Move to the 'about me' article">About</a>
+            <a href="#table" title="Move to the Periodic Table of Web Development Progress">Web Dev Table</a>
         </nav>
     </header>
 
     <main>
 
-        <div class="img-wrapper">
-            <img src="images/perfil.jpg" alt="Foto de Perfil" id="minha_foto">
+        <div class="foto">
+            <div class="img-wrapper">
+                <img src="images/perfil.jpg" alt="Foto de Perfil" id="minha_foto">
+            </div>
+    
+            <a href="https://www.linkedin.com/in/gabriel-donnantuoni-lima/" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">Gabriel Donnantuoni</a>
         </div>
 
-        <a href="https://www.linkedin.com/in/gabriel-donnantuoni-lima/" target="_blank" rel="noopener noreferrer">Gabriel Donnantuoni</a>
-
-        <div class="lessons-learned">
-
-            <h2>Lessons already learned</h2>
-
-            <ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Internet Workflow</li>
-                <li>Basic HTML</li>
-                <li>Basic CSS</li>
-                <li>Inspect Browser Function</li>
-                <li>Semantic HTML</li>
-                <li>Slack</li>
-                <li>Empathy</li>
-            </ol>
+        <div class="lists">
+            <div class="lessons-learned">
+    
+                <h2>Lessons already learned</h2>
+    
+                <ol id="licoes_aprendidas">
+                    <li>Unix</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Internet Workflow</li>
+                    <li>Basic HTML</li>
+                    <li>Basic CSS</li>
+                    <li>Inspect Browser Function</li>
+                    <li>Semantic HTML</li>
+                    <li>Slack</li>
+                    <li>Empathy</li>
+                </ol>
+            </div>
+    
+            <div class="lessons-to-learn">
+    
+                <h2>Lessons to learn</h2>
+    
+                <ul id="licoes_a_aprender">
+                    <li>JavaScript</li>
+                    <li>DOM</li>
+                    <li>Forms</li>
+                    <li>Responsive CSS</li>
+                    <li>ES6</li>
+                    <li>HOF</li>
+                    <li>Unit tests</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="lessons-to-learn">
+        <div class="main-content">
 
-            <h2>Lessons to learn</h2>
-
-            <ul id="licoes_a_aprender">
-                <li>JavaScript</li>
-                <li>DOM</li>
-                <li>Forms</li>
-                <li>Responsive CSS</li>
-                <li>ES6</li>
-                <li>HOF</li>
-                <li>Unit tests</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>SQL</li>
-            </ul>
-        </div>
-
-        <article>
-            <h2>About the school and my learning path</h2>
-
-            <section>
-                <p>I am 23 years old, was born in Fortaleza/CE and I've been living here since then.</p>
-            </section>
-
-            <section>
-                <p>I'm one semester away from getting my bachelor's degree in Civil Engineering from UFC, but the experiences and reflexions I've been through during the Covid-19 pandemic triggered my feeling about what I was doing and I decided to pursue my real dream of working with software development. I found in Trybe an oportunity to speed up my career advancement at web development and <em>I am looking forward to that.</em></p>
-            </section>
-            
-        </article>
-
-        <aside>
-            <article>
-                <h3>Learning highlights</h3>
+            <article id="about" class="lado-esquerdo">
+                <h2>About the school and my learning path</h2>
+    
                 <section>
-                    <em>The great thing about studying in Trybe is their complete course pŕogram. Besides their rich hardskills content, they invest a lot on softskills, agile systems, carrer and real life based projects!</em>
+                    <p>I am 23 years old, was born in Fortaleza/CE and I've been living here since then.</p>
                 </section>
+    
+                <section>
+                    <p>I'm one semester away from getting my bachelor's degree in Civil Engineering from UFC, but the experiences and reflexions I've been through during the Covid-19 pandemic triggered my feeling about what I was doing and I decided to pursue my real dream of working with software development. I found in Trybe an oportunity to speed up my career advancement at web development and <em>I am looking forward to that.</em></p>
+                </section>
+                
             </article>
-        </aside>
+    
+            <aside class="lado-direito">
+                <article>
+                    <h3>Learning highlights</h3>
+                    <section>
+                        <em>The great thing about studying in Trybe is their complete course pŕogram. Besides their rich hardskills content, they invest a lot on softskills, agile systems, carrer and real life based projects!</em>
+                    </section>
+                </article>
+            </aside>
+
+        </div>
 
         <div id="table">
             <h2>Periodic Table of Web Design Process</h2>
-            <img src="images/table-left-content.png" alt="auxiliar table left">
             
-            <table>
-                <tr>
-                    <th class="purple">Brief</th>
-                    <th class="blue-purple">Planning</th>
-                    <th class="green-blue">Desigin</th>
-                    <th class="yellow">Development</th>
-                    <th class="orange">Launch</th>
-                    <th class="red-pink">Maintenance</th>
-                </tr>
-                <tr>
-                    <td class="purple">PrD</td>
-                    <td class="blue-purple">RC</td>
-                    <td class="green-blue">CS</td>
-                    <td class="yellow">AWS</td>
-                    <td class="orange">Te</td>
-                    <td class="red-pink">Str</td>
-                </tr>
-                <tr>
-                    <td class="purple">TA</td>
-                    <td class="blue-purple">Br</td>
-                    <td class="green-blue">Lo</td>
-                    <td class="yellow">Fr</td>
-                    <td class="orange">PrL</td>
-                    <td class="red-pink">AB</td>
-                </tr>
-                <tr>
-                    <td class="purple">Go</td>
-                    <td class="blue-purple">IA</td>
-                    <td class="green-blue">Ar</td>
-                    <td class="yellow">Db</td>
-                    <td class="orange">WA</td>
-                    <td class="red-pink">DUp</td>
-                </tr>
-                <tr>
-                    <td class="purple">TS</td>
-                    <td class="blue-purple">PL</td>
-                    <td class="green-blue">VE</td>
-                    <td class="yellow">Fu</td>
-                    <td class="orange">QA</td>
-                    <td class="red-pink">FUp</td>
-                </tr>
-                <tr>
-                    <td class="purple">CI</td>
-                    <td class="blue-purple">Us</td>
-                    <td class="green-blue">Ty</td>
-                    <td class="yellow">Co</td>
-                    <td class="orange">DI</td>
-                    <td class="red-pink">CUp</td>
-                </tr>
-                <tr>
-                    <td class="purple">Re</td>
-                    <td class="blue-purple">WM</td>
-                    <td class="green-blue">RM</td>
-                    <td class="yellow">SP</td>
-                    <td class="orange">TD</td>
-                    <td class="red-pink"></td>
-                </tr>
-                <tr>
-                    <td class="purple">PrT</td>
-                    <td class="blue-purple"></td>
-                    <td class="green-blue">UX</td>
-                    <td class="yellow">Se</td>
-                    <td class="orange"></td>
-                    <td class="red-pink"></td>
-                </tr>
-                <tr>
-                    <td class="purple">PrB</td>
-                    <td class="blue-purple"></td>
-                    <td class="green-blue">CdC</td>
-                    <td class="yellow">Mk</td>
-                    <td class="orange"></td>
-                    <td class="red-pink"></td>
-                </tr>
-                <tr>
-                    <td class="purple"></td>
-                    <td class="blue-purple"></td>
-                    <td class="green-blue">PT</td>
-                    <td class="yellow"></td>
-                    <td class="orange"></td>
-                    <td class="red-pink"></td>
-                </tr>
-            </table>
+            <div class="table-content">
 
-            <img src="images/table-right-content.png" alt="auxiliar table right">
+                <img src="images/table-left-content.png" alt="auxiliar table left">
+                
+                <table>
+                    <tr>
+                        <th class="purple">Brief</th>
+                        <th class="blue-purple">Planning</th>
+                        <th class="green-blue">Desigin</th>
+                        <th class="yellow">Development</th>
+                        <th class="orange">Launch</th>
+                        <th class="red-pink">Maintenance</th>
+                    </tr>
+                    <tr>
+                        <td class="purple">PrD</td>
+                        <td class="blue-purple">RC</td>
+                        <td class="green-blue">CS</td>
+                        <td class="yellow">AWS</td>
+                        <td class="orange">Te</td>
+                        <td class="red-pink">Str</td>
+                    </tr>
+                    <tr>
+                        <td class="purple">TA</td>
+                        <td class="blue-purple">Br</td>
+                        <td class="green-blue">Lo</td>
+                        <td class="yellow">Fr</td>
+                        <td class="orange">PrL</td>
+                        <td class="red-pink">AB</td>
+                    </tr>
+                    <tr>
+                        <td class="purple">Go</td>
+                        <td class="blue-purple">IA</td>
+                        <td class="green-blue">Ar</td>
+                        <td class="yellow">Db</td>
+                        <td class="orange">WA</td>
+                        <td class="red-pink">DUp</td>
+                    </tr>
+                    <tr>
+                        <td class="purple">TS</td>
+                        <td class="blue-purple">PL</td>
+                        <td class="green-blue">VE</td>
+                        <td class="yellow">Fu</td>
+                        <td class="orange">QA</td>
+                        <td class="red-pink">FUp</td>
+                    </tr>
+                    <tr>
+                        <td class="purple">CI</td>
+                        <td class="blue-purple">Us</td>
+                        <td class="green-blue">Ty</td>
+                        <td class="yellow">Co</td>
+                        <td class="orange">DI</td>
+                        <td class="red-pink">CUp</td>
+                    </tr>
+                    <tr>
+                        <td class="purple">Re</td>
+                        <td class="blue-purple">WM</td>
+                        <td class="green-blue">RM</td>
+                        <td class="yellow">SP</td>
+                        <td class="orange">TD</td>
+                        <td class="red-pink"></td>
+                    </tr>
+                    <tr>
+                        <td class="purple">PrT</td>
+                        <td class="blue-purple"></td>
+                        <td class="green-blue">UX</td>
+                        <td class="yellow">Se</td>
+                        <td class="orange"></td>
+                        <td class="red-pink"></td>
+                    </tr>
+                    <tr>
+                        <td class="purple">PrB</td>
+                        <td class="blue-purple"></td>
+                        <td class="green-blue">CdC</td>
+                        <td class="yellow">Mk</td>
+                        <td class="orange"></td>
+                        <td class="red-pink"></td>
+                    </tr>
+                    <tr>
+                        <td class="purple"></td>
+                        <td class="blue-purple"></td>
+                        <td class="green-blue">PT</td>
+                        <td class="yellow"></td>
+                        <td class="orange"></td>
+                        <td class="red-pink"></td>
+                    </tr>
+                </table>
+    
+                <img src="images/table-right-content.png" alt="auxiliar table right">
+
+            </div>
         </div>
     </main>
 
 
     <footer id="rodape">
-        <p>All rights reserved, Gabriel Donnantuoni</p>
+        <p>© Copyright 2020 - All Rights Reserved, Gabriel Donnantuoni</p>
     </footer>
     
 </body>
