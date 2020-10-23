@@ -44,6 +44,7 @@ body {
 .lado-esquerdo {
     width: 40%;
     display: inline-block;
+    text-align: center;
 }
 
 .lado-direito {
@@ -51,15 +52,21 @@ body {
     text-align: center;
     width: 20%;
     margin-left: 300px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+}
+/*não estou conseguindo centralizar a tabela - erro no seletor?*/
+#tabela .progressao{
+    
+    background-color: green;
 }
 
 #Contato {
     margin-left: 15%;
+    margin-top: 100px;
 }
 
 /*Não sei como criar uma classe específica para personalizar o botão*/
-#Contato a{
+/* #Contato a{
     background-color: green;
     text-decoration: none;
     color: honeydew;
@@ -68,6 +75,10 @@ body {
     font-size: 20px;
     padding: 15px;
     margin-left: 200px;
+} */
+ 
+#github {
+    background-color: grey;
 }
 
 
