@@ -4,7 +4,7 @@
 
 body {
   font: 16px Verdana, Tahoma, sans-serif;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
 }
 
 section {
@@ -22,12 +22,18 @@ a {
   color: antiquewhite;
 }
 
+nav a {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+
 a:hover {
   background-color: darkolivegreen;
 }
 
-h1,
-h2,
+h1 , 
+h2 , 
 h3 {
   margin: 20px 0;
 }
@@ -58,13 +64,7 @@ p {
 }
 
 #cabecalho h1 {
-  margin: 10px 0 40px 0;
-}
-
-nav a {
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid black;
+  margin: 10px 0 40px;
 }
 
 #minha_foto {
