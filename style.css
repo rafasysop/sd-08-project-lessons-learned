@@ -32,9 +32,16 @@ body {
   font-size: 20px;
 }
 #minha_foto {
-  margin-top: 0%;
+  /* margin-top: 0%;
   width: 200px;
-  right: 200px;
+  right: 200px; */
+  width: 150px;
+  height: 150px;
+  border: 1px solid blue;
+  padding: 2px 4px;
+  border-radius: 50%;
+
+
 }/* Fimm PERFIL-FOTO*/
 
 
@@ -52,15 +59,19 @@ body {
 #container-artigo-secao{
   display: flex;
 }
-
 .lado-esquerdo {
   margin-right: 15px ;
   line-height: normal;
   font-family: sans-serif;
 }
-
 .lado-direito{
   line-height: normal;
   font-family: sans-serif;
+}
+
+/**/
+
+#tabela {
+  flex: box;
 
 }
