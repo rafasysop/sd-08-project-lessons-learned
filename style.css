@@ -18,3 +18,25 @@ body{
    margin-top:11%;
    margin-bottom: 60px;
 }
+
+section{
+    display: block;
+}
+h2{
+    padding-left:2%;
+}
+
+#licoes_aprendidas{
+float: left;
+width:110px;
+padding-left: 5%;
+}
+
+#licoes_a_aprender{
+  float: right;
+  width:900px;
+  padding-right: 10%;
+
+}
+
+
