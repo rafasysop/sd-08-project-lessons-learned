@@ -1,19 +1,27 @@
-#bg-body {
+body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
 }
 
 #cabecalho {
+    background-color: steelblue;
+    position: fixed;
     top: 0;
     width: 100%;
-    background-color: teal;
-    position: fixed;
 }
 
-#minha_foto {
-    margin-top: 140px;
-    border-radius: 5px;
+#titulo {
+    padding: 8px;
 }
 
-#footer-bg {
-    background-color: rgb(204, 204, 204);
+.navegacao {
+    position: relative;
+    top: 95.88px;
+    border: groove;
+}
+
+.navegacao li {
+    display: inline-block;
+    margin-right: 10px;
 }
