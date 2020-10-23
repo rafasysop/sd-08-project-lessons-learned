@@ -68,7 +68,7 @@ main {
 }
 .tabela {
     float: right;
-    width: auto;
+    width: 200px;
     margin-left: 20px;
     margin-top: 40px;
     height: auto;
