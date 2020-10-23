@@ -10,12 +10,128 @@ body {
 }
 
 #cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 24vh;
     width: 100%;
     position: fixed;
-    background: blue;
     top: 0px;
+    background: rgb(28,70,47);
+    background: linear-gradient(166deg, rgba(28,70,47,1) 0%, rgba(61,166,117,1) 100%);
+    box-shadow: 3px 3px 5px 6px rgb(117, 111, 111);
+}
+
+#cabecalho h1 {
+    font-size: 4vw;
+    width: 60vw;
+    text-align: center;
+    color: rgb(243, 235, 235);
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+nav ul {
+    /* display: flex; */
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    color: rgb(243, 235, 235);
+}
+
+nav li a {
+    font-size: 3vh;
+    padding: 0 15px;
+    border: 1px solid rgb(243, 235, 235);
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    text-shadow: 2px 2px 8px rgb(66, 63, 63);
+    transition: 200ms;
+}
+
+nav li a:hover {
+    background:rgb(243, 235, 235);
+    color: rgb(29, 122, 60);
+    font-weight: 700;
+}
+
+section {
+    padding: 3vw;
+    background: rgb(184,235,206);
+    background: linear-gradient(306deg, rgba(184,235,206,1) 0%, rgba(229,242,236,1) 100%);
+    box-shadow: 3px 3px 5px 6px rgb(196, 187, 187);
+    border-radius: 5px;
+    width: 70%;
+    margin: 7vh;
+}
+
+#picture-section {
+    margin-top: 35vh;
 }
 
 #minha_foto {
-    width: 20vw;
+    display: block;
+    width: 18vw;
+    border-radius: 100%;
+    box-shadow: 3px 3px 5px 6px rgb(117, 111, 111);
+    margin: auto;
+
+}
+
+#list-section {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vh;
+}
+
+#list-section h2 {
+    text-align: center;
+
+}
+
+#lessons-learnt {
+    width: 40%;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    width: 40%;
+    display: inline-block;
+    list-style: square;
+}
+
+#testimonial-section {
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article {
+    display: inline-block;
+    width: 45%;
+    font-size: 3vh;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 3vh;
+    line-height: 1;
+}
+
+#rodape {
+    background: rgb(28,70,47);
+    background: linear-gradient(166deg, rgba(28,70,47,1) 0%, rgba(61,166,117,1) 100%);
+    box-shadow: 3px 3px 5px 6px rgb(117, 111, 111);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

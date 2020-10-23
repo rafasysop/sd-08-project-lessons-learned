@@ -5,68 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="cabecalho">
       <h1 id="titulo">Trybe: My experience so far!</h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Seção</li>
-          <li>Seção</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Seção</a></li>
+          <li><a href="#">Seção</a></li>
         </ul>
       </nav>
     </header>
-    <img
-      id="minha_foto"
-      src="./images/Perfil.jpg"
-      alt="Jeferson Schimuneck Picture"
-    />
-    <h2>Lessons Learnt</h2>
-    <ol id="licoes_aprendidas">
-      <li>Trybe Structure</li>
-      <li>Slack and Zoom</li>
-      <li>Unix & Bash commands</li>
-      <li>Git & GiHub</li>
-      <li>How Internet Works</li>
-      <li>HTML - Structure</li>
-      <li>HTML - Semantic</li>
-      <li>CSS - Basic Styles</li>
-      <li>CSS - Selectors and Positioning</li>
-      <li>Chrome - Inspect Funcionality</li>
-    </ol>
-    <h2>Future Lessons</h2>
-    <ul id="licoes_a_aprender">
-      <li>JavaScript</li>
-      <li>CSS Responsive</li>
-      <li>React</li>
-      <li>Node</li>
-      <li>SQL</li>
-      <li>Python</li>
-      <li>Unit Tests</li>
-      <li>Agile Methodologies</li>
-      <li>DOM</li>
-      <li>Computer Science Topics</li>
-    </ul>
-    <article>
-      <p>
-        I joined Trybe Class 08 on September/2020, looking for a career change,
-        I had no previously coding experience. Even though I’m here for just a
-        few weeks, I was able to learn a lot of technical skills! Trybe teaching
-        method focus on practical examples, to simulate situations we will face
-        in a real work environment. Trybe is also worried about our social
-        abilities, so we are constantly developing our soft skills. For the
-        future I hope to keep growing as a developer and as a person together
-        with Trybe and my classmates.
-      </p>
-    </article>
-    <aside>
-      <p>
-        Personally, I was worried about the socialization moments, but actually
-        they are way nicer than I thought! I met a lot of cool people and had
-        some good laughs.
-      </p>
-    </aside>
+    <main>
+      <section id="picture-section">
+        <img
+          id="minha_foto"
+          src="./images/Perfil.jpg"
+          alt="Jeferson Schimuneck Picture"
+        />
+      </section>
+      <section id="list-section">
+        <div id="lessons-learnt">
+          <h2>Lessons Learnt</h2>
+          <ol id="licoes_aprendidas">
+            <li>Trybe Structure</li>
+            <li>Slack and Zoom</li>
+            <li>Unix & Bash commands</li>
+            <li>Git & GiHub</li>
+            <li>How Internet Works</li>
+            <li>HTML - Structure</li>
+            <li>HTML - Semantic</li>
+            <li>CSS - Basic Styles</li>
+            <li>CSS - Selectors and Positioning</li>
+            <li>Chrome - Inspect Funcionality</li>
+          </ol>
+        </div>
+        <div id="lessons-to-learn">
+          <h2>Future Lessons</h2>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript</li>
+            <li>CSS Responsive</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Unit Tests</li>
+            <li>Agile Methodologies</li>
+            <li>DOM</li>
+            <li>Computer Science Topics</li>
+          </ul>
+        </div>
+      </section>
+      <section id="testimonial-section">
+        <article>
+          <p>
+            I joined Trybe Class 08 on 09/2020, looking for a career change, I
+            had no previously coding experience. Even though I’m here for just a
+            few weeks, I was able to learn a lot of technical skills! Trybe
+            teaching method focus on practical examples, to simulate situations
+            we will face in a real work environment. Trybe is also worried about
+            our social abilities, so we are constantly developing our soft
+            skills. For the future I hope to keep growing as a developer and as
+            a person together with Trybe and my classmates.
+          </p>
+        </article>
+        <aside>
+          <p>
+            <em>"Personally, I was worried about the socialization moments, but
+            actually they are way nicer than I thought! I met a lot of cool
+            people and had some good laughs".</em>
+          </p>
+        </aside>
+      </section>
+    </main>
     <footer id="rodape">
       <table>
         <tr>
@@ -74,7 +90,7 @@
           <th>GitHub</th>
           <th>Facebook</th>
           <th>Instagram</th>
-          <th>twitter</th>
+          <th>Twitter</th>
         </tr>
         <tr>
           <td>
