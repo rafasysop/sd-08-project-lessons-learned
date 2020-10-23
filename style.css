@@ -1,7 +1,8 @@
 .header-text{
         position: -webkit-sticky; /* Safari */
         position: sticky;
-        top: 0;
+        top: 0px;
+        margin-bottom: 0px;
         background-color: #0fa36b;
         border: 2px solid #4CAF50;
       }
@@ -22,10 +23,16 @@ border-radius: 100%;
     
 .lista-nao-ordenada{
     text-align: justify;
-        
+    font-family: fantasy, sans-serif;
+    color: rgb(15, 163, 107);
+    margin-bottom: 5px;
 }
 .lista-ordenada {
     text-align: left;
+    font-family: fantasy, sans-serif;
+    color: rgb(15, 163, 107);
+    margin-bottom: 5px;
+    
 
 }
 
