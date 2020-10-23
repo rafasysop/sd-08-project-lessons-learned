@@ -1,3 +1,8 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+* {
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
@@ -5,33 +10,49 @@ body {
 
 header {
     background-color: yellowgreen;
-    position: fixed;
-    top: 0;
     width: 100%;
+    height: 3.5rem;
+    position: fixed;
     z-index: 2;
+}
+
+header h1 {
+    position: relative;
+    top: -14px;
+    right: -30px;
+    font-family: nunito;
+}
+
+header nav {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    font-size: 2rem;
 }
 
 #minha_foto {
     width: 7rem;
     position: fixed;
-    top: 112px;
+    top: 91px;
     right: 97px;
     border-radius: 10rem;
 }
 
-aside {
+section {
     background-color: cadetblue;
     position: fixed;
     width: 16rem;
     right: 16px;
-    top: 284px;
+    top: 258px;
 }
 
-nav {
+aside {
     background-color: aqua;
     height: 35rem;
     position: fixed;
-    bottom: 3px;
+    bottom: 16px;
     border: 3px solid;
 }
 
@@ -57,5 +78,5 @@ article {
     height: 90rem;
     position: absolute;
     right: 283px;
-    top: 85px;
+    top: 71px;
 }
