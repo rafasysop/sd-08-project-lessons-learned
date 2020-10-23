@@ -6,7 +6,6 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  position: relative;
 }
 
 #cabecalho {
@@ -80,6 +79,11 @@ body {
   margin-bottom: 20px;
 }
 
+#artigo {
+  display: flex;
+  justify-content: space-between;
+}
+
 #artigo article {
   margin-top: 50px;
   margin-right: 100px;
@@ -87,13 +91,29 @@ body {
 }
 
 #artigo aside {
-  margin-top: 100px;
   width: 400px;
-  margin-left: 100px;
+  margin-right: 100px;
   text-align: justify;
   border: 2px solid black;
   padding: 8px;
   line-height: -5px;
+}
+
+.table-title {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+table {
+  margin-left: 20px;
+}
+
+th {
+  text-align: center;
+}
+td {
+  padding-left: 20px;
+  text-align: center;
 }
 
 
