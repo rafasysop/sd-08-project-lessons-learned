@@ -22,15 +22,7 @@ body {
 }
 article {
     clear: both;
-}
-.lado_esquerdo {
-    float: left;
-    width: 30%;    
-}
-.lado_direito {
-    float: right;
-    width: 60%;    
-}
+}  
 .nav-links li {
     display: inline;
     margin-right: 20px;
