@@ -11,8 +11,8 @@
     position: fixed;
     background-color: green;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-
+    color:white;
+    width: 100%;
 }
 
 #titulo {
@@ -20,7 +20,7 @@
 }
 
 #minha_foto {
-    padding: 3px;
+    padding: 5px;
     background-color: grey;
 }
 
@@ -37,7 +37,7 @@ p{
 }
 
 #table {
-
+    border: green;
 }
 
 .lado-direito {
