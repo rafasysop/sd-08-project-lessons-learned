@@ -58,6 +58,11 @@ section {
   display: inline;
 }
 
+#rodape span a {
+  text-decoration: none;
+  color: orangered;
+}
+
 #cabecalho nav a:hover {
   background: rgba(111 , 17 , 218 , 0.5);
   color: yellow;
@@ -126,10 +131,11 @@ section {
   line-height: 150px;
 }
 
-#rodape span a {
+/* code climate não deixa ficar aqui, vou por lá em cima */
+/* #rodape span a {
   text-decoration: none;
   color: orangered;
-}
+} */
 
 #rodape #minha_foto {
   display: inline-block;
