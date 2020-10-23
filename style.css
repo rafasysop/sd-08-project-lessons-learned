@@ -5,10 +5,41 @@ body {
 }
 
 #cabecalho {
+    background-color: rgb(0, 2, 2);
+    color: white;
     top: 0px;
+    font-size: 20px;
     position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+}
+.nav-links {
+    padding: 5px 0;
+    background-color: orange;
+    height: 15px;
+    width: auto;
+    bottom: 15x;
+}
+    
+.nav-links ul {
+    padding: 5px 10px;
+    text-align: left; 
+    background-color: orange;
+    height: 15px;
+    width: auto;
+}
+.nav-links li{
+    margin-right: 40px;
+    color: rgb(247, 248, 247);
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;
+      
 }
 
-#navegacao {
-    margin-top: 100px;
+#minha_foto {
+    padding: 160px 20px 0px 20px;
+
 }
