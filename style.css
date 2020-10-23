@@ -23,7 +23,8 @@ body {
     border-style: groove;
 }
 .licoes {
-    text-align: left;
+    text-align: center;
+    float: left;
 }
 #licoes_aprendidas, #licoes_a_aprender {
     display: inline-block;
@@ -34,7 +35,6 @@ body {
     border-radius: 30px;
     background-color: darkgray;
 }
-
 article {
     font-style: normal;
     width: 25%;
@@ -58,8 +58,12 @@ aside {
 .buttons {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 20%;
     margin-left: 10%;
+    margin-right: 10rem;
+    background-color:  rgb(61, 170, 34);
+    padding: 1em;
+    border-radius: 20px;
 }
 footer {
     position: relative;
