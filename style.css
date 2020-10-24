@@ -5,6 +5,9 @@ body {
     font-size: 20px;
     width: 1200px;
     margin: auto;
+    padding: 5px;
+    border: lightgray 1px inset;
+
     
 }
 
@@ -53,6 +56,5 @@ a:hover {
     background-color: seagreen;
     text-align: center;
     color: whitesmoke;
-    font-family: ;
     width: 100%;
 }
