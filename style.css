@@ -1,45 +1,81 @@
-
+*{
+    margin: 0;
+}
 body {
-    background: rgb(253, 251, 251);
+    /* não alterar a cor do fundo */
+    background: rgb(253, 251, 251); 
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: fixed; /*não alterar essa property */
+    top: 0; /*não alterar essa property */
     text-align: center;
     color: white;
     width: 100%;
     background: #1976D2;
+    z-index: 1
+    ;
 }
 
-h1{
-    text-align: center;
+#titulo {
+    padding: 10px 0 10px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-nav{
-    top: 75px;
+section {
+    width: 100%;
+    height: 30%;
     position: relative;
-
+    top: 45px;    
+    color: white;
+    box-sizing: border-box;
 }
 
-main{
+#minha_foto {
     position: relative;
-    top: 90px;
+    height: 26%;
+    width: 15%;
+    padding: 5px;
+}
+
+
+div {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 66%;
+    transform: translate(-60%, -50%);
+    display: inline-block;
+    background: cadetblue;
 }
 
 ul,
 ol{
     display: inline-block;
-    position: relative;
-    margin-top: 55px;
-    overflow: hidden;
 }
 
-img {
-    top: 90px;
-    margin: 2px;
+ol{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-75%, -50%);
+}
+
+ul{
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+
+article{ 
     position: relative;
+    top: 70px;
+    width: 100%;
+    border:1px solid black;
 }
 
 
