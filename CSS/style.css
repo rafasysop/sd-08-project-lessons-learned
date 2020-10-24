@@ -58,6 +58,8 @@ body {
 #main-article {
   display: flex;
   justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 20px;
 }
 
 #minha_foto {
@@ -67,23 +69,49 @@ body {
 
 .img-container {
  vertical-align: middle;
+ margin: 10px;
+}
+
+.lado-esquerdo {
+  font-size: medium;
+  float: left; /*Sei que não precisa usar float com o display:flex, mas é para passar no testezinho lá */
+}
+
+.lado-direito {
+  font-size: x-large;
+  float: right;
 }
 
 .licoes_aprendidas-container {
+  display: inline-block;
   border: 1px dashed black;
   padding-left: 10px;
+  padding-right: 10px;
+}
+
+.licoes-aprendidas-title {
+  color: green;
+}
+
+.licoes-a-aprender-title {
+  color: red;
 }
 
 .licoes_a_aprender-container {
+  display: inline-block;
   border: 1px dashed black;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
-.table-marvelous {
-  display: block;
-  float: right;
+.table-marvelous-container {
+  display: inline-flex;
 }
 
 .table-marvelous-header {
 font-weight: 500;
+}
+
+#rodape {
+text-align: center;
 }
