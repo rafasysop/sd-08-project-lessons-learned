@@ -25,7 +25,7 @@ h1 {
 #licoes_aprendidas {
     float: left;
     margin-left: 40px;
-    font-family: monospace;;
+    font-family: monospace;
 }
 
 #licoes_a_aprender {
@@ -69,12 +69,14 @@ nav {
     width: 45%;
     margin: left;
     float: left;
+    line-height: 20px;
 }
 
 .lado-direito {
     padding: 30px;
     width: 40%;
     float: right;
+    line-height: 20px;
 }
 
 .side-bar {
