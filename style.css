@@ -30,7 +30,7 @@ table {
 }
 
 .lado-direito {
-  letter-spacing: 2px;
+  line-height: 2px;
   width: 50%;
   float: right;
 }
@@ -42,5 +42,5 @@ table {
 }
 
 .texto {
-  display: inline-block;
+display: grid;
 }
