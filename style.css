@@ -23,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #252f3f;
+  background-color: rgb(37, 47, 63);
 }
 
 header h1 {
@@ -61,14 +61,14 @@ header nav strong {
 }
 
 header nav strong:hover {
-  color: #8da2fb;
+  color: rgb(141, 162, 251);
 }
 
 main section article {
   width: 50%;
   height: 300px;
   margin: 200px 0 60px 120px;
-  color: #161e2e;
+  color: rgb(22, 30, 46);
   font-size: 20px;
   line-height: 1.5;
 }
@@ -79,9 +79,9 @@ main section aside {
   height: 200px;
   margin: 16px 120px 0 0;
   padding: 20px;
-  color: #161e2e;
+  color: rgb(22, 30, 46);
   font-size: 18px;
-  background-color: #d6dbd4;
+  background-color: rgb(214, 219, 212);
 }
 
 main section.lists {
@@ -92,7 +92,7 @@ main section.lists {
   align-items: center;
   justify-content: space-evenly;
   font-size: 20px;
-  color: #161e2e;
+  color: rgb(22, 30, 46);
 }
 
 main section.lists img {
@@ -117,7 +117,7 @@ main section.about-author {
   font-size: 20px;
   line-height: 1.5;
   color: white;
-  background-color: #252f3f;
+  background-color: rgb(37, 47, 63);
 }
 
 main section.about-author img {
@@ -131,7 +131,7 @@ main section.about-author h2 {
 }
 
 main section.about-author strong {
-  color: #8da2fb;
+  color: rgb(141, 162, 251);
 }
 
 main section.about-author a {
@@ -140,7 +140,7 @@ main section.about-author a {
 
 main section.about-author a:visited,
 main section.about-author a:link {
-  color: #8da2fb;
+  color: rgb(141, 162, 251);
 }
 
 footer {
