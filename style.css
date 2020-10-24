@@ -22,9 +22,6 @@ a{
     margin-right: 100px;
 }
 
-section{
-
-}
 h2{
     padding-left:2%;
     margin-top:5%;
@@ -45,16 +42,28 @@ margin-bottom:4% ;
 
 }
 
+#texto{
+    display: block;
+}
+
 article{
     width:35%;
-    padding:20px;
     margin:15px;
+    float: left;
+    
+}
 
+#texto_lateral{
+    float: right;
+    width: 400px;
+    padding-right: 80px;
+    padding-top: 15px;
     
 }
 
 #rodape{
   margin:20px;
+  clear: both;
 
 }
 
