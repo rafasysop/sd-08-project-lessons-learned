@@ -1,37 +1,39 @@
-.header-text{
+.header-text {
         position: static;
         top: 0px;
         background-color: #0fa36b;
-        border: 2px solid #4CAF50;
+        border: 5px solid black;
       }
 
-.trybe-list1{
+.trybe-list1 {
     list-style-type: none;
     margin-left: 0px;
     margin-top: 0%;
     }
-.backcolor{
+
+.backcolor {
     background-color: rgb(253, 251, 251);
-    font-family: fantasy, sans-serif;
- 
+    font-family: fantasy, sans-serif; 
 }
+
 .imagem-formato {
 border-radius: 100%;
 }
     
-.lista-nao-ordenada{
+.lista-nao-ordenada {
     text-align: justify;
     font-family: fantasy, sans-serif;
-    color: rgb(15, 163, 107);
+    color: rgb(15 , 163 , 107);
     margin-bottom: 5px;
     position: relative;
     left: 20%;
     bottom: 205px;
 }
+
 .lista-ordenada {
     text-align: left;
     font-family: fantasy, sans-serif;
-    color: rgb(15, 163, 107);
+    color: rgb(15 , 163 , 107);
     margin-bottom: 5px;
 }
 
@@ -45,27 +47,28 @@ border-radius: 100%;
 
 .lado-direito {
 font-size: 20px;
-background-color: rgb(230,230,230);
-width:50%;
+background-color: rgb(230 , 230 , 230);
+width: 50%;
 height: 200px;
 overflow: auto;
 position: relative;
 bottom: 190px;
-left:50%;
+left: 50%;
 }
 
 .lado-esquerdo {
     font-size: 20px;
-    background-color: rgb(230,230,230);
-    width:50%;
+    background-color: rgb(230 , 230 , 230);
+    width: 50%;
     height: 200px;
     border: 5px indigo;
     overflow: auto;
     position: relative;
     bottom: 390px;
-    
+   
     
 }
-.tabela-final{
+
+.tabela-final {
     line-height: 5px;
 }
