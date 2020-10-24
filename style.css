@@ -24,12 +24,14 @@ h1 {
 
 #licoes_aprendidas {
     float: left;
-    margin-left: 40px
+    margin-left: 40px;
+    font-family: monospace;;
 }
 
 #licoes_a_aprender {
     float: right;
     margin-left: 140px;
+    font-family: monospace;
 }
 
 .tabela {
@@ -37,6 +39,7 @@ h1 {
     clear: both;
     border: solid blue;
     border-spacing: 0;
+    font-family: sans-serif;
 }
 
 thead {
@@ -61,14 +64,14 @@ nav {
 }
 
 
-.article-lorem {
+.lado-esquerdo {
     padding: 30px 70px;
     width: 45%;
     margin: left;
     float: left;
 }
 
-.article-apr {
+.lado-direito {
     padding: 30px;
     width: 40%;
     float: right;
