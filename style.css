@@ -4,7 +4,8 @@ body {
 
 #cabecalho {
     background-color: green;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -35,7 +36,7 @@ nav {
 
 .article-lorem {
     padding: 30px 70px;
-    width: 40%;
+    width: 45%;
     margin: left;
     float: left;
 
@@ -43,7 +44,7 @@ nav {
 
 .article-apr {
     padding: 30px 30px;
-    width: 35%;
+    width: 40%;
     float: right;
 }
 
