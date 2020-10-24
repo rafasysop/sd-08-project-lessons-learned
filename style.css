@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253 , 251 , 251);
-  font-family: 'Franklin Gothic' , 'Arial' , sans-serif;
+  font-family: "Franklin Gothic" , Arial , sans-serif;
   z-index: 0;
   margin: 0;
   padding: 10px;
@@ -150,4 +150,3 @@ footer a {
   padding: 5px;
   z-index: 2;
 }
-;
