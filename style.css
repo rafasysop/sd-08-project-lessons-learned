@@ -1,10 +1,11 @@
 .header-text {
-        position: relative;
-        margin-top: 0px;
-        background-color: #0fa36b;
-        border: 5px solid black;   
-        font-style: italic;     
-    }
+    position: relative;
+    top: 0;
+    margin-top: 0px;
+    background-color: #0fa36b;
+    border: 5px solid black;   
+    font-style: italic;     
+}
 
 .trybe-list1 {
     list-style-type: none;
@@ -13,12 +14,12 @@
     }
 
 .backcolor {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     font-family: fantasy, sans-serif; 
 }
 
-.imagem-formato {
-border-radius: 100%;
+#minha_foto {
+    border-radius: 100%;
 }
     
 .lista-nao-ordenada {
@@ -43,18 +44,17 @@ border-radius: 100%;
     font-family: monospace, sans-serif;
     font-size: 10px;
     padding: 10px 10px;
-
 }
 
 .lado-direito {
-font-size: 20px;
-background-color: rgb(230 , 230 , 230);
-width: 50%;
-height: 200px;
-overflow: auto;
-position: relative;
-bottom: 190px;
-left: 50%;
+    font-size: 20px;
+    background-color: rgb(230 , 230 , 230);
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    position: relative;
+    bottom: 190px;
+    left: 50%;
 }
 
 .lado-esquerdo {
@@ -65,11 +65,13 @@ left: 50%;
     border: 5px indigo;
     overflow: auto;
     position: relative;
-    bottom: 390px;
-   
-    
+    bottom: 390px;    
 }
 
 .tabela-final {
     line-height: 5px;
+}
+
+#menu {
+    margin: auto;
 }
