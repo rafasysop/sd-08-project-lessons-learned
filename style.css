@@ -1,37 +1,58 @@
 body {
     background-color: rgb(253, 251, 251);
-    color: ;
+    color: rgb(22, 19, 19) ;
     font-family: monospace;
     font-size: 20px;
+    width: 1200px;
+    margin: auto;
+    
 }
 
 h1, h2 {
-    color: saddlebrown;
+    color: rgb(5, 5, 5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(253, 251, 251)  
+}
+
+a:hover {
+    color:whitesmoke;
+    font-weight: bold; 
+}
+
 #cabecalho {
-    width: 100%;
+    width: 1200px;
     text-align: center;
     background-color: seagreen;
-    border: 1px solid red;
     position: fixed;
     top: 0px;
 }
 
-/* .border  {
-    border: 1px solid red */
-}
+
 .display {
-    display: inline-block;
-    margin-right:   100px;
+    margin: 100px 0px;
 }
 
+.align {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
 #minha_foto {
     width: 300px;
     margin-top: 150px;
+    border-radius: 100px;
+    
 }
 
 #rodape {
-    background-color: slategray;
+    background-color: seagreen;
+    text-align: center;
+    color: whitesmoke;
+    font-family: ;
+    width: 100%;
 }
