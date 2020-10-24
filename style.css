@@ -31,10 +31,14 @@ table {
 
 .lado-direito {
   letter-spacing: 2px;
+  width: 50%;
+  float: right;
 }
 
 .lado-esquerda {
   letter-spacing: 1px;
+  width: 50%;
+  float: left;
 }
 
 .texto {
