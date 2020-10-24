@@ -20,7 +20,7 @@ header h1 {
   position: relative;
   top: -14px;
   right: -30px;
-  font-family: "nunito";
+  font-family: sans serif;
 }
 
 header nav {
