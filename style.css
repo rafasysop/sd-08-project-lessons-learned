@@ -23,7 +23,7 @@ a{
 }
 
 section{
-    display: block;
+
 }
 h2{
     padding-left:2%;
@@ -34,17 +34,28 @@ h2{
 float: left;
 width:110px;
 padding-left: 5%;
+margin-bottom:4% ;
 }
 
 #licoes_a_aprender{
   float: right;
   width:900px;
-  padding-right: 10%;;
+  padding-right: 10%;
+  margin-bottom:4%;
 
 }
 
+article{
+    width:35%;
+    padding:20px;
+    margin:15px;
+
+    
+}
+
 #rodape{
-  
+  margin:20px;
+
 }
 
 
