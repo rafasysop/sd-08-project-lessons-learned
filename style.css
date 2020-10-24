@@ -155,7 +155,7 @@ aside {
 
 
     table {
-        font-family: lato, sans-serif;
+        font-family: 'lato', sans-serif;
         border-collapse: collapse;
         width: 20%;
       }
@@ -164,6 +164,7 @@ aside {
         border: 1px solid #110f0f;
         text-align: left;
         padding: 8px;
+        
       }
 
       
