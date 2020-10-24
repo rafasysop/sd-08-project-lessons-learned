@@ -7,6 +7,9 @@ body {
   margin: 0;
   border: 0;
   font-family: Roboto, sans-serif;
+  color: black;
+  font-size: 12px;
+
 }
 
 #cabecalho {
@@ -22,6 +25,19 @@ table {
   width: 100px;
 }
 
-rodape {
+#rodape {
   bottom: 0;
+  position: fixed;
+}
+
+.lado-direito {
+
+}
+
+.lado-esquerda {
+
+}
+
+.texto {
+  display: inline-block;
 }
