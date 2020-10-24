@@ -31,11 +31,11 @@ table {
 }
 
 .lado-direito {
-
+  letter-spacing: 2px;
 }
 
 .lado-esquerda {
-
+  letter-spacing: 1px;
 }
 
 .texto {
