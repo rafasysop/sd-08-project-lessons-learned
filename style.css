@@ -58,6 +58,7 @@ body {
 .aside {
   color: #107ab0;
 }
+
 .lado-direito {
   float: right;
   width: 40%;
@@ -68,11 +69,12 @@ body {
   text-align: center;
   margin-top: 250px;
 }
-.tabela,
-td {
-  border: 1px solid black;
-  padding: 3px;
-  text-align: center;
-  margin-left: 43%;
-  color: #1e488f;
-}
+
+.tabela, 
+  td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    margin-left: 43%;
+    color: #1e488f;
+  }
