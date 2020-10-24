@@ -52,12 +52,14 @@ nav {
 }
 
 #rodape {
-    font-size: 15px;
+    font-size: 20px;
     clear: both;
     height: 50px;
 
     background-color: blue;
     color: white;
+
+    padding: 25px 0 0 10px;
 }
 
 
