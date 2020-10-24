@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body {
-  background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  background-color: rgb(253 , 251 , 251);
+  font-family: Roboto , sans-serif;
   text-align: justify;
-  color: #333533;
+  color: rgb(36 , 36 , 35);
 }
 
 a {
@@ -12,14 +12,14 @@ a {
   padding: 8px;
   margin: 2px;
   font-weight: 700;
-  color: #333533;
+  color: rgb(33 , 35 , 33);
 }
 
 #cabecalho {
   position: fixed;
   width: 100%;
-  top: 0px;
-  background-color: #cfdbd5;
+  top: 0;
+  background-color: rgb(232 , 237 , 223);
 }
 
 #cabecalho h1 {
@@ -34,16 +34,12 @@ a {
   position: relative;
   margin-top: 120px;
   padding: 15px;
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 , 4px , 4px rgba(1 , 1 , 1 , 1.25));
 }
 
 #photo img {
   border-radius: 25px;
   max-width: 300px;
-}
-#photo a {
-  display: block;
 }
 
 #listas_de_licoes {
@@ -52,12 +48,12 @@ a {
   clear: both;
 }
 
-article, aside {
+article , aside {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   padding: 8px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 , 4px , 4px rgba(1 , 1 , 1 , 1.25));
 }
 
 .lado-esquerdo {
@@ -76,14 +72,12 @@ footer {
   clear: both;
 }
 
-footer p {
+.rodape p {
   text-align: center;
   font-size: 12px;
 }
 
-footer img {
-  background-color: #333533;
+#rodape img {
+  background-color: rgb(36 , 36 , 35);
   width: 200px;
 }
-
-
