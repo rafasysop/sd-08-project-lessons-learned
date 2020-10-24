@@ -144,3 +144,17 @@ aside {
         color: lightslategray;
         text-align: center;
     }
+
+
+    table {
+        font-family: lato, sans-serif;
+        border-collapse: collapse;
+        width: 20%;
+      }
+      
+      td, th {
+        border: 1px solid #110f0f;
+        text-align: left;
+        padding: 8px;
+      }
+      
