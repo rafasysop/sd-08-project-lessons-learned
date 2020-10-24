@@ -41,6 +41,7 @@ body {
 }
 #minha_foto {
     padding: 180px 20px 20px 20px;
+    object-position: center;
 }
 #titulo {
     text-decoration: underline;
@@ -55,7 +56,7 @@ body {
     width: 30%;
     text-align: justify;
     display: inline-block;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 .lado_esquerdo h2 {
     text-align: center;
@@ -70,12 +71,30 @@ body {
 }
 .lado_direito {
     float: right;
-    margin-right: 150px;
-    
+    margin-right: 20px;  
+}
+.sobreMim {
+    width: 30%;
+    text-align: justify;
+    display: inline-block;
+    float: left;
+    margin-left: 20px; 
+}
+.sobreMim h2 {
+    text-align: center;
 }
 #rodape {
     font-size: 10px;
     font-style: italic;
     text-align: center;
     padding-top: 150px;
+}
+div {
+    display:inline-flex;
+}
+.licoesprendidasesquerda {
+    padding:250px 20px 20px 80px;
+}
+.licoesprenderdireita {
+    padding:250px 20px 20px 100px;
 }
