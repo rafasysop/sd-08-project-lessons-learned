@@ -145,6 +145,14 @@ aside {
         text-align: center;
     }
 
+    #rodape h1{
+        font-weight:bold ;
+        color: lightslategray;
+        text-align: center;
+        font-size:25px;
+    }
+
+
 
     table {
         font-family: lato, sans-serif;
@@ -157,4 +165,5 @@ aside {
         text-align: left;
         padding: 8px;
       }
+
       
