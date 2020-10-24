@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 * {
     text-decoration: none;
 }
@@ -47,7 +48,7 @@ section {
     top: 258px;
 }
 
-aside {
+#list {
     background-color: aqua;
     height: 35rem;
     position: fixed;
@@ -78,4 +79,23 @@ article {
     position: absolute;
     right: 283px;
     top: 71px;
+}
+
+.knowledge-text {
+    width: 27rem;
+    position: relative;
+    right: -14rem;
+}
+
+.knowledge {
+    position: relative;
+    right: -8rem;
+    top: 53px;
+}
+
+.knowledge i {
+    position: relative;
+    left: -3rem;
+    bottom: -55px;
+    font-size: 3rem;
 }
