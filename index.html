@@ -1,84 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <title>JRGCast Projeto - Lesson Learned</title>
-  </head>
-  <body>
-    <header id="cabecalho">
-        <section>
-            <h1 id="titulo">Minhas lições Aprendidas na Trybe</h1>
-            <nav class="navigation">
-                <ul class=navigation-container>
-                    <li><a href="#description">Breve descrição sobre mim</a></li>
-                    <li><a href="#licoes_aprendidas">O que já aprendi na Trybe</a></li>
-                    <li><a href="#licoes_a_aprender">O que ainda irei aprender na Trybe</a></li>
-                    <li><a href="#table-marvelous">Links MÃravilhosos</a></li>
-                </ul>
-            </nav>
-        </section>
-    </header>
-    <section class="photo-description">
-        <h2 id="description" class="titles">Olá, sou eu na foto, me chamo João e sou estudante da Trybe!</h2>
-        <p>(Caso esteja curioso(a): a feição no meu rosto se deve ao fato daquela serhumaninha ali embaixo do meu braço
-            ter me presenteado com líquido quente.)</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=./CSS/style.css>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <title>JRGCast Projeto - Lesson Learned</title>
+</head>
+<body>
+  <header id="cabecalho">
+    <section>
+      <h1 id="titulo">Minhas lições Aprendidas na Trybe</h1>
+      <nav class="navigation">
+        <ul class=navigation-container>
+          <li><a href="#description">Breve descrição sobre mim</a></li>
+          <li><a href="#licoes_aprendidas">O que já aprendi na Trybe</a></li>
+          <li><a href="#licoes_a_aprender">O que ainda irei aprender na Trybe</a></li>
+          <li><a href="#table-marvelous">Links MÃravilhosos</a></li>
+        </ul>
+      </nav>
     </section>
-    <img id="minha_foto" src="/IMGs/joao.jpg"
-        alt="João com uma cara ruim sentindo um líquido quente que um dos cinco filhotes de cachorro soltou em sua perna">
-    <main>
-        <section>
-            <h2 class="titles">Tudo que já aprendi na Trybe:</h2>
-            <ol id="licoes_aprendidas">
-                <li>Sistemas Linux;</li>
-                <li>Ubuntu;</li>
-                <li>Unix & Bash;</li>
-                <li>Unix & Bash;</li>
-                <li>Como a internet funciona (básico);</li>
-                <li>HTML & CSS;</li>
-                <li>HTML semântico;</li>
-                <li> <strong>Soft Skills</strong>;</li>
-            </ol>
-        </section>
-        <section>
-            <h2 class="titles">Tudo o que irei aprender na Trybe:</h2>
-            <ul id="licoes_a_aprender">
-                <li>JavaScript</li>
-            </ul>
-        </section>
-        <aside id="table-marvelous">
-            <h2 class="titles">Links MÃravilhosos (leia com a voz sexy do Gustavo)</h2>
-            <table>
-                <tr class="table-marvelous-header">
-                    <th>Descrição</th>
-                    <th>Área vinculada</th>
-                    <th>Frequência</th>
-                </tr>
-                <tr>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                </tr>
-                <tr>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                </tr>
-                <tr>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                    <td>Oi</td>
-                </tr>
-            </table>
-        </aside>
-    </main>
-    <footer>
+  </header>
+  <section class="photo-description">
+    <h2 id="description" class="titles">Olá, sou eu na foto, me chamo João e sou um dos estudantes da Trybe!</h2>
+    <p>(Caso esteja curioso(a): a feição no meu rosto se deve ao fato daquela serhumaninha ali embaixo do meu braço
+      ter me presenteado com líquido quente.)</p>
+  </section>
+  <main>
+    <article id="main-article">
+      <section class="licoes_aprendidas-container">
+        <h2 class="titles">Tudo que já aprendi na Trybe:</h2>
+        <ol id="licoes_aprendidas">
+          <li>Sistemas Linux;</li>
+          <li>Ubuntu;</li>
+          <li>Unix & Bash;</li>
+          <li>Unix & Bash;</li>
+          <li>Como a internet funciona (básico);</li>
+          <li>HTML & CSS;</li>
+          <li>HTML semântico;</li>
+          <li> <strong>Soft Skills</strong>;</li>
+        </ol>
+      </section>
+      <div class="img-container">
+        <img id="minha_foto" src="./IMGs/joao.jpg"
+          alt="João com uma cara ruim sentindo um líquido quente que um dos cinco filhotes de cachorro soltou em sua perna">
+      </div>
+      <section class="licoes_a_aprender-container">
+        <h2 class="titles">Tudo o que irei aprender na Trybe:</h2>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+  <aside id="table-marvelous">
+    <h2 class="titles">Links MÃravilhosos </h2>
+    <table>
+      <tr class="table-marvelous-header">
+        <th>Descrição</th>
+        <th>Área vinculada</th>
+        </tr>
+      <tr>
+        <td>Oi</td>
+        <td>Oi</td>
+      </tr>
+      <tr>
+        <td>Oi</td>
+        <td>Oi</td>
+      </tr>
+      <tr>
+        <td>Oi</td>
+        <td>Oi</td>
+      </tr>
+    </table>
+  </aside>
+  <footer>
 
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
 
 <!-- 
