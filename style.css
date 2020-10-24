@@ -1,9 +1,10 @@
 .header-text {
-        position: static;
-        top: 0px;
+        position: relative;
+        margin-top: 0px;
         background-color: #0fa36b;
-        border: 5px solid black;
-      }
+        border: 5px solid black;   
+        font-style: italic;     
+    }
 
 .trybe-list1 {
     list-style-type: none;
@@ -37,7 +38,7 @@ border-radius: 100%;
     margin-bottom: 5px;
 }
 
- .rodape {
+ #rodape {
     background-color: grey;
     font-family: monospace, sans-serif;
     font-size: 10px;
