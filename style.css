@@ -10,6 +10,7 @@ body {
   color: black;
   font-size: 12px;
 
+
 }
 
 #cabecalho {
@@ -40,4 +41,5 @@ table {
 
 .texto {
   display: inline-block;
+
 }
