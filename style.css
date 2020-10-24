@@ -16,16 +16,6 @@ h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(253, 251, 251)  
-}
-
-a:hover {
-    color:whitesmoke;
-    font-weight: bold; 
-}
-
 #cabecalho {
     width: 1200px;
     text-align: center;
@@ -36,14 +26,17 @@ a:hover {
 
 
 .display {
-    margin: 100px 0px;
+    display: inline-block;
+    margin-left: 80px;
 }
 
-.align {
-    text-align: center;
 }
-.justify {
-    text-align: justify;
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
 }
 #minha_foto {
     width: 300px;
@@ -58,3 +51,13 @@ a:hover {
     color: whitesmoke;
     width: 100%;
 }
+
+/* Estilazações dos links */
+a {
+    text-decoration: none;
+    color: rgb(253, 251, 251)  
+}
+
+a:hover {
+    color:whitesmoke;
+    font-weight: bold; 
