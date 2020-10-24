@@ -9,18 +9,19 @@ body{
     }
 #cabecalho{
        
-    position: absolute;
-    color: aliceblue;         
+    position: fixed;
+    color:rgba(69, 161, 231, 0.246) ;         
     font-family: 'Lato';
     top: 0px;
-    background-color:#0288d1;
+    background-color:rgba(119, 12, 48, 0.8);
+    z-index: 2;
 
     }
 
 img{
     position: absolute;
     display: block;
-    top: 213px;
+    top: 413px;
     left:-150px;
     size: 60%;
     border: 1px;
@@ -47,7 +48,8 @@ img{
     padding-left: 40px;
     padding-top: 15px;
     font-style: italic;
-
+    z-index:0;
+    color:white;
     }
 
 
