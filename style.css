@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(253 , 251 , 251);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
     z-index: 0;
     margin: 0;
     padding: 10px;
@@ -10,9 +10,9 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
-    background-color: #230007;
-    color: rgb(253, 251, 251);
-    z-index: 3;   
+    background-color: #1f0006;
+    color: rgb(253 , 251 , 251);
+    z-index: 3;
 }
 
 #titulo {
@@ -44,15 +44,15 @@ nav {
     top: 128px;
     padding: 8px;
     width: 100%;
-    background-color: #857F74;
+    background-color: #857f74;
     opacity: 85%;
     z-index: 2;
-    border: 2px solid #1B0005;
+    border: 2px solid #1b0005;
 }
 
 nav a {
     font-weight: 600;
-    color: rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
     margin: 0 15px;
 }
 
@@ -60,9 +60,9 @@ main {
     margin-top: 200px;
     margin-left: 20px;
     width: 70%;
-    color: #1B0005;
+    color: #1b0005;
     line-height: 1.5em;
-    border: 1px solid #1B0005;
+    border: 1px solid #1b0005;
 }
 
 .lado-esquerdo {
@@ -87,7 +87,7 @@ main {
     bottom: 280px;
     left: 626px;
     width: 30%;
-    background-color: #545049;
+    background-color: #646057;
     padding: 10px;
 }
 
@@ -98,7 +98,7 @@ ul {
 .lista {
     max-height: 205px;
     overflow: auto;
-    background-color: #857F74;
+    background-color: #857f74;
     padding: 6px;
 }
 
@@ -108,7 +108,7 @@ aside {
     right: 10px;
     width: 25%;
     z-index: 1;
-    border: 1px solid #1B0005;
+    border: 1px solid #1b0005;
 }
 
 #fundo-aside {
@@ -124,10 +124,10 @@ aside {
     bottom: 15px;
     width: fit-content;
     height: fit-content;
-    background-color: #857F74;
+    background-color: #857f74;
 }
 
-table, th, td {
+table , th , td {
     border: 2px solid black;
     text-align: center;
     font-weight: 700;
@@ -135,7 +135,7 @@ table, th, td {
 
 footer {
     text-align: center;
-    background-color: #857F74;
+    background-color: #857f74;
     width: 100%;
     padding: 10px;
     z-index: 2;
@@ -145,8 +145,8 @@ footer a {
     font-size: 22px;
     font-weight: 600;
     color: #0fa36b;
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
     margin-bottom: 30px;
     padding: 5px;
     z-index: 2;
-}
+};
