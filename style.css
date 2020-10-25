@@ -22,7 +22,7 @@ nav :hover {
     color: #c0e6f8;
 }
 
-.d_cabecalho {
+.d_header_superior {
   background: linear-gradient(50deg, #0b8f70 50%, #c0e6f8 70%);
   width: 100%;
   height: 19rem;
