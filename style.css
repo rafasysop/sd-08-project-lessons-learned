@@ -15,8 +15,13 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     top: 0px;
     text-align: center;
     background-color: rgba(7, 83, 119, 0.411);
-    padding: 30px;
+    padding: 8px 520px;
+}
+
+#minha_foto {
+    width: 30%;
 }
