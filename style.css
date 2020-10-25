@@ -1,0 +1,12 @@
+#minha_foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
