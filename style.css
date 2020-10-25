@@ -34,28 +34,23 @@ p{
     border-radius: 100%;
     display:inline-flex;
 }
-#link-lições-não-aprendidas{
-   
+#link-lições-não-aprendidas{ 
     margin-left: 6%;
     padding:1%;
     display:inline-flex;
 }   
-#link-artigos{
-    
+#link-artigos{ 
     margin-left: 8%;
     padding:1%;
     border-radius: 100%;
     margin-bottom:1%;
 }
-#link-avaliação{
-    
+#link-avaliação{  
     margin-left: 10%;
     padding:1%;
-    border-radius: 100%;
-    
+    border-radius: 100%;  
 }
-#link-redes{
-    
+#link-redes{  
     margin-left: 12%;
     padding:1%;
     border-radius: 100%;
@@ -79,12 +74,11 @@ p{
     border-radius: 5%;
 }
 
-#licoes-a-aprender{
+#licoes_a_aprender{
     float:right;
     border:10px outset rgb(13, 123, 214);
     border-radius: 5%;
     margin-left: 30px;
-
 }
 #avaliacao{
     display:block;
@@ -112,14 +106,13 @@ p{
     margin-top:2%;
     border:10px outset rgb(13, 123, 214);
     border-radius: 5%;
-
 }
 #rodape{
  position: fixed;
  bottom: 0px;
  background-color:#0fa36b;
  width: 100%;
- font-size: 1.2em;
+ font-size: 1.1em;
  font-weight: bolder;
  text-align: center;
  color: rgb(114, 224, 239);
@@ -147,12 +140,12 @@ p{
     font-style: italic;
     font-size: 1.43em;
 }
-#primeira-parte{
+.lado-esquerdo{
     width:50%;
     display: inline-block;
     padding-right: 50px;
 }
-#passagem-aprendizado{
+.lado-direito{
     width:50%;
     display: inline-block;
     padding-left: 50px;
