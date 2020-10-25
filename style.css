@@ -14,7 +14,6 @@ body {
 
 #titulo {
   color: blue;
-  font-weight: bold;
 }
 
 .redes_sociais li {
@@ -66,23 +65,17 @@ table {
   border-collapse: collapse;
   border: 3px solid black;
   width: 100%;
+  color: darkblue;
 }
 
-caption {
-  margin-top: 50px;
-  font-style: italic;
-  font-weight: bold;
+article {
+  clear: both;
 }
 
 tbody {
   font-size: 100%;
   font-style: italic;
   letter-spacing: normal;
-}
-
-thead {
-  color: black;
-  font-weight: bold;
 }
 
 td {
