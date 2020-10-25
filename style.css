@@ -60,11 +60,14 @@ body {
     background-color: green;
 }
 
-#Contato {
+#redes-sociais{
     margin-left: 15%;
     margin-top: 100px;
 }
 
+#redes-sociais img{
+    width: 50px;
+}
 /*Não sei como criar uma classe específica para personalizar o botão*/
 /* #Contato a{
     background-color: green;
@@ -77,9 +80,7 @@ body {
     margin-left: 200px;
 } */
  
-#github {
-    background-color: grey;
-}
+
 
 
 
