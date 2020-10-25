@@ -5,6 +5,10 @@ body {
 #cabecalho {
   background-color: rgb(15 , 163 , 107);
   padding: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 #titulo {
@@ -13,4 +17,16 @@ body {
 
 #minha_foto {
   width: 300px;
+}
+
+#rodape {
+  background-color: rgb(15 , 163 , 107);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#text-rodape {
+  margin-left: 10px;
 }
