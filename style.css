@@ -1,70 +1,62 @@
-body{
-    background-color:rgb(253, 251, 251)
-}
-#cabecalho{
+body {
+    background-color: rgb(253, 251, 251);}
+#cabecalho {
     display: inline;
     position: fixed;
-    top:0px;
+    top: 0px;
     background-color: green;
     width: 100%;
-    padding: 30px;
+    padding:40px 30px;
+    
 
 }
-#titulo{
+#titulo {
     color: ivory;
     text-align: center;
 }
-#minha_foto{
-   margin-top:11%;
+#minha_foto {
+    padding:160px 10px 5px 1px;
+} 
+a {
+    margin-left:2px;
 }
- 
-a{
-    margin-right: 100px;
+h2 {
+    margin-left:5px;
+    margin: 60px 20px 20px 5px;
 }
-
-h2{
-    padding-left:2%;
-    margin-top:5%;
+#lista {
+   display:inline-block;
+   width-max:40%;
 }
-
-#licoes_aprendidas{
-float: left;
-width:110px;
-padding-left: 5%;
-margin-bottom:4% ;
+#licoes_aprendidas {
+  float: left;
 }
-
-#licoes_a_aprender{
-  float: right;
-  width:900px;
-  padding-right: 10%;
-  margin-bottom:4%;
-
+#licoes_a_aprender {
+ float: right; 
 }
-
-#texto{
-    display: block;
+#texto {
+    display:inline-block;
+    max-width:100%;
+    padding-top:40px;
+    
 }
-
-article{
-    width:35%;
-    margin:15px;
+article {
     float: left;
+    width:40%;
+    margin-left:5px;
+    border-style: dotted;
+    padding:4px;
     
 }
-
-#texto_lateral{
-    float: right;
-    width: 400px;
-    padding-right: 80px;
-    padding-top: 15px;
-    
+#texto-lateral {
+    float:right;
+    max-width:40%; 
+    margin-right:5px;
+    border-style: dotted;
+    padding:4px;
 }
-
-#rodape{
-  margin:20px;
-  clear: both;
-
+#rodape {
+  margin:60px 5px;
 }
 
 
