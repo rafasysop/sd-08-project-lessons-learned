@@ -7,10 +7,40 @@ body {
     top: 0px;    
 }
 
-#img-position {
+#minha_foto {
     padding: 100px 0;
 }
 
+#nav {
+    position: relative;
+    bottom: 100px;
+}
+
+#licoes_aprendidas {
+    float: left;
+    width: 20%;
+}
+
+#licoes_a_aprender {
+    float: right;
+    width: 80%;
+}
+
+.lado-esquerdo {
+    background-color: rgb(238, 153, 153);
+    float: left;
+    width: 50%;
+}
+
+.lado-direito {
+    background-color: grey;
+    float: right;
+    width: 50%;
+
+}
+
 #rodape {
-    
+    background-color: rgb(213, 233, 184);
+    padding-top: 50px;
+    clear: left;
 }
