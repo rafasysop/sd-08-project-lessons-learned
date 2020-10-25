@@ -8,12 +8,22 @@ body {
     position: fixed;
     top:0px;
     font-family: sans-serif;
+    width: 100%;
 }
+ h1 {
+     margin-left: 5%;
+ }
+
 
 main {
-    width:80%;
+    width:85%;
     position: relative;
     top: 100px;
+}
+
+.linha{
+    display:inline-block;
+    margin-left: 5%;
 }
 
 footer {
@@ -26,27 +36,24 @@ aside {
     font-size: 1.2em;
     padding-top:100px;
     float: right;
-    width:20%;
-}
-
-.linha{
-    display:inline-block
+    width:15%;
 }
 
 #minha_foto {
     float: left;
-    width:30%;
+    width:20%;
     margin:10px;
     padding:10px;
     background-color: coral;
     border: 5px solid rgb(226, 115, 41);
+    border-radius: 10%;
 
 }
 
 .blocoPrincipal {
     display: inline-block;
     margin-top: 10px;
-    width: 60%;
+    width: 65%;
     padding-left: 20px;
     padding-right: 20px;
     
@@ -55,18 +62,28 @@ aside {
 .lado-esquerdo {
     top: 0px;
     display:inline-block;
-    width: 60%;
+    width: 30%;
     vertical-align: top;
+    margin-left: 5%;
 }
 
 .lado-direito {
     display: inline-block;
-    width:30%
-
+    width:55%;
+    margin-left: 5%;
 }
 
 .citacao {
     font-style: italic;
+}
+
+.greenTable {
+    margin-left: 5%;
+    
+}
+
+footer {
+    text-align: center;
 }
 
 
