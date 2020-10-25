@@ -102,7 +102,7 @@ ul {
   display: inline-block;
   right: 25%;
   transform: translateX(70%);
-  background-color: rgb(73 , 129 , 129 , .5);
+  background-color: rgb(73 , 129 , 129 , 0.5);
   border-radius: 3px;
 }
 
