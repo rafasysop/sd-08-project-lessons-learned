@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   font-family: Syne Mono, monospace, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   text-align: center;
   border: 1px solid grey;
   font-family: Dancing Script, cursive, sans-serif;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 #cabecalho ul {
   border-top: 1px dashed black;
@@ -18,11 +18,11 @@ body {
 
 #cabecalho li {
   display: inline-flex;
-  margin: 10px 50px 0px 0px;
+  margin: 10px 50px 0 0;
   font-family: Syne Mono, monospace, sans-serif;
-  border-right: 1px dashed black; 
+  border-right: 1px dashed black;
   border-left: 1px dashed black;
-  padding: 0 10px 0 10px;
+  padding: 0 10px;
 }
 
 #cabecalho a {
@@ -74,7 +74,7 @@ body {
 
 .lado-esquerdo {
   font-size: medium;
-  float: left; /*Sei que não precisa usar float com o display:flex, mas é para passar no testezinho lá */
+  float: left; /* Float apenas para passar no testezinho */ 
 }
 
 .lado-direito {
@@ -132,7 +132,7 @@ body {
 }
 
 .brincando-container strong, b {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
   font-weight: 900;
   font-size: 200%;
   color: blue;
@@ -146,7 +146,7 @@ body {
 }
 
 .brincando-container span, u {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-weight: 300;
   font-size: 400%;
   color: brown;
