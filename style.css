@@ -20,6 +20,9 @@ body {
     text-align: center;
     background-color: rgba(7, 83, 119, 0.411);
     padding: 8px 520px;
+    font-size: 15px;
+    color: rgb(253, 251, 251);
+    line-height: 30px;
 }
 
 #minha_foto {
