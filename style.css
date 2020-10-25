@@ -1,18 +1,16 @@
 body {
-    background-color: rgb(253, 251, 251);}
+    background-color:rgb(253, 251, 251);}
 #cabecalho {
-    display: inline;
-    position: fixed;
-    top: 0px;
+    display:inline;
+    position:fixed;
+    top:0px;
     background-color: green;
-    width: 100%;
-    padding:40px 30px;
-    
-
+    width:100%;
+    padding:40px 30px;  
 }
 #titulo {
-    color: ivory;
-    text-align: center;
+    color:ivory;
+    text-align:center;
 }
 #minha_foto {
     padding:160px 10px 5px 1px;
@@ -26,33 +24,31 @@ h2 {
 }
 #lista {
    display:inline-block;
-   width-max:40%;
+   max-width:30%;
 }
 #licoes_aprendidas {
-  float: left;
+  float:left;
 }
 #licoes_a_aprender {
- float: right; 
+ float:right; 
 }
 #texto {
     display:inline-block;
     max-width:100%;
-    padding-top:40px;
-    
+    padding-top:40px;  
 }
 article {
     float: left;
     width:40%;
     margin-left:5px;
-    border-style: dotted;
-    padding:4px;
-    
+    border-style:dotted;
+    padding:4px;  
 }
 #texto-lateral {
     float:right;
     max-width:40%; 
     margin-right:5px;
-    border-style: dotted;
+    border-style:dotted;
     padding:4px;
 }
 #rodape {
