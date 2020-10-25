@@ -26,47 +26,50 @@
             
         }
         #artigo{
-            width: 300px;
+            width: 30%;
+        
         }
-        aside{
-            width: 50%;
-            float: right;
+        
 
         
-            
-            
-        }
         #nav{
             position: relative;
             margin-top: 100px;
         }
         
             
+        #section1 {
+            display: flex;
+
+        }
+
+        #section2 {
+            display:flex;
         }
         #rodape {
            
             width:100%;
+            
         }
-        #section1 {
-            margin-right: 10px;
-            ;
+        #aside {
+            width: 30%;
             
             
-            
-            
-            
-            
-
+        
         }
+        
         
         
 
     </style>
 </head>
+
 <body>
+
     <header id="cabecalho">
         <h1 id="titulo">Lições Aprendidas</h1>
     </header>
+
     <nav id="nav">
         <ul>
             <li>Quem sou eu</li>
@@ -74,8 +77,11 @@
             <li>Lições a aprender</li>
         </ul>
     </nav>
+
     <main>
+
         <h2 id="quemsoueu">Quem sou eu?</h2>
+
         <p>
             Meu nome é Nícolas Tozato, nascido em São José
             dos Campos-SP e atualmente morando em Anápolis-Go. Após
@@ -84,9 +90,12 @@
             buscavam por uma das 146 vagas, fui selecionado.
         
         </p>
+
+        
         <img id="minha_foto" src="minhafoto.jpeg" width="300px">
         <section id="section1">
-            <h2>Lições</h2>
+         <div>
+                <h2>Lições</h2>
             <ol id="licoes_aprendidas">
                 <li>Unix</li>
                 <li>Bash</li>
@@ -100,6 +109,10 @@
                 <li>Zoom</li>
         
             </ol>
+
+        </div>
+
+        <div>
         
             <h2>Lições a aprender</h2>
             <ul id="licoes_a_aprender">
@@ -115,24 +128,26 @@
                 <li>Forms</li>
             </ul>
 
-        </section>
-        <article id="artigo">
-            <p>artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo </p>
-        </article>
-        <aside class>
-            <p>aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside </p>
-        </aside>
+        </div>
+
+    </section>
+
+    <section id="section2">
+        <div>
+            <article id="artigo">
+                <p>artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo artigo </p>
+            </article>
+        </div>
+
+        <div>
+            <aside id="aside">
+                <p>aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside aside </p>
+            </aside>
+
+        </div>
         
 
             
-        
-
-
-    
-
-    <footer id="rodape">
-        <p>Todos os direitos reservados, Nícolas</p>
-    </footer>
     </main>
 
     
