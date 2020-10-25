@@ -6,18 +6,33 @@ body {
 }
 
 header {
-    background-color: #1261d1;
+    background-image: linear-gradient(to right, #d34960, #5c161b, #5e2663);
     background-size: auto;
     position: fixed;
     top: 0px;
     font-size: 18px;
-    color: #08deea;
+    color: #edd050;
     line-height: 1px;
     margin: auto;
-    border: 3px solid #ff2a6d;
+    border: 1px solid #e65c28;
     padding: 5px
     
 }
+
+
+h2 {
+    font-size: 18px;
+    color: #edd050;
+    background-color: #3badd4;
+    padding: 20px 30px;
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 700;
+    text-shadow: 0.050em 0.1em 0.05em #5e2663;
+    text-decoration: none;
+    border-radius: 30px
+}
+
 #cabecalho {
     
 }
@@ -27,12 +42,13 @@ header {
     margin-right: 20px;
     text-align: center;
     margin-top: 0px; 
-    text-shadow: 0.050em 0.1em 0.05em #fd8090;
+    text-shadow: 0.050em 0.1em 0.05em #3badd4;
 }
 
 #avatar {
     width: 8%;
     margin: auto;
+    padding: 10px 20px;
 }
 
 #minha_foto{
@@ -67,15 +83,14 @@ header {
 }
 
 .button {
-    color: #08deea;
-    background-color: #fd8090;
-    padding: 15px 30px 15px 30px;
-    border-radius: 6%;
+    color: #edd050;
+    background-color: #5e2663;
+    padding: 15px 30px;
+    border-radius: 30px;
     text-decoration: none;
     font-size: 20px;
-    line-height: 20px;
     font-weight: 700;
-    text-shadow: 0.050em 0.1em 0.05em #1261d1;
+    text-shadow: 0.050em 0.1em 0.05em #3badd4;
     
 }
 
