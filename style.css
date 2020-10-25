@@ -54,6 +54,14 @@ ul , ol {
   display: inline-block;
   width: 10;
   height: auto;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ol {
