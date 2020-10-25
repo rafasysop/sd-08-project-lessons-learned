@@ -61,7 +61,7 @@ nav :hover {
   flex-direction: column;
 }
 
-#titulo1, #titulo2 {
+#titulo, #subtitulo {
   margin: 5px;
 }
 .d_h_inferior nav {
