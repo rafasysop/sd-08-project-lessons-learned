@@ -7,8 +7,6 @@ body {
     margin: auto;
     padding: 5px;
     border: lightgray 1px inset;
-
-    
 }
 
 h1, h2 {
@@ -24,10 +22,11 @@ h1, h2 {
     top: 0px;
 }
 
-
-.display {
-    display: inline-block;
-    margin-left: 80px;
+#minha_foto {
+    width: 300px;
+    margin-top: 150px;
+    border-radius: 100px;
+    
 }
 
 }
@@ -38,12 +37,7 @@ h1, h2 {
 #licoes_a_aprender {
 
 }
-#minha_foto {
-    width: 300px;
-    margin-top: 150px;
-    border-radius: 100px;
-    
-}
+
 
 #rodape {
     background-color: seagreen;
@@ -52,6 +46,10 @@ h1, h2 {
     width: 100%;
 }
 
+.display {
+    display: inline-block;
+    margin-left: 80px;
+}
 /* Estilazações dos links */
 a {
     text-decoration: none;
