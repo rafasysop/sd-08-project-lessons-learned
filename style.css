@@ -1,6 +1,6 @@
 
 body {
-    color: darkgreen;
+    color: rgb(0, 56, 68);
     background-color: rgb(253, 251, 251) ;
 }
 
@@ -17,14 +17,20 @@ body {
 nav {
     border-top: 2px solid rgb(161, 104, 58);
 }
-
+a:link {
+    color:rgb(108, 154, 139);
+    text-decoration: none;
+    font-weight: bold;
+    border-width: 4px;
+    
+}
  h1 {
      margin-left: 5%;
      
  }
  
 main {
-    width:85%;
+    width:94%;
     position: relative;
     top: 140px;
 }
@@ -32,6 +38,7 @@ main {
 .linha{
     display:inline-block;
     margin-left: 5%;
+    color: rgb(108, 154, 139);
 }
 
 footer {
@@ -66,23 +73,30 @@ aside {
     display: inline-block;
     margin-top: 10px;
     width: 65%;
-    padding-left: 20px;
-    padding-right: 20px;
     
+    
+}
+
+.lado {
+    background-color: rgb(243, 233, 210);
+    border: 1px dashed rgb(108, 154, 139);
 }
 
 .lado-esquerdo {
     top: 0px;
     display:inline-block;
-    width: 30%;
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 20px 
 }
 
 .lado-direito {
+    margin-top: 20px;
+    font-size: 0.8em;
     display: inline-block;
-    width:55%;
-    margin-left: 5%;
+    margin-left: 20px;
+    padding-right: 20px;
 }
 
 .citacao {
@@ -90,6 +104,7 @@ aside {
 }
 
 .greenTable {
+    
     margin-left: 5%;
     
 }
