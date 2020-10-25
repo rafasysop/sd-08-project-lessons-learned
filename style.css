@@ -4,23 +4,30 @@ body {
 }
 
 #cabecalho {
-  font-size: 20px;
   position: fixed;
   top: 0;
+  width: 100%;
+  height: 130px;
+  border: 1px solid;
+  background-color: gray;
 }
 
 #titulo {
   color: blue;
+  font-weight: bold;
 }
 
 .redes_sociais li {
   display: inline;
   list-style: none;
+  padding-bottom: 10px;
 }
 
 img {
-  margin-top: 220px;
+  margin-top: 150px;
   width: 300px;
+  border: 2px solid;
+  padding: 10px;
   border-radius: 50px;
 }
 
@@ -34,6 +41,27 @@ p {
   padding: 50px;
 }
 
+#licoes_a_aprender {
+  font-style: italic;
+  color: blue;
+  border-left: 50px;
+}
+
+#licoes_a_aprender h2 {
+  color: black;
+  font-style: normal;
+}
+
+.lado-direito {
+  float: right;
+  width: 60%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 30%;
+}
+
 table {
   border-collapse: collapse;
   border: 3px solid black;
@@ -41,6 +69,7 @@ table {
 }
 
 caption {
+  margin-top: 50px;
   font-style: italic;
   font-weight: bold;
 }
