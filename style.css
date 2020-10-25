@@ -1,95 +1,94 @@
 body {
     background-color: rgb(253 , 251 , 251);
-    font-family:  sans-serif;
+    font-family:sans-serif;
 }
 
 #cabecalho {
     top:  0;
-    background-color:  #0fa36b;
-    position:  fixed;
-    width:  99%;
-    color:  #3a4558;
+    background-color: #0fa36b;
+    position:fixed;
+    width:99%;
+    color: #3a4558;
 }
 
-.nav-inline li { 
-    display:  inline-block;
-    padding-right:  20px;
+.nav-inline li {
+    display:inline-block;
+    padding-right:20px;
 }
 
 #titulo {
-    text-align:  center;
+    text-align:center;
 }
 
 #minha_foto {
-    width:  300px;
-    margin:  auto;
-    display:  block;
-    padding-top:  150px;
-    padding-bottom:  50px;
+    width:300px;
+    margin:auto;
+    display:block;
+    padding-top:150px;
+    padding-bottom:50px;
 }
 
 .lado-esquerdo {
-    width:  50%;
-    font-size:  15px;
-    line-height:  20px;
-    color:  #3a4558;
-    float:  left;
-    border:  solid;
-    padding:  10px;
-    text-align:  center;
+    width:50%;
+    font-size:15px;
+    line-height:20px;
+    color: #3a4558;
+    float:left;
+    border:solid;
+    padding:10px;
+    text-align:center;
 }
 
 .lado-direito {
-    width:  45%;
-    font-size:  15px;
-    line-height:  20px;
-    color:  #3a4558;
-    display:  inline-block;
-    float:  right;
-    padding:  20px 15px;
-    border:  solid;
-    text-align:  center;
+    width:45%;
+    font-size:15px;
+    line-height:20px;
+    color: #3a4558;
+    display:inline-block;
+    float:right;
+    padding:20px 15px;
+    border:solid;
+    text-align:center;
 }
 
 #licoes_a_aprender {
-    width:  15%;
-    float:  left;
-    border:  solid;
-    margin-left:  400px;
-    color:  #3a4558;
+    width:15%;
+    float:left;
+    border:solid;
+    margin-left:400px;
+    color: #3a4558;
 }
 
 #licoes_aprendidas {
-    width:  15%;
-    float:  right;
-    margin-right:  400px;
-    border:  solid;
-    color:  #3a4558;
+    width:15%;
+    float:right;
+    margin-right:400px;
+    border:solid;
+    color: #3a4558;
 }
 
 .titulo-lista h3 {
-    color:  #3a4558;
-    margin-left:  630px;
-    margin-top:  250px;
+    color: #3a4558;
+    margin-left:630px;
+    margin-top:250px;
 }
 
 #rodape {
-    background-color:  #0fa36b;
-    padding-bottom:  10px;
+    background-color: #0fa36b;
+    padding-bottom:10px;
 }
 
 .link-trybe {
-    color:  #3a4558;
-    text-align:  center;
-    margin-bottom:  25px;
-    margin-top:  280px;
+    color: #3a4558;
+    text-align:center;
+    margin-bottom:25px;
+    margin-top:280px;
 }
 
 .botao {
-    background-color:  #0fa36b;
-    padding:  15px 32px;
-    margin:  4px 2px;
-    text-decoration:  none;
-    border-radius:  10px;
-
+    background-color: #0fa36b;
+    padding:15px 32px;
+    margin:4px 2px;
+    text-decoration:none;
+    border-radius:10px;
 }
