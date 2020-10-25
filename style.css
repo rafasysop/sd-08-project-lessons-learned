@@ -1,3 +1,35 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#lista{
+    list-style-type: none;
+    text-align: left;
+}
+
+.passagemaprendizado{
+    
+}
+
+#minha_foto{
+
+}
+
+#licoes_aprendidas{
+
+}
+
+#licoes_a_aprender{
+
+}
+
+#rodape{
+
+}
