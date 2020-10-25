@@ -22,7 +22,7 @@ nav :hover {
     color: #c0e6f8;
 }
 
-.d_header_superior {
+.d_h_superior {
   background: linear-gradient(50deg, #0b8f70 50%, #c0e6f8 70%);
   width: 100%;
   height: 19rem;
@@ -52,7 +52,7 @@ nav :hover {
   left: 69rem;
 }
 
-.d_header_inferior {
+.d_h_inferior {
   display: flex;
   position: relative;
   width: 100%;
@@ -64,7 +64,7 @@ nav :hover {
 #titulo {
   margin: 5px;
 }
-.d_header_inferior nav {
+.d_h_inferior nav {
   display: inline;
   padding: 0px 10px;
 }
