@@ -21,7 +21,6 @@ p{
 }
 #titulo{
     text-align:center;
-    color:AEDD83D;;
     font-size: 2.5em;
     color: rgb(114, 224, 239);
 }
@@ -34,11 +33,7 @@ p{
     border-radius: 100%;
     display:inline-flex;
 }
-<<<<<<< HEAD
 #link-lições-não-aprendidas{ 
-=======
-#link-lições-não-aprendidas{
->>>>>>> 3dc50e982fcdbc8c139da42033cdaffbdcdc8940
     margin-left: 6%;
     padding:1%;
     display:inline-flex;
@@ -52,15 +47,9 @@ p{
 #link-avaliação{  
     margin-left: 10%;
     padding:1%;
-<<<<<<< HEAD
     border-radius: 100%;  
 }
 #link-redes{  
-=======
-    border-radius: 100%;
-}
-#link-redes{
->>>>>>> 3dc50e982fcdbc8c139da42033cdaffbdcdc8940
     margin-left: 12%;
     padding:1%;
     border-radius: 100%;
@@ -72,11 +61,11 @@ p{
     margin: 2%;
     float:left;
 }
-.lições{
-    display:inline-block;
+#lições{
     margin-top:3%;
     text-align: center;
     font-size: 1.26em;
+    display:inline-block;
 }
 #licoes_aprendidas{
     float:left;
@@ -159,4 +148,8 @@ p{
     width:50%;
     display: inline-block;
     padding-left: 50px;
+}
+#avaliacao{
+    display: inline-block;
+    margin-top: 5%;
 }
