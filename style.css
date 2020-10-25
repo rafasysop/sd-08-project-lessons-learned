@@ -26,7 +26,7 @@ body {
 
 #licoes {
     border: 10px ridge black;
-    display: inline-block;
+    display: block;
     margin-bottom: 50px;
     margin-right: 700px;
 }
@@ -35,23 +35,28 @@ h3 {
     font-style: oblique;
 }
 
-.licoes_aprendidas {
+#licoes_aprendidas {
     font-style: italic;
     line-height: 30px;
     text-decoration: underline;
-    display: block;
+    display: inline-block;
 }
 
-.licoes_a_aprender {
+#licoes_a_aprender {
     font-style: italic;
     line-height: 30px;
     text-decoration: wavy;
     display: inline-block;
+    justify-content: center;
     padding-left: 80px;
 }
 
-aside {
+.aprendizado {
     display: block;
+}
+
+aside {
+    display: inline-block;
 }
 
 #rodape {
