@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animations.css">
         <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
         <link
             rel="icon"
@@ -17,11 +18,13 @@
             sizes="16x16"
             href="img/favicon-16x16.png"
         >
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
         <link rel="manifest" href="img/site.webmanifest">
         <title>Lessons Learned</title>
     </head>
     <body>
-        <header id="cabecalho">
+        <header id="cabecalho" class="animate-down">
+            <img onClick="history.go(0)" src="./img/android-chrome-192x192.png" alt="logo">
             <h1 id="titulo">Lessons Learned</h1>
             <nav>
                 <a href="https://github.com/wend3ll-souza" target="_blank">
@@ -36,92 +39,86 @@
             </nav>
         </header>
         <img id="minha_foto" src="/img/perfilLinkd.jpg" alt="Foto de perfil">
-        <section>
+        <section class="box-color">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum, odit reprehenderit minus earum nisi
             beatae! Quae fugit praesentium esse animi impedit fuga, vitae porro tempora perspiciatis iste quibusdam
             alias veniam cum, accusamus natus. Eveniet
-            at doloremque a nam atque sint possimus aut accusamus dolores quod reiciendis eos saepe quisquam veritatis
-            error temporibus consectetur sapiente, dolor et facere praesentium maiores illum delectus alias. Quaerat,
-            quidem. Labore et, vitae illum
-            quis aliquam ratione quo provident iusto cumque ut quidem nobis molestias voluptate unde rem debitis
-            possimus obcaecati dignissimos illo. Nostrum dignissimos enim fugiat. Vitae, omnis quam officiis eum
-            voluptatem expedita atque?
             </p>
         </section>
-        <nav id="list">
+        <nav id="list" class="animate-left box-color">
             <div id="navList">
                 <ol id="licoes_aprendidas">
-                    <a href="">
+                    <a href="#">
                         <li>Unix</li>
                     </a>
-                    <a href="">
+                    <a href="#unix">
                         <li>Git</li>
                     </a>
-                    <a href="">
+                    <a href="#git">
                         <li>GitHub</li>
                     </a>
-                    <a href="">
+                    <a href="#gitHub">
                         <li>HTML</li>
                     </a>
-                    <a href="">
+                    <a href="#html">
                         <li>CSS</li>
                     </a>
-                    <a href="">
+                    <a href="#css">
                         <li>Slack</li>
                     </a>
-                    <a href="">
+                    <a href="#slack">
                         <li>Zoom</li>
                     </a>
-                    <a href="">
+                    <a href="#zoom">
                         <li>Inkscape</li>
                     </a>
-                    <a href="">
+                    <a href="#inkscape">
                         <li>Gimp</li>
                     </a>
-                    <a href="">
+                    <a href="#gimp">
                         <li>Inspect</li>
                     </a>
                 </ol>
                 <ul id="licoes_a_aprender">
-                    <a href="">
+                    <a href="#inspect">
                         <li>JavaScript</li>
                     </a>
-                    <a href="">
+                    <a href="#javaScript">
                         <li>DOM</li>
                     </a>
-                    <a href="">
+                    <a href="#dom">
                         <li>Forms</li>
                     </a>
-                    <a href="">
+                    <a href="#forms">
                         <li>CSS Responsive</li>
                     </a>
-                    <a href="">
+                    <a href="#css-res">
                         <li>E56</li>
                     </a>
-                    <a href="">
+                    <a href="#e56">
                         <li>HOF</li>
                     </a>
-                    <a href="">
+                    <a href="#hof">
                         <li>Unit Tests</li>
                     </a>
-                    <a href="">
+                    <a href="#unitTests">
                         <li>React</li>
                     </a>
-                    <a href="">
+                    <a href="#react">
                         <li>Node</li>
                     </a>
-                    <a href="">
+                    <a href="#node">
                         <li>SQL</li>
                     </a>
                 </ul>
             </div>
         </nav>
-        <article>
+        <article class="box-color">
             <div id="myKnowledge">
                 <div class="knowledge">
                     <i class="fab fa-html5"></i>
-                    <h3>HTML</h3>
+                    <h3 id="unix">Unix</h3>
                 </div>
                 <div class="knowledge-text">
                     <p>
@@ -132,7 +129,7 @@
                 </div>
                 <div class="knowledge">
                     <i class="fab fa-css3"></i>
-                    <h3>CSS</h3>
+                    <h3 id="git">Git</h3>
                 </div>
                 <div class="knowledge-text">
                     <p>
@@ -142,7 +139,7 @@
                 </div>
                 <div class="knowledge">
                     <i class="fab fa-js"></i>
-                    <h3>Java Script</h3>
+                    <h3 id="gitHub">Git Hub</h3>
                 </div>
                 <div class="knowledge-text">
                     <p>
@@ -155,7 +152,7 @@
                 </div>
                 <div class="knowledge">
                     <i class="fab fa-github"></i>
-                    <h3>Git & GitHub</h3>
+                    <h3 id="html">HTML</h3>
                 </div>
                 <div class="knowledge-text">
                     <p>
@@ -164,7 +161,7 @@
                 </div>
                 <div class="knowledge">
                     <i class="fas fa-pencil-alt"></i>
-                    <h3>Design</h3>
+                    <h3 id="css">CSS</h3>
                 </div>
                 <div class="knowledge-text">
                     <p>
@@ -172,8 +169,174 @@
                     use Inkscape, Gimp, and Photo Shop to develop my artistic works.safasf
                     </p>
                 </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="slack">Slack</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="zoom">Zoom</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="inkscape">Inkscape</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="gimp">Gimp</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="inspect">Inspect</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="javaScript">Java Script</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="dom">DOM</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="forms">Forms</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="css-res">CSS Responsive</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="e56">E56</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="hof">HOF</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="unitTests">Unit Tests</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="react">React</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="node">Node</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
+                <div class="knowledge">
+                    <i class="fab fa-html5"></i>
+                    <h3 id="sql">SQL</h3>
+                </div>
+                <div class="knowledge-text">
+                    <p>
+                        I am capable to create a variety of pages with
+                        <em>HTML</em>
+                        , like this one. Contributing to a simple, comfortable, accessible and objective environment.
+                    </p>
+                </div>
             </div>
         </article>
-        <footer id="rodape">Roda Pé</footer>
+        <footer id="rodape" class="box-color">Roda Pé</footer>
     </body>
+
 </html>

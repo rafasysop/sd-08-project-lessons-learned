@@ -4,94 +4,136 @@
   text-decoration: none;
 }
 
+.box-color{
+    background-color: #e6ecec63;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.424);
+}
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
 }
 
 header {
-  background-color: yellowgreen;
+  background-color: rgb(12, 11, 11);
+  box-shadow: 0 1px 6px 0 rgb(0, 0, 0);
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
   width: 100%;
-  height: 3.5rem;
+  height: 2.7rem;
   position: fixed;
   z-index: 2;
+  display: flex;
+}
+
+header img {
+    width: 40px;
+    height: 37px;
+    margin: .1rem;
+    margin-left: 3rem;
+    cursor: pointer;
 }
 
 header h1 {
+  font-size: 30px;
+  color: rgb(200, 199, 199);
   position: relative;
-  top: -14px;
-  right: -30px;
+  top: -18px;
+  right: -185px;
+
   font-family: sans serif;
 }
 
 header nav {
-  width: 110px;
-  height: 40px;
   position: absolute;
-  top: 10px;
-  right: 100px;
-  font-size: 2rem;
+  left: 70rem;
+  top: 6px;
+}
+
+header i {
+  color: rgb(161, 158, 158);
+  margin-right: 27px;
+  font-size: 32px;
+}
+
+header i:hover {
+color: rgba(255, 255, 255, 0.877);
 }
 
 #minha_foto {
   width: 7rem;
   position: fixed;
-  top: 91px;
+  top: 61px;
   right: 97px;
   border-radius: 10rem;
+  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
 }
 
+
 section {
-  background-color: cadetblue;
-  position: fixed;
-  width: 16rem;
-  right: 16px;
-  top: 258px;
+    position: fixed;
+    width: 16rem;
+    height: 25rem;
+    right: 16px;
+    top: 236px;
+    font-family: 'Nunito', sans-serif;
+}
+
+section p{
+    padding: 15px;
 }
 
 #list {
-  background-color: aqua;
-  height: 35rem;
-  position: fixed;
-  bottom: 16px;
-  border: 3px solid;
+    height: 37rem;
+    position: fixed;
+    bottom: 6px;
+    left: 6px;
+    font-family: 'Nunito', sans-serif;
 }
 
 #navList {
   position: relative;
   top: 26px;
-  right: 10px;
+  right: 4px;
   font-size: 19px;
 }
 
+
+#navList a:hover{
+    color: rgb(240, 0, 240);
+}
+
 footer {
-  background-color: aquamarine;
-  width: 55rem;
-  height: 9rem;
-  position: relative;
-  bottom: -96rem;
-  right: -186px;
+    width: 54rem;
+    height: 9rem;
+    position: relative;
+    top: 260rem;
+    right: -198px;
 }
 
 article {
-  background-color: burlywood;
-  width: 55rem;
-  height: 90rem;
-  position: absolute;
-  right: 283px;
-  top: 71px;
+    width: 54rem;
+    height: 255rem;
+    position: absolute;
+    right: 285px;
+    top: 52px;
 }
 
-.knowledge-text {
-  width: 27rem;
-  position: relative;
-  right: -14rem;
-}
 
 .knowledge {
   position: relative;
   right: -8rem;
   top: 53px;
+}
+
+.knowledge-text {
+  width: 27rem;
+  position: relative;
+  right: -18rem;
+
 }
 
 .knowledge i {
