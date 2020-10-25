@@ -10,11 +10,7 @@ body {
   /** Utilizei o link abaixo para gerar o código abaixo
   https://cssgradient.io/
   */
-  background: linear-gradient(
-    90deg, 
-    rgba(67, 97, 238, 1) 2%, 
-    rgba(76, 201, 240, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(67, 97, 238, 1) 2%, rgba(76, 201, 240, 1) 100%);
   position: fixed;
   width: 100%;
   display: flex;
@@ -64,18 +60,13 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-#licoes_aprendidas,
-#licoes_a_aprender {
+#licoes_aprendidas, #licoes_a_aprender {
   margin: 20px;
 
   /** Utilizei o link abaixo para gerar o código abaixo
   https://cssgradient.io/
   */
-  background: linear-gradient(
-    90deg, 
-    rgba(67, 97, 238, 1) 2%, 
-    rgba(76, 201, 240, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(67, 97, 238, 1) 2%, rgba(76, 201, 240, 1) 100%);
   width: 15%;
   padding: 10px 40px 55px 40px;
   line-height: 23px;
@@ -98,8 +89,7 @@ li {
   display: flex;
   justify-content: center;
 }
-.lado-direito,
-.lado-esquerdo {
+.lado-direito, .lado-esquerdo {
   margin: 40px;
   padding: 10px;
 }
@@ -111,9 +101,7 @@ table {
 /* Usei o link abaixo como referência para o seguinte código
 https://www.w3schools.com/w3css/w3css_tables.asp
 */
-table,
-tr,
-td {
+table, tr, td {
   border: 2px solid #4361ee;
 }
 #rodape {
