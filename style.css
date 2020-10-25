@@ -53,3 +53,7 @@ body {
 #rodape {
     clear: both;
 }
+
+.table {
+    margin-bottom: 20px;
+}
