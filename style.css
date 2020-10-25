@@ -25,3 +25,17 @@ body {
 #minha_foto {
     width: 30%;
 }
+
+.lado-esquerdo {
+    text-align: left;
+    width: 300px;
+}
+
+.lado-direito {
+    text-align: left;
+    width: 300px;
+}
+
+.article {
+    display: inline-block;
+}
