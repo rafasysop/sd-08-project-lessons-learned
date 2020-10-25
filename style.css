@@ -54,12 +54,12 @@ p {
 
 .lado-direito {
   float: right;
-  width: 60%;
+  width: 30%;
 }
 
 .lado-esquerdo {
   float: left;
-  width: 30%;
+  width: 60%;
 }
 
 table {
