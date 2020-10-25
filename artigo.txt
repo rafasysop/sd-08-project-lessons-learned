@@ -1,1 +1,0 @@
-O que mais gostei neste período foi aprender a utilizar o terminal do linux, Git e github. Sempre fazendo minhas anotações no formato de tutorial para facilitar os comandos em caso de esquecimento, hoje menos de um mês depois já consigo utilizar com certa facilidade todos esses recursos. 

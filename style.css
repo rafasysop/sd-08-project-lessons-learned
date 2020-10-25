@@ -1,10 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(253, 251, 251);
+  background-color: #f3f3f3f6;
 }
 #main {
-  margin: 9% 15%;
+  margin: 7% 5%;
   padding: 3%;
   background-color: #fffffff6;
   border: 1px solid rgb(243, 238, 238);
@@ -14,22 +14,19 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #023e8a;
-  height: 100px;
+  background-color: #023d8aaf;
+  height: 60px;
   text-align: center;
   margin: 0;
+  font-size: 13px;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.89);
 }
-.img {
-  display: flex;
-  justify-content: center;
-  margin: 50px 0;
-}
-img {
-  border-radius: 10px;
+#minha_foto{
+  border-radius: 50%;  
   box-shadow: 3px 10px 10px -3px rgb(204, 197, 197);
+  margin: 50px 0;
 }
 ul li a {
   font-size: 1.2rem;
@@ -48,6 +45,16 @@ article {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
   color: rgb(61, 68, 94);
+}
+aside{
+  margin: auto;
+  justify-content: center;
+  width: 135%;
+  margin-top: 2%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: rgb(61, 68, 94);
+  text-align: top;
 }
 article h1 {
   padding: 10px;
@@ -108,8 +115,8 @@ footer {
   color: rgb(41, 35, 35);
   font-family: "Nunito", sans-serif;
   font-weight: 700;
-  background-color: #fffffff6;
-  border: 1px solid rgb(243, 238, 238);
+  background-color: #f3f3f3f6;
+  border: 1px solid rgb(149, 143, 143);
   margin-top: 2%;
 }
 .menu ul {
@@ -125,12 +132,11 @@ footer {
   display: inline-block;
   color: rgb(107, 96, 96);
   text-decoration: none;
-  border-bottom: 3px solid #fffffff6;
+  border-bottom: 3px solid #f3f3f3f6;
 }
 .menu ul li a:hover {
   color: rgb(41, 35, 35);
-  font-weight: 700;
-  border-bottom: 3px solid #08489c;
+  font-weight: 700;  
 }
 .menu ul li a:active {
   color: red;
@@ -159,6 +165,7 @@ p {
 }
 .lado-esquerdo {
   float: left;
+  
 }
 .lado-direito {
   float: right;
