@@ -59,15 +59,15 @@ ul , ol {
   width: 10;
   height: auto;
   font-size: 13px;
-  font-family: 'Courier New' , Courier , monospace;
+  font-family: Courier , monospace;
 }
 
 p {
   font-size: 15px;
   font-weight: 200;
-  font-family: 'Courier New' , Courier , monospace;
+  font-family: Courier , monospace;
   line-height: 2;
-  color: rgb(22, 21, 21);
+  color: rgb(22 , 21 , 21);
 }
 
 ol {
@@ -101,7 +101,7 @@ ul {
 }
 
 #rodape {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(15 , 15 , 15);
   color: aqua;
   position: absolute;
   bottom: 1px;
