@@ -13,10 +13,23 @@ body {
 
 #titulo {
   text-align: center;
+  font-family: fantasy;
 }
 
 #minha_foto {
-  width: 300px;
+  width: 200px;
+  border-radius: 20%;
+  position: absolute;
+  top: 130px;
+  left: 15px;
+}
+
+#nome {
+  position: absolute;
+  left: 57px;
+  top: 400px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: rgb(57 , 59 , 65);
 }
 
 #rodape {
