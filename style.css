@@ -5,13 +5,14 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 99%;
   text-align: center;
   border: 1px solid grey;
   font-family: Dancing Script, cursive, sans-serif;
   background-color: whitesmoke;
 }
+
 #cabecalho ul {
   border-top: 1px dashed black;
 }
@@ -74,7 +75,7 @@ body {
 
 .lado-esquerdo {
   font-size: medium;
-  float: left; /* Float apenas para passar no testezinho */ 
+  float: left; /* Float apenas para passar no testezinho */
 }
 
 .lado-direito {
@@ -131,22 +132,22 @@ body {
   color: black;
 }
 
-.brincando-container strong, b {
-  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+.brincando-container strong , b {
+  font-family: Lucida Sans, Geneva, Verdana, sans-serif;
   font-weight: 900;
   font-size: 200%;
   color: blue;
 }
 
-.brincando-container em, i {
+.brincando-container em , i {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   font-size: 300%;
   color: yellow;
 }
 
-.brincando-container span, u {
-  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+.brincando-container span , u {
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
   font-weight: 300;
   font-size: 400%;
   color: brown;
