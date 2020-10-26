@@ -95,7 +95,7 @@ h2 {
 
 .lado-esquerdo {
   width: 50%;
-  top: 0px;
+  top: 0;
   display: inline-block;
   vertical-align: top;
   padding: 0 20px;
@@ -126,7 +126,7 @@ h3 {
   font-size: 0.8em;
   display: inline-block;
   vertical-align: top;
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 20px;
 }
 
 .alinhar {
@@ -134,7 +134,7 @@ h3 {
 }
 
 .alinhar::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 100%;
 }
@@ -158,7 +158,7 @@ table.greenTable {
   text-align: center;
 }
 
-table.greenTable td,
+table.greenTable td , 
 table.greenTable th {
   border: 1px dashed rgb(108 , 154 , 139);
   width: 130px;
