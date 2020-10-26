@@ -12,11 +12,20 @@ body {
     width: 100%;
     color: white;
     margin-bottom: 10px;
+    z-index: 10;
+}
+
+#foto{
+    display: inline-block;
+    position: relative;
+    top: 10px;
 }
 
 #minha_foto{
-    position: absolute;
+    position: relative;
     max-width: 190px;
+    margin-bottom: 10px;
+    z-index: 9;
 
 }
 
@@ -28,8 +37,7 @@ body {
 #lado-esquerdo{
     position: relative;
     display: inline;
-    max-width: 50%;
-    margin-top: 10px;
+    max-width: 500px;
     display: inline-block;
 }
 
@@ -50,7 +58,6 @@ top: 100px;
 main{
     position: absolute;
     max-height: auto;
-    top: 132px;
 }
 
 #listas{
