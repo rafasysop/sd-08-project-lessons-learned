@@ -1,7 +1,11 @@
-<style>
-        body{
+    <style>
+
+        body {
             background-color: rgb(253,251,251);
+            
+        
         }
+
         #cabecalho{
             position: fixed;
             top: 0px;  
@@ -10,16 +14,21 @@
         #quemsoueu{
             position:relative;
             margin-top: 50px;
+            padding:20px;
+            margin-left: 20px;
         }
         #minha_foto {
             position: relative;
             margin-bottom: 30px;
             margin-right: 200px;
+            margin-left: 20px;
+            
             
             
         }
         #artigo {
             width: 30%;
+            margin
         
         }
         
