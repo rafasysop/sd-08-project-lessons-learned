@@ -82,3 +82,9 @@ main{
 .listTitle{
     margin: 10px;
 }
+
+#tabela {
+    width: 70%;
+    position: absolute;
+    top: 800px;
+}
