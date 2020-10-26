@@ -1,21 +1,20 @@
-body 
-{ 
-    background-color: rgb(253,251,251); 
-    
+body
+{
+    background-color: rgb(253,251,251);
 }
 
 .cabecalho
-{    
+{
     position: fixed;
-   
+
     padding: 2px 10px;
     margin 0px;
-    background-color: #500;    
+    background-color: #500;
     border-bottom: 3px solid #500;
     width: 950px;
     top: 0px;
     text-align: center;
-       
+
 }
 
 .cabecalho h1
@@ -29,7 +28,7 @@ body
 .Profile_Picture
 {
     width: 240px;
-    border:8px solid #500;	
+    border:8px solid #500;
     position: absolute;
     top: 70px;
 }
@@ -41,35 +40,35 @@ body
 }
 .Content li
 {
-    
+
     list-style-type: none;
     color: rgb(120,0,0);
 }
 
 .Content h3
-{    
+{
     color: rgb(75,54,33);
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 .Lista_Aprendida
 {
     position: absolute;
     top: 70px;
-    left: 300px;    
+    left: 300px;
 }
 
 .Lista_Aprender
 {
     position: absolute;
     top: 70px;
-    left: 550px;    
+    left: 550px;
 }
 
 #Link
-{    
+{
     position: absolute;
-    top: 580px;    
+    top: 580px;
 }
 
 #Link a:hover
@@ -83,7 +82,7 @@ a:-webkit-any-link
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
     color: rgb(75,54,33);
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .Artigos
@@ -99,7 +98,7 @@ a:-webkit-any-link
 }
 
 .Artigos p
-{   
+{
     color: rgb(40,24,33);
 }
 
@@ -116,8 +115,8 @@ a:-webkit-any-link
 {
     position: absolute;
     top: 300px;
-    right: 600px;    
-    left: 15px;    
+    right: 600px;
+    left: 15px;
 }
 
 
@@ -137,10 +136,9 @@ a:-webkit-any-link
     width: 950px;
     height: 70px;
     text-align: center;
-    font-family: monospace; 
+    font-family: monospace;
     font-size: 30px;
 }
 
-    
-    
-      
+
+
