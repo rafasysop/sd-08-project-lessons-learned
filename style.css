@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   font-family: swap, sans-serif;
 }
 
@@ -35,28 +35,28 @@ body {
 }
 
 .licoes {
-  color: rgb(95,158,160);
+  color: rgb(95, 158, 160);
 }
 
 #licoes_aprendidas {
-  color: rgb(0,0,128);
+  color: rgb(0, 0, 128);
 }
 
 #licoes_a_aprender {
-  color: rgb(0,0,128);
+  color: rgb(0, 0, 128);
 }
 
 .lado-esquerdo {
   float: left;
   width: 40%;
-  color: rgb(30,144,255);
+  color: rgb(30, 144, 255);
   line-height: normal;
 }
 
 .lado-direito {
   float: right;
   width: 40%;
-  color: rgb(30,144,255);
+  color: rgb(30, 144, 255);
   line-height: normal;
 }
 
@@ -66,11 +66,11 @@ body {
   margin-top: 250px;
 }
 
-.tabela,
-  td {
-    border: 1px solid black;
-    padding: 3px;
-    text-align: center;
-    margin-left: 43%;
-    color: rgb(0,0,128);
-  }
+.tabela, 
+  td{
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+  margin-left: 43%;
+  color: rgb(0, 0, 128);
+ }
