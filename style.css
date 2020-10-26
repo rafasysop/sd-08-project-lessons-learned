@@ -1,0 +1,108 @@
+* {
+        padding: 0;
+        margin: 0;
+        font-style: normal;
+        font-family: sans-serif;
+}
+body {
+        background-color: rgb(253,251,251);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 500px;
+}
+
+#cabecalho {
+        text-align: left;
+        text-shadow: rgb(40, 74, 75) 1px 1px;
+        top: 0;
+        position: fixed;
+        background-image: url("Trybe_Capa.jpeg");
+        width: 100%;
+        height: 80px;   
+        padding: 30px 0 0 20px;     
+        color: blanchedalmond;
+}
+
+.imagem {
+        margin-top: 90px;
+        padding: 20px; 
+        float: left;
+}
+
+.lado-esquerdo {
+        float: left;
+        width: 59%;
+        margin-left: 10px;
+        padding-bottom: 35px;
+        margin-top: 120px;
+        text-align: left; 
+        font-size: 1.1em;  
+        overflow: hidden;          
+}
+.lado-esquerdo p {
+        padding-top: 10px;
+        line-height: 1.1em;               
+}
+
+.lado-direito {
+        float: right;
+        width: 25%;
+        padding-left: 10px; 
+        margin-top: 160px;            
+}
+
+.lado-direito p {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        border-style: none none none double;
+        border-left-color: darkgreen;
+        border-width: 0 0 0 2px;
+        padding: 10px;
+        background-color: lightgrey;        
+}
+
+.tabela {
+        clear: both;
+        margin-top: 100px;  
+        padding: 20px 400px;  
+        font-weight: lighter; 
+        border-collapse: collapse;
+}
+
+#licoes_a_aprender {
+        padding-left: 80px;                
+}
+
+th {
+       width: 300px;
+       text-align: left;
+       
+}
+
+th.segundaLinha {
+        text-align: right;
+}
+
+footer {
+        clear: both;
+        background-color: rgb(20, 44, 20);
+        color: white; 
+        padding: 10px;
+        height: 70px;
+        font-size: .8em;
+}
+
+footer p {
+        text-align: center;
+        text-size-adjust: 20%;
+        margin-top: 30px;
+        text-align: end;
+}
+
+footer a {
+        text-decoration: none;
+        color: orange;
+}
+
+p .link-externo {
+        padding: 20px;
+}
