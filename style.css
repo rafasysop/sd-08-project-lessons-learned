@@ -1,4 +1,9 @@
-.header-text {
+body {
+    background-color: rgb(253 , 251 , 251);
+    font-family: fantasy, sans-serif; 
+}
+
+.header-text{
     position: relative;
     top: 0;
     margin-top: 0px;
@@ -12,11 +17,6 @@
     margin-left: 0px;
     margin-top: 0%;
     }
-
-.backcolor {
-    background-color: rgb(253 , 251 , 251);
-    font-family: fantasy, sans-serif; 
-}
 
 #minha_foto {
     border-radius: 100%;
@@ -43,7 +43,7 @@
     background-color: grey;
     font-family: monospace, sans-serif;
     font-size: 10px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 .lado-direito {
