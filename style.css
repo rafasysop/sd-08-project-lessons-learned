@@ -1,43 +1,61 @@
 body {
     background-color: rgb(253, 251, 251);
+
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho{
     position: fixed;
     top: 0px;
-    z-index: 10;
-    text-align: center;
+    text-align: left;
     background-color: blue;
     width: 100%;
+    color: white;
+    margin-bottom: 10px;
 }
 
 #minha_foto{
-    max-width: 20%;
-    z-index: 5;
     position: absolute;
-    top: 132px;
-    float: left;
+    max-width: 190px;
+
 }
 
 #titulo{
    font-family: 'Courier New', Courier, monospace;
+   color: white;
 }
 
-#artigo{
-    position: absolute;
-    display: inline-block;
+#lado-esquerdo{
+    position: relative;
+    display: inline;
     max-width: 50%;
+    margin-top: 10px;
+    display: inline-block;
 }
 
-#aolado{
-position: absolute;
+#lado-direito{
+position: relative;
 display: inline-block;
 left: 700px;
-max-width: 30%;
-top: 200px;
-clear: right
+max-width: 50%;
+top: 100px;
+}
+
+#listas {
+    position: relative;
+    top: 300px;
+    left: 800px;
 }
 
 main{
-    height: 550px;
+    position: absolute;
+    max-height: auto;
+    top: 132px;
+}
+
+#listas{
+    position: relative;
+    display: inline-block;
+    max-width: 20%;
+    top: 20px;
 }
