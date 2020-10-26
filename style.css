@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    color: rgb(11,20,43);
+    color: rgb(11, 20, 43);
 }
 body {
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
     font-family: sans-serif;
 }
 #cabecalho {
@@ -13,8 +13,8 @@ body {
     width: 100%;
 }
 #titulo {
-    background-color: rgb(11,20,43);
-    color: rgb(253,251,251);
+    background-color: rgb(11, 20, 43);
+    color: rgb(253, 251, 251);
     text-align: center;
     padding: 20px;
     font-family: monospace;
@@ -26,19 +26,15 @@ nav {
     width: 100%;
 }
 nav a {
-    color: rgb(11,20,43);
+    color: rgb(11, 20, 43);
     text-decoration: none;
     padding: 10px40px;
     font-size: 1.3em;
     font-weight: 900;
     text-align: center;
 }
-main {
-    margin-top: 140px;
-    display: inline-block;
-    padding: 30px50px;
-}
 .lado_esquerdo {
+    margin-top: 140px;
     float: left;
     max-width: 55%;
     margin-left: 40px;
@@ -55,10 +51,11 @@ main {
     padding: 10px40px;
 }
 .lado_direito {
+    margin-top: 140px;
     float: right;
     max-width: 25%;
     margin-right: 40px;
-    border: doublergb(11,20,43);
+    border: doublergb(11, 20, 43);
     padding: 20px;
 }
 .lado_direito h3 {
@@ -77,7 +74,7 @@ main {
     margin-top: 30px;
     margin-left: 2%;
     width: 40%;
-    background-color: rgb(231,233,240);
+    background-color: rgb(231, 233, 240);
     padding: 20px;
 }
 #licoes_aprendidas h3, #licoes_a_aprender h3 {
@@ -97,23 +94,14 @@ main {
     margin-left: 54%;
     margin-right: 4%;
     width: 40%;
-    background-color: rgb(231,233,240);
+    background-color: rgb(231, 233, 240);
     padding: 20px;
-}
-figure {
-    margin-left: 40px;
-    width: 25%;
 }
 img {
     border-radius: 100%;
     border-style: ridge;
-    border-color: rgb(11,20,43);
-    width: 100%;
-}
-figcaption {
-    color: rgb(11,20,43);
-    padding: 4px;
-    text-align: center;
+    border-color: rgb(11, 20, 43);
+    width: 10%;
 }
 table {
     margin-top: 30px;;
@@ -121,7 +109,7 @@ table {
 .cumprir_tabela {
     font-size: 20px;
     font-weight: 700;
-    color: rgb(253,251,251);
+    color: rgb(253, 251, 251);
 }
 footer {
     margin-top: 10px;
