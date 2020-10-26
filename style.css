@@ -129,3 +129,8 @@ body {
     width: 20%;
     margin-right: 20rem;
 }
+
+table, tr, th, td {
+    border: 1px groove;
+    border-collapse: collapse;
+}
