@@ -3,7 +3,6 @@ body {
     color: rgb(97, 95, 95);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 #cabecalho {
     background-color: rgb(0, 2, 2);
     color: white;
@@ -13,7 +12,7 @@ body {
     right: 0px;
     left: 0px;
     text-align: center;
-    }
+}
 .nav-links {
     padding: 5px 0;
     background-color: black;
@@ -28,15 +27,15 @@ body {
     height: 15px;
     width: auto;
 }
-.nav-links li{
+.nav-links li {
     margin-right: 40px;
     color: rgb(247, 248, 247);
     list-style-type: none;
     display: inline-block;
-    font-size: 15px;  
+    font-size: 15px;
     margin-bottom: 55px;
 }
-.class-content{
+.class-content {
     color: grey;
 }
 #minha_foto {
@@ -71,14 +70,14 @@ body {
 }
 .lado_direito {
     float: right;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
 .sobreMim {
     width: 30%;
     text-align: justify;
     display: inline-block;
     float: left;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 .sobreMim h2 {
     text-align: center;
@@ -90,11 +89,11 @@ body {
     padding-top: 150px;
 }
 div {
-    display:inline-flex;
+    display: inline-flex;
 }
 .licoesprendidasesquerda {
-    padding:250px 20px 20px 80px;
+    padding: 250px 20px 20px 80px;
 }
 .licoesprenderdireita {
-    padding:250px 20px 20px 100px;
+    padding: 250px 20px 20px 100px;
 }
