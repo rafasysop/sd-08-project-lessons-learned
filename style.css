@@ -1,6 +1,7 @@
 body {
   color: rgb(0 , 56 , 68);
   background-color: rgb(253 , 251 , 251);
+  font-family: 'Zilla Slab', serif;
 }
 
 #cabecalho {
@@ -8,19 +9,21 @@ body {
   z-index: 1000;
   position: fixed;
   top: 0;
-  font-family: sans-serif;
+  font-family: 'Zilla Slab', sans-serif;
   width: 100%;
   background-color: rgb(232 , 153 , 141);
-  border-bottom: 2px solid rgb(161 , 104 , 58);
+  
 }
 
-nav {
-  border-top: 2px solid rgb(161 , 104 , 58);
+.primeiraNav {
+  border-top: 2px solid rgb(80 , 114 , 103);
+  border-bottom: 2px solid rgb(80 , 114 , 103);
+  background-color: rgb(121, 170, 154);
 }
 
 nav ol {
-  margin: 5px 0;
-  padding: 0;
+  margin: 0;
+  padding: 5px 0;
 }
 
 a:link {
@@ -52,11 +55,11 @@ main {
   font-size: 1.2em;
   padding-top: 180px;
   padding-left: 20px;
-  padding-bottom: 50%;
+  padding-bottom: 60%;
   float: right;
   width: 15%;
   background-color: rgb(238 , 210 , 204);
-  border-left: solid 2px rgb(161 , 104 , 58);
+  border-left: solid 2px rgb(80 , 114 , 103);
 }
 
 h2 {
@@ -98,8 +101,8 @@ h2 {
   top: 0;
   display: inline-block;
   vertical-align: top;
-  padding: 0 20px;
-  font-size: 17.3px;
+  padding: 5px 20px;
+  font-size: 17.6px;
 }
 
 .lado-direito {
@@ -148,8 +151,8 @@ footer {
   position: relative;
   text-align: center;
   background-color: rgb(232 , 153 , 141);
-  border-bottom: 2px solid rgb(161 , 104 , 58);
-  border-top: 2px solid rgb(161 , 104 , 58);
+  border-bottom: 2px solid rgb(108 , 154 , 139);
+  border-top: 2px solid rgb(108 , 154 , 139);
 }
 
 .greenTable {
