@@ -4,24 +4,22 @@ body {
 }
 
 #cabecalho {
-    background-color: green;
     display: block;
     margin: 0px;
 }
 
 #titulo {
-    color: white;
+    color: green;
 }
 
 .menu{
-    background-color:yellow;
 }
 
 #minha_foto {
     display: inline-block;
     border-radius: 300px;
     width: 300px;
-    margin: auto;
+    margin-right: 300px;
 }
 
 #licoes {
