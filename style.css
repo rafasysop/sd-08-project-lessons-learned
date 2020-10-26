@@ -1,9 +1,13 @@
-body { background-color: rgb(253,251,251); }
+body 
+{ 
+    background-color: rgb(253,251,251); 
+    
+}
 
 .cabecalho
 {    
     position: fixed;
-    top: 10%;
+   
     padding: 2px 10px;
     margin 0px;
     background-color: #500;    
@@ -25,7 +29,7 @@ body { background-color: rgb(253,251,251); }
 .Profile_Picture
 {
     width: 240px;
-    border:5px solid #500;	
+    border:8px solid #500;	
     position: absolute;
     top: 70px;
 }
@@ -122,7 +126,7 @@ a:-webkit-any-link
 
 #rodape
 {
-    position: fixed;
+    position: absolute;
     top: 600px;
     bottom: 10%;
     padding: 2px 10px;
