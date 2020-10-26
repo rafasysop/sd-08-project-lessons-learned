@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(253 , 251 , 251);
-    text-align: center;
+        background-color: rgb(253 , 251 , 251);
+        text-align: center;
 }
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
     margin: auto;
     text-align: center;
     background-color: lightgreen;
