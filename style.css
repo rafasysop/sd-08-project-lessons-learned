@@ -22,7 +22,7 @@ body
     text-decoration: underline;
 }
 
-.minha_foto
+#minha_foto
 {
     width: 240px;
     border:8px solid #500;
@@ -46,20 +46,18 @@ body
 .Content h3
 {
     color: rgb(75,54,33);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .lado-esquerdo
 {
     position: absolute;
-
-    left: 240px;
+    left: 280px;
 }
 
 .lado-direito
 {
     position: absolute;
-
     left: 550px;
 }
 
