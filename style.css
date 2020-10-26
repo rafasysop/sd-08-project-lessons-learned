@@ -5,6 +5,7 @@ body {
 }
 
 #cabecalho {
+    color: #69140e;
     z-index:1000;
     position: fixed;
     top:0px;
@@ -18,7 +19,7 @@ nav {
     border-top: 2px solid rgb(161, 104, 58);
 }
 a:link {
-    color:rgb(108, 154, 139);
+    color: #69140e;
     text-decoration: none;
     font-weight: bold;
     border-width: 4px;
@@ -59,6 +60,10 @@ aside {
     border-left: solid 2px rgb(161, 104, 58);
 }
 
+h2 {
+    margin: 10px;
+}
+
 #minha_foto {
     float: left;
     width:20%;
@@ -73,13 +78,12 @@ aside {
     display: inline-block;
     margin-top: 10px;
     width: 65%;
-    
-    
 }
 
 .lado {
     background-color: rgb(243, 233, 210);
     border: 1px dashed rgb(108, 154, 139);
+    text-align: justify;
 }
 
 .lado-esquerdo {
@@ -92,22 +96,36 @@ aside {
 }
 
 .lado-direito {
-    margin-top: 20px;
     font-size: 0.8em;
+    width:47%;
     display: inline-block;
-    margin-left: 20px;
     padding-right: 20px;
 }
+
+.beneficios {
+    font-size: 0.8em;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px 20px 20px;
+    
+}
+
+.alinhar {
+    margin: 20px;
+    text-align: justify;
+}
+
+.alinhar::after  {
+    content:'';
+    display: inline-block;
+    width: 100%;   
+}
+
 
 .citacao {
     font-style: italic;
 }
 
-.greenTable {
-    
-    margin-left: 5%;
-    
-}
 
 footer {
     text-align: center;
@@ -116,7 +134,36 @@ footer {
     border-top: 2px solid rgb(161, 104, 58);
 }
 
-
+table.greenTable {
+    border: 6px solid rgb(108, 154, 139);
+    background-color: #D4EED1;
+    text-align: center;
+  }
+  table.greenTable td, table.greenTable th {
+    border: 1px dashed rgb(108, 154, 139);
+    width: 130px;
+    padding: 5px;
+    
+  }
+  table.greenTable tbody td {
+    font-size: 0.8em;
+  }
+  table.greenTable thead {
+    background:rgb(108, 154, 139);
+    background: -moz-linear-gradient(top, rgb(193, 230, 217) 0%, rgb(151, 202, 185) 66%, rgb(108, 154, 139) 100%);
+    background: -webkit-linear-gradient(top, rgb(193, 230, 217) 0%, rgb(151, 202, 185) 66%, rgb(108, 154, 139) 100%);
+    background: linear-gradient(to bottom, rgb(193, 230, 217) 0%, rgb(151, 202, 185) 66%, rgb(108, 154, 139) 100%);
+    border-bottom: 0px dashed #444444;
+  }
+  table.greenTable thead th {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  
+  
 
 
 
