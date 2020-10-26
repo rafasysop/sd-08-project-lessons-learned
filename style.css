@@ -48,6 +48,7 @@ body {
 
 .article {
   color: #107ab0;
+  line-height: normal;
 }
 
 .lado-esquerdo {
@@ -57,6 +58,7 @@ body {
 
 .aside {
   color: #107ab0;
+  line-height: normal;
 }
 
 .lado-direito {
