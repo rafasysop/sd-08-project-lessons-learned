@@ -6,12 +6,15 @@ body {
 }
 
 #cabecalho {
+  width: 100%;
+  background-color: #457b9d;
   font-size: 24px;
   position: fixed;
   top: 0;
 }
 
 #titulo {
+  text-align: center;
   color: rgb(58 , 29 , 97);
 }
 
@@ -23,9 +26,19 @@ ol li {
   padding: 2px;
 }
 
-.navegacao li {
+.navegacao ul {
+  background-color: #1d3557;
+  width: 100%;
+  align-items: center;
+}
+
+.navegacao li {  
   display: inline;
-  list-style-type: none;
+  list-style-type: none;  
+}
+
+.navegacao li a {  
+  color: #f1faee;
 }
 
 img {
