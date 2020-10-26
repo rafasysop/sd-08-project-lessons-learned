@@ -4,13 +4,14 @@
   text-decoration: none;
 }
 
-.box-color{
-    background-color: #e6ecec63;
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.424);
+.box-color {
+  background-color: #e6ecec63;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.424);
 }
+
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: rgb(253, 251, 251);
@@ -30,11 +31,11 @@ header {
 }
 
 header img {
-    width: 40px;
-    height: 37px;
-    margin: .1rem;
-    margin-left: 3rem;
-    cursor: pointer;
+  width: 40px;
+  height: 37px;
+  margin: .1rem;
+  margin-left: 3rem;
+  cursor: pointer;
 }
 
 header h1 {
@@ -60,7 +61,7 @@ header i {
 }
 
 header i:hover {
-color: rgba(255, 255, 255, 0.877);
+  color: rgba(255, 255, 255, 0.877);
 }
 
 #minha_foto {
@@ -73,25 +74,28 @@ color: rgba(255, 255, 255, 0.877);
 }
 
 
-section {
-    position: fixed;
-    width: 16rem;
-    height: 25rem;
-    right: 16px;
-    top: 236px;
-    font-family: 'Nunito', sans-serif;
+#aboutIKnew {
+  position: fixed;
+  width: 16rem;
+  height: 25rem;
+  right: 16px;
+  top: 236px;
+  font-family: 'Nunito', sans-serif;
 }
 
-section p{
-    padding: 15px;
+#aboutIKnew p {
+  position: relative;
+  padding: 15px;
+  bottom: 1.4rem;
+  font-size: .8rem;
 }
 
 #list {
-    height: 37rem;
-    position: fixed;
-    bottom: 6px;
-    left: 6px;
-    font-family: 'Nunito', sans-serif;
+  height: 37rem;
+  position: fixed;
+  bottom: 6px;
+  left: 6px;
+  font-family: 'Nunito', sans-serif;
 }
 
 #navList {
@@ -102,24 +106,24 @@ section p{
 }
 
 
-#navList a:hover{
-    color: rgb(240, 0, 240);
+#navList a:hover {
+  color: rgb(240, 0, 240);
 }
 
 footer {
-    width: 54rem;
-    height: 9rem;
-    position: relative;
-    top: 260rem;
-    right: -198px;
+  width: 54rem;
+  height: 9rem;
+  position: relative;
+  top: 260rem;
+  right: -198px;
 }
 
 article {
-    width: 54rem;
-    height: 255rem;
-    position: absolute;
-    right: 285px;
-    top: 52px;
+  width: 54rem;
+  height: 255rem;
+  position: absolute;
+  right: 285px;
+  top: 52px;
 }
 
 
