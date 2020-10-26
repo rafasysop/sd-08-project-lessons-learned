@@ -50,6 +50,12 @@ h1, h2 {
     height: 400px;
 }
 
+.mercado-ti {
+    tab-size: 300px;
+    align-content: center;
+    margin: auto;
+}
+
 
 /* Estilazações dos links */
 .link {
