@@ -26,14 +26,16 @@
 
         <table class="lessons-table">
           <tr>
-            <th colspan="2"><h2>Lições</h2></th>
+            <th id="title" scope="row" colspan="2">
+              <h2>Lições</h2>
+            </th>
           </tr>
           <tr>
-            <th>Aprendidas</th>
-            <th>A aprender</th>
+            <th id="aprendidas" scope="row">Aprendidas</th>
+            <th id="a_aprender" scope="row">A aprender</th>
           </tr>
           <tr>
-            <td>
+            <td headers="aprendidas" scope="col">
               <ol id="licoes_aprendidas">
                 <li>Unix</li>
                 <li>Bash</li>
@@ -48,7 +50,7 @@
               </ol>
 
             </td>
-            <td>
+            <td headers="a_aprender" scope="col">
               <ul id="licoes_a_aprender">
                 <li>JavaScript</li>
                 <li>DOM</li>
