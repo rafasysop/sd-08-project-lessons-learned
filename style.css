@@ -1,158 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap");
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Nunito, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
-  background-color: #4aa46c;
-  display: inline;
-  width: 100%;
-  height: 150px;
-}
-
-h1 {
-  font-family: Roboto, sans-serif;
-  color: #1c1c1c;
-  font-size: 48px;
-  text-align: center;
-  padding: 25px;
-}
-
-li {
-  list-style: none;
-}
-
-nav ul {
-  text-align: center;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  margin-right: 20px;
-  font-family: Roboto, sans-serif;
-  background-color: green;
-  padding: 10px;
-  border-radius: 20px;
-}
-
-nav ul li a:hover {
-  color: white;
-}
-
-.image-section {
-  width: 30%;
+  background-color: rgb(62, 144, 113);
   display: inline-block;
+  width: 100%;
+  height: 6rem;
+}
+
+#titulo {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 2rem;
+  font-weight: 900;
 }
 
 #minha_foto {
   width: 250px;
-  margin-top: 200px;
-  margin-left: 100px;
-  border: 5px solid;
-  border-radius: 10px 50px 10px 100px;
+  height: 250px;
+  border-radius: 100%;
+  margin-top: 80px;
+  margin-left: 30px;
 }
 
-#phrase {
-  font-size: 24px;
-  width: 60%;
+nav ul li {
   display: inline-block;
-  vertical-align: middle;
-  margin-left: 50px;
-  margin-bottom: 200px;
-  background-color: rgba(74, 164, 108, 0.2);
-  padding: 20px;
-  border-radius: 10px;
 }
 
-#phrase a {
+nav ul li a {
+  font-size: 2rem;
   text-decoration: none;
-  color: black;
-  font-weight: bold;
+  margin-right: 0.5rem;
+  margin-left: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-weight: 400;
+  background-color: rgb(10, 102, 194);
+  color: white;
 }
 
-#phrase a:hover {
-  color: green;
+nav ul li a:hover {
+  background-color: rgb(10, 102, 230);
 }
 
-h2 {
-  text-align: center;
-  font-size: 36px;
-  color: black;
-  margin-top: -80px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 20px;
-}
-
-.ordenada {
+.section-foto-botoes {
   display: inline-block;
-  width: 45%;
-  text-align: center;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-  font-family: Roboto, sans-serif;
+  width: 25%;
+  margin-left: 30px;
 }
 
-.nao-ordenada {
+.section-nome-tabela {
   display: inline-block;
-  width: 45%;
-  text-align: center;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-  font-family: Roboto, sans-serif;
+  width: 25%;
+  vertical-align: bottom;
+  margin-left: 40px;
 }
 
-.sidebar {
+.div-nome {
+  font-size: 2.4rem;
+  margin-left: 45px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 250px;
+  line-height: 2.4;
   text-align: center;
-  margin: 50px 50px 30px 50px;
-  font-size: 24px;
+}
+
+table tr td {
+  border: 1px solid;
+  font-size: 1.2rem;
+}
+
+.table-blocos-finalizados th {
+  background-color: rgb(62, 144, 113);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0 5rem;
+}
+
+.section-container-licoes {
+  display: inline-block;
+  width: 40%;
+  vertical-align: bottom;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-aprendidas {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  margin-right: 5rem;
+  margin-left: -100px;
+}
+
+.section-aprendidas h2 {
+  background-color: rgb(62, 144, 113);
+  color: white;
+  padding: 0 5rem;
+}
+
+.section-aprendidas li {
+  list-style: none;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-aprender h2 {
+  background-color: rgb(62, 144, 113);
+  color: white;
+  padding: 0 5rem;
+}
+
+.section-aprender li {
+  list-style: none;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-aprender {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  width: 40%;
-  margin-right: 200px;
-  margin-bottom: 20px;
+  width: 55%;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: rgb(220, 220, 220);
+  margin-left: 5rem;
+  margin-right: 4rem;
+}
+
+.lado-esquerdo a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .lado-direito {
   display: inline-block;
-  width: 20%;
-  margin-bottom: 20px;
-}
-
-table {
-  border: 2px dashed black;
-  font-size: 18px;
-  width: 400px;
+  width: 35%;
   text-align: center;
-  margin: 0 auto;
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: rgb(220, 220, 220);
 }
 
-footer {
-  background-color: #4aa46c;
-  padding: 20px;
-  margin-top: 30px;
-}
-
-footer p {
+#rodape {
+  background-color: rgb(62, 144, 113);
   text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }

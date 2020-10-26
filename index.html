@@ -1,88 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lessons Learned - Project 01</title>
+    <title>Lessons Learned</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <header id="cabecalho">
-        <h1 id="titulo">Lessons Learned - Trybe</h1>
+    <header id="cabecalho">
+      <h1 id="titulo">Lições aprendidas na Trybe</h1>
+    </header>
 
-        <nav>
-          <ul>
-            <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
-            <li><a href="#licoes_a_aprender">Lições a aprender</a></li>
-          </ul>
-        </nav>
-      </header>
-    </section>
+    <main>
+      <div>
+        <section class="section-foto-botoes">
+          <img
+            id="minha_foto"
+            src="download.jpeg"
+            alt="Foto aluno João Carlito"
+          />
+          <div class="div-nome">João Carlito Neto</div>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  id="linkedin"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jo%C3%A3o-carlito-a9b86b174/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  id="github"
+                  target="_blank"
+                  href="https://github.com/joaocarlitoneto"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
 
-    <main class="container">
-      <section class="image-section">
-        <img
-          id="minha_foto"
-          src="download.jpeg"
-          alt="Imagem João Carlito Neto"
-        />
-      </section>
+        <section class="section-nome-tabela">
+          <table class="table-blocos-finalizados">
+            <tr>
+              <th colspan="2">Blocos Finalizados</th>
+            </tr>
+            <tr>
+              <td>1º</td>
+              <td>Unix, Bash e Shell Script</td>
+            </tr>
+            <tr>
+              <td>2º</td>
+              <td>Git, GitHub e Internet</td>
+            </tr>
+            <tr>
+              <td>3º</td>
+              <td>Introdução à HTML e CSS</td>
+            </tr>
+          </table>
+        </section>
 
-      <article id="phrase">
-        <em
-          >"Cada dia que passa estou ficando mais empolgado com os ensinamentos
-          da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. A
-          escola é sensacional e o suporte é 100%".</em
-        >
-        <strong>#VQV Turma 08</strong>
-      </article>
+        <section class="section-container-licoes">
+          <section class="section-aprendidas">
+            <h2>Lições aprendidas</h2>
+            <ol id="licoes_aprendidas">
+              <li>Unix</li>
+              <li>Bash</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Internet</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>HTML Semântico</li>
+              <li>Soft Skills</li>
+              <li>Javascript Vanilla</li>
+            </ol>
+          </section>
+
+          <section class="section-aprender">
+            <h2>Lições a aprender</h2>
+            <ul id="licoes_a_aprender">
+              <li>Javascript Es6+</li>
+              <li>Manipulação da DOM</li>
+              <li>Python</li>
+              <li>CSS Responsivo</li>
+              <li>Testes Unitários</li>
+              <li>React</li>
+              <li>Consumo de API's</li>
+              <li>Node.js</li>
+              <li>SQL</li>
+              <li>Arquitetura de Software</li>
+            </ul>
+          </section>
+        </section>
+      </div>
     </main>
 
-    <div>
-      <h2>Lições aprendidas:</h2>
-      <section class="ordenada">
-        <ol id="licoes_aprendidas">
-          <li>Unix</li>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Slack</li>
-          <li>Html</li>
-          <li>Html Semântico</li>
-          <li>Css</li>
-          <li>Soft Skills</li>
-          <li>Internet</li>
-          <li>Zoom</li>
-        </ol>
-      </section>
-
-      <section class="nao-ordenada">
-        <ul id="licoes_a_aprender">
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>Sql</li>
-          <li>Node</li>
-          <li>Testes Unitários</li>
-          <li>Dom</li>
-          <li>JS ES6</li>
-          <li>Express</li>
-          <li>Hbs</li>
-        </ul>
-      </section>
-    </div>
-
-    <section class="sidebar">
+    <section>
       <article class="lado-esquerdo">
         <em
-          >"Cada dia que passa estou ficando mais empolgado com os ensinamentos
-          da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. Este
-          primeiro projeto está sendo muito legal, pois estou conseguindo
-          colocar em prática os meus conhecimentos até o bloco 3. O futuro está
-          logo aí e para conseguir alcançar meus objetivos serão 12 meses
-          intensos onde estarei me desafiando diariamente".</em
+          >"Cada dia que passa estou mais empolgado com os ensinamentos da
+          <a href="https://www.betrybe.com/" target="_blank">Trybe</a>. A escola
+          é sensacional e o suporte é 100%. Se você quer se tornar um
+          desenvolvedor de sucesso, essa é a sua tribo."</em
         >
-        <strong>#VQV Turma 08</strong>
       </article>
 
       <aside class="lado-direito">
@@ -94,19 +117,9 @@
       </aside>
     </section>
 
-    <table class="table">
-      <tr>
-        <td colspan="2">Agradecimento:</td>
-      </tr>
-
-      <tr>
-        <th>Instrutor</th>
-        <td>Fernando Soares</td>
-      </tr>
-    </table>
-
     <footer id="rodape">
-      <p>Desenvolvido por João Carlito - Trybe 2020</p>
+      <p>Desenvolvido por João Carlito Neto</p>
+      <p>Projeto 1/42 | Trybe | Turma 8</p>
     </footer>
   </body>
 </html>
