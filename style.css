@@ -54,10 +54,9 @@ body {
     margin-left: 300px;
     margin-bottom: 150px;
 }
-/*não estou conseguindo centralizar a tabela - erro no seletor?*/
-#tabela .progressao{
-    
-    background-color: green;
+
+#tabela .progressao {
+    margin-left: 40%;
 }
 
 #redes-sociais{
@@ -65,32 +64,21 @@ body {
     margin-top: 100px;
 }
 
-#redes-sociais img{
+#redes-sociais img { 
     width: 50px;
     margin-left: 30px;
-    
 }
-/*Não sei como criar uma classe específica para personalizar o botão*/
-/* #Contato a{
-    background-color: green;
-    text-decoration: none;
-    color: honeydew;
-    border: 1px;
-    border-radius: 30px;
-    font-size: 20px;
-    padding: 15px;
-    margin-left: 200px;
-} */
- 
-
-
-
 
 #rodape {
     color: darkgray;
     margin-top: 100px;
     border: 1px solid;
     background-color: gray;
+}
+
+#rodape p{
+    display: inline-block;
+    margin-left: 200px;
 }
 
 
