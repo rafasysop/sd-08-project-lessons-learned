@@ -12,7 +12,6 @@ body
     width: 950px;
     top: 0px;
     text-align: center;
-
 }
 
 #cabecalho h1
@@ -65,7 +64,8 @@ body
 #Link
 {
     position: absolute;
-    top: 680px;
+    top: 725px;
+    font-size: 14px;
 }
 
 #Link a:hover
@@ -94,6 +94,7 @@ a:-webkit-any-link
     color: rgb(75,54,33);
 }
 
+
 .Artigos p
 {
     color: rgb(40,24,33);
@@ -104,7 +105,7 @@ a:-webkit-any-link
 {
     position: absolute;
     top: 320px;
-    left: 500px;
+    left: 400px;
     right: 150px;
 }
 
@@ -117,14 +118,23 @@ a:-webkit-any-link
     left: 15px;
 }
 
+.Tabela
+{
+    margin-top: 640px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    background-color: #500;
+    font-family: cursive;
+    padding: 5;
 
-
+}
 
 
 #rodape
 {
     position: absolute;
-    top: 700px;
+    top: 740px;
     bottom: 10%;
     padding: 2px 10px;
     margin 0px;
