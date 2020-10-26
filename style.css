@@ -3,9 +3,14 @@ body {
     font-family: fantasy, sans-serif; 
 }
 
+#cabecalho{
+    position: fixed;
+    top: 0px;
+    
+}
 .header-text{
     position: relative;
-    top: 0;
+    top: 0px;
     margin-top: 0px;
     background-color: #0fa36b;
     border: 5px solid black;   
