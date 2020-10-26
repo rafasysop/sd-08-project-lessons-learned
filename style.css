@@ -108,7 +108,7 @@ body {
 
 #rodape {
     position: absolute;
-    top: 61rem;
+    top: 60rem;
     background-color: steelblue;
     width: 100%;
     margin: 12px 0 12px 0;
@@ -121,4 +121,11 @@ body {
     width: 40%;
     text-align: justify;
     margin-left: 2.5rem;
+}
+
+.lado-direito {
+    text-align: justify;
+    float: right;
+    width: 20%;
+    margin-right: 20rem;
 }
