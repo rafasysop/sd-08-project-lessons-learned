@@ -1,10 +1,15 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #cabecalho {
+    color: white;
     background-color: steelblue;
     position: fixed;
     top: 0;
@@ -14,12 +19,19 @@ body {
 
 #titulo {
     padding: 8px;
+    text-align: center;
 }
 
 .navegacao {
+    background-color: white;
     position: relative;
     top: 95.88px;
     border: groove;
+}
+
+.navegacao ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .navegacao li {
@@ -27,10 +39,13 @@ body {
     margin-right: 10px;
 }
 
-/*#principal {
-    position: relative;
-    top: 100.88px;
-}*/
+.navegacao a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
 
 #minha_foto {
     margin-left: 10px;
@@ -39,20 +54,22 @@ body {
 
 #div-foto {
     position: relative;
+    margin-left: 1.9rem;
     top: 110px;
-    width: 32%;
+    width: 34%;
 }
 
 #informacao-pessoal {
     float: right;
-    /*margin-right: 240px;*/
 }
 
-#informacao-pessoal li {
-    list-style-type: none;
-    display: block;
+#informacao-pessoal span {
+    font-size: large;
 }
 
+.nav-link {
+    margin-top: 8px;
+}
 
 .nav-link a {
     display: inline-block;
@@ -61,4 +78,41 @@ body {
     padding: 5px 8px;
     border-radius: 3px;
     text-decoration: none;
+    vertical-align: 1px;
+    font-size: 1.2rem;
+}
+
+.nav-link strong {
+    display: inline-flex;
+    padding-right: 5px;
+}
+
+#principal {
+    position: relative;
+    top: 150px;
+}
+
+#licoes {
+    display: flex;
+    margin-left: 2.5rem;
+}
+
+#aprendidas {
+    float: left;
+    border-radius: 4px;
+}
+
+#aprender {
+    margin-left: 2rem;
+    border-radius: 4px;
+}
+
+#footer {
+    position: absolute;
+    top: 60rem;
+    background-color: steelblue;
+    width: 100%;
+    margin: 12px 0 12px 0;
+    text-align: center;
+    color: white;
 }
