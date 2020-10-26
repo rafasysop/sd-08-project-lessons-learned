@@ -11,7 +11,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0em;
   padding: 30px;
   background-color: rgb(156 , 156 , 156);
   width: 100%;
@@ -81,7 +81,7 @@ body {
 }
 
 .lado-esquerdo {
-  margin: 10px 70px 50px 70px;
+  margin: 10px 70px 50px;
   float: left;
   width: 50%;
   text-align: justify;
@@ -102,7 +102,7 @@ body {
   text-align: center;
 }
 
-#tabela tr, td {
+#tabela tr , td {
   border: 3px solid black;
   padding: 5px;
 }
