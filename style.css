@@ -99,7 +99,6 @@ body {
 
 #aprendidas {
     float: left;
-    border-radius: 4px;
 }
 
 #aprender {
@@ -107,12 +106,19 @@ body {
     border-radius: 4px;
 }
 
-#footer {
+#rodape {
     position: absolute;
-    top: 60rem;
+    top: 61rem;
     background-color: steelblue;
     width: 100%;
     margin: 12px 0 12px 0;
     text-align: center;
     color: white;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+    text-align: justify;
+    margin-left: 2.5rem;
 }
