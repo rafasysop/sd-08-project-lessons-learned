@@ -31,10 +31,12 @@ body {
   margin-left: 10px;
 }
 .aticle-content p {
+  line-height: 18px;
   margin-top: 20px;
   margin-bottom: 20px
 }
 #aside-content {
+  line-height: 18px;
   color: gray;
   max-width: 25%;
   text-align: center;
