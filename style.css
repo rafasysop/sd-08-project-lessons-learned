@@ -22,8 +22,11 @@ body {
     margin-right: 300px;
 }
 
-#licoes {
+#table{
     border: 10px ridge black;
+}
+
+#licoes {
     display: block;
     margin-bottom: 50px;
     margin-right: 700px;
