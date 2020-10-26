@@ -43,3 +43,29 @@ body {
 #text-rodape {
   margin-left: 10px;
 }
+
+#linkedin-icon {
+  width: 20px;
+  position: absolute;
+  left: 35px;
+  top: 450px;
+}
+
+#github-icon {
+  width: 22px;
+  position: absolute;
+  left: 34px;
+  top: 480px;
+}
+
+#linkedin {
+  position: absolute;
+  left: 60px;
+  top: 434px;
+}
+
+#github {
+  position: absolute;
+  left: 59px;
+  top: 464px;
+}
