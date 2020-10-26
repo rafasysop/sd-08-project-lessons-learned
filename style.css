@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(253 , 251 , 251);
   margin: 0%;
   font-family: Balsamiq Sans, cursive;
 }
@@ -20,7 +20,7 @@ h2 {
 
 #cabecalho {
   width: 100%;
-  background-color: rgb(42, 157, 143);
+  background-color: rgb(42 , 157 , 143);
   top: 0%;
   position: fixed;
 }
