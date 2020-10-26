@@ -3,13 +3,19 @@ body {
   font-size: 16px;
   color: dodgerblue;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.limiter {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
-  width: 100%;
-  height: auto;
   text-align: center;
 }
 
@@ -17,44 +23,56 @@ body {
   margin: 0;
 }
 
-#cabecalho nav {
-  text-align: left;
+.container {
+  padding-top: 10%;
 }
 
-.container {
-  margin: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+.lessons {
+  display: flex;
+  justify-content: center;
+}
+
+.lessons h2 {
+  text-align: center;
+  margin: 0;
 }
 
 #minha_foto {
   width: 250px;
-  padding: 3px;
+}
+
+.lessons-table {
+  margin: 0;
+  float: left;
+}
+
+.exp-box {
+  max-width: 613px;
+}
+
+.experience-title {
+  text-align: center;
 }
 
 .experience {
-  display: inline-block;
-  vertical-align: top;
   text-align: justify;
-}
-
-#article-exp {
-  padding-right: 3%;
 }
 
 .lado-esquerdo {
   width: 50%;
-  position: left;
+  float: left;
+  padding-right: 20px;
 }
 
 .lado-direito {
   width: 46%;
-  position: right;
+  float: right;
 }
 
 #rodape {
+  clear: both;
   background-color: whitesmoke;
   border: 1px solid dodgerblue;
-  width: 100%;
   line-height: 1.6;
+  text-align: center;
 }
