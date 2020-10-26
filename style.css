@@ -20,24 +20,21 @@ h1, h2 {
     background-color: seagreen;
     position: fixed;
     top: 0px;
-}
-
+} 
 #minha_foto {
     width: 300px;
     margin-top: 150px;
-    border-radius: 100px;
-    
+    margin-left: 400px;
+    border-radius: 100px;  
 }
 
-}
 #licoes_aprendidas {
 
 }
 
 #licoes_a_aprender {
-
+    
 }
-
 
 #rodape {
     background-color: seagreen;
@@ -48,9 +45,17 @@ h1, h2 {
 
 .display {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 200px;
+    width: 350px;
+    height: 400px;
 }
+
+
 /* Estilazações dos links */
+.link {
+    display: inline-block;
+    list-style-type: none;
+}
 a {
     text-decoration: none;
     color: rgb(253, 251, 251)  
