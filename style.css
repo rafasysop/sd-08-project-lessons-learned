@@ -58,6 +58,7 @@ p {
   font-size: 1em;
 }
 .separador {
+
   height: 90px;
 }
 
@@ -80,6 +81,7 @@ th {
   width: max-content;
   padding: 5px;
 }
+
 tr {
   color: rgb(53 , 124 , 147);
 }
