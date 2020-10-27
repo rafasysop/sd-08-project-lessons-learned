@@ -60,16 +60,16 @@ body {
   position: relative;
   margin-left: 1.9rem;
   top: 110px;
-  width: 34%;
+  width: 40%;
   flex-wrap: wrap;
+}
+
+#div-foto span {
+  font-size: 20px;
 }
 
 #informacao-pessoal {
   float: right;
-}
-
-#informacao-pessoal span {
-  font-size: large;
 }
 
 .nav-link {
