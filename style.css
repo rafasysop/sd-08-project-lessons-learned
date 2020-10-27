@@ -36,7 +36,6 @@ var,
 dl,
 dt,
 dd,
-
 li,
 fieldset,
 form,
@@ -96,8 +95,8 @@ q {
 body {
   background-color: rgb(253, 251, 251);
 }
-main{
-    text-align: center;
+main {
+  text-align: center;
 }
 #cabecalho {
   position: absolute;
@@ -111,8 +110,8 @@ main{
 }
 #titulo {
   color: white;
- text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 #minha_foto {
@@ -120,26 +119,25 @@ main{
   border-radius: 200px;
   height: 200px;
 }
-#licoes_aprendidas{
-    margin-top: 20px;
+#licoes_aprendidas {
+  margin-top: 20px;
 }
-#licoes_a_aprender{
-    margin-top: 20px;
-}
-
-#aside1{
-    margin-top: 100px;
+#licoes_a_aprender {
+  margin-top: 20px;
 }
 
-#aside2{
-    margin-top: 100px;
+#aside1 {
+  margin-top: 100px;
 }
 
-#rodape{
-    padding-top: 40px;
-    background-color: rgb(61, 61, 61);
-    color: aliceblue;
-    text-align: center;
-    height: 50px; 
+#aside2 {
+  margin-top: 100px;
+}
 
+#rodape {
+  padding-top: 40px;
+  background-color: rgb(61, 61, 61);
+  color: aliceblue;
+  text-align: center;
+  height: 50px;
 }
