@@ -6,6 +6,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    padding-top: 500px;
 }
 
 a:link {
@@ -26,7 +27,7 @@ a:link {
     border-style: solid;
     border-color: darkgray;
     margin: auto;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
     border-radius: 55%;
 }
 
@@ -97,4 +98,9 @@ h2 {
 
 .alinhar_texto {
     text-align: left;
+}
+
+#navegacao li {
+    list-style-type: none;
+    display: inline;
 }
