@@ -57,12 +57,14 @@ a:link {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline-block;
+    text-align: left;
 }
 
 #licoes_a_aprender {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     display: inline-block;
+    text-align: left;
 }
 
 h1 {
