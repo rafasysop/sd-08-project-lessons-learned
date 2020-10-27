@@ -1,67 +1,82 @@
-
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+}
+h2 {
+  text-align: center;
 }
 #cabecalho {
-    background-color:#43aa8b;
-    width: 100%;
-    position: fixed;
-    top:0;
-    padding:px;
+  background-color: #43aa8b;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: px;
 }
 #titulo {
-    font-family:sans-serif;
-    color: seashell;
-    text-align: center;
+  font-family: sans-serif;
+  color: seashell;
+  text-align: center;
 }
 #minha_foto {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    border-style: solid;
-    border-color: darkgray; 
-    margin-top:80px; 
-    margin-left: 20px;
-} 
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: darkgray;
+  margin-top: 170px;
+  margin-left: 70px;
+  position: absolute;
+  z-index: 1;
+}
 #licoes_aprendidas {
-    font-family: sans-serif;
-    font-size:13px;
+  font-family: sans-serif;
+  font-size: 13px;
 }
 #licoes_a_aprender {
-    font-family: sans-serif;
-    font-size:13px;
+  font-family: sans-serif;
+  font-size: 13px;
 }
 .section1 {
-    display: inline-block;
-    width: 100%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+  margin-top: 150px;
 }
 .section-direito1 {
-    float:right;
-    width: 40%;
+  display: inline-block;
+  width: 250px;
+  border: 2px dashed currentColor;
+  text-align: left;
+  position: relative;
 }
 .section-esquerdo1 {
-    float:left;
-    width: 40%;
+  display: inline-block;
+  width: 250px;
+  border: 2px dashed currentColor;
+  text-align: left;
+  position: relative;
 }
 section {
-    display: inline-block;
-    width: 100%;
-} 
+  display: inline-block;
+  width: 100%;
+}
 .lado-esquerdo {
-    font-family: sans-serif;
-    width: 40%;
-    float: left; 
+  font-family: sans-serif;
+  width: 40%;
+  float: left;
+  padding: 60px;
 }
 .lado-direito {
-    float:right;
-    width: 40%;
+  float: right;
+  width: 40%;
+  padding: 60px;
 }
 #rodape {
-    background-color: #0aa36a;
-    width: 100%;
-    padding:5px;
-    position: fixed;
-    bottom: 0;
-    color:seashell;
-    font-family:sans-serif; 
+  background-color: #0aa36a;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  color: seashell;
+  font-family: sans-serif;
 }
