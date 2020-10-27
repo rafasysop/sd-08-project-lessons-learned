@@ -17,7 +17,7 @@ body {
     color: white;
   
 }
-.rodape {
+#rodape {
     position: fixed;
     bottom: 0px;
     background-color: green;
