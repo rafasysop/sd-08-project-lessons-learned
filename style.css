@@ -5,14 +5,16 @@ body {
 }
 
 #cabecalho {
-    display: block;
-    margin: 0px;
+    position: fixed;
+    top: 0px;
 }
 
 #titulo {
     color: green;
-    margin-left: 500px;
+    margin-left: 450px;
     letter-spacing: 2px;
+    font-size: 2em;
+
 }
 
 .menu{
