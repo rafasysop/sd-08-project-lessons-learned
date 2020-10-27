@@ -47,19 +47,17 @@ h1 {
 }
 
 .lado-esquerdo {
-  display: inline;
   float: left;
-  clear: right;
   max-width: 30%;
   text-align: right;
+  align-content: space-between;
 }
 
 .lado-direito {
-  display: inline;
   float: right;
   max-width: 30%;
   text-align: left;
-  margin-top: 80px;
+  align-content: space-between;
 }
 
 .navegacao {
@@ -79,15 +77,15 @@ ol {
   max-width: 50%;
 }
 
-#rodape {
-  margin-top: 10%;
-  font-size: 12px;
-  position: absolute;
-}
-
 table {
   display: inline-block;
   margin-top: 5%;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+#rodape {
+  margin-top: 10%;
+  font-size: 12px;
+  position: absolute;
 }

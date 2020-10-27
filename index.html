@@ -11,11 +11,13 @@
             <h1 id="titulo">Lessons Learned - Trybe!</h1>
         </header>
         <main>
-            <aside id="bio-content">
+            <div id="bio-content">
                 <h2>Giovanna Betti</h2>
-                <img id="minha_foto" src="./avatar.jpg" alt="Illustration of girl with short hair and prescription glasses, wearing plaid" />
-                <p>Just a padawan in this universe of Web Development 🌍.</p>
-                <p id="welcome-text">Let's connect!</p>
+                <aside>
+                    <img id="minha_foto" src="./avatar.jpg" alt="Illustration of girl with short hair and prescription glasses, wearing plaid" />
+                    <p>Just a padawan in this universe of Web Development 🌍.</p>
+                    <p id="welcome-text">Let's connect!</p>
+                </aside>
                 <nav class="navegacao">
                     <a href="https://www.facebook.com/gibetti" target="_blank">Facebook</a>
                     <a href="https://www.linkedin.com/in/giovannabetti/" target="_blank">LinkedIn</a>
@@ -24,13 +26,15 @@
                 <div>
                     <a href="mailto:giovannabetti@gmail.com">giovannabetti@gmail.com</a>
                 </div>
-            </aside>
+            </div>
             <div class="artigo">
-                <article class="lado-esquerdo">
-                    <title>About me</title>
-                    <p>Hey!</p>
-                    <p>My name is Giovanna and I am a student in class 08 of the software development course at Trybe. This is our first project and with it, we concluded module 03.</p>
-                    <p>So far, we have learned from the basic conceptual principles about the internet and essential tools, to structure a page in HTML and stylize it with CSS.</p>
+                <div class="lado-esquerdo">
+                    <article>
+                        <title>About me</title>
+                        <p>Hey!</p>
+                        <p>My name is Giovanna and I am a student in class 08 of the software development course at Trybe. This is our first project and with it, we concluded module 03.</p>
+                        <p>So far, we have learned from the basic conceptual principles about the internet and essential tools, to structure a page in HTML and stylize it with CSS.</p>
+                    </article>
                     <ol id="licoes_aprendidas">
                         <title>Lessons learned</title>
                         <h2>Lessons Learned</h2>
@@ -45,27 +49,25 @@
                         <li>Inspect</li>
                         <li>Semantic HTML</li>
                     </ol>
-                </article>
+                </div>
                 <section class="lado-direito">
-                    <aside>
-                        <title>Content</title>
-                        <p>The course consists of 39 modules and has an estimated duration of twelve months.</p> <p>In the next blocks, we will continue to learn about front-end - JavaScript and React.</p>
-                        <br><br>
-                        <ul id="licoes_a_aprender">
-                            <title>Lessons to learn</title>
-                            <h2>Lessons To Learn</h2>
-                            <li>JavaScript</li>
-                            <li>DOM</li>
-                            <li>Forms</li>
-                            <li>CSS Responsive</li>
-                            <li>ES6</li>
-                            <li>HOF</li>
-                            <li>Unit Tests</li>
-                            <li>React</li>
-                            <li>Node</li>
-                            <li>SQL</li>
-                        </ul>
-                    </aside>
+                    <title>Content</title>
+                    <p>The course consists of 39 modules and has an estimated duration of twelve months.</p> <p>In the next blocks, we will continue to learn about front-end - JavaScript and React.</p>
+                    <br><br>
+                    <ul id="licoes_a_aprender">
+                        <title>Lessons to learn</title>
+                        <h2>Lessons To Learn</h2>
+                        <li>JavaScript</li>
+                        <li>DOM</li>
+                        <li>Forms</li>
+                        <li>CSS Responsive</li>
+                        <li>ES6</li>
+                        <li>HOF</li>
+                        <li>Unit Tests</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>SQL</li>
+                    </ul>
                 </section>
             </div>
             <table>
