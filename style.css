@@ -7,41 +7,52 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
 }
 
 main {
   width: 95%;
   margin: auto;
-  top: 50px;
+ margin-top: 50px;
   border: 2px solid black;
   border-radius: 4px;
   padding: 10px;
   background-color: rgb(164 , 191 , 200);
 }
 
-nav a {
-  margin: 20px;
-  color: rgb(255, 241, 213);
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(53 , 124 , 147);
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: 500ms;
 }
+
+nav li:hover {
+  background-color: rgb(134, 206, 229);
+  color: rgb(41, 97, 116)
+  
+}
+
 
 h1 , h2 , h3 {
   color: rgb(40 , 93 , 110);
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
-  margin: auto;
-  border: 2px solid black;
-  border-radius: 4px;
-  background-color: rgb(53 , 124 , 147);
+  margin: auto; 
   text-align: center;
-  width: 95%;
+  width: 100%;
 }
 
 #titulo {
-  color: rgb(231 , 230 , 228);
-  font-size: 3em;
+  display: none;
+  font-size: 1em;
+
 }
 
 #secao-foto {
