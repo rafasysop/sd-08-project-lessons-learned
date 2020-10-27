@@ -1,5 +1,5 @@
 body {
-  font-family: Trebuchet , sans-serif;
+  font-family: sans-serif;
   background-color:rgb(253, 251, 251);
 }
 
@@ -66,7 +66,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   height: 50px;
 }
 
-.artigos{
+.artigos {
   display: inline-block;
   width: 500px;
 }
