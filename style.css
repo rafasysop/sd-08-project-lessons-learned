@@ -65,6 +65,7 @@ td {
 :focus {
   outline: 0;
 }
+
 body {
   line-height: 1;
   color: black;
@@ -76,20 +77,17 @@ table {
   border-collapse: separate;
   border-spacing: 0;
 }
-caption,
-th,
+
 td {
   text-align: left;
 }
-blockquote:before,
-blockquote:after,
-q:before,
+
 q:after {
   content: "";
 }
-blockquote,
+
 q {
-  quotes: " ";
+  quotes: "";
 }
 
 /** _______________________________Fim reset______________________________ */
@@ -98,9 +96,11 @@ body {
   font-family: Gill Sans, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(253, 251, 251);
 }
+
 main {
   text-align: center;
 }
+
 #cabecalho {
   position: absolute;
   height: 200px;
@@ -109,6 +109,7 @@ main {
   background: linear-gradient(90deg, rgb(19, 34, 59) 0%, rgb(72, 76, 77) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
 }
+
 #titulo {
   color: white;
   text-align: center;
@@ -120,9 +121,11 @@ main {
   border-radius: 200px;
   height: 200px;
 }
+
 #licoes_aprendidas {
   margin-top: 20px;
 }
+
 #licoes_a_aprender {
   margin-top: 20px;
 }
