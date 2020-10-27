@@ -3,6 +3,19 @@ body {
   background-color:rgb(253, 251, 251);
 }
 
+a:visited{
+  color: gray;
+}
+
+a:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
 main {
   text-align: center;
 }
@@ -54,8 +67,14 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 .artigos{
-  display: block;
-  width: 200px;
+  display: inline-block;
+  width: 500px;
 }
 
+li{
+  color: aliceblue;
+  display: inline-block;
+  float: inherit;
+  margin-left: 20px;
+}
 
