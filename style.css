@@ -4,6 +4,9 @@ body {
 h2 {
   text-align: center;
 }
+p {
+  font-style: oblique;
+}
 #cabecalho {
   background-color: #43aa8b;
   width: 100%;
@@ -65,11 +68,14 @@ section {
   width: 40%;
   float: left;
   padding: 60px;
+  line-height: 1.5;
 }
 .lado-direito {
-  float: right;
+  font-family: sans-serif;
   width: 40%;
+  float: right;
   padding: 60px;
+  line-height: 1.5;
 }
 #rodape {
   background-color: #0aa36a;
