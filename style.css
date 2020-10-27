@@ -28,7 +28,7 @@ h1{
     top: 15px;
 }
 
-#content{
+#content_ol{
     position: relative;
     margin-top: 40px;
     margin-bottom: 18px;
@@ -37,6 +37,23 @@ h1{
     left: 15px;
 }
 
+#content_ul{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    font-weight: 900;
+    font-size: 25px;
+    left: 15px;
+}
 #licoes_aprendidas li{
+    line-height: 24px;
+}
+
+#rodape{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#licoes_a_aprender li{
     line-height: 24px;
 }
