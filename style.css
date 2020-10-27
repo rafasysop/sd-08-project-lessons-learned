@@ -36,7 +36,6 @@ body {
 #rodape {
   background-color: rgb(15 , 163 , 107);
   position: fixed;
-  top: auto;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -99,7 +98,22 @@ body {
 #artigo_conhecimento {
   display: inline-block;
   position: absolute;
-  top: 540px;
+  top: 580px;
   margin-bottom: 61px;
   width: 400px;
+  left: 13%;
+}
+
+#aside_conhecimento {
+  display: inline-block;
+  position: absolute;
+  top: 580px;
+  width: 400px;
+  right: 13%;
+}
+
+#line {
+  width: 2px;
+  height: 300px;
+  bottom: 560px;
 }
