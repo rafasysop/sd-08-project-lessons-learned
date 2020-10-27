@@ -39,10 +39,15 @@ body {
 }
 #listas {
     position: absolute;
-    top: 273px;
+    top: 325px;
     display: flex;   
 }
 #artigo {
-    float: right;
-    display: inline;    
+    float: right;    
+    display: inline;
+    width: 65%; 
+}
+#principal {
+    float: top;
+    top: 80px;
 }
