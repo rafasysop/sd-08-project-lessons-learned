@@ -26,3 +26,9 @@ body {
     right: 0;
     z-index: 0
 }
+#minha_foto {
+    height: 200px;
+    position: absolute;  
+    top: 80px; 
+    left: 0;
+}
