@@ -59,13 +59,24 @@ h1{
 }
 
 #learn{
-    position: relative;
     margin-left: 15px;
     margin-top: 30px;
+    max-width: 400px;
+    float: left;
+
 }
 
 #learn2{
-    position: relative;
+    position: absolute;
+    float:right;
     margin-left: 15px;
     margin-top: 30px;
+    max-width: 300px;
+    left: 450px;
+}
+
+#externalLink{
+    position: absolute;
+    display: block;
+    top: 1300px;;
 }
