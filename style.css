@@ -15,6 +15,7 @@ main {
 
 nav a {
   margin: 20px;
+  color: rgb(255, 241, 213)
 }
 
 h1 , h2 , h3 {
@@ -54,6 +55,10 @@ h1 , h2 , h3 {
   border-radius: 100%;
   border: 2px ridge rgb(53 , 124 , 147);
   margin-top: 10px;
+}
+
+#minha_foto:hover {
+    border: 2px ridge rgb(108, 186, 212);
 }
 
 #rodape {
