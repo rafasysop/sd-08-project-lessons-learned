@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253,251,251);
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 20px;
 }
 
 #cabecalho {
@@ -10,20 +11,20 @@ body {
 
 #titulo {
     color: green;
+    margin-left: 500px;
+    letter-spacing: 2px;
 }
 
 .menu{
+    margin-left: 1200px;
 }
 
 #minha_foto {
     display: inline-block;
     border-radius: 300px;
     width: 300px;
-    margin-right: 300px;
-}
-
-#table{
-    border: 10px ridge black;
+    margin-top: 50px;
+    margin-left: 500px;
 }
 
 #licoes {
@@ -34,6 +35,7 @@ body {
 
 h3 {
     font-style: oblique;
+    letter-spacing: 3px;
 }
 
 #licoes_aprendidas {
@@ -62,4 +64,12 @@ aside {
 
 #rodape {
     background-color: turquoise;
+}
+
+.linkedin{
+    margin-left: 300px;
+}
+
+.github{
+    margin-left: 300px;
 }
