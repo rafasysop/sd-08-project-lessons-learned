@@ -1,4 +1,5 @@
 body {
+  margin: 0px 0px 0px 0px;
   font-family: sans-serif;
   background-color:rgb(253, 251, 251);
 }
@@ -17,13 +18,14 @@ a{
 }
 
 main {
+  margin: 0px 100px 0px 100px;
   text-align: center;
 }
 
 #cabecalho {
-  position: absolute;
-  height: 200px;
-  top: 1px;
+  position: fixed;
+  height: 100px;
+  top: 0px;
   width: 100%;
   background: linear-gradient(90deg, rgb(19, 34, 59) 0%, rgb(72, 76, 77) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( 
@@ -33,7 +35,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 #titulo {
   color:white;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 2px;
 }
 
 #minha_foto {
@@ -67,6 +69,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 .artigos {
+  margin: 50px;
   display: inline-block;
   width: 500px;
 }
