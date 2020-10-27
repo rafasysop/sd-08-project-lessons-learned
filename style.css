@@ -1,6 +1,6 @@
 body {
   font-family: Trebuchet , sans-serif;
-  background-color: rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
 }
 
 main {
@@ -10,14 +10,15 @@ main {
 #cabecalho {
   position: absolute;
   height: 200px;
-  top: 0px;
+  top: 1px;
   width: 100%;
   background: linear-gradient(90deg, rgb(19, 34, 59) 0%, rgb(72, 76, 77) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( 
+startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 #titulo {
-  color: white;
+  color:white;
   text-align: center;
   margin-top: 100px;
 }
@@ -46,8 +47,8 @@ main {
 
 #rodape {
   padding-top: 40px;
-  background-color: rgb(61, 61, 61);
-  color: aliceblue;
+  background-color:rgb(61, 61, 61);
+  color:aliceblue;
   text-align: center;
   height: 50px;
 }
