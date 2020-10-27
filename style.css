@@ -2,26 +2,19 @@ body {
   background-color: rgb(253 , 251 , 251);
   overflow: scroll;
   overflow-y: auto;
-  padding: 0;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  margin-bottom: 0;
 }
 
 #cabecalho {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-top:1px solid;
+  border-top: 1px solid;
   position: fixed;
   flex-direction: row;
   top: 0;
   width: 100%;
-  background-color: rgb(205 , 200, 214);
+  background-color: #99A89F;
   padding: 5px;
   margin-bottom: 0;
 }
@@ -35,16 +28,13 @@ main {
   list-style: none;
 }
 
-figure {
-  width: 101%;
-  margin-left: 0;
-  margin-right: 0;
-  padding-right: 0;
-}
-
-#minha_foto {
-  width: 100%;
-  height: 100px;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top:5%;
+  height:100%;
 }
 
 #cabecalho h1 {
@@ -53,3 +43,101 @@ figure {
   margin-left: 35%;
   text-align: center;
 }
+
+table, th, td {
+  margin-top:3%;
+  border: 1px solid black;
+  align-self: center;
+  padding: 1%;
+  border-radius: 5%;
+  background-color: aliceblue;
+}
+
+table {
+  background-color: #a5a5a5;
+}
+
+li{
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#experiencia{
+margin-left:1%;
+align-self: flex-start;
+width:50%;
+border-bottom: 4px solid #a2a7a4;
+}
+
+aside{
+
+  width:25%;
+  margin-right: 6%;
+  font-style: oblique;
+  border-bottom: 5px solid #a2a7a4;
+
+}
+
+.aside_text{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 10px;
+}
+
+h2 {
+
+  margin-top: 0;
+  text-align: center;
+  border-radius: 10% 10% 10% 10%;
+  border: 4px solid #a2a7a4;
+  background-color: #a2a7a4;
+}
+
+footer {
+  border:1px solid #BCCFC3;
+  margin-bottom: 0;  
+  background-color: #BCCFC3;
+}
+a:link {
+  text-align: center;
+  font-family: "OCR-A-Std", monospace,;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+a:visited{
+  text-decoration:none;
+  color:rgb(5, 15, 49);
+  }
+  
+  a:hover{
+  text-decoration:none;
+  color:rgb(192, 235, 255);
+  }
+  
+  a:active{
+  text-decoration:none;
+  color:rgb(1, 6, 24);
+  }
+
+  ::-webkit-scrollbar {
+      width: 15px;
+      height: 2%;
+  }
+   
+  ::-webkit-scrollbar-track {
+      background:  #e4dfdf; 
+      border-radius: 10px;
+}
+   
+  ::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    border-radius: 10px;
+    background-color: #a5a5a5;
+    border: 2px solid;
+}
+ 
