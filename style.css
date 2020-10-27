@@ -11,7 +11,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   padding: 30px;
   background-color: rgb(156 , 156 , 156);
   width: 100%;
@@ -41,6 +41,14 @@ body {
   text-decoration: underline;
   background-color: rgb(90 , 90 , 90);
   color: white;
+}
+
+#rodape a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 10px;
 }
 
 #minha_foto {
@@ -109,14 +117,6 @@ body {
 
 #rodape li {
   display: inline-block;
-  padding: 10px;
-}
-
-#rodape a {
-  color: black;
-  font-size: 16px;
-  text-decoration: none;
-  font-weight: 900;
   padding: 10px;
 }
 
