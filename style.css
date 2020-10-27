@@ -57,3 +57,15 @@ h1{
 #licoes_a_aprender li{
     line-height: 24px;
 }
+
+#learn{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+#learn2{
+    position: relative;
+    margin-left: 15px;
+    margin-top: 30px;
+}
