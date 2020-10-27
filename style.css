@@ -5,6 +5,10 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
+#titulo{
+    font-family: 'Merriweather', serif;
+}
+
 h1{
     text-align: center;
     padding: 40px;
@@ -24,8 +28,9 @@ h1{
 
 #meu_nome{
     position: relative;
-    margin-left: 40px;
+    margin-left: 36px;
     top: 15px;
+    font-size: 18px;
 }
 
 #content_ol{
