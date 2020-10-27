@@ -6,6 +6,7 @@ body {
   background-color: rgb(15 , 163 , 107);
   padding: 20px;
   position: fixed;
+  z-index: 10;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -34,7 +35,8 @@ body {
 
 #rodape {
   background-color: rgb(15 , 163 , 107);
-  position: absolute;
+  position: fixed;
+  top: auto;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -92,4 +94,12 @@ body {
 
 #licoes_a_aprender li {
   line-height: 30px;
+}
+
+#artigo_conhecimento {
+  display: inline-block;
+  position: absolute;
+  top: 540px;
+  margin-bottom: 61px;
+  width: 400px;
 }
