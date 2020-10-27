@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
   font-family: Roboto, sans-serif;
@@ -24,6 +24,11 @@ img {
   border-radius: 24px;
 }
 
+.navegacao li {
+  display: inline;
+  list-style-type: none;
+}
+
 #licoes_aprendidas li {
   padding: 2px;
 }
@@ -37,20 +42,25 @@ img {
   text-align: center;
 }
 
-.navegacao li {
-  display: inline;
-  list-style-type: none;
+a {
+  color: rgb(46 , 32 , 109);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(116 , 101 , 185);
+  transition: 0.2s;
 }
 
 .navegacao li a {
   color: rgb(241 , 250 , 238);
 }
 
-#licoes_aprendidas li:nth-child(odd) {
+#licoes_aprendidas li:nth-child( odd ) {
   font-style: italic;
 }
 
-#licoes_a_aprender li:nth-child(even) {
+#licoes_a_aprender li:nth-child( even ) {
   font-style: italic;
 }
 
@@ -80,16 +90,6 @@ p {
 
 .lado-direito p {
   text-align: justify;
-}
-
-a {
-  color: rgb(46 , 32 , 109);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(116 , 101 , 185);
-  transition: 0.2s;
 }
 
 footer {
