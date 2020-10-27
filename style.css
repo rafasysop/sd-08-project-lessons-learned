@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  c
 }
 
 body {
@@ -106,20 +105,12 @@ tr {
   width: 100%;
 }
 
-#rodape p {
-  
-}
-
-
-
-.lado-esquerdo {
-  display: inline-block;
+.lado-esquerdo {  
   max-width: 80%;
   text-align: center;
   line-height: 120%;
   float: left;
 }
-
 
 article p {
   text-align: justify;
@@ -148,3 +139,4 @@ ul, ol {
   margin-top: 20%;
   padding-right: 5px;
 }
+
