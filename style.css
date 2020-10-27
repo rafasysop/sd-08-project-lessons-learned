@@ -9,12 +9,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main { 
+main {
   background-color: white;
   padding: 30px;
-  width:90%;
+  width: 90%;
   margin: auto;
-  color: rgb(87, 89, 92);
+  color: rgb(87 , 89 , 92);
 }
 
 nav li {
@@ -30,8 +30,8 @@ nav li {
 }
 
 nav li:hover {
-  background-color: rgb(134, 206, 229);
-  color: rgb(41, 97, 116);
+  background-color: rgb(134 , 206 , 229);
+  color: rgb(41 , 97 , 116);
 }
 
 
@@ -45,7 +45,7 @@ p {
 }
 
 #cabecalho {
-  margin: auto; 
+  margin: auto;
   text-align: center;
   width: 100%;
   position: fixed;
@@ -58,7 +58,7 @@ p {
   font-size: 1em;
 }
 .separador {
-  height:90px;
+  height: 90px;
 }
 
 #secao-foto {
@@ -92,20 +92,20 @@ tr {
 }
 
 #minha_foto:hover {
-  border: 2px ridge rgb(108, 186, 212);
+  border: 2px ridge rgb(108 , 186 , 212);
 }
 
 #rodape {
   display: inline-block;
   position: static;
-  background-color:white;  
+  background-color: white;
   color: rgb(53 , 124 , 147);
   text-align: center;
   margin: auto;
   width: 100%;
 }
 
-.lado-esquerdo {  
+.lado-esquerdo {
   max-width: 80%;
   text-align: center;
   line-height: 120%;
@@ -123,7 +123,7 @@ article p {
   padding: 3px;
 }
 
-ul, ol {
+ul , ol {
   padding: 30px;
 }
 
@@ -132,11 +132,10 @@ ul, ol {
   padding: 5px;
 }
 
-.lado-direito { 
+.lado-direito {
   width: 20%;
   float: right;
   text-align: justify;
   margin-top: 20%;
   padding-right: 5px;
 }
-
