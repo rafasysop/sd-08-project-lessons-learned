@@ -93,6 +93,21 @@ header i:hover {
   line-height: 2
 }
 
+#tabela {
+  position: fixed;
+  bottom: 56px;
+  right: 45px;
+  
+  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
+}
+
+#tableTitle{
+background-color: rgba(137, 43, 226, 0.534);
+
+
+}
+
+
 #list {
   height: 37rem;
   position: fixed;
@@ -106,6 +121,10 @@ header i:hover {
   top: 26px;
   right: 4px;
   font-size: 19px;
+}
+
+#licoes-aprendidas {
+  margin-bottom: 2rem;
 }
 
 
@@ -148,22 +167,18 @@ article {
   top: 148px;
 }
 
-.knowledge {
-  position: relative;
-  right: -8rem;
-  top: 53px;
-}
 
 .knowledge-text {
   width: 27rem;
   position: relative;
   right: -18rem;
+  margin-bottom: 8rem;
 
 }
 
-.knowledge i {
+.knowledge-text h3{
   position: relative;
-  left: -3rem;
-  bottom: -55px;
-  font-size: 3rem;
+  left: 174px;
+  margin-bottom: 1rem;
 }
+
