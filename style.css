@@ -3,7 +3,13 @@ body{
 }
 
 #cabecalho{
+    width: 100%;
+    position: fixed;
+    display: block;
     top: 0px;
+    background-color: #C2BFB6;
+    margin-bottom: grey;
+    padding: 30px;
 }
 
 #minha_foto{
@@ -12,11 +18,10 @@ body{
 
 #titulo{
     font-family: courier,arial,helvetica;
-    font-size: 1111010x;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+
+
 }
 
-#cabecalho{
-    background-color: #C2BFB6;
-    height: 300px;
-    margin-bottom: grey;
-}
