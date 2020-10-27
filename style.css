@@ -21,7 +21,7 @@ body {
     position: fixed;
     bottom: 0px;
     background-color: green;
-    height: 79px;
+    height: 20px;
     left: 0;
     right: 0;
     z-index: 0
@@ -31,4 +31,11 @@ body {
     position: absolute;  
     top: 80px; 
     left: 0;
+}
+#licoes_aprendidas {
+    
+}
+#listas {
+    position: absolute;
+    top: 270px;
 }
