@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    text-align: center;
 }
 
 #cabecalho {
@@ -75,4 +76,19 @@ h1 {
 
 #secao-conteudo {
     display: inline-block;
+}
+
+#navegacao {
+    border-bottom: 1px solid;
+    background-color: green;
+    line-height: 7px;
+    width: 20%;
+    height: 44px;
+    padding-left: 735px;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
