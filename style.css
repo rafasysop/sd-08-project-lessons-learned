@@ -7,17 +7,13 @@
 body {
   background-color: rgb(253 , 251 , 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: relative;
 }
 
-main {
-  width: 95%;
+main { 
+  background-color: white;
+  padding: 30px;
+  width:90%;
   margin: auto;
- margin-top: 50px;
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 10px;
-  background-color: rgb(164 , 191 , 200);
 }
 
 nav li {
@@ -34,37 +30,54 @@ nav li {
 
 nav li:hover {
   background-color: rgb(134, 206, 229);
-  color: rgb(41, 97, 116)
-  
+  color: rgb(41, 97, 116);
 }
 
 
 h1 , h2 , h3 {
   color: rgb(40 , 93 , 110);
+  padding: 10px;
+}
+
+p {
+  padding: 15px;
 }
 
 #cabecalho {
   margin: auto; 
   text-align: center;
   width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 #titulo {
   display: none;
   font-size: 1em;
-
+}
+.separador {
+  height:90px;
 }
 
 #secao-foto {
   text-align: center;
+  padding: 20px;
 }
 
 #secao-tabela {
   text-align: center;
+  padding: 25px;
 }
 
 #tabela {
+  padding: 10px;
   margin: auto;
+}
+
+th {
+  width: max-content;
+  padding: 5px;
 }
 
 #minha_foto {
@@ -80,9 +93,9 @@ h1 , h2 , h3 {
 
 #rodape {
   position: static;
-  background-color: rgb(53 , 124 , 147);
+  background-color:white;
   text-align: center;
-  color: rgb(231 , 230 , 228);
+  color: rgb(53 , 124 , 147);
 }
 
 .lado-esquerdo {
@@ -92,20 +105,30 @@ h1 , h2 , h3 {
   line-height: 120%;
 }
 
+
 article p {
   text-align: justify;
 }
 
 #listas {
+  width: 50%;
   text-align: left;
   margin: auto;
   padding: 3px;
 }
 
-.lado-direito {
-  max-width: 15%;
+ul, ol {
+  padding: 30px;
+}
+
+#listas li {
+  display: block;
+}
+
+.lado-direito { 
+  width: 300px;
   float: right;
   text-align: justify;
-  margin-top: 12%;
+  margin-top: 20%;
   padding-right: 5px;
 }
