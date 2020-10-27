@@ -47,21 +47,20 @@ body{
 .caixas{
     border-radius: 10px;
     background-color: rgb(231, 231, 245);
+
 }
 
 #licoes_aprendidas{
-    padding: 40px;
-    margin: 10px auto auto 40px;
+    margin: 10px 0px auto 40px;
     display: inline-block;
-    padding-left: 20px 30px 20px 30px;
+    padding: 40px 10px 40px 30px;
 }
 
 #licoes_a_aprender{
-    padding: 40px;
     margin: 10px;
     margin: 10px 10px 10px 10px;
     display: inline-block;
-    padding-left: 20px 150px 20px 30px;
+    padding: 40px 10px 40px 30px;
 }
 
 
@@ -74,7 +73,7 @@ body{
     float: right;
     width: 250px;
     height: 200px;
-    padding: 40px;
+    padding: 40px 10px 40px 30px;
     margin-right: 250px;
 }
 
@@ -94,12 +93,12 @@ h3{
     float: left;
     padding: 10px ;
     margin: 10px 0px 10px 45px;
-    line-height: 1em;
 }
 
 p{
     font-size: 14px;
     margin: 10px 0px;
+
 }
 
 #rodape{
@@ -108,6 +107,7 @@ p{
     background-color: black;
     color: white;
 }
+
 h4{
     text-align: center;
     padding-top: 20px;
