@@ -1,6 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
@@ -57,6 +61,7 @@ body {
     margin-left: 1.9rem;
     top: 110px;
     width: 34%;
+    flex-wrap: wrap;
 }
 
 #informacao-pessoal {
@@ -97,22 +102,28 @@ body {
     margin-left: 2.5rem;
 }
 
-#aprendidas {
-    float: left;
-}
 
 #aprender {
     margin-left: 2rem;
-    border-radius: 4px;
 }
 
-#rodape {
-    position: absolute;
-    top: 60rem;
-    background-color: steelblue;
-    width: 100%;
-    margin: 12px 0 12px 0;
+#tabela {
+    margin-left: 15rem;
+    margin-top: 1.4rem;
+}
+
+table, tr, th, td {
+    border: solid 2px grey;
     text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 6px;
+}
+
+th {
+    background-color: steelblue;
     color: white;
 }
 
@@ -130,7 +141,12 @@ body {
     margin-right: 20rem;
 }
 
-table, tr, th, td {
-    border: 1px groove;
-    border-collapse: collapse;
+#rodape {
+    position: absolute;
+    top: 60rem;
+    background-color: steelblue;
+    width: 100%;
+    margin: 12px 0 12px 0;
+    text-align: center;
+    color: white;
 }
