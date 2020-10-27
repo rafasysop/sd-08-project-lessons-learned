@@ -18,19 +18,23 @@ body {
 }
 
 .menu{
-    margin-left: 1200px;
+    margin-left: 1000px;
 }
 
 #minha_foto {
-    display: inline-block;
     border-radius: 300px;
     width: 300px;
     margin-top: 50px;
     margin-left: 500px;
 }
 
+h2 {
+    color: orangered;
+    margin-left: 600px;
+}
+
 #licoes {
-    display: block;
+    display: inline-block;
     margin-bottom: 50px;
     margin-right: 700px;
 }
@@ -45,6 +49,8 @@ h3 {
     line-height: 30px;
     text-decoration: underline;
     display: inline-block;
+    justify-content: center;
+    padding-left: 80px;
 }
 
 #licoes_a_aprender {
@@ -61,6 +67,7 @@ h3 {
 }
 
 .lado-esquerdo {
+    background-color: blueviolet;
     display: inline-block;
     width: 50%;
     margin-right: 30px;
@@ -68,12 +75,15 @@ h3 {
 
 
 .lado-direito {
+    background-color: greenyellow;
     display: inline-block;
     width: 30%;
+    margin-left: 50px;
 }
 
 #rodape {
     background-color: turquoise;
+    margin-top: 20px;
 }
 
 .linkedin{
