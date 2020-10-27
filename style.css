@@ -97,7 +97,6 @@ p {
   text-align: center;
   padding: 10px;
   margin: 10px 50px 30px 30px;
-  float: left;
   border-radius: 10px;
   background-color: rgb(231, 231, 245);
 }
@@ -107,7 +106,6 @@ p {
   text-align: center;
   padding: 10px;
   margin: 10px 50px 30px 30px;
-  float: right;
   border-radius: 10px;
   background-color: rgb(231, 231, 245);
 }
@@ -122,4 +120,8 @@ p {
 h4 {
   text-align: center;
   padding-top: 20px;
+}
+
+#lado-a-lado{
+    display: inline-flex;
 }
