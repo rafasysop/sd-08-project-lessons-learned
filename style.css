@@ -5,3 +5,18 @@ body{
 #cabecalho{
     top: 0px;
 }
+
+#minha_foto{
+    height: 200px;
+}
+
+#titulo{
+    font-family: courier,arial,helvetica;
+    font-size: 1111010x;
+}
+
+#cabecalho{
+    background-color: #C2BFB6;
+    height: 300px;
+    margin-bottom: grey;
+}
