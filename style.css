@@ -89,12 +89,13 @@ q:after {
 }
 blockquote,
 q {
-  quotes: "" "";
+  quotes: " ";
 }
 
 /** _______________________________Fim reset______________________________ */
 
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(253, 251, 251);
 }
 main {
@@ -141,3 +142,4 @@ main {
   text-align: center;
   height: 50px;
 }
+
