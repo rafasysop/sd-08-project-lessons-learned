@@ -3,10 +3,13 @@ body{
 }
 #cabecalho{
     top: 0px; 
+    position: fixed;
+    
     
 }
 #titulo{
     color: #0a7e51;
+    
     
 }
 #minha_foto{
