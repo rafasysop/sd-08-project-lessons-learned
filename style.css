@@ -102,6 +102,7 @@ body {
   margin-bottom: 61px;
   width: 400px;
   left: 13%;
+  font-size: 18px;
 }
 
 #aside_conhecimento {
@@ -110,10 +111,5 @@ body {
   top: 580px;
   width: 400px;
   right: 13%;
-}
-
-#line {
-  width: 2px;
-  height: 300px;
-  bottom: 560px;
+  font-size: 18px;
 }
