@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -12,35 +12,43 @@ a:link {
 
 #rodape {
     width: 100%;
-    padding: 10px;
-    bottom: 0%;
-    text-align: center;
+    padding: 25px;
+    padding-top: 200px;
     color: seagreen;
     font-size: 150%;
+    text-align: center;
+    clear: both;
 }
 
 #minha_foto {
     border-style: solid;
     border-color: darkgray;
-    margin-top: 80px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 55%;
 }
 
 #blanket {
     background-color: green;
     color: white;
     text-decoration: none;
-    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    margin: auto;
 }
 
 .lado-esquerdo {
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+    width: 45%;
     display: inline-block;
 }
 
 .lado-direito {
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+    width: 35%;
     display: inline-block;
 }
 
@@ -58,4 +66,13 @@ a:link {
 
 h1 {
     font-size: 50px;
+}
+
+#alinhar-botao {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#secao-conteudo {
+    display: inline-block;
 }
