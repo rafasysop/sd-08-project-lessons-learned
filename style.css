@@ -97,17 +97,27 @@ tr {
 }
 
 #rodape {
+  display: inline-block;
   position: static;
-  background-color:white;
-  text-align: center;
+  background-color:white;  
   color: rgb(53 , 124 , 147);
+  text-align: center;
+  margin: auto;
+  width: 100%;
 }
+
+#rodape p {
+  
+}
+
+
 
 .lado-esquerdo {
   display: inline-block;
   max-width: 80%;
   text-align: center;
   line-height: 120%;
+  float: left;
 }
 
 
@@ -132,7 +142,7 @@ ul, ol {
 }
 
 .lado-direito { 
-  width: 300px;
+  width: 20%;
   float: right;
   text-align: justify;
   margin-top: 20%;
