@@ -1,53 +1,61 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 18px;
-    color: seagreen;
-    line-height: 150%;
-    font-family: monospace;
+      background-color: rgb(253 , 251 , 251);
+      font-size: 18px;
+      color: seagreen;
+      line-height: 150%;
+      font-family: monospace;
 }
+
 #cabecalho {
-    background-color: seagreen;
-    margin-left: -10px;
-    margin-right: -10px;
-    color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    border-bottom: 5px outset black;
+      background-color: seagreen;
+      margin-left: -10px;
+      margin-right: -10px;
+      color: black;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      border-bottom: 5px outset black;
 }
+
 main {
-    margin-top: 10%;
+      margin-top: 10%;
 }
+
 #licoes_aprendidas {
-    color: black;
+      color: black;
 }
+
 #licoes_a_aprender {
-    color: black;
+      color: black;
 }
+
 .lado-esquerdo {
-    float: left;
-    border: 2px solid black;
-    padding: 2%;
-    margin: 2%;
-    width: 40%;
-    text-align: center;
+      float: left;
+      border: 2px solid black;
+      padding: 2%;
+      margin: 2%;
+      width: 40%;
+      text-align: center;
 }
+
 .lado-direito {
-    float: right;
-    border: 2px solid black;
-    padding: 2%;
-    margin: 2%;
-    width: 40%;
-    text-align: center;
+      float: right;
+      border: 2px solid black;
+      padding: 2%;
+      margin: 2%;
+      width: 40%;
+      text-align: center;
 }
+
 .instrutores {
-    clear: both;
-    text-align: center;
-    margin-left: 43%;
+      clear: both;
+      text-align: center;
+      margin-left: 43%;
 }
+
 #rodape {
-    text-align: center;
-    border-top: 5px outset black;
-    margin-top: 20px;
-}
+      text-align: center;
+      border-top: 5px outset black;
+      margin-top: 20px;
+} 
