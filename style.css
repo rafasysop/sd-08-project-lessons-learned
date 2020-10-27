@@ -3,10 +3,7 @@ body{
 }
 #cabecalho{
     top: 0px; 
-    background-color:#f5f5f5;
-    background-size: cover;
-    background-position: 50% 25%;
-    text-align: center;
+    
 }
 #titulo{
     color: #0a7e51;
