@@ -113,13 +113,13 @@ body {
     margin-top: 1.4rem;
 }
 
-table, tr, th, td {
+table , tr , th , td {
     border: solid 2px grey;
     text-align: center;
     border-collapse: collapse;
 }
 
-th, td {
+th , td {
     padding: 5px 6px;
 }
 
@@ -147,7 +147,7 @@ th {
     top: 60rem;
     background-color: steelblue;
     width: 100%;
-    margin: 12px 0 12px 0;
+    margin: 12px 0;
     text-align: center;
     color: white;
 }
