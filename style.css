@@ -60,8 +60,16 @@ h3 {
     display: block;
 }
 
-aside {
+.lado-esquerdo {
     display: inline-block;
+    width: 50%;
+    margin-right: 30px;
+}
+
+
+.lado-direito {
+    display: inline-block;
+    width: 30%;
 }
 
 #rodape {
