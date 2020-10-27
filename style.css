@@ -17,3 +17,12 @@ body {
     color: white;
   
 }
+.rodape {
+    position: fixed;
+    bottom: 0px;
+    background-color: green;
+    height: 79px;
+    left: 0;
+    right: 0;
+    z-index: 0
+}
