@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   color: white;
   background-color: rgb(13 , 20 , 73);
-  font-weight: bolder;
+  font-weight: 1500px;
   font-family: Franklin Gothic, sans-serif;
 }
 
@@ -82,7 +82,7 @@ h2 {
 h3 {
   margin: auto;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 p {
