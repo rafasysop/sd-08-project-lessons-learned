@@ -32,6 +32,7 @@ main {
 
 article {
     background-color: yellowgreen;
+    float: left;
 }
 
 .lado-esquerdo {
@@ -42,6 +43,9 @@ aside {
     background-color:blanchedalmond;
     float: right;
     width: 50%;
+    height: 50%;
+
+
 }
 
 .lado-direito {
@@ -54,5 +58,5 @@ footer {
 }
 
 #rodape {
-    clear: bottom;
+    
 }
