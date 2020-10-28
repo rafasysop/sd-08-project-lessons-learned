@@ -58,3 +58,9 @@ body {
     line-height: 15px;
     font-family: monospace;    
 }
+.lado-esquerdo{
+    float: left;
+}
+.lado-direito{
+    float: right
+}
