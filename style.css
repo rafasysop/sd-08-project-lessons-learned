@@ -1,20 +1,27 @@
 body {
+  line-height: 2px;
   margin: 0px 0px 0px 0px;
   font-family: sans-serif;
   background-color:rgb(253, 251, 251);
 }
 
 a:visited{
-  color: gray;
+  color: white;
 }
 
 a:hover{
-  background-color: aliceblue;
+  background-color: white;
   color: black;
 }
 
 a{
   text-decoration: none;
+}
+
+p{
+
+  font-size: 20px;
+  color: rgb(33, 36, 26);
 }
 
 main {
@@ -23,6 +30,7 @@ main {
 }
 
 #cabecalho {
+  padding-bottom: 40px;
   position: fixed;
   height: 100px;
   top: 0px;
@@ -77,7 +85,6 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 li{
   color: aliceblue;
   display: inline-block;
-  float: inherit;
   margin-left: 20px;
 }
 
