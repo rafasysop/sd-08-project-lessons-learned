@@ -10,7 +10,7 @@ body{
     position: fixed;
     display: block;
     width: 100%;
-    
+
 }
 
 #titulo{
@@ -21,7 +21,7 @@ h1{
     text-align: center;
     padding: 40px;
     background-color: #bde0fe;
-    
+
 }
 
 #minha_foto{
@@ -30,7 +30,7 @@ h1{
     margin-left: 12px;
     display: block;
     margin-top: 140px;
-    
+
 }
 
 #meu_nome{
@@ -119,4 +119,15 @@ h1{
     margin-top: 30px;
     max-width: 300px;
     left: 450px;
+} 
+
+#table{
+    display: inline-block;
+    position: fixed;
+    top: 40px;
+    right: 1px;
+}
+
+#table td{
+    line-height: 20px;
 }
