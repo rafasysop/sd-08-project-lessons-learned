@@ -78,6 +78,7 @@ article{
 .lado-esquerdo{
     float: left;
     display: block;
+    position: static;
     max-width: 40%;
     margin-right: 200px;
     font-style: italic;
