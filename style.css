@@ -61,6 +61,8 @@ h1 {
 #artigo {
     width: 40%;
     padding: 30px;
+    padding-top: 25px;
+    height: 180px;
     line-height: 20px;
     border: 1px dashed rgb(212, 209, 209);
     float: left;
@@ -69,6 +71,8 @@ h1 {
 #secao-lat {
     width: 40%;
     padding: 30px;
+    padding-top: 40px;
+    height: 180px;
     line-height: 20px;
     border: 1px dashed rgb(212, 209, 209);
     float: right;
@@ -76,6 +80,27 @@ h1 {
 
 .containers {
     display: inline-block;
+}
+
+#tabela {
+    clear: both;
+    padding-bottom: 50px;
+}
+
+#table-style {
+    border: 1px dashed rgb(212, 209, 209);
+}
+
+h3 {
+    padding: 30px;
+}
+
+#letras-menores {
+    font-size: 12px;
+}
+
+.lado-tabela {
+    padding-right: 15px;
 }
 
 #rodape{
