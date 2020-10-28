@@ -10,5 +10,132 @@ body {
 
 #cabecalho {
     position: fixed;
+    position: absolute;
+    width: 1366px;
+    height: 100px;
+    left: 0px;
     top: 0px;
+    
+    background: #11295A;
+}
+
+#titulo {
+    position: absolute;
+    width: 491px;
+    height: 63px;
+    left: 437px;
+    top: 14px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 63px;
+
+    color: #E5E5E5;
+}
+
+#minha_foto {
+    position: absolute;
+    width: 239px;
+    height: 210px;
+    left: 98px;
+    top: 140px;
+
+    border: 3px solid #11295A;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+h2 {
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 913px;
+    top: 140px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #11295A;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    width: 130px;
+    height: 240px;
+    left: 788px;
+    top: 202px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #11295A;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    width: 130px;
+    height: 240px;
+    left: 1038px;
+    top: 202px;
+    
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #11295A;
+}
+
+#meu_aprendizado {
+    position: absolute;
+    width: 570px;
+    height: 213px;
+    left: 98px;
+    top: 492px;
+    
+    border: 3px solid #11295A;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+h4 {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+aside {
+    position: absolute;
+    width: 570px;
+    height: 213px;
+    left: 698px;
+    top: 492px;
+
+    border: 3px solid #11295A;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+h3 {
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #000000;
 }
