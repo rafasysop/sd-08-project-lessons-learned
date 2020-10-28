@@ -2,15 +2,16 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-#rodape {
+#fonte {
     color: red;
     font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     letter-spacing: 10px;
+    font-weight: bold;
 }
 
 #cabecalho {
-    position: absolute;
+    position: fixed;
     top: 0;
     padding-top: 2px;
 }
