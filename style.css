@@ -77,22 +77,20 @@ article{
 
 .lado-esquerdo{
     float: left;
-    display: inline-block;
-    max-width: 400px;
+    display: block;
+    max-width: 40%;
     margin-right: 200px;
     font-style: italic;
     color: #4a5568;
     left: 30px;
     clear: both;
-    max-width: 40%;
+    
 }
 
 .lado-direito{
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 500px;
-    max-width: 400px;
-    
     text-align: center;
     right: 30px;
     font-style: italic;
@@ -132,6 +130,8 @@ article{
     left: 30px;
     top: 900px;
     clear: both;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #licoes_a_aprender{
@@ -156,7 +156,7 @@ table tr td{
 #Bibliografia { 
     color: black;
     position: absolute;
-    top:1200px;
+    top:1300px;
     left: 30px;
     
 }
