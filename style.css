@@ -16,11 +16,11 @@ section {
     display: inline-block
 }
 
-#licoes-aprendidas {
-    background-color: antiquewhite;
+#licoes_aprendidas {
+    background-color: rgb(223, 173, 108);
 }
 
-#licoes-a-aprender {
+#licoes_a_aprender {
     background-color: greenyellow;    
 }
 
@@ -43,9 +43,7 @@ aside {
     background-color:blanchedalmond;
     float: right;
     width: 50%;
-    height: 50%;
-
-
+    
 }
 
 .lado-direito {
