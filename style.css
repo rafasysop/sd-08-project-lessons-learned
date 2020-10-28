@@ -38,7 +38,7 @@ body {
    padding-left: 10px;
 }
 
-#lado-esquerdo{
+.lado-esquerdo{
     position: absolute;
     max-width: 500px;
     left: 5px;
@@ -53,7 +53,7 @@ left: 600px;
 max-width: 500px;
 }
 
-#lado-direito{
+.lado-direito{
     position: absolute;
     left: 600px;
     display: inline-block;
