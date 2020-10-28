@@ -63,6 +63,7 @@ h1 {
     padding: 30px;
     line-height: 20px;
     border: 1px dashed rgb(212, 209, 209);
+    float: left;
 }
 
 #secao-lat {
@@ -79,6 +80,7 @@ h1 {
 
 #rodape{
     font-size: 15px;
+    clear: both;
 }
 
 #errada {
