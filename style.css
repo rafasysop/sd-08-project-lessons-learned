@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace,sans-serif;
+    line-height: 25px;
+    color: darkslategrey;
+
 
 }
 img{
@@ -9,4 +13,10 @@ img{
 #cabecalho {
 position: fixed;
 top: 0px;
+}
+.lado-esquerdo{
+    border: 5px solid black;
+    margin: 35px;
+    padding:35px;
+    background-color: bisque;
 }
