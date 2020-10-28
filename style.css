@@ -1,8 +1,8 @@
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
 * {
   text-decoration: none;
-  margin:0;
+  margin: 0;
 }
 
 .box-color {
@@ -97,12 +97,12 @@ header i:hover {
   position: fixed;
   bottom: 56px;
   right: 45px;
-  
+
   box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
 }
 
-#tableTitle{
-background-color: rgba(137, 43, 226, 0.534);
+#tableTitle {
+  background-color: rgba(137, 43, 226, 0.534);
 
 
 }
@@ -133,38 +133,39 @@ background-color: rgba(137, 43, 226, 0.534);
 }
 
 footer {
-  width: 54rem;
-  height: 9rem;
+  width: 43rem;
+  height: 16rem;
   position: relative;
-  top: 260rem;
-  right: -198px;
+  top: 183rem;
+  right: -301px;
 }
 
 article {
-  width: 54rem;
-  height: 255rem;
+  width: 43rem;
+  height: 179rem;
   position: absolute;
-  right: 285px;
+  right: 358px;
   top: 52px;
 }
 
 #conhecimentoTitulo {
   width: 1px;
   position: relative;
-  left: 361px;
+  left: 271px;
   top: 17px;
 }
 
 #sobreConhecimento {
   width: 24rem;
   position: relative;
-  left: 299px;
+  left: 135px;
   top: 76px;
 }
 
 #myKnowledge {
   position: relative;
   top: 148px;
+  right: 148px;
 }
 
 
@@ -176,9 +177,9 @@ article {
 
 }
 
-.knowledge-text h3{
+
+.knowledge-text h3 {
   position: relative;
   left: 174px;
   margin-bottom: 1rem;
 }
-
