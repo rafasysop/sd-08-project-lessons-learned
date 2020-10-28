@@ -4,9 +4,9 @@ body {
 
 #cabecalho {
   background-color: rgb(15 , 163 , 107);
-  padding: 40px;
+  padding: 20px;
   position: fixed;
-  z-index: 10;
+  z-index: 11;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -14,10 +14,7 @@ body {
 
 #titulo {
   font-family: fantasy;
-  position: fixed;
-  z-index: 11;
-  left: 0px;
-  right: 0px;
+  z-index: 10;
   text-align: center;
 }
 
@@ -111,7 +108,7 @@ body {
   line-height: 30px;
 }
 
-#artigo_conhecimento {
+#lado-esquerdo {
   display: inline-block;
   position: absolute;
   top: 580px;
@@ -121,7 +118,7 @@ body {
   font-size: 18px;
 }
 
-#aside_conhecimento {
+#lado-direito {
   display: inline-block;
   position: absolute;
   top: 580px;
