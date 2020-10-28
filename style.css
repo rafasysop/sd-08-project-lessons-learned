@@ -51,14 +51,16 @@ footer {
 }
 .lado-esquerdo{
     border-style: solid;
-    box-sizing: 300px;
     margin-bottom: 20px;
     padding-left: 20px;   
 }
 .lado-direito{
     border-style: solid;
-    box-sizing: 300px;
-    padding-left: 20px;
-
-    
+    padding-left: 20px;  
+}
+#artigo p {
+  font-size: 0.4cm;
+  color: darkblue;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
