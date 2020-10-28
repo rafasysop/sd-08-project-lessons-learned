@@ -23,9 +23,11 @@ body {
     left: 0;
     right: 0;      
 }
+#intro {
+    top: 80px;
+}
 #minha_foto {
-    height: 200px;    
-    top: 80px; 
+    height: 200px;     
     left: 3;
     border-radius: 0%;
 }
@@ -38,29 +40,42 @@ body {
 #listas {    
     display: flex;   
 }
-#artigo {
-    float: right;    
-    display: inline;
-    width: 65%; 
-    margin: 5px;
+#artigo {   
+    width: 35%; 
+    margin: 5px;    
 }
 #principal {
     float: top;
     top: 80px;
+    display: flex;
 }
-#frase {
+#frase {    
     margin: 3px;
     padding: 3px;
-    border: 5px;
+    border: 5px;    
+    width: 70%;
 }
 #tabela {
-    font-size: small;
+    font-size: medium;
     line-height: 15px;
-    font-family: monospace;    
+    font-family: monospace;
+    border: 2px double rgb(38, 38, 38);       
+    background-color: rgb(174, 240, 112);  
+    float: bottom;
+    bottom: 50px; 
+}
+th {
+    border: 1px solid rgb(38, 38, 38); 
+}
+td {
+    border: 1px solid rgb(38, 38, 38);
 }
 .lado-esquerdo{
     float: left;
+    left: 5px;
+
 }
 .lado-direito{
-    float: right
+    float: right;
+    rigth: 5px;
 }
