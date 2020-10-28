@@ -2,26 +2,25 @@ body {
   line-height: 30px;
   margin: 0px 0px 0px 0px;
   font-family: sans-serif;
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
-a:visited{
+a:visited {
   color: white;
 }
 
-a:hover{
+a:hover {
   padding: 20px;
   background-color: white;
   color: black;
 }
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
 }
 
-p{
-
+p {
   font-size: 20px;
   color: rgb(33, 36, 26);
 }
@@ -43,7 +42,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 #titulo {
-  color:white;
+  color: white;
   text-align: center;
   margin-top: 2px;
 }
@@ -53,7 +52,6 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   border-radius: 200px;
   height: 200px;
   border: solid grey 1px;
-
 }
 
 #licoes_aprendidas {
@@ -74,8 +72,8 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 
 #rodape {
   padding-top: 40px;
-  background-color:rgb(61, 61, 61);
-  color:aliceblue;
+  background-color: rgb(61, 61, 61);
+  color: aliceblue;
   text-align: center;
   height: 50px;
 }
@@ -87,32 +85,30 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   padding: 10px;
 }
 
-.lado-direito{
+.lado-direito {
   margin-right: 10%;
   border: solid rgb(62, 71, 59) 5px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   margin-left: 10%;
   border: solid rgb(62, 71, 59) 5px;
 }
 
-li#menu{
+li#menu {
   color: aliceblue;
   display: inline-block;
   margin-left: 20px;
 }
 
-#menu{
-
+#menu {
   padding: 1px;
 }
 
-
-#sessao-de-listas{
+#sessao-de-listas {
   margin-left: 70px;
 }
 
-#meus-dados{
+#meus-dados {
   margin-top: 50px;
 }
