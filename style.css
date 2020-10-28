@@ -3,6 +3,7 @@ body {
     font-family: monospace,sans-serif;
     line-height: 25px;
     color: darkslategrey;
+    font-size: 20px;
 
 
 }
@@ -19,4 +20,18 @@ top: 0px;
     margin: 35px;
     padding:35px;
     background-color: bisque;
+}
+.lado-direito{
+    border: 5px solid black;
+    margin: 35px;
+    padding:35px;
+    background-color: bisque;
+}
+
+#rodape{
+
+    border: 5px solid black;
+    margin: 35px;
+    padding: 35px;
+    background-color: bisque
 }
