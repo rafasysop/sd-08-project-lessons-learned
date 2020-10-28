@@ -7,7 +7,7 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: green;
     width:100% ;
-    padding-bottom: 30px;
+    
 }
 header h1 {
    color: honeydew; 
@@ -39,4 +39,23 @@ h3{
 }
 footer {
     background-color: gray;
+}
+#artigo {
+    display: inline-block;
+}
+#aprendizado{
+    float: left;
+}
+#passagem {
+    float: right;
+}
+.lado-esquerdo{
+    border-style: solid;
+    box-sizing: 300px;
+    
+}
+.lado-direito{
+    border-style: solid;
+    box-sizing: 300px;
+    
 }
