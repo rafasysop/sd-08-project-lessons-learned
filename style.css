@@ -1,39 +1,37 @@
-*{
+* {
     margin: 0px;
 }
-body{
+
+body {
     background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
     top: 0px;
     position: fixed;
     display: block;
     width: 100%;
-
 }
 
-#titulo{
+#titulo {
     font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 40px;
     background-color: #bde0fe;
-
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     border-radius: 6px;
     margin-left: 12px;
     display: block;
     margin-top: 140px;
-
 }
 
-#meu_nome{
+#meu_nome {
     position: relative;
     margin-left: 10px;
     top: 15px;
@@ -44,7 +42,7 @@ h1{
     color: #5b5b58;
 }
 
-#content_ol{
+#content_ol {
     position: relative;
     margin-top: 40px;
     margin-bottom: 18px;
@@ -56,7 +54,7 @@ h1{
     font-family: 'Titillium Web', sans-serif;
 }
 
-#content_ul{
+#content_ul {
     position: relative;
     margin-top: 40px;
     margin-bottom: 18px;
@@ -67,52 +65,51 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
-#licoes_aprendidas li{
+#licoes_aprendidas li {
     line-height: 24px;
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
 
-#rodape{
+#rodape {
     margin-top: 15px;
     margin-left: 20px;
 }
 
-#licoes_a_aprender li{
+#licoes_a_aprender li {
     line-height: 24px;
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
 
-#learn{   
-    font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
-
-}
-
-#learn2{
+#learn {   
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Titillium Web', sans-serif;
 }
 
-#externalLink{
+#learn2 {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#externalLink {
     position: absolute;
     display: block;
     top: 1350px;;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
     margin-left: 15px;
     margin-top: 30px;
     max-width: 400px;
     float: left;
 }
 
-.lado-direito{
+.lado-direito {
     position: absolute;
     float:right;
     margin-left: 15px;
@@ -121,13 +118,13 @@ h1{
     left: 450px;
 } 
 
-#table{
+#table {
     display: inline-block;
     position: fixed;
     top: 40px;
     right: 1px;
 }
 
-#table td{
+#table td {
     line-height: 20px;
 }
