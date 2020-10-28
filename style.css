@@ -5,3 +5,12 @@ body {
     margin-top: 0px;
   }
 }
+
+#classArticle {
+  margin-top: 2px;
+  padding: 2px;
+  border: royalblue;
+  font-size: 2em;
+  color: darkslategrey;
+  font-family: 'Times New Roman', Times, serif;
+}
