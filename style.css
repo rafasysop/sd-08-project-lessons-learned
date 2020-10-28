@@ -46,14 +46,14 @@ body {
     top: 500px;
 }
 
-#aside2{
+.lado-direito{
 position: relative;
 display: inline;
 left: 600px;
 max-width: 500px;
 }
 
-.lado-direito{
+#listas-aprendizados{
     position: absolute;
     left: 600px;
     display: inline-block;
@@ -64,7 +64,7 @@ main{
     position: absolute;
     max-height: auto;
     top: 132px;
-    max-width: auto;
+    max-width: 500px;
 }
 
 #navegation{
@@ -72,10 +72,6 @@ main{
     top: 80px;
     font-weight: bold;
     font-size: 16px;
-}
-
-#aside {
-    max-width: 500px;
 }
 
 #rodape {
