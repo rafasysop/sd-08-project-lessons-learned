@@ -41,11 +41,10 @@ body {
     margin-left: 20px;
     margin-top:200px;    
     width: 20%;
-    N
+    
 }
 #minha_foto  {
-    border-radius: 10px;
-    
+    border-radius: 10px;   
     border: 2px ridge blue;;
 
 }
@@ -63,14 +62,11 @@ body {
     margin-left: 20px;
     width: 30%;
     text-align: justify;
-    margin-top: 100px;
+    margin-top: 110px;
     padding: 20px;
-    float: left;
-    
-    
-    
+    float: left; 
+    line-height: 30px;
 }
-
 
 .lado-direito {
 
@@ -82,9 +78,8 @@ body {
     padding: 30px;
     width: 30%;
     float: right;
-    
-    
-    
+    line-height: 40px;
+
    
 }
 
@@ -100,6 +95,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     float: left;
+    
 }
 
 #licoes_a_aprender {
