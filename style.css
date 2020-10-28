@@ -1,16 +1,12 @@
-* {
-    margin: 0px;
-}
-
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
     top: 0px;
-        position: fixed;
-            display: block;
-                width: 100%;
+    position: fixed;
+    display: block;
+    width: 100%;
 }
 
 #titulo {
@@ -87,7 +83,7 @@ h1 {
 #externalLink {
     position: absolute;
     display: block;
-    top: 1350px;;
+    top: 1350px;
 }
 
 .lado-esquerdo {
