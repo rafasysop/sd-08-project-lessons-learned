@@ -108,7 +108,7 @@ body {
   line-height: 30px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   position: absolute;
   top: 580px;
@@ -118,7 +118,7 @@ body {
   font-size: 18px;
 }
 
-#lado-direito {
+.lado-direito {
   display: inline-block;
   position: absolute;
   top: 580px;
