@@ -25,23 +25,34 @@ body {
 }
 #intro {
     top: 80px;
+    display: flex;
 }
 #minha_foto {
     height: 200px;     
     left: 3;
     border-radius: 0%;
 }
+#frase {    
+    margin: 3px;
+    padding: 3px;
+    border: 5px;    
+    height: 200px;
+    width: 200px;
+    float: left;
+}
 #licoes_aprendidas {
     font-family: 'Times New Roman', Times, serif;
+    width: 180px;
 }
 #licoes_a_aprender {
     font-family: 'Times New Roman', Times, serif;
+    width: 180px;
 }
 #listas {    
     display: flex;   
 }
 #artigo {   
-    width: 35%; 
+    width: 250px; 
     margin: 5px;    
 }
 #principal {
@@ -49,21 +60,13 @@ body {
     top: 80px;
     display: flex;
 }
-#frase {    
-    margin: 3px;
-    padding: 3px;
-    border: 5px;    
-    width: 70%;
-}
 #tabela {
     font-size: medium;
     line-height: 15px;
     font-family: monospace;
     border: 2px double rgb(38, 38, 38);       
     background-color: rgb(174, 240, 112);  
-    float: bottom;
-    bottom: 50px; 
-}
+    }
 th {
     border: 1px solid rgb(38, 38, 38); 
 }
