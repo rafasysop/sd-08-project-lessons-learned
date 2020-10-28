@@ -14,20 +14,27 @@ background-color:  rgb(253, 251, 251);
     
 }
 
-#titulo {
+h1 {
+    padding-left: 30px;
+}
 
+#titulo {
+    position: relative;
+    
 }
 
 #minha_foto {
-
+    width: 300px;
+    padding-top: 170px;
+    padding-left: 20px;
 }
 
 #licoes_aprendidas {
-
+    padding-left: 50px;
 }
 
 #licoes_a_aprender {
-
+    padding-left: 50px;
 }
 
 
