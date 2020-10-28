@@ -1,5 +1,5 @@
 body {
-  line-height: 2px;
+  line-height: 30px;
   margin: 0px 0px 0px 0px;
   font-family: sans-serif;
   background-color:rgb(253, 251, 251);
@@ -16,6 +16,7 @@ a:hover{
 
 a{
   text-decoration: none;
+  color: aliceblue;
 }
 
 p{
@@ -50,6 +51,8 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   margin-top: 300px;
   border-radius: 200px;
   height: 200px;
+  border: solid grey 1px;
+
 }
 
 #licoes_aprendidas {
@@ -80,6 +83,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   margin: 50px;
   display: inline-block;
   width: 500px;
+  padding: 10px;
 }
 
 li{
