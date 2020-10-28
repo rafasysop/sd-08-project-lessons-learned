@@ -11,9 +11,9 @@
       <div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Aprendizado</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li id="menu"><a href="#">Home</a></li>
+            <li id="menu"><a href="#">Aprendizado</a></li>
+            <li id="menu"><a href="#">Sobre</a></li>
           </ul>
         </nav>
       </div>
@@ -42,8 +42,8 @@
       </section>
     </main>
     <section>
-      <article class="artigos"> 
-        <img src="artigo 1.png" height="200px" alt="imagem">
+      <article class="artigos lado-esquerdo"> 
+        <img src="artigo 1.jpg" height="300px" alt="imagem">
         <h2>Texto</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -52,27 +52,18 @@
           optio maxime natus placeat dolorem.
         </p>
       </article>
-     <aside class="artigos">
-       <img src="artigo 2.png" height="100px" alt="imagem">
+     <aside class="artigos lado-direito">
+       <img src="artigo 2.jpg" height="300px" alt="imagem">
       <h2>Meu Aprendizado</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         Ut cumque inventore officia corrupti unde voluptate architecto 
         sit dolorum impedit! Deleniti ab nesciunt enim cumque eius aperiam 
-        inventore. Dolorum, inventore enim.
+        inventore.
       </p>
     </aside>
-    <aside class="artigos">
-      <img src="artigo 2.png" height="100px" alt="imagem">
-     <h2>Meu Aprendizado</h2>
-     <p>
-       Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-       Ut cumque inventore officia corrupti unde voluptate architecto 
-       sit dolorum impedit! Deleniti ab nesciunt enim cumque eius aperiam 
-       inventore. Dolorum, inventore enim.
-     </p>
-   </aside>
-    <section>
+   
+    <section id="sessao-de-listas">
       <aside>
         <header>
           <h2>Lições aprendidas</h2>
@@ -105,8 +96,8 @@
           <li>Kanban</li>
         </ul>
       </aside>
-      <table>
-        <thead>Meu dados</thead>
+      <table id="meus-dados">
+        <h2>Meus dados</h2>
         <th>
           Nome
         </th>
@@ -118,6 +109,7 @@
           <td> 35</td>
         </tr> 
       </table>
+    </section>
       <footer id="rodape">
         Primeiro Projeto
         <a target="blank" href="https://www.jorge-william.github.io" target="blank">Jorge W.</a>

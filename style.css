@@ -56,11 +56,11 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 #licoes_aprendidas {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #licoes_a_aprender {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #aside1 {
@@ -82,13 +82,35 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 .artigos {
   margin: 50px;
   display: inline-block;
-  width: 500px;
+  width: 450px;
   padding: 10px;
 }
 
-li{
+.lado-direito{
+  margin-right: 10%;
+  border: solid rgb(62, 71, 59) 5px;
+}
+
+.lado-esquerdo{
+  margin-left: 10%;
+  border: solid rgb(62, 71, 59) 5px;
+}
+
+li#menu{
   color: aliceblue;
   display: inline-block;
   margin-left: 20px;
 }
 
+#menu{
+  padding: 10px;
+}
+
+
+#sessao-de-listas{
+  margin-left: 70px;
+}
+
+#meus-dados{
+  margin-top: 50px;
+}
