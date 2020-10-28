@@ -53,10 +53,13 @@ footer {
     border-style: solid;
     margin-bottom: 20px;
     padding-left: 20px;   
+    width: 45%;
 }
 .lado-direito{
     border-style: solid;
-    padding-left: 20px;  
+    padding-left: 20px;
+    width: 45%;
+    padding-bottom: 60px;
 }
 #artigo p {
   font-size: 0.4cm;
