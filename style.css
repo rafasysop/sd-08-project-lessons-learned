@@ -4,5 +4,6 @@ body {
 
 #cabecalho {
     top: 0px;
+    position: fixed;
     background-color: yellowgreen;
 }
