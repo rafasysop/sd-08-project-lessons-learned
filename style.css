@@ -9,15 +9,34 @@ header {
     width:100% ;
     padding-bottom: 30px;
 }
-header h1{
+header h1 {
    color: honeydew; 
    text-align: center;
 }
-#minha_foto{
+#minha_foto { 
     margin-top: 150px;
     width: 300px;
     margin-bottom: 20px;
 }
-.linha{
+.linha {
     padding-right: 20px;
+}
+#licoes_aprendidas{
+    color: green;
+    float: left;
+}
+#licoes_a_aprender{
+    color: red;
+    float: right;
+}
+.licoes {
+    display: inline-block;
+}
+h3{
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+footer {
+    background-color: gray;
 }
