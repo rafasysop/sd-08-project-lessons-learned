@@ -24,7 +24,7 @@ h1 {
     border-radius: 6px;
     margin-left: 12px;
     display: block;
-    margin-top: 140px;
+    margin-top: 160px;
 }
 
 #meu_nome {
@@ -70,6 +70,7 @@ h1 {
 #licoes_a_aprender li {
     line-height: 24px;
     font-family: 'Merriweather', serif;
+    
 }
 
 #learn {
@@ -88,7 +89,7 @@ h1 {
 
 .lado-esquerdo {
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
     max-width: 400px;
     float: left;
 }
@@ -110,4 +111,13 @@ h1 {
 
 #table td {
     line-height: 20px;
+}
+
+#navBar{
+    position: absolute;
+    top: 26px;
+}
+
+#navBar a{
+    margin-left: 10px;
 }
