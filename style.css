@@ -1,0 +1,9 @@
+/* Configurações do body */
+body {
+    background-color: rgb(253, 251, 251);
+}
+/* Config. Header */
+
+#cabecalho {
+    top: 0px;
+}
