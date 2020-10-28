@@ -1,6 +1,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
 * {
+ 
   text-decoration: none;
   margin: 0;
 }
@@ -76,13 +77,21 @@ header i:hover {
 
 
 #aboutIKnew {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
+  background-color: #209cee21;
+  border-radius: 3rem;
   position: fixed;
   width: 16rem;
   height: 25rem;
   right: 16px;
   top: 236px;
-  font-family: '', sans-serif;
 
+}
+
+#sobreMim{
+  padding: 3rem;
 }
 
 #aboutIKnew p {
@@ -112,7 +121,7 @@ header i:hover {
   height: 37rem;
   position: fixed;
   bottom: 6px;
-  left: 6px;
+  left: 23px;
   font-family: '', sans-serif;
 }
 
@@ -182,4 +191,15 @@ article {
   position: relative;
   left: 174px;
   margin-bottom: 1rem;
+}
+
+#rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#unix{
+  position: relative;
+    left: 111px;
 }
