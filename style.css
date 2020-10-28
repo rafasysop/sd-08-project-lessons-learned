@@ -10,7 +10,6 @@ body {
 
 #cabecalho {
     position: fixed;
-    position: absolute;
     width: 1366px;
     height: 100px;
     left: 0px;
@@ -42,6 +41,8 @@ body {
     left: 98px;
     top: 140px;
 
+    margin: 1px;
+    padding: 1px;
     border: 3px solid #11295A;
     box-sizing: border-box;
     border-radius: 20px;
