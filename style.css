@@ -35,17 +35,21 @@ body {
 #licoes_a_aprender {
     font-family: 'Times New Roman', Times, serif;
 }
-#listas {
-    position: absolute;
-    top: 325px;
+#listas {    
     display: flex;   
 }
 #artigo {
     float: right;    
     display: inline;
     width: 65%; 
+    margin: 5px;
 }
 #principal {
     float: top;
     top: 80px;
+}
+#frase {
+    margin: 5px;
+    padding: 3px;
+    border: 3px;
 }
