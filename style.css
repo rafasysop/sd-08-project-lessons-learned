@@ -53,3 +53,8 @@ body {
     padding: 3px;
     border: 5px;
 }
+#tabela {
+    font-size: small;
+    line-height: 15px;
+    font-family: monospace;    
+}
