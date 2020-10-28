@@ -123,3 +123,7 @@ h4 {
 #lado-a-lado {
   display: inline-flex;
 }
+
+a img {
+  padding: 50px 70px;
+}
