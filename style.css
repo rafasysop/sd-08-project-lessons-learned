@@ -57,13 +57,10 @@ body {
     padding: 20px;
 }
 
-article h2 {
+article h2, aside h2  {
     margin-bottom: 10px;
 }
 
-aside h2 {
-    margin-bottom: 10px;
-}
 .lado-esquerdo{   
     font-size: 14px;
     margin-left: 20px;
