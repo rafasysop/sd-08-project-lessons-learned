@@ -5,23 +5,86 @@ body{
 #cabecalho{
     width: 100%;
     position: fixed;
-    display: block;
+    display: inline-block;
     top: 0px;
     background-color: #C2BFB6;
     margin-bottom: grey;
-    padding: 30px;
-}
-
-#minha_foto{
-    height: 200px;
 }
 
 #titulo{
     font-family: courier,arial,helvetica;
     font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+#minha_foto{
+    height: 200px;
+    display: block;
     position: relative;
+    top: 100px;
+    right: 200px;
+}
+
+
+.lista{
+    position: relative;
+    top: 500px;
+    margin-bottom: 30px;
+}
+
+aside{
+    position: relative;
+    top: 500px;
+}
+
+#navbar a{
+    position: relative;
+    margin-left: 0px;
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+    font-size: 12px;
+    border: black 1px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: ;
+    padding: 4px;
+    max-width: 100%;
+    
+    
+}
+
+#navbar{
+    position: fixed;
+}
+
+
+
+#principal{
+    position: relative;
+    
+}
+
+.lado-esquerdo{
+    float: left;
+    display: inline-block;
+    max-width: 200px;
+}
+
+.lado-direito{
+    display: inline-block;
+    position: relative;
+    top: 500px;
+    max-width: 200px;
+    padding-left: 50px;
     text-align: center;
 
+}
 
+#rodape{
+    position: fixed;
+    bottom: 0px;
+    margin-top: 500px;
 }
 
