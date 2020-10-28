@@ -79,12 +79,12 @@ article{
     float: left;
     display: inline-block;
     max-width: 400px;
-    margin-right: 100px;
+    margin-right: 200px;
     font-style: italic;
     color: #4a5568;
     left: 30px;
     clear: both;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .lado-direito{
@@ -92,14 +92,13 @@ article{
     position: absolute;
     top: 500px;
     max-width: 400px;
-    padding-left: 0px;
-    text-align: ;
-    float: right;
-    left:px;
+    
+    text-align: center;
+    right: 30px;
     font-style: italic;
     color: #4a5568;
     clear: both;
-    max-width: 50%;
+    max-width: 40%;
 
     
 
@@ -131,7 +130,8 @@ article{
     float: left ;
     position: absolute;
     left: 30px;
-    top: 800px;
+    top: 900px;
+    clear: both;
 }
 
 #licoes_a_aprender{
@@ -142,7 +142,7 @@ article{
 
 table{
     position: absolute;
-    top: 1250px;
+    top: 1400px;
     max-width: 100%;
 }
 
@@ -155,7 +155,7 @@ table tr td{
 #Bibliografia { 
     color: black;
     position: absolute;
-    top:1100px;
+    top:1200px;
     left: 30px;
     
 }
