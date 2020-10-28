@@ -15,7 +15,7 @@ body {
 #titulo {
   height: 100px;
   padding-top: 40px;
-  padding: 20px 500px;
+  padding: 20px 10px 15px 500px;
   margin: 0 auto;
   color: white;
   background-color: rgb(13 , 20 , 73);
@@ -49,7 +49,7 @@ body {
 }
 
 #licoes_aprendidas {
-  margin: 10px 0px auto 40px;
+  margin: 10px 0 auto 40px;
   display: inline-block;
   padding: 40px 10px 40px 30px;
 }
@@ -69,13 +69,13 @@ body {
   float: right;
   width: 250px;
   height: 200px;
-  padding: 40px 10px 40px 30px;
+  padding: 40px 10px auto 30px;
   margin-right: 250px;
 }
 
 h2 {
   width: 100px;
-  margin: 10px 10px;
+  margin: 10px;
   text-align: center;
 }
 
