@@ -16,6 +16,7 @@ background-color:  rgb(253, 251, 251);
 
 h1 {
     padding-left: 30px;
+    font-size: 30px;
 }
 
 #titulo {
@@ -31,16 +32,25 @@ h1 {
 
 #licoes_aprendidas {
     padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #licoes_a_aprender {
     padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#artigo {
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    line-height: 20px;
 }
 
 
-
 #rodape{
-
+    font-size: 15px;
 }
 
 #errada {
