@@ -1,9 +1,44 @@
-#body-style {
-    background-color: ;
+body {
+background-color:  rgb(253, 251, 251);
 }
 
-#cabeçalho {
+#cabecalho {
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+#titulo {
+
+}
+
+#minha_foto {
+
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+
+
+#rodape{
+
+}
+
+#errada {
     background-color: green;
     height: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} 
+
