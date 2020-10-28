@@ -37,8 +37,7 @@ h1 {
     top: 15px;
     font-size: 18px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     color: #5b5b58;
 }
 
@@ -50,8 +49,6 @@ h1 {
     font-size: 25px;
     left: 15px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 #content_ul {
@@ -62,14 +59,11 @@ h1 {
     font-size: 25px;
     left: 15px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
+
 #licoes_aprendidas li {
     line-height: 24px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 #rodape {
@@ -80,20 +74,14 @@ h1 {
 #licoes_a_aprender li {
     line-height: 24px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
-#learn {   
+#learn {
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 #learn2 {
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 #externalLink {
@@ -111,12 +99,11 @@ h1 {
 
 .lado-direito {
     position: absolute;
-    float:right;
     margin-left: 15px;
     margin-top: 30px;
     max-width: 300px;
     left: 450px;
-} 
+}
 
 #table {
     display: inline-block;
