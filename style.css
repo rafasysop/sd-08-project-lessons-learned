@@ -7,35 +7,46 @@ body{
     position: fixed;
     display: inline-block;
     top: 0px;
-    background-color: #C2BFB6;
-    margin-bottom: grey;
+    background-color: rgb(253, 251, 251);
+    
 }
 
 #titulo{
-    font-family: courier,arial,helvetica;
-    font-size: 30px;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     padding: 30px;
+    color: #033;
+    font-size: 36px
 }
 
 #minha_foto{
     height: 200px;
     display: block;
-    position: relative;
-    top: 100px;
-    right: 200px;
+    position: absolute;
+    top:170px;
+    left: auto;
+    right: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
 .lista{
     position: relative;
-    top: 500px;
+    top: 900px;
     margin-bottom: 30px;
+    color: #4a5568;
 }
 
 aside{
     position: relative;
     top: 500px;
+    line-height: 2em;
+}
+
+article{
+    line-height: 2em;
 }
 
 #navbar a{
@@ -43,42 +54,50 @@ aside{
     margin-left: 0px;
     text-decoration: none;
     font-family: helvetica;
-    color: black;
-    font-size: 12px;
-    border: black 1px;
-    border-radius: 1px;
+    color: white;
+    font-size: 15px;
+    border: #48A46B 1px;
+    border-radius: 2px;
     border-style: solid;
     border-width: ;
     padding: 4px;
     max-width: 100%;
+    background-color: #48A46B ;
+    font-weight: bold;
+}
     
     
 }
 
 #navbar{
     position: fixed;
+    color: #4a5568;
 }
 
-
-
-#principal{
-    position: relative;
-    
-}
 
 .lado-esquerdo{
     float: left;
     display: inline-block;
-    max-width: 200px;
+    max-width: 400px;
+    margin-right: 100px;
+    font-style: italic;
+    color: #4a5568;
+    left: 30px;
 }
 
 .lado-direito{
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: 500px;
-    max-width: 200px;
-    padding-left: 50px;
-    text-align: center;
+    max-width: 400px;
+    padding-left: 0px;
+    text-align: ;
+    float: right;
+    left:px;
+    font-style: italic;
+    color: #4a5568;
+
+    
 
 }
 
@@ -86,5 +105,58 @@ aside{
     position: fixed;
     bottom: 0px;
     margin-top: 500px;
+    margin-left: 0px;
+    right: 0px;
+   
 }
 
+#rodape a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: white;
+    font-size: 22px;
+    border: #48A46B 1px;;
+    border-radius: 1px;
+    border-style: solid;
+    padding: 4px;
+    max-width: 100%;
+    background-color: #48A46B  ;
+}
+
+#licoes_aprendidas{
+    float: left ;
+    position: absolute;
+    left: 30px;
+    top: 800px;
+}
+
+#licoes_a_aprender{
+    position: absolute;
+    left: 600px;
+    top:800px;
+}
+
+table{
+    position: absolute;
+    top: 1250px;
+    max-width: 100%;
+}
+
+table tr td{
+   color: color: #4a5568;
+   
+    
+}
+
+#Bibliografia { 
+    color: black;
+    position: absolute;
+    top:1100px;
+    left: 30px;
+    
+}
+
+#Bibliografia a {
+    color: #4a5568;
+    text-decoration: none;
+}
