@@ -14,12 +14,11 @@ body {
 
 #titulo {
   height: 100px;
-  padding-top: 40px;
-  padding: 20px 10px 15px 500px;
+  padding: 40px 10px 15px 500px;
   margin: 0 auto;
   color: white;
   background-color: rgb(13 , 20 , 73);
-  font-weight: 1500px;
+  font-weight: 900;
   font-family: Franklin Gothic, sans-serif;
 }
 
@@ -62,7 +61,7 @@ body {
 
 #section_listas {
   padding-left: 10px;
-  margin: 20px 10px 30px 10px;
+  margin: 20px 10px 30px;
 }
 
 #links {
