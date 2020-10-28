@@ -48,11 +48,13 @@ body {
 }
 
 .lado-direito{
-clear: right;
-position: relative;
-display: inline;
-left: 600px;
-max-width: 500px;
+    clear: right;
+    top: 500px;
+        position: absolute;
+    display: inline;
+        max-width: 500px;
+    min-width: 400px;
+    padding-left: 150px;
 }
 
 #listas-aprendizados{
