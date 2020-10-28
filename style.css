@@ -1,130 +1,134 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left:0;
+    background-color: #2a9d8f;
+    padding: 20px;
     width: 100%;
-    font-size: 20px;
-    background-color: green;
-    
+    top: 0;
+    position: fixed;
     
 }
-
 
 #titulo {
-    color: white;
-    
-    text-align: center;
-}
-
-.links li {
-    font-size: 20px;
-    text-align: center;
+        font-size: 22px;
+        float: right;
+        display: inline;
+        margin-right: 40%;
+        
     
 }
 
-#minha_foto {
-    width: 15%;
-    margin-top: 150px;
+.buttom {
+    text-decoration: none;
+    background-color: #f8961e;
+    color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#minha_foto  {
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 20%;
+    border: 2px ridge blue;;
+
+}
+
+
+.conteiner {
+    display: inline;
+}
+
+
+.lado-esquerdo{
+    
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 70%;
+    text-align: justify;
+    margin-top: 50px;
     padding: 20px;
-    border-radius: 20%;
-       
+    float: left;
     
+    
+    
+}
+
+
+.lado-direito {
+
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 70%;
+    text-align: justify;
+    padding: 20px;
+    float: right;
+    
+    
+    
+   
 }
 
 .licoes {
-    text-align: left;
+    margin-top: 50px;
     margin-left: 30px;
-
+    margin-bottom: 100px;
 }
+
+
 
 #licoes_aprendidas {
+    margin-top: 20px;
+    margin-left: 20px;
     float: left;
-    margin-left: 30px;
-    border: 1px solid black;
-    
-
 }
-
 
 #licoes_a_aprender {
     float: right;
-    margin-right: 800px;
-    border: 1px solid black;
-
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 40%
 }
 
 
-.article-aside {
-    display: inline-block;
-    clear: both;
-}
-
-.lado-esquerdo {
-    float: left;
-    width: 30%;
-    margin-left: 50px;
-    text-align: justify;
-    line-height: 1.5;
-}
-
-.lado-direito {
-    float: right;
-    width: 30%;
-    margin-right: 30%;
-    text-align: justify;
-    line-height: 1.5;
-}
-h3 {
-    color: brown;
-    text-align: center;
-}
-
-
-ol li {
-    font-size: 15px;
-    padding: 2px;
-}
-
-ul li {
-    font-size: 15px;
-    padding: 2px;
-}
-
-
+h4 {
+    margin-top: 300px;
+    margin-left: 0px;
     
+}
 
-
-.tab_lessons {
-    width: 30%;
+.conteudo {
+    margin-left: 40px;
 }
 
 .tabela {
-    font-size: 15px;
-    width: 30%;
-    margin: left;
+    margin-left: 60px;
+    text-align: center;
+    width: 90%;
+    padding: 30px;;
+    border: 2px dashed green;
+    margin-top: 50px;
     
-    
-  
 }
-
-
 
 
 
 footer {
-
-    background-color: green;
-    margin-top: 60px;
+    background-color: #2a9d8f;;
+    margin-top: 30px;
     padding: 20px;
     text-align: center;
+    color: white;
 }
-
-
-    
