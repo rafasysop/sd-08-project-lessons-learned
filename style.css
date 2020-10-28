@@ -22,10 +22,12 @@ top: 0px;
     background-color: bisque;
 }
 .lado-direito{
-    border: 5px solid black;
+    position: absolute;
+    top: 325px;
+    left:500px;
     margin: 35px;
     padding:35px;
-    background-color: bisque;
+    
 }
 
 #rodape{
