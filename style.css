@@ -10,6 +10,7 @@ body {
 #minha_foto {
     padding-top: 80px;
     width: 100px;
+    border-radius : 100%;
 }
 
 section {
@@ -18,36 +19,38 @@ section {
 
 #licoes_aprendidas {
     background-color: rgb(223, 173, 108);
+    margin : 1%;
 }
 
 #licoes_a_aprender {
-    background-color: greenyellow;    
+    background-color: greenyellow;   
+    margin : 1%;
 }
 
 main {
     float: left;
     width: 50%;
-
 }
 
 article {
     background-color: yellowgreen;
-    float: left;
 }
 
 .lado-esquerdo {
-
+    /* margin : 1%; */
+    padding : 10px;
+    float: left;
 }
 
 aside {
     background-color:blanchedalmond;
-    float: right;
-    width: 50%;
+    width: 40%;
     
 }
 
 .lado-direito {
-
+    padding : 20px;
+    float: right;
 }
 
 footer {
