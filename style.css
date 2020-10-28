@@ -66,12 +66,14 @@ body {
   position: absolute;
   left: 115px;
   top: 434px;
+  font-size: 18px;
 }
 
 #github {
   position: absolute;
   left: 215px;
   top: 434px;
+  font-size: 18px;
 }
 
 #lists {
@@ -116,6 +118,7 @@ body {
   width: 400px;
   left: 13%;
   font-size: 18px;
+  line-height: 27px;
 }
 
 .lado-direito {
@@ -125,4 +128,18 @@ body {
   width: 400px;
   right: 13%;
   font-size: 18px;
+  line-height: 27px;
+}
+
+#line {
+  position: absolute;
+  top: 620px;
+  left: 50%;
+  border: rgb(57 , 59 , 65);
+  border-style: ridge;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+  width: 1px;
+  height: 220px;
 }
