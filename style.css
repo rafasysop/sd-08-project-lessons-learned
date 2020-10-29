@@ -95,7 +95,7 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
   border: solid rgb(62, 71, 59) 5px;
 }
 
-li#menu {
+li.menu {
   color: aliceblue;
   display: inline-block;
   margin-left: 20px;
