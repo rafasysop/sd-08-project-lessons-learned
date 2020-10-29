@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -29,5 +30,23 @@ nav li {
 #minha_foto {
   width:100px;
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
+
+.container p {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  margin-left: 20px;
+  width:30%;
+  float:left;
+}
+
+#licoes_aprendidas ol, #licoes_a_aprender {
+  margin-left: 20px;
+}
+
