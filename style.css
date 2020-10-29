@@ -1,3 +1,4 @@
+
 /*
 Configurações do body
 */
@@ -10,6 +11,7 @@ Config. Header
 */
 
 #cabecalho {
+        position: absolute;
         top: 0px;
         background-color: #0b8f70;
         font-size: 32px;
@@ -17,7 +19,7 @@ Config. Header
 
 #titulo {
         color: rgb(253 , 251 , 251);
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 50px 10px;
         padding: 0px 0px;
         border: 0px 0px;
         font-family: Arial, Helvetica, sans-serif;
@@ -37,11 +39,12 @@ Config. Header
 #minha_foto {
         width: 200px;
 }
+
 /*
 Config. artigo principal
 */
 
-#artigo_principal {
+.lado-esquerdo {
         width: 60%;
         float: left;
         font-family: Arial, Helvetica, sans-serif;
@@ -54,15 +57,17 @@ Config. artigo principal
 .artigo p {
         font-family: Arial, Helvetica, sans-serif;
 }
+
 /*
 Config. aside
 */
 
-#texto_lateral {
+.lado-direito {
         float: right;
         width: 30%;
         line-height: 1.6;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 200px;
 }
 
 /*
