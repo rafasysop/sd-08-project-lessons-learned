@@ -1,27 +1,28 @@
-/* Configurações do body */
+/*
+Configurações do body
+*/
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(253 , 251 , 251);
 }
 
-/* Config. Header */
+/*
+Config. Header
+*/
 
 #cabecalho {
     top: 0px;
     background-color: #0b8f70;
     font-size: 32px;
-    margin: 0px 0px;
-    padding: 0px 0px;
-    border: 0px 0px;
 }
 
 #titulo {
-    color:rgb(253, 251, 251);
+    color: rgb(253 , 251 , 251);
     margin: 0px 0px 0px 10px;
     padding: 0px 0px;
     border: 0px 0px;
 }
 
-.navegacao{
+.navegacao {
     background-color: blue;
     color: white;
 }
@@ -34,9 +35,11 @@ body {
 #minha_foto {
     width: 200px;
 }
-/* Config. artigo principal */
+/*
+Config. artigo principal
+*/
 
-#artigo_principal{
+#artigo_principal {
     width: 60%;
     float: left;
 }
@@ -45,7 +48,9 @@ body {
     margin-right: 10px;
     line-height: 1.6;
 }
-/* Config. aside */
+/*
+Config. aside
+*/
 
 #texto_lateral {
     float: right;
@@ -53,7 +58,9 @@ body {
     line-height: 1.6;
 }
 
-/* Config. listas */
+/*
+Config. listas
+*/
 
 #lista_licoesAprendidas {
     display: inline-block;
