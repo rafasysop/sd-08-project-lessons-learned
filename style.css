@@ -44,10 +44,19 @@ Config. Header
 Config. artigo principal
 */
 
+.conteudo-principal {
+    margin-top: 200px;
+    position: static;
+}
+
 .lado-esquerdo {
         width: 60%;
         float: left;
         font-family: Arial, Helvetica, sans-serif;
+}
+
+.lado-esquerdo h2 {
+        display: block;
 }
 
 .artigo {
@@ -64,7 +73,7 @@ Config. aside
 
 .lado-direito {
         float: right;
-        width: 30%;
+        width: 40%;
         line-height: 1.6;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 200px;
@@ -84,4 +93,31 @@ Config. listas
         display: inline-block;
         width: 40%;
         font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Config. tabela
+*/
+
+.sessao-tabela {
+    display: block;  
+    float: none; 
+}
+
+.titulo-tabela {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        float: none;
+}
+
+.tabela {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.tabela td, th {
+    border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
