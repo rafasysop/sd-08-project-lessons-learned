@@ -58,7 +58,7 @@ h1 {
     float: right;
 }
 
-#artigo {
+.lado-esquerdo {
     width: 40%;
     padding: 30px;
     padding-top: 25px;
@@ -68,7 +68,7 @@ h1 {
     float: left;
 }
 
-#secao-lat {
+.lado-direito {
     width: 40%;
     padding: 30px;
     padding-top: 40px;
