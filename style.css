@@ -2,7 +2,7 @@
 Configurações do body
 */
 body {
-    background-color: rgb(253 , 251 , 251);
+        background-color: rgb(253 , 251 , 251);
 }
 
 /*
@@ -10,52 +10,59 @@ Config. Header
 */
 
 #cabecalho {
-    top: 0px;
-    background-color: #0b8f70;
-    font-size: 32px;
+        top: 0px;
+        background-color: #0b8f70;
+        font-size: 32px;
 }
 
 #titulo {
-    color: rgb(253 , 251 , 251);
-    margin: 0px 0px 0px 10px;
-    padding: 0px 0px;
-    border: 0px 0px;
+        color: rgb(253 , 251 , 251);
+        margin: 0px 0px 0px 10px;
+        padding: 0px 0px;
+        border: 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 .navegacao {
-    background-color: blue;
-    color: white;
+        background-color: blue;
+        color: white;
 }
 
 .navegacao li {
-    list-style-type: none;
-    display: inline;
+        list-style-type: none;
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 #minha_foto {
-    width: 200px;
+        width: 200px;
 }
 /*
 Config. artigo principal
 */
 
 #artigo_principal {
-    width: 60%;
-    float: left;
+        width: 60%;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 .artigo {
-    margin-right: 10px;
-    line-height: 1.6;
+        margin-right: 10px;
+        line-height: 1.6;
+}
+.artigo p {
+        font-family: Arial, Helvetica, sans-serif;
 }
 /*
 Config. aside
 */
 
 #texto_lateral {
-    float: right;
-    width: 30%;
-    line-height: 1.6;
+        float: right;
+        width: 30%;
+        line-height: 1.6;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -63,11 +70,13 @@ Config. listas
 */
 
 #lista_licoesAprendidas {
-    display: inline-block;
-    width: 40%;
+        display: inline-block;
+        width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
 #lista_licoesAaprender {
-    display: inline-block;
-    width: 40%;
+        display: inline-block;
+        width: 40%;
+        font-family: Arial, Helvetica, sans-serif;
 }
