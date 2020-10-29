@@ -53,7 +53,7 @@ nav li {
   line-height: 30px;
 }
 
-.licoes_aprendidas, .licoes_a_aprender{
+.lado-esquerdo, .lado-direito{
   float:left;
   margin-left: 20px;
   margin-right: 100px;
@@ -74,5 +74,17 @@ nav li {
   float:left;
   margin-left: 50px;
   border: 1px solid #a8a8a8;
-  padding: 10px;
+  padding:10px;
+}
+.aside a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0fa33b;
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aside a:hover{
+  background-color: #0fa44b;
 }
