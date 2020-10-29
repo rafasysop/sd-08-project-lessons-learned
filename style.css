@@ -5,8 +5,8 @@ body {
 }
 
 h2 , h3 {
-  color: rgb(70, 93, 43);
-  font-family: 'Playfair Display', sans-serif;
+  color: rgb(70 , 93 , 43);
+  font-family: "Playfair Display", sans-serif;
 }
 
 #cabecalho {
@@ -14,10 +14,10 @@ h2 , h3 {
   top: 0;
   margin: auto;
   text-align: center;
-  background-color: rgb(70, 93, 43);
+  background-color: rgb(70 , 93 , 43);
   color: white;
   width: 100%;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: italic;
   z-index: 1;
 }
@@ -33,9 +33,9 @@ article {
 aside {
   float: right;
   width: 30%;
-  border-left: 3px dotted rgb(70, 93, 43);
+  border-left: 3px dotted rgb(70 , 93 , 43);
   margin-top: 150px;
-  background-color: rgb(196, 192, 181 , 0.3);
+  background-color: rgb(196 , 192 , 181 , 0.3);
 }
 
 aside h2 {
@@ -69,7 +69,7 @@ section {
   display: block;
   color: black;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
@@ -88,11 +88,11 @@ table {
 }
 
 tr:hover {
-  background-color: rgb(196, 192, 181, 0.3);
+  background-color: rgb(196 , 192 , 181 , 0.3);
 }
 
 th {
-  background-color: rgb(70, 93, 43);
+  background-color: rgb(70 , 93 , 43);
   color: white;
   border-radius: 5px 5px 0 0;
   font-size: 1.2rem;
@@ -100,13 +100,13 @@ th {
 }
 
 th , td {
-  border-bottom: 1px solid rgb(70, 93, 43);
+  border-bottom: 1px solid rgb(70 , 93 , 43);
   padding-right: 25px;
   padding-left: 25px;
 }
 
 #rodape {
-  background-color: rgb(70, 93, 43);
+  background-color: rgb(70 , 93 , 43);
   bottom: 0;
   left: 0;
   width: 100%;
@@ -128,7 +128,6 @@ th , td {
 }
 
 #rodape h2 , #rodape p {
-
   color: white;
 }
 
@@ -146,10 +145,10 @@ nav {
   list-style: none;
 }
 
-a {
+#rodape a {
   text-decoration: none;
   color: rgb(253 , 251 , 251);
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
