@@ -9,4 +9,25 @@ body{
 #cabecalho{
   position: fixed;
   top:0;
+  width:100%;
+  background-color: rgba(0, 150, 255, 0.9);
+  text-align: center;
+  min-height: 100px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container{
+  position: relative;
+  top:100px;
+  margin-top:10px;
+}
+
+#minha_foto {
+  width:100px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
