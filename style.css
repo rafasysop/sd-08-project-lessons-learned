@@ -3,6 +3,7 @@ body {
     font-family: bc-sklonar, sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
 }
 
 #cabecalho {
@@ -12,6 +13,7 @@ body {
 
 #titulo {
     color: rgb(184, 85, 85);
+    font-size: 28px;
 }
 
 #minha_foto {
@@ -36,30 +38,33 @@ section {
     line-height: 1.5;
 }
 
-main {
-    float: left;
-    width: 50%;
+.bloco_01 {
+    display: inline-block;
 }
 
 article {
     background-color: yellowgreen;
+
 }
 
 .lado-esquerdo  {
     padding : 10px;
     float: left;
+    width: 50%;
 }
 
 aside {
     background-color:blanchedalmond;
-    width: 40%;
+    /* width: 40%; */
+
     
 }
 
 .lado-direito {
-    padding : 20px;
+    padding : 10px;
     float: right;
     line-height: 1.5;
+    width: 40%;
 }
 
 footer {
