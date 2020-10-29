@@ -4,6 +4,10 @@
   text-decoration: none;
 }
 
+body{
+  background-color: rgb(253, 251, 251);
+}
+
 
 /*Scroll suave*/
 
@@ -80,7 +84,7 @@ main {
   width: 31%;
 }
 
-#minha-foto {
+#minha_foto {
   width: 99px;
   height: 150px;
   float: left;
