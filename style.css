@@ -2,7 +2,14 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#botoes{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 #minha_foto{
+    float: left;
     padding: 25px 50px;
     margin: auto;
 }
@@ -16,9 +23,20 @@ body {
     border-style: dotted;
 }
 
+
+.lado-esquerdo{
+    float:left
+}
+
+.lado-direito{
+    float:right
+}
+
+
+
 #cabecalho {
     position: fixed;
-    top: 0;
+    top: 01;
     padding-top: 2px;
 }
 
