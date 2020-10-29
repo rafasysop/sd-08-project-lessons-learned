@@ -30,8 +30,12 @@ ol{
     list-style-type: none;
 }
 
+.lado-esquerdo{
+    float:left;
+}
+
 .lado-direito{
-    float:right
+    float:right;
 }
 
 #licoes_aprendidas{
