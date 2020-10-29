@@ -2,6 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
     color: rgb(97, 95, 95);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px;
 }
 #cabecalho {
     background-color: rgb(0, 2, 2);
@@ -12,6 +13,7 @@ body {
     right: 0px;
     left: 0px;
     text-align: center;
+    border: 5px;
 }
 .nav-links {
     padding: 5px 0;
@@ -27,7 +29,7 @@ body {
     height: 15px;
     width: auto;
 }
-.nav-links li {
+.nav-links li{
     margin-right: 40px;
     color: rgb(247, 248, 247);
     list-style-type: none;
@@ -35,7 +37,7 @@ body {
     font-size: 15px;
     margin-bottom: 55px;
 }
-.class-content {
+.class-content{
     color: grey;
 }
 #minha_foto {
@@ -51,36 +53,26 @@ body {
 #licoes_a_aprender {
     line-height: 23px;
 }
-.lado_esquerdo {
+.lado-esquerdo {
     width: 30%;
     text-align: justify;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 400px;
 }
-.lado_esquerdo h2 {
+.lado-esquerdo h2 {
     text-align: center;
 }
-.lado_direito {
+.lado-direito {
     width: 30%;
     text-align: justify;
     display: inline-block;
 }
-.lado_direito h2 {
+.lado-direito h2 {
     text-align: center;
 }
-.lado_direito {
+.lado-direito {
     float: right;
-    margin-right: 20px;
-}
-.sobreMim {
-    width: 30%;
-    text-align: justify;
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
-}
-.sobreMim h2 {
-    text-align: center;
+    margin-right: 50px;
 }
 #rodape {
     font-size: 10px;
@@ -89,12 +81,26 @@ body {
     padding-top: 150px;
 }
 div {
-    display: inline-flex;
+    display:inline-flex;
 }
 .licoesprendidasesquerda {
-    padding: 250px 20px 20px 80px;
+    padding:250px 20px 20px 80px;
 }
 .licoesprenderdireita {
-    padding: 250px 20px 20px 100px;
+    padding:250px 20px 20px 100px;
 }
-
+table {
+    border-collapse: collapse;
+    border:3px solid rgb(100, 130, 40);
+    width: 25%;
+    line-height: 23px;
+}
+tbody {
+    font-size: 90%;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+td {
+    text-align: center;
+    border: 1px solid rgb(100, 130, 40);
+}
