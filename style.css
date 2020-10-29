@@ -66,6 +66,7 @@ nav li {
   border:1px dashed #a8a8a8;
   padding:10px;
   float: left;
+  margin-bottom: 20px;
 
 }
 
@@ -87,4 +88,16 @@ nav li {
 
 .aside a:hover{
   background-color: #0fa44b;
+}
+
+table {
+  clear:both;
+  text-align: center;
+  margin-left:20px;
+  width: 300px;
+}
+
+table a {
+  text-decoration: none;
+  color: blue;
 }
