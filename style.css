@@ -7,9 +7,9 @@ body{
 }
 
 #cabecalho{
-    display: fixed;
+    
 
-    top:0;
+    top:0px;
 
     padding: 30px;
     width: 100%;
