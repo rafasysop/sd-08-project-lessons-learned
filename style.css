@@ -1,5 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: bc-sklonar, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #cabecalho {
@@ -7,24 +10,30 @@ body {
     top: 0px;    
 }
 
+#titulo {
+    color: rgb(184, 85, 85);
+}
+
 #minha_foto {
     padding-top: 80px;
     width: 100px;
-    border-radius : 100%;
+    border-radius: 100%;
 }
 
 section {
-    display: inline-block
+    display: inline-block;
 }
 
 #licoes_aprendidas {
     background-color: rgb(223, 173, 108);
     margin : 1%;
+    line-height: 1.5;
 }
 
 #licoes_a_aprender {
     background-color: greenyellow;   
     margin : 1%;
+    line-height: 1.5;
 }
 
 main {
@@ -36,8 +45,7 @@ article {
     background-color: yellowgreen;
 }
 
-.lado-esquerdo {
-    /* margin : 1%; */
+.lado-esquerdo  {
     padding : 10px;
     float: left;
 }
@@ -51,6 +59,7 @@ aside {
 .lado-direito {
     padding : 20px;
     float: right;
+    line-height: 1.5;
 }
 
 footer {
