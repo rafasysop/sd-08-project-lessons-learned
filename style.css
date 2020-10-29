@@ -39,14 +39,32 @@ nav li {
   font-weight: 700;
   font-size: 15px;
 }
-
+.first-section{
+  width:50%;
+}
 #licoes_aprendidas, #licoes_a_aprender {
   margin-left: 20px;
   width:30%;
-  float:left;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+#licoes_a_aprender{
+  float:right;
+  width:30%;
 }
 
-#licoes_aprendidas ol, #licoes_a_aprender {
+#licoes_aprendidas ol, #licoes_a_aprender ol{
   margin-left: 20px;
 }
 
+
+.second-section {
+  clear:both;
+  margin-left: 20px;
+}
+
+.sobre-aprendizado {
+  width: 30%;
+  border:1px dashed #a8a8a8;
+  padding:5px 5px 0 5px;
+}
