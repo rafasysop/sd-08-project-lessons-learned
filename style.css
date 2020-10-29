@@ -1,24 +1,17 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
 
-* {
- 
-  text-decoration: none;
+*{
   margin: 0;
+  text-decoration: none;
 }
 
-.box-color {
-  background-color: #e6ecec63;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.424);
-}
+
+/*Scroll suave*/
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: rgb(253, 251, 251);
-  margin: 0;
-}
+/*Header*/
 
 header {
   background-color: rgb(12, 11, 11);
@@ -30,6 +23,7 @@ header {
   position: fixed;
   z-index: 2;
   display: flex;
+  
 }
 
 header img {
@@ -56,150 +50,97 @@ header nav {
   top: 6px;
 }
 
-header i {
-  color: rgb(161, 158, 158);
-  margin-right: 27px;
-  font-size: 32px;
-}
+/*ALINHANDO ARTIGO E SESSÃO COM FOTO */
 
-header i:hover {
-  color: rgba(255, 255, 255, 0.877);
-}
-
-#minha_foto {
-  width: 7rem;
-  position: fixed;
-  top: 61px;
-  right: 97px;
-  border-radius: 10rem;
-  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
-}
-
-
-#aboutIKnew {
+/* Alinhando items contidos no body*/
+main {
   display: flex;
-  align-items: center;
-  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
-  background-color: #209cee21;
-  border-radius: 3rem;
-  position: fixed;
-  width: 16rem;
-  height: 25rem;
-  right: 16px;
-  top: 236px;
-
+  justify-content: center;
+  font-family: sans-serif;
 }
 
-#sobreMim{
+#artigo {
+  width: 35%;
   padding: 3rem;
-}
-
-#aboutIKnew p {
   position: relative;
-  padding: 15px;
-  bottom: 1.4rem;
-  font-size: .8rem;
-  line-height: 2
+  right: 8rem;
+ 
 }
 
-#tabela {
+.artigo-text h3{
+      margin-right: 5rem;
+    width: 50%;
+    padding: 2rem;
+}
+
+#sessao-foto {
   position: fixed;
-  bottom: 56px;
-  right: 45px;
-
-  box-shadow: 0 1px 6px 0 rgb(180, 180, 180);
+  right: 6%;
+  display: flex;
+  width: 31%;
 }
 
-#tableTitle {
-  background-color: rgba(137, 43, 226, 0.534);
-
-
+#minha-foto {
+  width: 99px;
+  height: 150px;
+  float: left;
+  border-radius: 6rem;
 }
 
+#sobreMim {
+  margin-right: 5rem;
+  width: 50%;
+  padding: 2rem;
+}
+
+/* Lista de navegação*/
 
 #list {
-  height: 37rem;
+  width: 11rem;
   position: fixed;
-  bottom: 6px;
-  left: 23px;
-  font-family: '', sans-serif;
+  left: 5%;
+  font-size: 17px;
 }
 
-#navList {
-  position: relative;
-  top: 26px;
-  right: 4px;
-  font-size: 19px;
+/*Sombras*/
+
+.box-color {
+  border-radius: 1rem;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.247);
 }
 
-#licoes-aprendidas {
-  margin-bottom: 2rem;
-}
-
-
-#navList a:hover {
-  color: rgb(240, 0, 240);
-}
-
-footer {
-  width: 43rem;
-  height: 16rem;
-  position: relative;
-  top: 183rem;
-  right: -301px;
-}
-
-article {
-  width: 43rem;
-  height: 179rem;
-  position: absolute;
-  right: 358px;
-  top: 52px;
-}
-
-#conhecimentoTitulo {
-  width: 1px;
-  position: relative;
-  left: 271px;
-  top: 17px;
-}
-
-#sobreConhecimento {
-  width: 24rem;
-  position: relative;
-  left: 135px;
-  top: 76px;
-}
-
-#myKnowledge {
-  position: relative;
-  top: 148px;
-  right: 148px;
+/*conteudoPosition*/
+.conteudoPosition {
+  top: 5rem;
 }
 
 
-.knowledge-text {
-  width: 27rem;
-  position: relative;
-  right: -18rem;
-  margin-bottom: 8rem;
-
-}
-
-
-.knowledge-text h3 {
-  position: relative;
-  left: 174px;
-  margin-bottom: 1rem;
-}
+/*Footer*/
 
 #rodape {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 19rem;
+    bottom: -7rem
 }
 
-#unix{
-  position: relative;
-    left: 111px;
+#rodape img {
+  width: 50px;
 }
+
+/*Tabela*/
+#tabela {
+  width: 276px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 56px;
+  right: 158px;
+  font-size: 16px;
+}
+
