@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #050404
 }
 
 body{
@@ -45,12 +47,21 @@ nav li {
   margin-left: 20px;
 }
 
-.licoes_aprendidas, #licoes_aprendidas, .licoes_a_aprender, #licoes_a_aprender{
+#licoes_aprendidas, #licoes_a_aprender {
   margin-left: 20px;
+  margin-top: 5px;
+  line-height: 30px;
+}
+
+.licoes_aprendidas, .licoes_a_aprender{
+  float:left;
+  margin-left: 20px;
+  margin-right: 100px;
   margin-bottom: 20px;
 }
 
 .sobre-aprendizado {
+  clear:both;
   width: 30%;
   border:1px dashed #a8a8a8;
   padding:10px;
@@ -62,6 +73,6 @@ nav li {
   width:20%;
   float:left;
   margin-left: 50px;
-  border: 1px solid red;
+  border: 1px solid #a8a8a8;
   padding: 10px;
 }
