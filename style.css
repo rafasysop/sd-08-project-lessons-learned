@@ -2,8 +2,65 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 /* Config. Header */
 
 #cabecalho {
     top: 0px;
+    background-color: #0b8f70;
+    font-size: 32px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: 0px 0px;
+}
+
+#titulo {
+    color:rgb(253, 251, 251);
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px;
+    border: 0px 0px;
+}
+
+.navegacao{
+    background-color: blue;
+    color: white;
+}
+
+.navegacao li {
+    list-style-type: none;
+    display: inline;
+}
+
+#minha_foto {
+    width: 200px;
+}
+/* Config. artigo principal */
+
+#artigo_principal{
+    width: 60%;
+    float: left;
+}
+
+.artigo {
+    margin-right: 10px;
+    line-height: 1.6;
+}
+/* Config. aside */
+
+#texto_lateral {
+    float: right;
+    width: 30%;
+    line-height: 1.6;
+}
+
+/* Config. listas */
+
+#lista_licoesAprendidas {
+    display: inline-block;
+    width: 40%;
+}
+
+#lista_licoesAaprender {
+    display: inline-block;
+    width: 40%;
 }
