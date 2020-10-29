@@ -1,5 +1,9 @@
 body {
-    background-color:rgb(253, 251, 251);}
+    background-color:rgb(253, 251, 251);
+    font-family: 'sans-serif', serif;
+    color: #474747;
+    font-size: 15px
+}
 #cabecalho {
     display:inline;
     position:fixed;
