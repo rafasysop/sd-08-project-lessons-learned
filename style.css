@@ -12,11 +12,11 @@ h1,h2 {
     color: green;
     font-size: 20px;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0px;
     background-color: black;
-    border: 5px solid gray;  
+    border: 5px solid gray;
     padding: 10px;
     display: inline-block;
     width: 1000px;
@@ -37,7 +37,7 @@ h1,h2 {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 10px;   
+    margin: 10px;
 }
 .lado-direito {
     width: 40%;
