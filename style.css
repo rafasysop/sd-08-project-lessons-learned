@@ -17,7 +17,7 @@ h1,h2 {
     top: 0px;
     background-color: black;
     border: 5px solid gray;  
-    padding: 10px;  
+    padding: 10px;
     display: inline-block;
     width: 1000px;
     z-index: 10;
@@ -32,15 +32,16 @@ h1,h2 {
     margin:25px;
     border-radius: 100%;
     border: 5px solid black;
+}
 .lado-esquerdo {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 10px;  
+    margin: 10px;   
 }
 .lado-direito {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 10px
+    margin: 10px;
 }
