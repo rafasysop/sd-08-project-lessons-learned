@@ -32,26 +32,11 @@ h1,h2 {
     margin:25px;
     border-radius: 100%;
     border: 5px solid black;
-    
-}
-#licoes_aprendidas  {
-
-}
-#licoes_a_aprender {
-
-}
-#rodape {
-
-}
-.descricao{
-    
-}
 .lado-esquerdo {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 .lado-direito {
     width: 40%;
