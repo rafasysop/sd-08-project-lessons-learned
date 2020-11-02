@@ -1,44 +1,55 @@
 body {
-    background-color: rgb(253, 251, 251);]
+    background-color: rgb(253, 251, 251);
     font-family: cursive, sans-serif;
     font-size: 16px;
     line-height: 18px;
     color: #212529;
-    }
+}
+
 #principal {
     padding-top: 150px;
 }
+
 h1,h2 {
     color: green;
     font-size: 20px;
 }
+<<<<<<< Updated upstream
+#cabecalho{
+=======
+
 #cabecalho {
+>>>>>>> Stashed changes
     position: fixed;
     top: 0px;
     background-color: black;
-    border: 5px solid gray;
+    border: 5px solid gray;  
     padding: 10px;
     display: inline-block;
     width: 1000px;
     z-index: 10;
 }
+
 #navegacao {
-    color:green;
+    color: green;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
 }
+
 #minha_foto {
     width: 500px;
-    margin:25px;
+    margin: 25px;
     border-radius: 100%;
     border: 5px solid black;
 }
+
 .lado-esquerdo {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 10px;
+    margin: 10px;   
 }
+
 .lado-direito {
     width: 40%;
     display: inline-block;
