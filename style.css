@@ -17,7 +17,7 @@ h1 , h2 {
 
 #cabecalho {
   position: fixed;
-  top: 1px;
+  top: 0px;
   background-color: black;
   border: 5px solid gray;
   padding: 10px;
