@@ -56,10 +56,12 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 
 #licoes_aprendidas {
   margin-top: 50px;
+  
 }
 
 #licoes_a_aprender {
-  margin-top: 50px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 #aside1 {
@@ -79,20 +81,33 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 }
 
 .artigos {
-  margin: 50px;
+
   display: inline-block;
+  margin-bottom: 20px;
+  
+  width: 420px;
+  text-align: justify;
+  padding: 10px;
+
+}
+.sectionSobre{
+  display: inline-block;
+  text-align: justify;
   width: 420px;
   padding: 10px;
+ 
+  margin-right: 20px;
+  height: 100%;
+  margin: 80px;
+  
 }
 
 .lado-direito {
-  margin-right: 5%;
-  border: solid rgb(62, 71, 59) 5px;
+  margin-right: 2px;
 }
 
 .lado-esquerdo {
-  margin-left: 5%;
-  border: solid rgb(62, 71, 59) 5px;
+  margin-left: 2px;
 }
 
 li.menu {
@@ -106,9 +121,29 @@ li.menu {
 }
 
 #sessao-de-listas {
-  margin-left: 70px;
+  margin-left: 38%;
+  display: inline-block;
+  margin-bottom: 200px;
 }
 
 #meus-dados {
   margin-top: 50px;
+}
+
+.espaco-perfil{
+  margin-bottom: 100px;
+}
+
+.espaco-titulo-habilidades{
+  padding-top: 70px;
+}
+
+caption{
+  padding-bottom: 60px;
+  font-size: 2em;
+}
+
+table{
+  margin-left: 40%;
+  padding-bottom: 100px;
 }

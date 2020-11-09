@@ -7,6 +7,8 @@
     <title>Document</title>
   </head>
   <body>
+    <!---  --------------------------  INÍCIO HEAD  ------------------------------  -->
+    
     <header id="cabecalho">
       <div>
         <nav>
@@ -19,15 +21,17 @@
       </div>
       <h1 id="titulo">Lições aprendidas - Trybe</h1>
     </header>
-    <main>
-      <div>
+    <!---  -------------------------- FIM HEAD ------------------------------  -->
+    <!---  --------------------------  INÍCIO PERFIL  ------------------------------  -->
+    <main> 
+    <div>
         <img
           id="minha_foto"
           src="foto.jpg"
           alt="Jorge William sorrindo em uma foto de perfil"
         />
       </div>
-      <section>
+      <section class="espaco-perfil">
         <article>
           <h2>Jorge William</h2>
           <p>
@@ -46,19 +50,19 @@
         </article>
       </section>
     
+    <!---  --------------------------  FIM PERFIL  ------------------------------  -->
+    <!---  --------------------------  INÍCIO ARTIGOS  ------------------------------  -->
     <section>
-      <article class="artigos lado-esquerdo">
-        <img src="artigo 1.jpg" height="280px" alt="imagem" />
-        <h2>Texto</h2>
+      <aside class="sectionSobre lado-esquerdo">
+        <h2>Aprendendo à aprender</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolore
           quae dolor labore eveniet aut quis officia est illum hic, voluptatibus
           excepturi illo, voluptatem, laudantium optio maxime natus placeat
           dolorem.
         </p>
-      </article>
+      </aside>
       <article class="artigos lado-direito">
-        <img src="artigo 2.jpg" height="280px" alt="imagem" />
         <h2>Meu Aprendizado</h2>
         <p>
           Nunca imaginei que em tão pouco tempo seria capaz de construir
@@ -71,9 +75,10 @@
       </article>
     </section>
   </main>
-    <section id="sessao-de-listas">
-      <aside>
-        <header>
+    <!---  --------------------------  FIM ------------------------------  -->
+    <!---  --------------------------  INÍCIO LIÇÕES  ------------------------------  -->
+    <section id="sessao-de-listas"  >
+        <header class="espaco-titulo-habilidades">
           <h2>Lições aprendidas</h2>
         </header>
         <ol id="licoes_aprendidas">
@@ -88,8 +93,8 @@
           <li>Html</li>
           <li>Css</li>
         </ol>
-        <header>
-          <h3>Lições que desejo aprender</h3>
+        <header class="espaco-titulo-habilidades">
+          <h2>Lições que desejo aprender</h3>
         </header>
         <ul id="licoes_a_aprender">
           <li>Inteligencia Emocional</li>
@@ -103,17 +108,32 @@
           <li>Banco de Dados</li>
           <li>Kanban</li>
         </ul>
-      </aside>
+      </section>
       <table id="meus-dados">
-        <h2>Meus dados</h2>
-        <th>Nome</th>
-        <th>idade</th>
+        <caption>Meus dados</caption>
+        
         <tr>
+          <th>Nome</th>
           <td>Jorge William</td>
+        </tr>
+        <tr>
+          <th>Idade</th>
           <td>35</td>
         </tr>
+        <tr>
+          <th>Cidade</th>
+          <td> Rio de Janeiro</td>
+        </tr>
+        <tr>
+          <th>Posição</th>
+          <td>Estudante</td>
+        </tr>
       </table>
-    </section>
+    
+    
+    <!---  --------------------------  FIM LIÇÕES  ------------------------------  -->
+
+    <!---  --------------------------  INÍCIO FOOTER ------------------------------  -->
     <footer id="rodape">
       Primeiro Projeto
       <a
@@ -124,6 +144,7 @@
       >
       - Turma 8 - 2020.
       <a target="_blank" href="https://www.betrybe.com/">Trybe</a>
+      <!---  --------------------------  FIM FOOTER  ------------------------------  -->
     </footer>
   </body>
 </html>
