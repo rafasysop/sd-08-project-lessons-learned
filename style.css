@@ -1,5 +1,3 @@
-
-
 a:visited {
   color: white;
 }
@@ -83,17 +81,17 @@ startColorstr='#0061FF', endColorstr='#60EFFF', GradientType=1);
 .artigos {
   margin: 50px;
   display: inline-block;
-  width: 450px;
+  width: 420px;
   padding: 10px;
 }
 
 .lado-direito {
-  margin-right: 10%;
+  margin-right: 5%;
   border: solid rgb(62, 71, 59) 5px;
 }
 
 .lado-esquerdo {
-  margin-left: 10%;
+  margin-left: 5%;
   border: solid rgb(62, 71, 59) 5px;
 }
 
