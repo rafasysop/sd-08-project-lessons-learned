@@ -4,8 +4,8 @@ body {
     font-family: sans-serif;   
     padding: 1px 2px;   
     line-height: 20px;
-    margin: 20px;
-    border: blue;
+    margin: 0 700px;
+    border: blue; 
 }
 
 #cabecalho {
